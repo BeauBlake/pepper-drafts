@@ -1,0 +1,641 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Pepper Home — Statement Draft v6 (working file)</title>
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   PEPPER HOME — STATEMENT DRAFT v6 · the working file
+   ------------------------------------------------------------
+   Full redraw, showpiece edition. Same locked family — Montserrat,
+   van/ink/paper, uppercase display type, red held out — pushed
+   harder: two-tone display statements, ticker band, sticky-scroll
+   services, editorial project features, giant process rows.
+   · Banner A/B toggle kept (A: type over video · B: clean video).
+   · All v4 content retained — nothing trimmed. Real page slugs.
+   · Elementor mapping per section. Sticky = Advanced → Motion
+     Effects → Sticky. Tickers = the site's own Logo Scroll
+     pattern (template 9708 mechanism). No custom-code widgets.
+   · [ tbc ] = needs Beau's accuracy read.
+   ============================================================ */
+:root{
+  --van:#C3C4C0; --van-lt:#E4E5E1; --paper:#F3F3F0; --glass:#16171A;
+  --ink:#0F1012; --ink-2:#33353A; --body:#55575C; --decal:#9FA09C;
+  --hair:#D3D4CF; --tbc:#6B6D71; --accent:var(--ink);
+  --font:'Montserrat',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);font-family:var(--font);line-height:1.68;font-weight:400}
+img{max-width:100%;display:block}
+.w{max-width:1300px;margin-inline:auto;padding-inline:52px}   /* content = 1196 */
+h1,h2,h3{margin:0;font-weight:700;color:var(--ink)}
+p{margin:0}
+.lbl{font-size:10.5px;font-weight:600;letter-spacing:.32em;text-transform:uppercase;color:var(--decal)}
+.tbc{color:var(--tbc);border:1px dashed #B9BAB6;padding:0 .4em;font-weight:500;font-size:.8em;vertical-align:middle}
+.btn{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;font-size:11.5px;
+  font-weight:700;letter-spacing:.24em;text-transform:uppercase;padding:20px 36px}
+.btn.g{background:transparent;color:var(--ink);border:1px solid var(--hair);margin-left:10px}
+.txtlink{color:var(--ink);font-size:11.5px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;
+  text-decoration:none;border-bottom:1px solid var(--hair);padding-bottom:4px}
+
+/* ---- version changer — mockup chrome ---- */
+.mockbar{position:sticky;top:0;z-index:99;background:#12141a;color:#c9cedb;padding:9px 20px;
+  display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap}
+.mockbar .t{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#8f96a6;margin-right:6px}
+.mockbar button{font-family:var(--font);font-weight:600;font-size:12.5px;border:1px solid #3a3f4d;
+  background:transparent;color:#c9cedb;padding:6px 14px;border-radius:999px;cursor:pointer}
+.mockbar button.on{background:#fff;color:#12141a;border-color:#fff}
+
+/* site chrome — header 1888 / footer 1901 on the real site */
+.bar .w{display:flex;align-items:center;justify-content:space-between;padding-block:20px}
+.bar .logo{display:block;line-height:0}
+.bar .logo img{width:150px;height:auto;display:block}
+.bar .logo img{filter:invert(1)}   /* white nav → dark logo, both options */
+.bar nav{display:flex;gap:28px}
+.bar nav a{text-decoration:none;font-size:15px;font-weight:600}
+
+/* ---- HERO — Banner A / Banner B ---- */
+.hero{position:relative;height:clamp(560px,84vh,800px);overflow:hidden;display:flex;align-items:flex-end;
+  background:var(--glass) url('https://pepperproductions.com.au/wp-content/uploads/outdoor-majestic.webp') center/cover no-repeat}
+body.opt-b .hero{height:clamp(420px,62vh,620px)}
+.hero iframe{position:absolute;top:50%;left:50%;width:max(100vw,178vh);height:max(56.25vw,100vh);
+  transform:translate(-50%,-50%);pointer-events:none;border:0}
+.hero .scrim{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,12,.84) 0%,rgba(10,10,12,.32) 48%,rgba(10,10,12,.12) 100%)}
+body.opt-b .hero .scrim{display:none}
+.hero .w{position:relative;width:100%;padding-bottom:64px}
+body.opt-b .hero .w{display:none}
+.hero .lbl{color:var(--van)}
+.hero h1{margin-top:22px;font-size:clamp(2.4rem,5.6vw,4.9rem);line-height:.94;letter-spacing:-.04em;
+  text-transform:uppercase;color:#fff;max-width:900px}
+.hero h1 .van{color:var(--van)}
+.hero .stand{margin-top:26px;font-size:clamp(1.02rem,1.5vw,1.2rem);line-height:1.55;color:rgba(255,255,255,.88);max-width:52ch}
+.hero .ctas{margin-top:34px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.hero .btn{background:#fff;color:var(--ink)}
+.hero .btn.g{background:transparent;color:#fff;border-color:rgba(255,255,255,.55);margin-left:0}
+.hero .txtlink{color:#fff;border-color:rgba(255,255,255,.4);margin-left:16px}
+
+/* Banner C — VIDEO TOP, TYPE BELOW: Darren's approved homepage structure
+   (his original "option 3": media band, then light content band), in the
+   Statement language. Clean full-bleed video band first — no text near it —
+   then a rich white type band: two-tone H1 at case-study scale, standfirst,
+   buttons, and the hairline meta rail from the HQ hero. In option C the
+   fact ledger lives here, so the intro section drops its copy of it.
+   Elementor: full-width container w/ background video + fixed height, then
+   boxed containers. */
+body.opt-c .hero{display:none}
+body.opt-c .tick{display:none}          /* one scroller only — the logo marquee */
+body.opt-c .work{background:#fff}       /* paper proof band → white projects */
+.reelsec{display:none}
+body.opt-c .reelsec{display:block}
+.reelsec{background:var(--glass);padding-block:96px}
+.reelsec .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:72px;align-items:center}
+.reelsec .lbl{color:var(--van)}
+.reelsec .big{margin-top:22px;color:#fff;font-size:clamp(1.9rem,3.8vw,3rem);line-height:.98;
+  letter-spacing:-.04em;text-transform:uppercase;font-weight:700}
+.reelsec .big .van{color:var(--van)}
+.reelsec .sub{margin-top:24px;color:#A9ABAE;max-width:40ch;font-size:15.5px;line-height:1.65}
+.reelsec .btn{margin-top:34px;background:#fff;color:var(--ink)}
+.reelsec .screen{position:relative;display:block;aspect-ratio:16/9;overflow:hidden;background:#000}
+.reelsec .screen img{width:100%;height:100%;object-fit:cover;opacity:.94;transition:transform .6s}
+.reelsec .screen:hover img{transform:scale(1.02)}
+.reelsec .play{position:absolute;inset:0;display:grid;place-items:center}
+.reelsec .play i{width:84px;height:84px;border-radius:50%;background:rgba(255,255,255,.94);display:grid;place-items:center}
+.reelsec .play svg{width:26px;height:26px;fill:var(--ink);margin-left:4px}
+.reelsec .cap{margin-top:16px;display:flex;justify-content:space-between;font-size:10px;font-weight:600;
+  letter-spacing:.28em;text-transform:uppercase;color:#6f7276}
+@media(max-width:1000px){.reelsec .grid{grid-template-columns:1fr;gap:36px}}
+.heroC{display:none}
+body.opt-c .heroC{display:block}
+.heroC .vband{position:relative;height:clamp(440px,66vh,720px);overflow:hidden;
+  background:var(--glass) url('https://pepperproductions.com.au/wp-content/uploads/outdoor-majestic.webp') center/cover no-repeat}
+.heroC .vband iframe{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:max(102vw,102vh);height:max(58vw,58vh);pointer-events:none;border:0}
+.heroC .type{background:#fff;padding:64px 0 60px}
+/* sized so "VIDEO PRODUCTION COMPANY" fills the content width on one line —
+   the line-filling scale is what keeps the band dense instead of ragged */
+.heroC h1{margin-top:24px;font-size:clamp(2.1rem,5.9vw,4.75rem);line-height:.96;letter-spacing:-.045em;
+  text-transform:uppercase}
+/* option 3 runs the WHITE header — the site plays black/white nav per page.
+   Real site: a second header template (or per-page header style) via Theme
+   Builder display conditions on template 1888's sibling. */
+.bar{background:#fff;color:var(--ink);border-bottom:1px solid var(--hair)}
+.bar nav a{color:var(--ink)}
+.heroC h1 .van{color:var(--van)}
+.heroC .row{margin-top:38px;display:flex;justify-content:space-between;align-items:flex-end;gap:44px;flex-wrap:wrap}
+.heroC .stand{font-size:clamp(1.02rem,1.5vw,1.25rem);line-height:1.55;color:var(--ink-2);max-width:48ch}
+.heroC .ctas{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.heroC .btn.g{margin-left:0}
+.heroC .rail{margin-top:48px;border-top:1px solid var(--hair);padding-top:28px;
+  display:flex;flex-wrap:wrap;gap:24px 46px}
+.heroC .rail .it{flex:1 1 180px}
+.heroC .rail .k{font-size:10.5px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--decal)}
+.heroC .rail .v{margin-top:7px;font-size:16px;font-weight:600;color:var(--ink)}
+@media(max-width:1000px){
+  .heroC .strip{height:52vw}
+  .heroC .row{align-items:flex-start}
+}
+
+/* ---- ticker — the site's Logo Scroll mechanism, as words ---- */
+.tick{background:var(--van);border-block:1px solid #ADAEAA;overflow:hidden;white-space:nowrap;padding-block:18px}
+.tick .in{display:inline-block;animation:tick 28s linear infinite}
+.tick span{display:inline-block;padding-inline:34px;font-size:13px;font-weight:700;
+  letter-spacing:.3em;text-transform:uppercase;color:var(--ink-2)}
+.tick span i{font-style:normal;color:#8f9691}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+
+/* ---- proof band — one statement, then the client marquee as its base ----
+   Elementor: container(paper) > heading + the existing Logo Scroll (9708). ---- */
+.proof{background:var(--paper);border-top:1px solid var(--hair);padding:96px 0 0}
+.proof .grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:72px;align-items:center}
+.proof .big{font-size:clamp(2.2rem,5.4vw,4.6rem);line-height:.96;letter-spacing:-.045em;
+  text-transform:uppercase;font-weight:700;max-width:16ch}
+.proof .big .van{color:var(--van)}
+.proof .copy{color:var(--body);max-width:48ch}
+@media(max-width:1000px){.proof .grid{grid-template-columns:1fr;gap:34px}}
+.proof .who{margin-top:72px;border-top:1px solid var(--hair);padding-top:26px}
+.proof .marq{overflow:hidden;white-space:nowrap;padding:24px 0 44px}
+.proof .marq .in{display:inline-block;animation:tick 32s linear infinite}
+.proof .marq img{display:inline-block;vertical-align:middle;height:36px;width:auto;margin-inline:34px;
+  filter:grayscale(1) contrast(.85);opacity:.75}
+
+/* ---- services — sticky left rail, scrolling index right ----
+   Elementor: 2-col container; left col Advanced → Motion Effects → Sticky
+   (top offset ~120). Right col: six bordered rows. -->  */
+.svc{background:var(--paper);border-top:1px solid var(--hair);padding-block:110px}
+.svc .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:80px;align-items:start}
+.svc .rail{position:sticky;top:110px}
+.svc .rail h2{margin-top:22px;font-size:clamp(2.2rem,4.6vw,3.8rem);line-height:.94;
+  letter-spacing:-.045em;text-transform:uppercase}
+.svc .rail h2 .van{color:var(--van)}
+.svc .rail p{margin-top:26px;color:var(--body);max-width:38ch}
+.svc .rail .btn{margin-top:36px}
+.svc .item{border-top:2px solid var(--ink);padding:30px 0 40px}
+.svc .item:not(:first-child){border-top:1px solid var(--hair)}
+.svc .item .n{font-size:13px;font-weight:700;letter-spacing:.24em;color:var(--decal)}
+.svc .item h3{margin-top:12px;font-size:19px;text-transform:uppercase;letter-spacing:.04em;line-height:1.35}
+.svc .item p{margin-top:12px;font-size:14.5px;line-height:1.68;color:var(--body);max-width:52ch}
+.svc .item a{display:inline-block;margin-top:16px}
+
+
+/* ---- who we are — one strong image, no tricks ---- */
+.who{padding-block:110px;border-top:1px solid var(--hair)}
+.who .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:72px;align-items:center}
+.who h2{margin-top:22px;font-size:clamp(1.9rem,4.2vw,3.2rem);line-height:.96;letter-spacing:-.04em;
+  text-transform:uppercase;max-width:521px}
+.who .copy{margin-top:26px;color:var(--body)}
+.who .copy p{max-width:58ch}
+.who .copy p+p{margin-top:20px}
+.who .media{position:relative}
+.who .main{width:100%;aspect-ratio:4/5;object-fit:cover}
+.who .cap{margin-top:14px;display:flex;justify-content:space-between;font-size:10px;font-weight:600;
+  letter-spacing:.28em;text-transform:uppercase;color:var(--decal)}
+
+/* ---- process — giant editorial rows ---- */
+.proc{background:var(--glass);color:#fff;padding-block:110px}
+.proc .lbl{color:var(--van)}
+.proc h2{margin-top:22px;color:#fff;font-size:clamp(1.9rem,4.2vw,3.2rem);line-height:.96;
+  letter-spacing:-.04em;text-transform:uppercase;max-width:521px}
+.proc .rows{margin-top:56px;border-top:1px solid #2c2e32}
+.proc .prow{display:grid;grid-template-columns:170px minmax(0,.9fr) minmax(0,1.3fr);gap:40px;
+  align-items:center;padding:38px 0;border-bottom:1px solid #2c2e32}
+.proc .n{font-size:clamp(3rem,6vw,4.6rem);font-weight:700;letter-spacing:-.04em;line-height:.9;color:var(--van)}
+.proc h3{color:#fff;font-size:17px;text-transform:uppercase;letter-spacing:.05em;line-height:1.4}
+.proc p{font-size:14.5px;line-height:1.65;color:#A9ABAE;max-width:52ch}
+
+/* ---- why choose ---- */
+.why{padding-block:110px;border-top:1px solid var(--hair)}
+.why .grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:64px;align-items:center}
+.why h2{margin-top:22px;font-size:clamp(1.9rem,4.2vw,3.2rem);line-height:.96;letter-spacing:-.04em;
+  text-transform:uppercase;max-width:521px}
+ul.d{list-style:none;margin:26px 0 0;padding:0}
+ul.d li{position:relative;padding-left:36px;margin-top:16px;font-size:16px;line-height:1.65;color:var(--body)}
+ul.d li::before{content:"";position:absolute;left:0;top:.72em;width:20px;height:2px;background:var(--ink)}
+ul.d b{color:var(--ink);font-weight:600}
+
+/* ---- projects — horizontal scroll strip (Elementor: Pro Loop/Media Carousel) ---- */
+.work{background:var(--paper);border-top:1px solid var(--hair);padding-block:110px}
+.work .head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap}
+.work .snav{display:flex;gap:10px}
+.work .snav button{width:52px;height:52px;border:1px solid var(--hair);background:#fff;color:var(--ink);
+  font-size:19px;cursor:pointer;font-family:var(--font);transition:.15s}
+.work .snav button:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.strip{margin-top:48px;display:flex;gap:26px;overflow-x:auto;scroll-snap-type:x mandatory;
+  padding-bottom:18px;scrollbar-width:thin;scrollbar-color:var(--van) transparent}
+.pcard{flex:0 0 min(720px,84%);scroll-snap-align:start}
+.pcard .ph{display:block;aspect-ratio:16/9;overflow:hidden;background:var(--van-lt)}
+.pcard img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.pcard a.ph:hover img{transform:scale(1.03)}
+.pcard .meta{display:flex;gap:18px;align-items:baseline;margin-top:18px}
+.pcard .n{font-size:13px;font-weight:700;letter-spacing:.24em;color:var(--decal)}
+.pcard h3{font-size:clamp(1.2rem,2vw,1.6rem);text-transform:uppercase;letter-spacing:-.01em}
+.pcard .tag{margin-left:auto;font-size:11.5px;color:var(--decal);letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+.pcard p.desc{margin-top:12px;font-size:14.5px;line-height:1.68;color:var(--body);max-width:56ch}
+.pcard .txtlink{display:inline-block;margin-top:16px}
+
+/* ---- rotating ink quote band (kept from v4) ---- */
+.qt{background:var(--ink);color:#fff;padding-block:100px}
+.qt .lbl{color:var(--van)}
+.qt .stage{position:relative;margin-top:26px;min-height:9.2em}
+.qt .slide{position:absolute;inset:0;opacity:0;transition:opacity .7s;pointer-events:none}
+.qt .slide.on{opacity:1;pointer-events:auto}
+.qt blockquote{margin:0;font-size:clamp(1.25rem,2.5vw,1.95rem);line-height:1.18;font-weight:700;
+  text-transform:uppercase;letter-spacing:-.03em;max-width:36ch;color:#fff}
+.qt .at{margin-top:26px;font-size:10.5px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--decal)}
+.qt .dots{margin-top:40px;display:flex;gap:10px}
+.qt .dots i{width:22px;height:2px;background:#3a3c40;cursor:pointer}
+.qt .dots i.on{background:var(--van)}
+
+/* ---- CTA — giant two-tone closer ---- */
+.cta{padding-block:130px}
+.cta .big{font-size:clamp(2.2rem,5.6vw,4.8rem);line-height:.94;letter-spacing:-.045em;
+  text-transform:uppercase;font-weight:700;max-width:16ch}
+.cta .big .van{color:var(--van)}
+.cta p{margin-top:30px;color:var(--body);max-width:58ch}
+
+/* ---- footer replica (template 1901 content parity) ---- */
+.fcontact{background:#000;color:#fff;padding-block:90px}
+.fcontact .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:72px}
+.fcontact h2{color:#fff;font-size:clamp(1.7rem,3vw,2.4rem);letter-spacing:-.02em}
+.fcontact .tag{margin-top:14px;color:#b7b9bd}
+.fcontact .soc{margin-top:26px;display:flex;gap:12px}
+.fcontact .soc a{width:40px;height:40px;border:1px solid #2e3033;border-radius:50%;display:grid;
+  place-items:center;color:#fff;text-decoration:none;font-size:13px;font-weight:700}
+.fcontact .line{margin-top:26px;display:flex;gap:14px;align-items:center;color:#d9dadc;font-size:15px}
+.fcontact .line b{font-weight:600}
+.fform .f{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fform input,.fform textarea{background:#fff;border:0;padding:14px;font-family:var(--font);font-size:14px;width:100%}
+.fform textarea{grid-column:1/-1;min-height:110px;resize:vertical}
+.fform .cap{grid-column:1/-1;background:#f5f5f5;color:#666;font-size:12.5px;padding:12px 14px;
+  display:flex;justify-content:space-between;align-items:center}
+.fform button{grid-column:1/-1;justify-self:start;background:#fff;color:var(--ink);border:0;
+  font-family:var(--font);font-weight:700;font-size:12px;letter-spacing:.2em;text-transform:uppercase;
+  padding:16px 34px;cursor:not-allowed;opacity:.9}
+.legal{background:#000;padding:10px 20px 44px;text-align:center;color:#8a8c90;font-size:13px}
+.legal a{color:#b7b9bd}
+
+@media(max-width:1000px){
+  .w{padding-inline:28px}
+  .intro .cols,.svc .grid,.who .grid,.why .grid,.feat,.feat.rev,.fcontact .grid{grid-template-columns:1fr;gap:40px}
+  .svc .rail{position:static}
+  .proc .prow{grid-template-columns:80px 1fr;gap:14px 22px}
+  .proc .prow p{grid-column:2}
+  .qt .stage{min-height:14em}
+}
+</style>
+</head>
+<body class="opt-a">
+
+<!-- version changer — mockup chrome only -->
+<div class="mockbar">
+  <span class="t">Draft v6 · Banner</span>
+  <button data-opt="a" class="on">1 — Type over banner</button>
+  <button data-opt="c">2 — Banner top, type below</button>
+</div>
+
+<!-- SITE CHROME: header template 1888. Placeholder only. -->
+<div class="bar"><div class="w">
+  <a class="logo" href="#"><img src="https://pepperproductions.com.au/wp-content/uploads/Pepper_logo_Mono-Rev-1024x437.png" alt="Pepper Productions"></a>
+  <nav><a href="#">How We Help</a><a href="https://pepperproductions.com.au/who-weve-assisted/">Our Work</a><a href="https://pepperproductions.com.au/about-us/">About</a><a href="https://pepperproductions.com.au/meet-the-team/">Your Crew</a><a href="https://pepperproductions.com.au/blog/">The Blog</a><a href="https://pepperproductions.com.au/contact/">Contact</a></nav>
+</div></div>
+
+<!-- ================= HERO — Banner A / Banner B ==============================
+     FOR NOW: the landscape still (outdoor-majestic) stands in for the video in
+     all three options, per Beau 28 Aug — the real build swaps in the site's
+     background-video mechanism once a banner is picked.
+     Elementor: container w/ background video (wTuWKk0w4ZA, privacy mode,
+     play_on_mobile; fallback image ships EMPTY, attached by script).
+     A: + overlay gradient + boxed bottom-left content. B: clean band, then a
+     white container with the type. -->
+<section class="hero">
+  <div class="scrim"></div>
+  <div class="w">
+    <span class="lbl">Sunshine Coast · Video &amp; Photography</span>
+    <h1>Video production company <span class="van">Sunshine&nbsp;Coast</span></h1>
+    <p class="stand">Bring your vision to life with professional photography and video production
+      on the Sunshine Coast — strategic content that cuts through the noise and connects.</p>
+    <div class="ctas">
+      <a class="btn" href="https://pepperproductions.com.au/request-a-quote/">Request a quote</a>
+      <a class="btn g" href="#projects">See our work</a>
+      <a class="txtlink" href="https://www.youtube.com/watch?v=wTuWKk0w4ZA" target="_blank" rel="noopener">▶&nbsp;&nbsp;Watch the showreel</a>
+    </div>
+  </div>
+</section>
+
+<!-- Banner C — video top, type below (Darren's approved structure, Statement-ised) -->
+<section class="heroC">
+  <div class="vband">
+  </div>
+  <div class="type"><div class="w">
+    <span class="lbl">Sunshine Coast · Video &amp; Photography</span>
+    <h1>Video production company<br><span class="van">Sunshine&nbsp;Coast</span></h1>
+    <div class="row">
+      <p class="stand">Bring your vision to life with professional photography and video
+        production on the Sunshine Coast — strategic content that cuts through the noise
+        and connects.</p>
+      <div class="ctas">
+        <a class="btn" href="https://pepperproductions.com.au/request-a-quote/">Request a quote</a>
+        <a class="btn g" href="#projects">See our work</a>
+        <a class="txtlink" href="https://www.youtube.com/watch?v=wTuWKk0w4ZA" target="_blank" rel="noopener">▶&nbsp;&nbsp;Showreel</a>
+      </div>
+    </div>
+    <div class="rail">
+      <div class="it"><div class="k">Based</div><div class="v">Birtinya, Sunshine Coast</div></div>
+      <div class="it"><div class="k">Services</div><div class="v">Video · Photography · Drone</div></div>
+      <div class="it"><div class="k">Crew</div><div class="v">In-house, end-to-end</div></div>
+      <div class="it"><div class="k">Backed by</div><div class="v">Chilli — since 1993</div></div>
+    </div>
+  </div></div>
+</section>
+
+<!-- ================= TICKER — the Logo Scroll mechanism, as words ============ -->
+<div class="tick"><div class="in" id="tick1">
+  <span>Storytelling <i>·</i></span><span>Strategy <i>·</i></span><span>Production <i>·</i></span>
+  <span>Drone <i>·</i></span><span>Photography <i>·</i></span><span>Post <i>·</i></span>
+  <span>Delivery <i>·</i></span>
+</div></div>
+
+
+<!-- showreel screening room — option 2 only. The white→paper bridge, in ink.
+     Elementor: ink container > [text col] | [video widget: youtube wTuWKk0w4ZA,
+     image overlay, play icon fab fa-youtube (standing rule), box-shadow frame]. -->
+<section class="reelsec"><div class="w grid">
+  <div>
+    <span class="lbl">The showreel</span>
+    <p class="big">Two minutes of <span class="van">what we do.</span></p>
+    <p class="sub">Real shoots with real clients — forests, factories, beaches and boardrooms,
+      all over the Sunshine Coast and beyond.</p>
+    <!-- display copy — accuracy read [ tbc ] -->
+    <a class="btn" href="https://www.youtube.com/watch?v=wTuWKk0w4ZA" target="_blank" rel="noopener">▶&nbsp;&nbsp;Watch with sound</a>
+  </div>
+  <div>
+    <a class="screen" href="https://www.youtube.com/watch?v=wTuWKk0w4ZA" target="_blank" rel="noopener">
+      <img src="https://pepperproductions.com.au/wp-content/uploads/Screenshot-2026-01-14-at-10.13.44-am-copy-1.webp"
+           alt="Pepper Productions showreel">
+      <span class="play"><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></i></span>
+    </a>
+    <div class="cap"><span>Pepper Productions — Showreel</span><span>YouTube ↗</span></div>
+  </div>
+</div></section>
+
+<!-- ================= PROOF — statement + client marquee ====================== -->
+<section class="proof">
+  <div class="w">
+    <div class="grid">
+      <p class="big">Content that connects, <span class="van">converts.</span></p>
+      <p class="copy">At Pepper Productions, we live and breathe storytelling. We help businesses
+        like yours stand out with high-quality, strategic photography and video production that
+        cuts through the noise and connects with your audience on an emotional level.</p>
+      <!-- para 1 lives here now; Who We Are carries para 2 — no duplicated copy -->
+    </div>
+    <div class="who"><span class="lbl">Who we work with</span></div>
+  </div>
+  <div class="marq"><div class="in" id="tick2">
+    <img src="https://pepperproductions.com.au/wp-content/uploads/Queensland-Health-logo-300x200.jpg" alt="Queensland Health">
+    <img src="https://pepperproductions.com.au/wp-content/uploads/queenslandhydro_logo.png" alt="Queensland Hydro">
+    <img src="https://pepperproductions.com.au/wp-content/uploads/noosa_logo.svg" alt="Noosa Council">
+    <img src="https://pepperproductions.com.au/wp-content/uploads/Rockcote_logo.svg" alt="Rockcote">
+    <img src="https://pepperproductions.com.au/wp-content/uploads/SGP.AX_BIG-da5f05d5-300x78.jpg" alt="Stockland">
+    <img src="https://pepperproductions.com.au/wp-content/uploads/PLC_Mono-Rev-K-300x117.png" alt="Pacific Lutheran College">
+    <img src="https://pepperproductions.com.au/wp-content/uploads/comlink-1.svg" alt="Comlink">
+    <img src="https://pepperproductions.com.au/wp-content/uploads/aa-ANTA-Logo-CMYK-300x300.jpg" alt="ANTA">
+  </div></div>
+</section>
+
+<!-- ================= PROJECTS — editorial features =========================== -->
+<section class="work" id="projects"><div class="w">
+  <div class="head">
+    <div>
+      <span class="lbl">Our work</span>
+      <h2 style="margin-top:22px;font-size:clamp(1.9rem,4.2vw,3.2rem);line-height:.96;letter-spacing:-.04em;text-transform:uppercase;max-width:521px">Recent projects</h2>
+    </div>
+    <div class="snav"><button type="button" aria-label="Previous" onclick="document.querySelector('.strip').scrollBy({left:-772,behavior:'smooth'})">←</button><button type="button" aria-label="Next" onclick="document.querySelector('.strip').scrollBy({left:772,behavior:'smooth'})">→</button></div>
+  </div>
+  <div class="strip">
+    <div class="pcard">
+      <a class="ph" href="https://pepperproductions.com.au/who-weve-assisted/">
+        <img src="https://pepperproductions.com.au/wp-content/uploads/BB1_0953-copy.webp" alt="Pepper crew filming inside an HQPlantations pine forest"></a>
+      <div class="meta"><span class="n">01</span><h3>HQPlantations</h3><span class="tag">Forestry · Safety campaign</span></div>
+      <p class="desc">Safety films shot inside a working pine plantation — real sites, real
+        crews, without a single machine stopping.</p>
+      <a class="txtlink" href="https://pepperproductions.com.au/who-weve-assisted/">View project</a>
+      <!-- link → the Statement case study page once published -->
+    </div>
+    <div class="pcard">
+      <a class="ph" href="https://pepperproductions.com.au/who-weve-assisted/">
+        <img src="https://pepperproductions.com.au/wp-content/uploads/Cure-10.jpg" alt="Cure Marine catamaran filmed on the water"></a>
+      <div class="meta"><span class="n">02</span><h3>Cure Marine</h3><span class="tag">Marine · Brand film</span></div>
+      <p class="desc">A brand film shot on the water for a Sunshine Coast catamaran builder —
+        cinematic sailing footage built to sell a flagship.</p>
+      <a class="txtlink" href="https://pepperproductions.com.au/who-weve-assisted/">View project</a>
+    </div>
+    <div class="pcard">
+      <a class="ph" href="https://pepperproductions.com.au/who-weve-assisted/">
+        <img src="https://pepperproductions.com.au/wp-content/uploads/SLSQLG-6508-copy.webp" alt="Surf Life Saving Queensland lifeguards on patrol"></a>
+      <div class="meta"><span class="n">03</span><h3>Surf Life Saving Queensland</h3><span class="tag">Community · Campaign</span></div>
+      <p class="desc">Campaign content with the crews who patrol Queensland's beaches — shot on
+        the sand, in the surf and from the air.</p>
+      <a class="txtlink" href="https://pepperproductions.com.au/who-weve-assisted/">View project</a>
+    </div>
+  </div>
+  <a class="morelink txtlink" style="margin-top:30px;display:inline-block" href="https://pepperproductions.com.au/who-weve-assisted/">See who we've assisted</a>
+  <!-- project blurbs are NEW COPY — accuracy read before build [ tbc ] -->
+</div></section>
+
+<!-- ================= SERVICES — sticky rail + scrolling index ================
+     Left column is STICKY while the six services scroll past.
+     Elementor: left inner container → Advanced → Motion Effects → Sticky (top). -->
+<section class="svc"><div class="w grid">
+  <div class="rail">
+    <span class="lbl">What we do best</span>
+    <h2>Six ways we help you <span class="van">stand out</span></h2>
+    <p>Every service runs through the same in-house crew — one team from first call to final
+      delivery, so nothing gets lost between departments.</p>
+    <a class="btn" href="https://pepperproductions.com.au/request-a-quote/">Start a project</a>
+  </div>
+  <div>
+    <div class="item"><div class="n">01</div><h3>Corporate &amp; business content</h3>
+      <p>Showcase your business with professional photography and videography that builds trust,
+        engages your audience, and elevates your brand from the Sunshine Coast's trusted video
+        production team.</p>
+      <a class="txtlink" href="https://pepperproductions.com.au/corporate-photography-and-videography/">Explore</a></div>
+    <div class="item"><div class="n">02</div><h3>Product photography</h3>
+      <p>Cut through the noise with stunning product content designed to get results. Our expert
+        videography services help your brand stand out.</p>
+      <a class="txtlink" href="https://pepperproductions.com.au/product-photography-and-videography/">Explore</a></div>
+    <div class="item"><div class="n">03</div><h3>Active lifestyle</h3>
+      <p>Show the energy and movement of your brand with dynamic video and photography for active
+        lifestyles. From fitness to outdoor and water-based pursuits, our Sunshine Coast team
+        captures authentic content that brings your brand to life.</p>
+      <a class="txtlink" href="https://pepperproductions.com.au/adventure-outdoor-lifestyle/">Explore</a></div>
+    <div class="item"><div class="n">04</div><h3>Professional headshots</h3>
+      <p>Showcase your team with professional headshots that build trust and credibility. Let our
+        videography and photography experts take your brand to the next level.</p>
+      <a class="txtlink" href="https://pepperproductions.com.au/professional-headshots/">Explore</a></div>
+    <div class="item"><div class="n">05</div><h3>Event coverage</h3>
+      <p>Conferences, launches and celebrations — covered end to end without missing the moment,
+        from full recordings to highlights reels.</p>
+      <a class="txtlink" href="https://pepperproductions.com.au/event-coverage/">Explore</a></div>
+    <div class="item"><div class="n">06</div><h3>Education content</h3>
+      <p>Showcase your educational institution with professional content that highlights your
+        values, facilities, and achievements. From promotional videos to event coverage, our team
+        brings your story to life and helps you connect with your audience.</p>
+      <a class="txtlink" href="https://pepperproductions.com.au/education-content-creation/">Explore</a></div>
+  </div>
+</div></section>
+
+
+<!-- ================= WHO WE ARE — layered composition ======================== -->
+<section class="who"><div class="w grid">
+  <div class="media">
+    <img class="main" src="https://pepperproductions.com.au/wp-content/uploads/Who-We-Are-1.webp"
+         alt="Pepper Productions filming on location on the Sunshine Coast">
+    <span class="cap"><span>On location</span><span>Sunshine Coast</span></span>
+  </div>
+  <div>
+    <span class="lbl">Who we are</span>
+    <h2>Storytellers with a full crew attached</h2>
+    <div class="copy">
+      <p>We offer end-to-end project support — from concept and strategy to production and
+        distribution. Whether you need corporate videos, professional headshots, or full event
+        coverage, our video production team on the Sunshine Coast is ready to bring your vision
+        to life.</p>
+    </div>
+    <p style="margin-top:34px">
+      <a class="btn" href="https://pepperproductions.com.au/about-us/">About us</a>
+      <a class="btn g" href="https://pepperproductions.com.au/meet-the-team/">Meet the crew</a>
+    </p>
+  </div>
+</div></section>
+
+<!-- ================= PROCESS — giant editorial rows on glass ================= -->
+<section class="proc"><div class="w">
+  <span class="lbl">Our simple process</span>
+  <h2>From first call to final cut</h2>
+  <div class="rows">
+    <div class="prow"><div class="n">01</div><h3>Request a quote &amp; share your brief</h3>
+      <p>Fill out our online form or give us a call to tell us about your vision and project
+        goals, and receive a quote.</p></div>
+    <div class="prow"><div class="n">02</div><h3>Pre-production planning</h3>
+      <p>Share your vision and goals for the project and we'll work with you to plan the shoot,
+        ensuring we capture everything you need.</p></div>
+    <div class="prow"><div class="n">03</div><h3>Shoot day</h3>
+      <p>Our professional team will guide you through a seamless and stress-free shoot.</p></div>
+    <div class="prow"><div class="n">04</div><h3>Post-production</h3>
+      <p><span class="tbc" style="border-color:#4B4D51;color:#A9ABA6">new copy</span> We edit,
+        grade and deliver polished content, built for the platforms where it needs to perform —
+        ready to publish from day one.</p></div>
+  </div>
+</div></section>
+
+<!-- ================= WHY CHOOSE ============================================== -->
+<section class="why"><div class="w grid">
+  <div>
+    <span class="lbl">Why choose Pepper</span>
+    <h2>More than just videographers</h2>
+    <p style="margin-top:26px;color:var(--body);max-width:58ch">We're your partners in
+      storytelling. Here's what sets us apart:</p>
+    <ul class="d">
+      <li><b>Transparent communication.</b> From start to finish, we keep things simple and
+        jargon-free, so you always know what to expect.</li>
+      <li><b>Professional quality.</b> Equipped with top-of-the-line video and lighting gear,
+        we deliver polished, premium content every time.</li>
+      <li><b>Tailored service.</b> We adapt our approach to match the tone, scale, and purpose
+        of your project.</li>
+      <li><b>Timely delivery.</b> We know deadlines matter. Our efficient post-production
+        process ensures you get your assets when you need them.</li>
+    </ul>
+  </div>
+  <img src="https://pepperproductions.com.au/wp-content/uploads/BB1_0948.webp"
+       alt="Pepper crew member in high-vis setting up on a forestry site">
+</div></section>
+
+
+<!-- ================= TESTIMONIALS — rotating ink pull-quotes ================= -->
+<section class="qt"><div class="w">
+  <span class="lbl">In our clients' words</span>
+  <div class="stage" id="qstage"></div>
+  <div class="dots" id="qdots"></div>
+</div></section>
+
+<!-- ================= CTA — giant two-tone closer ============================= -->
+<section class="cta"><div class="w">
+  <span class="lbl">Stories worth watching</span>
+  <p class="big" style="margin-top:24px">Let's make something <span class="van">worth watching.</span></p>
+  <p>Pepper Productions is a video production agency specialising in results-driven content to
+    help businesses connect with their audience and grow online.</p>
+  <p style="margin-top:16px">Fuelled by coffee, sunshine and a passion for storytelling, our
+    team has big ideas and even bigger drive to help your business stand out from the crowd.
+    We're also backed by an experienced Sunshine Coast marketing agency, Chilli, which has been
+    growing businesses since 1993.</p>
+  <p style="margin-top:38px">
+    <a class="btn" href="https://pepperproductions.com.au/request-a-quote/">Request a quote</a>
+    <a class="btn g" href="https://pepperproductions.com.au/contact/">Contact us</a>
+  </p>
+</div></section>
+
+<!-- ================= FOOTER — replica of template 1901 ======================= -->
+<div class="fcontact"><div class="w grid">
+  <div>
+    <h2>Contact us</h2>
+    <p class="tag">Get started on your next project today.</p>
+    <div class="soc">
+      <a href="https://www.facebook.com/pepperproductionsau/" aria-label="Facebook">f</a>
+      <a href="https://www.instagram.com/pepper_productions/?hl=en" aria-label="Instagram">ig</a>
+      <a href="#" aria-label="LinkedIn">in</a><!-- [ tbc — confirm LinkedIn URL ] -->
+      <a href="https://www.youtube.com/@pepperproductions6986" aria-label="YouTube">yt</a>
+    </div>
+    <div class="line">✉ <b>info@pepperproductions.com.au</b></div>
+    <div class="line">☎ <b>07 5437 7788</b></div>
+    <div class="line">📍 <b>2/1 Innovation Parkway, Birtinya, QLD 4575</b></div>
+  </div>
+  <div class="fform"><div class="f">
+    <input placeholder="First Name *"><input placeholder="Last Name *">
+    <input placeholder="Phone *"><input placeholder="Email *">
+    <textarea placeholder="Enquiry *"></textarea>
+    <div class="cap">I'm not a robot &nbsp;·&nbsp; reCAPTCHA renders here</div>
+    <button type="button" title="Display only — the live form submits via the site">Submit</button>
+  </div></div>
+</div></div>
+<div class="legal">© Copyright Pepper Productions 2026. <a href="https://pepperproductions.com.au/privacy-policy/">Privacy Policy</a>.</div>
+
+<script>
+/* mockbar toggle — draft chrome only */
+document.querySelectorAll('.mockbar button').forEach(b=>b.addEventListener('click',()=>{
+  document.body.className='opt-'+b.dataset.opt;
+  document.querySelectorAll('.mockbar button').forEach(x=>x.classList.toggle('on',x===b));
+}));
+/* tickers: duplicate content for a seamless loop */
+for(const id of ['tick1','tick2']){const el=document.getElementById(id); el.innerHTML+=el.innerHTML;}
+/* rotating testimonials — verbatim from the live homepage */
+const QUOTES=[
+ ["We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.","Kane Bygrave"],
+ ["Just reviewed the promotional video Pepper has done for my Kickstarter campaign. Couldn't be happier! Very professional from start to finish.","Bruce Jackson"],
+ ["The Pepper lads produced me an amazing video for my business. The finished product was even better than I hoped for.","Clint Jensen"],
+ ["Very professional team! Worked an event with us at the Sunshine Coast Convention Centre and the outcome was superb.","Keith Dsouza"],
+ ["Thanks so much to the team at Pepper Productions for doing such a fantastic job of videoing our conference.","Kathy Ferris"],
+ ["Super friendly, professional and enthusiastic team that helped encourage our staff to embrace profile headshot day!","Marketing HeartHQ"]];
+const stage=document.getElementById('qstage'), dots=document.getElementById('qdots');
+QUOTES.forEach(([q,a],i)=>{
+  const d=document.createElement('div'); d.className='slide'+(i?'':' on');
+  d.innerHTML='<blockquote>"'+q+'"</blockquote><p class="at">— '+a+'</p>';
+  stage.appendChild(d);
+  const dot=document.createElement('i'); if(!i)dot.className='on';
+  dot.addEventListener('click',()=>show(i)); dots.appendChild(dot);
+});
+function fitStage(){let h=0; stage.querySelectorAll('.slide').forEach(sl=>h=Math.max(h,sl.scrollHeight)); stage.style.minHeight=(h+8)+'px';}
+fitStage(); addEventListener('resize',fitStage);
+let cur=0, timer=setInterval(()=>show((cur+1)%QUOTES.length),6500);
+function show(i){cur=i;
+  stage.querySelectorAll('.slide').forEach((s,j)=>s.classList.toggle('on',j===i));
+  dots.querySelectorAll('i').forEach((d,j)=>d.classList.toggle('on',j===i));
+  clearInterval(timer); timer=setInterval(()=>show((cur+1)%QUOTES.length),6500);}
+</script>
+
+</body>
+</html>
