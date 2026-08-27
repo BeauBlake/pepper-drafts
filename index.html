@@ -126,9 +126,9 @@ body.opt-c .heroC{display:block}
 .bar{background:#fff;color:var(--ink);border-bottom:1px solid var(--hair)}
 .bar nav a{color:var(--ink)}
 .heroC h1 .van{color:var(--van)}
-.heroC .row{margin-top:38px;display:flex;justify-content:space-between;align-items:flex-end;gap:44px;flex-wrap:wrap}
+.heroC .row{margin-top:38px}   /* buttons sit UNDER the standfirst, not beside it */
 .heroC .stand{font-size:clamp(1.02rem,1.5vw,1.25rem);line-height:1.55;color:var(--ink-2);max-width:48ch}
-.heroC .ctas{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.heroC .ctas{margin-top:34px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .heroC .btn.g{margin-left:0}
 .heroC .rail{margin-top:48px;border-top:1px solid var(--hair);padding-top:28px;
   display:flex;flex-wrap:wrap;gap:24px 46px}
@@ -137,7 +137,6 @@ body.opt-c .heroC{display:block}
 .heroC .rail .v{margin-top:7px;font-size:16px;font-weight:600;color:var(--ink)}
 @media(max-width:1000px){
   .heroC .strip{height:52vw}
-  .heroC .row{align-items:flex-start}
 }
 
 /* ---- ticker — the site's Logo Scroll mechanism, as words ---- */
