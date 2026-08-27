@@ -3,298 +3,11 @@
 <head>
 <meta charset="utf-8">
 <title>Pepper Home — Statement Draft v6 (working file)</title>
-<meta name="robots" content="noindex, nofollow, noarchive">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
-/* ============================================================
-   PEPPER HOME — STATEMENT DRAFT v6 · the working file
-   ------------------------------------------------------------
-   Full redraw, showpiece edition. Same locked family — Montserrat,
-   van/ink/paper, uppercase display type, red held out — pushed
-   harder: two-tone display statements, ticker band, sticky-scroll
-   services, editorial project features, giant process rows.
-   · Banner A/B toggle kept (A: type over video · B: clean video).
-   · All v4 content retained — nothing trimmed. Real page slugs.
-   · Elementor mapping per section. Sticky = Advanced → Motion
-     Effects → Sticky. Tickers = the site's own Logo Scroll
-     pattern (template 9708 mechanism). No custom-code widgets.
-   · [ tbc ] = needs Beau's accuracy read.
-   ============================================================ */
-:root{
-  --van:#C3C4C0; --van-lt:#E4E5E1; --paper:#F3F3F0; --glass:#16171A;
-  --ink:#0F1012; --ink-2:#33353A; --body:#55575C; --decal:#9FA09C;
-  --hair:#D3D4CF; --tbc:#6B6D71; --accent:var(--ink);
-  --font:'Montserrat',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;
-}
-*{box-sizing:border-box}
-body{margin:0;background:#fff;color:var(--ink);font-family:var(--font);line-height:1.68;font-weight:400}
-img{max-width:100%;display:block}
-.w{max-width:1300px;margin-inline:auto;padding-inline:52px}   /* content = 1196 */
-h1,h2,h3{margin:0;font-weight:700;color:var(--ink)}
-p{margin:0}
-.lbl{font-size:10.5px;font-weight:600;letter-spacing:.32em;text-transform:uppercase;color:var(--decal)}
-.tbc{color:var(--tbc);border:1px dashed #B9BAB6;padding:0 .4em;font-weight:500;font-size:.8em;vertical-align:middle}
-.btn{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;font-size:11.5px;
-  font-weight:700;letter-spacing:.24em;text-transform:uppercase;padding:20px 36px}
-.btn.g{background:transparent;color:var(--ink);border:1px solid var(--hair);margin-left:10px}
-.txtlink{color:var(--ink);font-size:11.5px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;
-  text-decoration:none;border-bottom:1px solid var(--hair);padding-bottom:4px}
-
-/* ---- version changer — mockup chrome ---- */
-.mockbar{position:sticky;top:0;z-index:99;background:#12141a;color:#c9cedb;padding:9px 20px;
-  display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap}
-.mockbar .t{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:#8f96a6;margin-right:6px}
-.mockbar button{font-family:var(--font);font-weight:600;font-size:12.5px;border:1px solid #3a3f4d;
-  background:transparent;color:#c9cedb;padding:6px 14px;border-radius:999px;cursor:pointer}
-.mockbar button.on{background:#fff;color:#12141a;border-color:#fff}
-
-/* site chrome — header 1888 / footer 1901 on the real site */
-.bar .w{display:flex;align-items:center;justify-content:space-between;padding-block:20px}
-.bar .logo{display:block;line-height:0}
-.bar .logo img{width:150px;height:auto;display:block}
-.bar .logo img{filter:invert(1)}   /* white nav → dark logo, both options */
-.bar nav{display:flex;gap:28px}
-.bar nav a{text-decoration:none;font-size:15px;font-weight:600}
-
-/* ---- HERO — Banner A / Banner B ---- */
-.hero{position:relative;height:clamp(560px,84vh,800px);overflow:hidden;display:flex;align-items:flex-end;
-  background:var(--glass) url('https://pepperproductions.com.au/wp-content/uploads/outdoor-majestic.webp') center/cover no-repeat}
-body.opt-b .hero{height:clamp(420px,62vh,620px)}
-.hero iframe{position:absolute;top:50%;left:50%;width:max(100vw,178vh);height:max(56.25vw,100vh);
-  transform:translate(-50%,-50%);pointer-events:none;border:0}
-.hero .scrim{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,12,.84) 0%,rgba(10,10,12,.32) 48%,rgba(10,10,12,.12) 100%)}
-body.opt-b .hero .scrim{display:none}
-.hero .w{position:relative;width:100%;padding-bottom:64px}
-body.opt-b .hero .w{display:none}
-.hero .lbl{color:var(--van)}
-.hero h1{margin-top:22px;font-size:clamp(2.4rem,5.6vw,4.9rem);line-height:.94;letter-spacing:-.04em;
-  text-transform:uppercase;color:#fff;max-width:900px}
-.hero h1 .van{color:var(--van)}
-.hero .stand{margin-top:26px;font-size:clamp(1.02rem,1.5vw,1.2rem);line-height:1.55;color:rgba(255,255,255,.88);max-width:52ch}
-.hero .ctas{margin-top:34px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.hero .btn{background:#fff;color:var(--ink)}
-.hero .btn.g{background:transparent;color:#fff;border-color:rgba(255,255,255,.55);margin-left:0}
-.hero .txtlink{color:#fff;border-color:rgba(255,255,255,.4);margin-left:16px}
-
-/* Banner C — VIDEO TOP, TYPE BELOW: Darren's approved homepage structure
-   (his original "option 3": media band, then light content band), in the
-   Statement language. Clean full-bleed video band first — no text near it —
-   then a rich white type band: two-tone H1 at case-study scale, standfirst,
-   buttons, and the hairline meta rail from the HQ hero. In option C the
-   fact ledger lives here, so the intro section drops its copy of it.
-   Elementor: full-width container w/ background video + fixed height, then
-   boxed containers. */
-body.opt-c .hero{display:none}
-body.opt-c .tick{display:none}          /* one scroller only — the logo marquee */
-body.opt-c .work{background:#fff}       /* paper proof band → white projects */
-.reelsec{display:none}
-body.opt-c .reelsec{display:block}
-.reelsec{background:var(--glass);padding-block:96px}
-.reelsec .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.45fr);gap:72px;align-items:center}
-.reelsec .lbl{color:var(--van)}
-.reelsec .big{margin-top:22px;color:#fff;font-size:clamp(1.9rem,3.8vw,3rem);line-height:.98;
-  letter-spacing:-.04em;text-transform:uppercase;font-weight:700}
-.reelsec .big .van{color:var(--van)}
-.reelsec .sub{margin-top:24px;color:#A9ABAE;max-width:40ch;font-size:15.5px;line-height:1.65}
-.reelsec .btn{margin-top:34px;background:#fff;color:var(--ink)}
-.reelsec .screen{position:relative;display:block;aspect-ratio:16/9;overflow:hidden;background:#000}
-.reelsec .screen img{width:100%;height:100%;object-fit:cover;opacity:.94;transition:transform .6s}
-.reelsec .screen:hover img{transform:scale(1.02)}
-.reelsec .play{position:absolute;inset:0;display:grid;place-items:center}
-.reelsec .play i{width:84px;height:84px;border-radius:50%;background:rgba(255,255,255,.94);display:grid;place-items:center}
-.reelsec .play svg{width:26px;height:26px;fill:var(--ink);margin-left:4px}
-.reelsec .cap{margin-top:16px;display:flex;justify-content:space-between;font-size:10px;font-weight:600;
-  letter-spacing:.28em;text-transform:uppercase;color:#6f7276}
-@media(max-width:1000px){.reelsec .grid{grid-template-columns:1fr;gap:36px}}
-.heroC{display:none}
-body.opt-c .heroC{display:block}
-.heroC .vband{position:relative;height:clamp(440px,66vh,720px);overflow:hidden;
-  background:var(--glass) url('https://pepperproductions.com.au/wp-content/uploads/outdoor-majestic.webp') center/cover no-repeat}
-.heroC .vband iframe{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-  width:max(102vw,102vh);height:max(58vw,58vh);pointer-events:none;border:0}
-.heroC .type{background:#fff;padding:64px 0 60px}
-/* sized so "VIDEO PRODUCTION COMPANY" fills the content width on one line —
-   the line-filling scale is what keeps the band dense instead of ragged */
-.heroC h1{margin-top:24px;font-size:clamp(2.1rem,5.9vw,4.75rem);line-height:.96;letter-spacing:-.045em;
-  text-transform:uppercase}
-/* option 3 runs the WHITE header — the site plays black/white nav per page.
-   Real site: a second header template (or per-page header style) via Theme
-   Builder display conditions on template 1888's sibling. */
-.bar{background:#fff;color:var(--ink);border-bottom:1px solid var(--hair)}
-.bar nav a{color:var(--ink)}
-.heroC h1 .van{color:var(--van)}
-.heroC .row{margin-top:38px}   /* buttons sit UNDER the standfirst, not beside it */
-.heroC .stand{font-size:clamp(1.02rem,1.5vw,1.25rem);line-height:1.55;color:var(--ink-2);max-width:48ch}
-.heroC .ctas{margin-top:34px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
-.heroC .btn.g{margin-left:0}
-.heroC .rail{margin-top:48px;border-top:1px solid var(--hair);padding-top:28px;
-  display:flex;flex-wrap:wrap;gap:24px 46px}
-.heroC .rail .it{flex:1 1 180px}
-.heroC .rail .k{font-size:10.5px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--decal)}
-.heroC .rail .v{margin-top:7px;font-size:16px;font-weight:600;color:var(--ink)}
-@media(max-width:1000px){
-  .heroC .strip{height:52vw}
-}
-
-/* ---- ticker — the site's Logo Scroll mechanism, as words ---- */
-.tick{background:var(--van);border-block:1px solid #ADAEAA;overflow:hidden;white-space:nowrap;padding-block:18px}
-.tick .in{display:inline-block;animation:tick 28s linear infinite}
-.tick span{display:inline-block;padding-inline:34px;font-size:13px;font-weight:700;
-  letter-spacing:.3em;text-transform:uppercase;color:var(--ink-2)}
-.tick span i{font-style:normal;color:#8f9691}
-@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-
-
-/* ---- proof band — one statement, then the client marquee as its base ----
-   Elementor: container(paper) > heading + the existing Logo Scroll (9708). ---- */
-.proof{background:var(--paper);border-top:1px solid var(--hair);padding:96px 0 0}
-.proof .grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:72px;align-items:center}
-.proof .big{font-size:clamp(2.2rem,5.4vw,4.6rem);line-height:.96;letter-spacing:-.045em;
-  text-transform:uppercase;font-weight:700;max-width:16ch}
-.proof .big .van{color:var(--van)}
-.proof .copy{color:var(--body);max-width:48ch}
-@media(max-width:1000px){.proof .grid{grid-template-columns:1fr;gap:34px}}
-.proof .who{margin-top:72px;border-top:1px solid var(--hair);padding-top:26px}
-.proof .marq{overflow:hidden;white-space:nowrap;padding:24px 0 44px}
-.proof .marq .in{display:inline-block;animation:tick 32s linear infinite}
-.proof .marq img{display:inline-block;vertical-align:middle;height:36px;width:auto;margin-inline:34px;
-  filter:grayscale(1) contrast(.85);opacity:.75}
-
-/* ---- services — sticky left rail, scrolling index right ----
-   Elementor: 2-col container; left col Advanced → Motion Effects → Sticky
-   (top offset ~120). Right col: six bordered rows. -->  */
-.svc{background:var(--paper);border-top:1px solid var(--hair);padding-block:110px}
-.svc .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:80px;align-items:start}
-.svc .rail{position:sticky;top:110px}
-.svc .rail h2{margin-top:22px;font-size:clamp(2.2rem,4.6vw,3.8rem);line-height:.94;
-  letter-spacing:-.045em;text-transform:uppercase}
-.svc .rail h2 .van{color:var(--van)}
-.svc .rail p{margin-top:26px;color:var(--body);max-width:38ch}
-.svc .rail .btn{margin-top:36px}
-.svc .item{border-top:2px solid var(--ink);padding:30px 0 40px}
-.svc .item:not(:first-child){border-top:1px solid var(--hair)}
-.svc .item .n{font-size:13px;font-weight:700;letter-spacing:.24em;color:var(--decal)}
-.svc .item h3{margin-top:12px;font-size:19px;text-transform:uppercase;letter-spacing:.04em;line-height:1.35}
-.svc .item p{margin-top:12px;font-size:14.5px;line-height:1.68;color:var(--body);max-width:52ch}
-.svc .item a{display:inline-block;margin-top:16px}
-
-
-/* ---- who we are — one strong image, no tricks ---- */
-.who{padding-block:110px;border-top:1px solid var(--hair)}
-.who .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:72px;align-items:center}
-.who h2{margin-top:22px;font-size:clamp(1.9rem,4.2vw,3.2rem);line-height:.96;letter-spacing:-.04em;
-  text-transform:uppercase;max-width:521px}
-.who .copy{margin-top:26px;color:var(--body)}
-.who .copy p{max-width:58ch}
-.who .copy p+p{margin-top:20px}
-.who .media{position:relative}
-.who .main{width:100%;aspect-ratio:4/5;object-fit:cover}
-.who .cap{margin-top:14px;display:flex;justify-content:space-between;font-size:10px;font-weight:600;
-  letter-spacing:.28em;text-transform:uppercase;color:var(--decal)}
-
-/* ---- process — giant editorial rows ---- */
-.proc{background:var(--glass);color:#fff;padding-block:110px}
-.proc .lbl{color:var(--van)}
-.proc h2{margin-top:22px;color:#fff;font-size:clamp(1.9rem,4.2vw,3.2rem);line-height:.96;
-  letter-spacing:-.04em;text-transform:uppercase;max-width:521px}
-.proc .rows{margin-top:56px;border-top:1px solid #2c2e32}
-.proc .prow{display:grid;grid-template-columns:170px minmax(0,.9fr) minmax(0,1.3fr);gap:40px;
-  align-items:center;padding:38px 0;border-bottom:1px solid #2c2e32}
-.proc .n{font-size:clamp(3rem,6vw,4.6rem);font-weight:700;letter-spacing:-.04em;line-height:.9;color:var(--van)}
-.proc h3{color:#fff;font-size:17px;text-transform:uppercase;letter-spacing:.05em;line-height:1.4}
-.proc p{font-size:14.5px;line-height:1.65;color:#A9ABAE;max-width:52ch}
-
-/* ---- why choose ---- */
-.why{padding-block:110px;border-top:1px solid var(--hair)}
-.why .grid{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:64px;align-items:center}
-.why h2{margin-top:22px;font-size:clamp(1.9rem,4.2vw,3.2rem);line-height:.96;letter-spacing:-.04em;
-  text-transform:uppercase;max-width:521px}
-ul.d{list-style:none;margin:26px 0 0;padding:0}
-ul.d li{position:relative;padding-left:36px;margin-top:16px;font-size:16px;line-height:1.65;color:var(--body)}
-ul.d li::before{content:"";position:absolute;left:0;top:.72em;width:20px;height:2px;background:var(--ink)}
-ul.d b{color:var(--ink);font-weight:600}
-
-/* ---- projects — horizontal scroll strip (Elementor: Pro Loop/Media Carousel) ---- */
-.work{background:var(--paper);border-top:1px solid var(--hair);padding-block:110px}
-.work .head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;flex-wrap:wrap}
-.work .snav{display:flex;gap:10px}
-.work .snav button{width:52px;height:52px;border:1px solid var(--hair);background:#fff;color:var(--ink);
-  font-size:19px;cursor:pointer;font-family:var(--font);transition:.15s}
-.work .snav button:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
-.strip{margin-top:48px;display:flex;gap:26px;overflow-x:auto;scroll-snap-type:x mandatory;
-  padding-bottom:18px;scrollbar-width:thin;scrollbar-color:var(--van) transparent}
-.pcard{flex:0 0 min(720px,84%);scroll-snap-align:start}
-.pcard .ph{display:block;aspect-ratio:16/9;overflow:hidden;background:var(--van-lt)}
-.pcard img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
-.pcard a.ph:hover img{transform:scale(1.03)}
-.pcard .meta{display:flex;gap:18px;align-items:baseline;margin-top:18px}
-.pcard .n{font-size:13px;font-weight:700;letter-spacing:.24em;color:var(--decal)}
-.pcard h3{font-size:clamp(1.2rem,2vw,1.6rem);text-transform:uppercase;letter-spacing:-.01em}
-.pcard .tag{margin-left:auto;font-size:11.5px;color:var(--decal);letter-spacing:.14em;text-transform:uppercase;font-weight:600}
-.pcard p.desc{margin-top:12px;font-size:14.5px;line-height:1.68;color:var(--body);max-width:56ch}
-.pcard .txtlink{display:inline-block;margin-top:16px}
-
-/* ---- rotating ink quote band (kept from v4) ---- */
-.qt{background:var(--ink);color:#fff;padding-block:100px}
-.qt .lbl{color:var(--van)}
-.qt .stage{position:relative;margin-top:26px;min-height:9.2em}
-.qt .slide{position:absolute;inset:0;opacity:0;transition:opacity .7s;pointer-events:none}
-.qt .slide.on{opacity:1;pointer-events:auto}
-.qt blockquote{margin:0;font-size:clamp(1.25rem,2.5vw,1.95rem);line-height:1.18;font-weight:700;
-  text-transform:uppercase;letter-spacing:-.03em;max-width:36ch;color:#fff}
-.qt .stars{display:flex;gap:5px;margin-bottom:22px}
-.qt .stars svg{width:15px;height:15px;fill:var(--van)}
-.qt .at{margin-top:26px;display:flex;align-items:center;gap:12px;font-size:10.5px;font-weight:600;
-  letter-spacing:.26em;text-transform:uppercase;color:var(--decal)}
-.qt .at .g{display:inline-flex;align-items:center;gap:7px;padding-left:12px;border-left:1px solid #35373b}
-.qt .at .g svg{width:13px;height:13px;fill:var(--decal)}
-.qt .agg{margin-top:44px;padding-top:24px;border-top:1px solid #2c2e32;display:flex;align-items:center;
-  gap:14px;font-size:10.5px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--decal)}
-.qt .agg b{color:#fff;font-size:15px;letter-spacing:.04em}
-.qt .dots{margin-top:40px;display:flex;gap:10px}
-.qt .dots i{width:22px;height:2px;background:#3a3c40;cursor:pointer}
-.qt .dots i.on{background:var(--van)}
-
-/* ---- CTA — giant two-tone closer ---- */
-.cta{padding-block:130px}
-.cta .big{font-size:clamp(2.2rem,5.6vw,4.8rem);line-height:.94;letter-spacing:-.045em;
-  text-transform:uppercase;font-weight:700;max-width:16ch}
-.cta .big .van{color:var(--van)}
-.cta p{margin-top:30px;color:var(--body);max-width:58ch}
-
-/* ---- footer replica (template 1901 content parity) ---- */
-.fcontact{background:#000;color:#fff;padding-block:90px}
-.fcontact .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:72px}
-.fcontact h2{color:#fff;font-size:clamp(1.7rem,3vw,2.4rem);letter-spacing:-.02em}
-.fcontact .tag{margin-top:14px;color:#b7b9bd}
-.fcontact .soc{margin-top:26px;display:flex;gap:12px}
-.fcontact .soc a{width:40px;height:40px;border:1px solid #2e3033;border-radius:50%;display:grid;
-  place-items:center;color:#fff;text-decoration:none;font-size:13px;font-weight:700}
-.fcontact .line{margin-top:26px;display:flex;gap:14px;align-items:center;color:#d9dadc;font-size:15px}
-.fcontact .line b{font-weight:600}
-.fform .f{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.fform input,.fform textarea{background:#fff;border:0;padding:14px;font-family:var(--font);font-size:14px;width:100%}
-.fform textarea{grid-column:1/-1;min-height:110px;resize:vertical}
-.fform .cap{grid-column:1/-1;background:#f5f5f5;color:#666;font-size:12.5px;padding:12px 14px;
-  display:flex;justify-content:space-between;align-items:center}
-.fform button{grid-column:1/-1;justify-self:start;background:#fff;color:var(--ink);border:0;
-  font-family:var(--font);font-weight:700;font-size:12px;letter-spacing:.2em;text-transform:uppercase;
-  padding:16px 34px;cursor:not-allowed;opacity:.9}
-.legal{background:#000;padding:10px 20px 44px;text-align:center;color:#8a8c90;font-size:13px}
-.legal a{color:#b7b9bd}
-
-@media(max-width:1000px){
-  .w{padding-inline:28px}
-  .intro .cols,.svc .grid,.who .grid,.why .grid,.feat,.feat.rev,.fcontact .grid{grid-template-columns:1fr;gap:40px}
-  .svc .rail{position:static}
-  .proc .prow{grid-template-columns:80px 1fr;gap:14px 22px}
-  .proc .prow p{grid-column:2}
-  .qt .stage{min-height:14em}
-}
-</style>
+<link rel="stylesheet" href="pepper.css">
 </head>
 <body class="opt-a">
 
@@ -307,8 +20,8 @@ ul.d b{color:var(--ink);font-weight:600}
 
 <!-- SITE CHROME: header template 1888. Placeholder only. -->
 <div class="bar"><div class="w">
-  <a class="logo" href="#"><img src="https://pepperproductions.com.au/wp-content/uploads/Pepper_logo_Mono-Rev-1024x437.png" alt="Pepper Productions"></a>
-  <nav><a href="#">How We Help</a><a href="https://pepperproductions.com.au/who-weve-assisted/">Our Work</a><a href="https://pepperproductions.com.au/about-us/">About</a><a href="https://pepperproductions.com.au/meet-the-team/">Your Crew</a><a href="https://pepperproductions.com.au/blog/">The Blog</a><a href="https://pepperproductions.com.au/contact/">Contact</a></nav>
+  <a class="logo" href="index.html"><img src="https://pepperproductions.com.au/wp-content/uploads/Pepper_logo_Mono-Rev-1024x437.png" alt="Pepper Productions"></a>
+  <nav><a href="#">How We Help</a><a href="https://pepperproductions.com.au/who-weve-assisted/">Our Work</a><a href="about.html">About</a><a href="crew.html">Your Crew</a><a href="https://pepperproductions.com.au/blog/">The Blog</a><a href="https://pepperproductions.com.au/contact/">Contact</a></nav>
 </div></div>
 
 <!-- ================= HERO — Banner A / Banner B ==============================
@@ -513,8 +226,8 @@ ul.d b{color:var(--ink);font-weight:600}
         to life.</p>
     </div>
     <p style="margin-top:34px">
-      <a class="btn" href="https://pepperproductions.com.au/about-us/">About us</a>
-      <a class="btn g" href="https://pepperproductions.com.au/meet-the-team/">Meet the crew</a>
+      <a class="btn" href="about.html">About us</a>
+      <a class="btn g" href="crew.html">Meet the crew</a>
     </p>
   </div>
 </div></section>
@@ -567,17 +280,6 @@ ul.d b{color:var(--ink);font-weight:600}
   <span class="lbl">In our clients' words</span>
   <div class="stage" id="qstage"></div>
   <div class="dots" id="qdots"></div>
-  <div class="agg">
-    <b>5.0</b>
-    <span class="stars" style="margin:0">
-      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-      <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-    </span>
-    <span>Rated on Google · <span class="tbc" style="border-color:#4B4D51;color:#A9ABA6">confirm rating &amp; review count</span></span>
-  </div>
   <!-- Provenance is deliberately typographic, not a Google-styled card: same stars,
        same "Google review" attribution, rendered in the site's own palette.
        [ tbc ] confirm every quote below is genuinely a Google review before badging
