@@ -328,3 +328,43 @@ ul.d b{color:var(--ink);font-weight:600}
   .crewgrid{grid-template-columns:1fr 1fr}
   .teamrow{grid-template-columns:1fr 1fr;gap:24px}
 }
+
+/* inert mockup links — nothing to click through to yet */
+a[href="#"]{cursor:default}
+
+/* about: pull-statement band */
+.pull{background:var(--glass);color:#fff;padding-block:96px}
+.pull .lbl{color:var(--van)}
+.pull .big{margin-top:22px;color:#fff;font-size:clamp(1.7rem,3.6vw,2.9rem);line-height:1.06;
+  letter-spacing:-.035em;text-transform:uppercase;font-weight:700;max-width:24ch}
+.pull .big .van{color:var(--van)}
+.pull .copy{margin-top:30px;color:#A9ABAE;max-width:58ch}
+.pull .copy p+p{margin-top:18px}
+
+/* about: kit band */
+.kit{padding-block:96px;border-top:1px solid var(--hair)}
+.kit .top{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;flex-wrap:wrap}
+.kit h2{margin-top:22px;font-size:clamp(1.8rem,4vw,3rem);line-height:.98;letter-spacing:-.04em;
+  text-transform:uppercase;max-width:16ch}
+.kit h2 .van{color:var(--van)}
+.kit .copy{color:var(--body);max-width:48ch}
+.kit .shots{margin-top:48px;display:grid;grid-template-columns:1.6fr 1fr;gap:10px}
+.kit .shots img{width:100%;height:clamp(240px,38vh,420px);object-fit:cover}
+.kit .specs{margin-top:44px;border-top:2px solid var(--ink);display:grid;grid-template-columns:repeat(4,1fr);gap:0}
+.kit .specs .s{padding:22px 24px 0 0;border-right:1px solid var(--hair)}
+.kit .specs .s:last-child{border-right:0}
+.kit .specs .k{font-size:10.5px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--decal)}
+.kit .specs .v{margin-top:8px;font-size:15.5px;font-weight:600;color:var(--ink);line-height:1.4}
+
+/* smaller portraits for the Chilli marketing team */
+.teamrow{margin-top:56px;border-top:2px solid var(--ink);padding-top:30px;
+  display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
+.teamrow .t img{width:100%;max-width:150px;aspect-ratio:1/1;object-fit:cover;
+  background:var(--van-lt);filter:grayscale(1);transition:.4s}
+.teamrow .t:hover img{filter:grayscale(0)}
+.teamrow .t h3{margin-top:14px;font-size:15px;text-transform:uppercase;letter-spacing:.04em}
+@media(max-width:1000px){
+  .kit .shots{grid-template-columns:1fr}
+  .kit .specs{grid-template-columns:1fr 1fr}
+  .kit .specs .s{border-right:0;border-bottom:1px solid var(--hair);padding-bottom:18px}
+}
