@@ -347,7 +347,7 @@ ul.d b{color:var(--ink);font-weight:600}
 
 /* crew — 2 big columns for the Pepper crew */
 .crewgrid{margin-top:52px;display:grid;grid-template-columns:repeat(2,1fr);gap:56px 46px}
-.member img{width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--van-lt);
+.member img{width:100%;aspect-ratio:1/1;object-fit:cover;background:var(--van-lt);
   filter:grayscale(1);transition:.5s}
 .member:hover img{filter:grayscale(0)}
 .member h3{margin-top:22px;font-size:clamp(1.2rem,2vw,1.6rem);text-transform:uppercase;letter-spacing:.02em}
