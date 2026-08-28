@@ -281,90 +281,98 @@ ul.d b{color:var(--ink);font-weight:600}
   .qt .stage{min-height:14em}
 }
 
-/* ============ INNER PAGES (about / crew) ============
-   Same system as the homepage: banner band, white type band, hairline rails.
-   Elementor: identical container/heading/text-editor/image vocabulary. */
-.pagehero .vband{position:relative;height:clamp(320px,46vh,520px);overflow:hidden;
+/* ============================================================
+   INNER PAGES — about / crew.  Self-contained: every class used
+   on those pages is defined here, on one spacing rhythm.
+   Elementor: same container/heading/text-editor/image vocabulary.
+   ============================================================ */
+
+/* page hero — banner height matches the homepage's option 2 */
+.pagehero .vband{position:relative;height:clamp(440px,66vh,720px);overflow:hidden;
   background:var(--glass) center/cover no-repeat}
-.pagehero .type{background:#fff;padding:64px 0 56px}
-.pagehero h1{margin-top:24px;font-size:clamp(2rem,5vw,4.2rem);line-height:.96;letter-spacing:-.045em;
-  text-transform:uppercase;max-width:20ch}
+.pagehero .type{background:#fff;padding:64px 0 60px}
+.pagehero h1{margin-top:24px;font-size:clamp(2.2rem,5.6vw,4.6rem);line-height:.94;
+  letter-spacing:-.045em;text-transform:uppercase;max-width:18ch}
 .pagehero h1 .van{color:var(--van)}
-.pagehero .stand{margin-top:30px;font-size:clamp(1.02rem,1.5vw,1.25rem);line-height:1.55;
+.pagehero .stand{margin-top:32px;font-size:clamp(1.02rem,1.5vw,1.25rem);line-height:1.55;
   color:var(--ink-2);max-width:56ch}
-.pagehero .ctas{margin-top:34px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.pagehero .ctas{margin-top:36px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .pagehero .btn.g{margin-left:0}
+.pagehero .rail{margin-top:48px;border-top:1px solid var(--hair);padding-top:28px;
+  display:flex;flex-wrap:wrap;gap:24px 46px}
+.pagehero .rail .it{flex:1 1 180px}
+.pagehero .rail .k{font-size:10.5px;font-weight:600;letter-spacing:.3em;
+  text-transform:uppercase;color:var(--decal)}
+.pagehero .rail .v{margin-top:7px;font-size:16px;font-weight:600;color:var(--ink)}
 
-/* two-column text/media band */
-.band{padding-block:96px;border-top:1px solid var(--hair)}
-.band.paper{background:var(--paper)}
-.band .grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:72px;align-items:center}
-.band .grid.rev{grid-template-columns:minmax(0,1fr) minmax(0,1.25fr)}
-.band h2{margin-top:22px;font-size:clamp(1.8rem,4vw,3rem);line-height:.98;letter-spacing:-.04em;
-  text-transform:uppercase;max-width:18ch}
-.band h2 .van{color:var(--van)}
-.band .copy{margin-top:26px;color:var(--body)}
-.band .copy p{max-width:58ch}
-.band .copy p+p{margin-top:20px}
-.band img{width:100%;aspect-ratio:4/3;object-fit:cover}
-.band .btn{margin-top:34px}
+/* one section rhythm for every inner-page band */
+.sec{padding-block:104px;border-top:1px solid var(--hair)}
+.sec.paper{background:var(--paper)}
+.sec.ink{background:var(--glass);color:#fff;border-top:0}
+.sec.ink .lbl{color:var(--van)}
+.sec h2{margin-top:22px;font-size:clamp(1.8rem,4vw,3rem);line-height:.98;
+  letter-spacing:-.04em;text-transform:uppercase;max-width:18ch}
+.sec.ink h2{color:#fff;max-width:22ch}
+.sec h2 .van{color:var(--van)}
+.sec .copy{margin-top:26px;color:var(--body)}
+.sec.ink .copy{color:#A9ABAE}
+.sec .copy p{max-width:58ch}
+.sec .copy p+p{margin-top:20px}
+.sec .btn{margin-top:36px}
 
-/* crew grid */
-.crew{padding-block:96px;border-top:1px solid var(--hair)}
-.crewgrid{margin-top:48px;display:grid;grid-template-columns:repeat(4,1fr);gap:34px}
-.member img{width:100%;aspect-ratio:1/1;object-fit:cover;background:var(--van-lt);filter:grayscale(1);transition:.4s}
+/* text | image duo */
+.duo{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:72px;align-items:center}
+.duo.rev{grid-template-columns:minmax(0,1fr) minmax(0,1.25fr)}
+.duo img{width:100%;aspect-ratio:4/3;object-fit:cover}
+
+/* kit band */
+.kit .top{display:flex;justify-content:space-between;align-items:flex-end;gap:44px;flex-wrap:wrap}
+.kit .top .copy{margin-top:0;max-width:46ch}
+.kit .shots{margin-top:52px;display:grid;grid-template-columns:1.6fr 1fr;gap:10px}
+.kit .shots img{width:100%;height:clamp(260px,40vh,440px);object-fit:cover}
+.kit .specs{margin-top:52px;border-top:2px solid var(--ink);display:grid;
+  grid-template-columns:repeat(4,1fr)}
+.kit .specs .s{padding:24px 28px 0 0;border-right:1px solid var(--hair)}
+.kit .specs .s:last-child{border-right:0;padding-right:0}
+.kit .specs .k{font-size:10.5px;font-weight:600;letter-spacing:.3em;
+  text-transform:uppercase;color:var(--decal)}
+.kit .specs .v{margin-top:9px;font-size:15.5px;font-weight:600;color:var(--ink);line-height:1.4}
+
+/* process — ink chips */
+.flow{margin-top:52px;display:grid;grid-template-columns:repeat(4,1fr);gap:44px}
+.flow .n{width:46px;height:46px;background:var(--ink);color:#fff;font-size:17px;
+  font-weight:700;display:grid;place-items:center}
+.flow h3{margin-top:18px;font-size:15px;text-transform:uppercase;letter-spacing:.04em;line-height:1.4}
+.flow p{margin-top:10px;font-size:13.5px;line-height:1.6;color:var(--body)}
+
+/* crew — 2 big columns for the Pepper crew */
+.crewgrid{margin-top:52px;display:grid;grid-template-columns:repeat(2,1fr);gap:56px 46px}
+.member img{width:100%;aspect-ratio:4/5;object-fit:cover;background:var(--van-lt);
+  filter:grayscale(1);transition:.5s}
 .member:hover img{filter:grayscale(0)}
-.member h3{margin-top:18px;font-size:17px;text-transform:uppercase;letter-spacing:.04em}
-.member .role{margin-top:5px;font-size:11px;font-weight:600;letter-spacing:.24em;
+.member h3{margin-top:22px;font-size:clamp(1.2rem,2vw,1.6rem);text-transform:uppercase;letter-spacing:.02em}
+.member .role{margin-top:6px;font-size:11px;font-weight:600;letter-spacing:.24em;
   text-transform:uppercase;color:var(--decal)}
-.member p{margin-top:12px;font-size:14px;line-height:1.62;color:var(--body)}
-.teamrow{margin-top:56px;border-top:2px solid var(--ink);padding-top:26px;
-  display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
-.teamrow .t h3{font-size:15px;text-transform:uppercase;letter-spacing:.04em}
-.teamrow .t .role{margin-top:5px;font-size:11px;font-weight:600;letter-spacing:.24em;
-  text-transform:uppercase;color:var(--decal)}
-@media(max-width:1000px){
-  .band .grid,.band .grid.rev{grid-template-columns:1fr;gap:36px}
-  .crewgrid{grid-template-columns:1fr 1fr}
-  .teamrow{grid-template-columns:1fr 1fr;gap:24px}
-}
+.member p{margin-top:16px;font-size:15px;line-height:1.68;color:var(--body);max-width:52ch}
 
-/* inert mockup links — nothing to click through to yet */
+/* the Chilli marketing team — 4 columns, still substantial */
+.teamrow{margin-top:36px;display:grid;grid-template-columns:repeat(4,1fr);gap:36px}
+.teamrow .t img{width:100%;aspect-ratio:1/1;object-fit:cover;background:var(--van-lt);
+  filter:grayscale(1);transition:.5s}
+.teamrow .t:hover img{filter:grayscale(0)}
+.teamrow .t h3{margin-top:18px;font-size:17px;text-transform:uppercase;letter-spacing:.03em}
+.teamrow .t .role{margin-top:6px;font-size:11px;font-weight:600;letter-spacing:.24em;
+  text-transform:uppercase;color:var(--decal)}
+
+/* inert mockup links */
 a[href="#"]{cursor:default}
 
-/* about: pull-statement band */
-.pull{background:var(--glass);color:#fff;padding-block:96px}
-.pull .lbl{color:var(--van)}
-.pull .big{margin-top:22px;color:#fff;font-size:clamp(1.7rem,3.6vw,2.9rem);line-height:1.06;
-  letter-spacing:-.035em;text-transform:uppercase;font-weight:700;max-width:24ch}
-.pull .big .van{color:var(--van)}
-.pull .copy{margin-top:30px;color:#A9ABAE;max-width:58ch}
-.pull .copy p+p{margin-top:18px}
-
-/* about: kit band */
-.kit{padding-block:96px;border-top:1px solid var(--hair)}
-.kit .top{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;flex-wrap:wrap}
-.kit h2{margin-top:22px;font-size:clamp(1.8rem,4vw,3rem);line-height:.98;letter-spacing:-.04em;
-  text-transform:uppercase;max-width:16ch}
-.kit h2 .van{color:var(--van)}
-.kit .copy{color:var(--body);max-width:48ch}
-.kit .shots{margin-top:48px;display:grid;grid-template-columns:1.6fr 1fr;gap:10px}
-.kit .shots img{width:100%;height:clamp(240px,38vh,420px);object-fit:cover}
-.kit .specs{margin-top:44px;border-top:2px solid var(--ink);display:grid;grid-template-columns:repeat(4,1fr);gap:0}
-.kit .specs .s{padding:22px 24px 0 0;border-right:1px solid var(--hair)}
-.kit .specs .s:last-child{border-right:0}
-.kit .specs .k{font-size:10.5px;font-weight:600;letter-spacing:.3em;text-transform:uppercase;color:var(--decal)}
-.kit .specs .v{margin-top:8px;font-size:15.5px;font-weight:600;color:var(--ink);line-height:1.4}
-
-/* smaller portraits for the Chilli marketing team */
-.teamrow{margin-top:56px;border-top:2px solid var(--ink);padding-top:30px;
-  display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
-.teamrow .t img{width:100%;max-width:150px;aspect-ratio:1/1;object-fit:cover;
-  background:var(--van-lt);filter:grayscale(1);transition:.4s}
-.teamrow .t:hover img{filter:grayscale(0)}
-.teamrow .t h3{margin-top:14px;font-size:15px;text-transform:uppercase;letter-spacing:.04em}
 @media(max-width:1000px){
+  .duo,.duo.rev{grid-template-columns:1fr;gap:38px}
   .kit .shots{grid-template-columns:1fr}
   .kit .specs{grid-template-columns:1fr 1fr}
-  .kit .specs .s{border-right:0;border-bottom:1px solid var(--hair);padding-bottom:18px}
+  .kit .specs .s{border-right:0;border-bottom:1px solid var(--hair);padding:20px 0}
+  .flow{grid-template-columns:1fr 1fr;gap:34px}
+  .crewgrid{grid-template-columns:1fr;gap:44px}
+  .teamrow{grid-template-columns:1fr 1fr;gap:28px}
 }
