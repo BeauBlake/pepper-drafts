@@ -51,13 +51,10 @@ p{margin:0}
 /* ---- HERO — Banner A / Banner B ---- */
 .hero{position:relative;height:clamp(560px,84vh,800px);overflow:hidden;display:flex;align-items:flex-end;
   background:var(--glass) url('https://pepperproductions.com.au/wp-content/uploads/outdoor-majestic.webp') center/cover no-repeat}
-body.opt-b .hero{height:clamp(420px,62vh,620px)}
 .hero iframe{position:absolute;top:50%;left:50%;width:max(100vw,178vh);height:max(56.25vw,100vh);
   transform:translate(-50%,-50%);pointer-events:none;border:0}
 .hero .scrim{position:absolute;inset:0;background:linear-gradient(to top,rgba(10,10,12,.84) 0%,rgba(10,10,12,.32) 48%,rgba(10,10,12,.12) 100%)}
-body.opt-b .hero .scrim{display:none}
 .hero .w{position:relative;width:100%;padding-bottom:64px}
-body.opt-b .hero .w{display:none}
 .hero .lbl{color:var(--van)}
 .hero h1{margin-top:22px;font-size:clamp(2.4rem,5.6vw,4.9rem);line-height:.94;letter-spacing:-.04em;
   text-transform:uppercase;color:#fff;max-width:900px}
