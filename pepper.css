@@ -332,8 +332,8 @@ ul.d b{color:var(--ink);font-weight:600}
 .kit .shots img{width:100%;height:clamp(260px,40vh,440px);object-fit:cover}
 .kit .specs{margin-top:52px;border-top:2px solid var(--ink);display:grid;
   grid-template-columns:repeat(4,1fr)}
-.kit .specs .s{padding:24px 28px 0 0;border-right:1px solid var(--hair)}
-.kit .specs .s:last-child{border-right:0;padding-right:0}
+.kit .specs .s{padding:24px 34px 0;border-left:1px solid var(--hair)}
+.kit .specs .s:first-child{border-left:0;padding-left:0}
 .kit .specs .k{font-size:10.5px;font-weight:600;letter-spacing:.3em;
   text-transform:uppercase;color:var(--decal)}
 .kit .specs .v{margin-top:9px;font-size:15.5px;font-weight:600;color:var(--ink);line-height:1.4}
@@ -376,3 +376,17 @@ a[href="#"]{cursor:default}
   .crewgrid{grid-template-columns:1fr;gap:44px}
   .teamrow{grid-template-columns:1fr 1fr;gap:28px}
 }
+
+/* inner-page closer — paper + image so the last two bands never read as one
+   long white block, and the page doesn't end on a third left-aligned column */
+.closer{background:var(--paper);border-top:1px solid var(--hair);padding-block:104px}
+.closer .grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);
+  gap:72px;align-items:center}
+.closer .big{margin-top:22px;font-size:clamp(1.9rem,4.2vw,3.4rem);line-height:.98;
+  letter-spacing:-.04em;text-transform:uppercase;font-weight:700;max-width:15ch}
+.closer .big .van{color:var(--van)}
+.closer p{margin-top:26px;color:var(--body);max-width:52ch}
+.closer .ctas{margin-top:38px;display:flex;gap:10px;flex-wrap:wrap}
+.closer .btn.g{margin-left:0}
+.closer img{width:100%;aspect-ratio:4/5;object-fit:cover}
+@media(max-width:1000px){.closer .grid{grid-template-columns:1fr;gap:38px}}
