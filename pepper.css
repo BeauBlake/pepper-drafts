@@ -287,7 +287,10 @@ ul.d b{color:var(--ink);font-weight:600}
 /* page hero — banner height matches the homepage's option 2 */
 .pagehero .vband{position:relative;height:clamp(520px,80vh,860px);overflow:hidden;
   background:var(--glass) center/cover no-repeat}
-.pagehero .type{background:#fff;padding:64px 0 60px}
+/* Bottom padding matches the rail's own padding-top (34px) so the rail strip sits
+   optically centred between its top rule and the next section's border. It was
+   28px above / 60px below, which pushed the whole strip high — Beau, 31 Aug. */
+.pagehero .type{background:#fff;padding:64px 0 34px}
 .pagehero h1{margin-top:24px;font-size:clamp(2.2rem,5.6vw,4.6rem);line-height:.94;
   letter-spacing:-.045em;text-transform:uppercase;max-width:18ch}
 .pagehero h1 .van{color:var(--van)}
@@ -295,7 +298,7 @@ ul.d b{color:var(--ink);font-weight:600}
   color:var(--ink-2);max-width:56ch}
 .pagehero .ctas{margin-top:36px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .pagehero .btn.g{margin-left:0}
-.pagehero .rail{margin-top:48px;border-top:1px solid var(--hair);padding-top:28px;
+.pagehero .rail{margin-top:48px;border-top:1px solid var(--hair);padding-top:34px;
   display:flex;flex-wrap:wrap;gap:24px 46px}
 .pagehero .rail .it{flex:1 1 180px}
 .pagehero .rail .k{font-size:10.5px;font-weight:600;letter-spacing:.3em;
@@ -305,6 +308,13 @@ ul.d b{color:var(--ink);font-weight:600}
 /* one section rhythm for every inner-page band */
 .sec{padding-block:104px;border-top:1px solid var(--hair)}
 .sec.paper{background:var(--paper)}
+/* Third light tone, added 31 Aug. White (#fff) and paper (#F3F3F0) are only 12
+   values apart, so alternating between them reads as one continuous slab —
+   Beau: "the top two sections are a lot of the same colour". Dust is the
+   existing --van-lt token, far enough from both to actually register as a
+   change of section. Light rhythm down the page is now
+   white → paper → white → dust → ink → white → ink → paper → dust → black. */
+.sec.dust{background:var(--van-lt)}
 .sec.ink{background:var(--glass);color:#fff;border-top:0}
 .sec.ink .lbl{color:var(--van)}
 .sec h2{margin-top:22px;font-size:clamp(1.8rem,4vw,3rem);line-height:.98;
@@ -380,7 +390,9 @@ a[href="#"]{cursor:default}
 
 /* inner-page closer — paper + image so the last two bands never read as one
    long white block, and the page doesn't end on a third left-aligned column */
-.closer{background:var(--paper);border-top:1px solid var(--hair);padding-block:104px}
+/* Dust, not paper: the FAQ directly above is paper, and the two were reading as
+   one block — Beau, 31 Aug. Dust also holds its own against the black footer. */
+.closer{background:var(--van-lt);border-top:1px solid var(--hair);padding-block:104px}
 .closer .grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);
   gap:72px;align-items:center}
 .closer .big{margin-top:22px;font-size:clamp(1.9rem,4.2vw,3.4rem);line-height:.98;
@@ -533,17 +545,21 @@ a[href="#"]{cursor:default}
    h3/p pairs, so the markup below is what it expects.
    Elementor: paper container > heading + text-editor pairs in a 2-col
    container. No custom-code widget — anyone can edit these without Beau. */
-.faq{background:var(--paper);padding-block:110px}
+/* Tightened 31 Aug — Beau: "the FAQ seems really long, takes up a lot of real
+   estate." It was eight questions at generous spacing. Now six, with the section
+   padding, the gap under the intro and the per-question padding all pulled in.
+   The measure stays wide enough that answers still run 2–3 lines, not 5. */
+.faq{background:var(--paper);padding-block:88px}
 .faq h2{margin-top:18px;font-size:clamp(1.9rem,4vw,3.2rem);line-height:1;
   letter-spacing:-.04em;text-transform:uppercase;max-width:20ch}
 .faq h2 .van{color:var(--van)}
-.faq .intro{margin-top:24px;color:var(--body);max-width:58ch}
-.faq .list{margin-top:58px;display:grid;grid-template-columns:1fr 1fr;gap:0 72px}
-.faq .q{padding:32px 0;border-top:1px solid var(--hair)}
-.faq .q h3{font-size:17.5px;line-height:1.34;letter-spacing:-.01em;max-width:34ch}
-.faq .q p{margin-top:13px;color:var(--body);font-size:15.5px;max-width:48ch}
-.faq .more{margin-top:52px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
-@media(max-width:900px){.faq{padding-block:76px}.faq .list{grid-template-columns:1fr;gap:0}}
+.faq .intro{margin-top:22px;color:var(--body);max-width:58ch}
+.faq .list{margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:0 72px}
+.faq .q{padding:24px 0;border-top:1px solid var(--hair)}
+.faq .q h3{font-size:17px;line-height:1.32;letter-spacing:-.01em;max-width:34ch}
+.faq .q p{margin-top:11px;color:var(--body);font-size:15.5px;line-height:1.6;max-width:48ch}
+.faq .more{margin-top:40px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+@media(max-width:900px){.faq{padding-block:68px}.faq .list{grid-template-columns:1fr;gap:0}}
 
 /* ---- "The difference" — the page's one sustained prose argument, added 31 Aug.
    Replaces the old "Why Pepper" 01–04 grid. Deliberately NOT a list: the page
