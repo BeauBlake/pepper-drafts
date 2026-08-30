@@ -524,3 +524,23 @@ a[href="#"]{cursor:default}
 .reelembed .frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .reelembed .cap{margin-top:16px;display:flex;justify-content:space-between;font-size:10px;
   font-weight:600;letter-spacing:.28em;text-transform:uppercase;color:#6f7276}
+
+/* ---- FAQ — service-template section, added 31 Aug ------------------------
+   Deliberately NOT an accordion and NOT tabs: the answers must be in the DOM
+   as visible text. AI crawlers don't execute JavaScript, and FAQ content is
+   the top lever for AI search — hiding it behind a click throws that away.
+   Details FAQ Schema (already installed and active on the site) reads the
+   h3/p pairs, so the markup below is what it expects.
+   Elementor: paper container > heading + text-editor pairs in a 2-col
+   container. No custom-code widget — anyone can edit these without Beau. */
+.faq{background:var(--paper);padding-block:110px}
+.faq h2{margin-top:18px;font-size:clamp(1.9rem,4vw,3.2rem);line-height:1;
+  letter-spacing:-.04em;text-transform:uppercase;max-width:20ch}
+.faq h2 .van{color:var(--van)}
+.faq .intro{margin-top:24px;color:var(--body);max-width:58ch}
+.faq .list{margin-top:58px;display:grid;grid-template-columns:1fr 1fr;gap:0 72px}
+.faq .q{padding:32px 0;border-top:1px solid var(--hair)}
+.faq .q h3{font-size:17.5px;line-height:1.34;letter-spacing:-.01em;max-width:34ch}
+.faq .q p{margin-top:13px;color:var(--body);font-size:15.5px;max-width:48ch}
+.faq .more{margin-top:52px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+@media(max-width:900px){.faq{padding-block:76px}.faq .list{grid-template-columns:1fr;gap:0}}

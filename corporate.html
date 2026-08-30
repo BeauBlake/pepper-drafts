@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="pepper.css?v=1787889575">
+<link rel="stylesheet" href="pepper.css?v=1788132496">
 </head>
 <body class="opt-c">
 <!-- SITE CHROME: header template 1888. Placeholder only. -->
@@ -133,6 +133,120 @@
   </div>
 </div></section>
 
+<!-- ================= TESTIMONIALS — fix-list item 17 ==========================
+     "Testimonials — same layout as landing page, on all pages." Same .qt block
+     and same six Google reviews as index.html, with one deliberate difference:
+     the slides are written into the HTML rather than built by JavaScript, so the
+     quotes are in the DOM for crawlers. The homepage builds them in JS, which
+     means its testimonials are invisible to anything that doesn't run scripts —
+     worth fixing there too.
+     Elementor: ink container > Testimonial Carousel (Pro) OR the site's existing
+     Widgets-for-Google-Reviews block. [ tbc ] confirm each quote really is a
+     Google review before badging it — badge only the ones that are.
+     [ tbc ] per-page curation: these six are the homepage set. Each service page
+     should carry reviews from that service where they exist. ================= -->
+<section class="qt"><div class="w">
+  <span class="lbl">In our clients' words</span>
+  <div class="stage" id="qstage">
+    <div class="slide on">
+      <div class="stars"></div>
+      <blockquote>"We've had a fantastic first experience using Pepper Productions for some
+        corporate photo and video work. Beau and Ashley were true professionals and kept the
+        day flowing along with plenty of laughs."</blockquote>
+      <p class="at"><span>— Kane Bygrave</span><span class="g">Google review</span></p>
+    </div>
+    <div class="slide">
+      <div class="stars"></div>
+      <blockquote>"Super friendly, professional and enthusiastic team that helped encourage our
+        staff to embrace profile headshot day!"</blockquote>
+      <p class="at"><span>— Marketing HeartHQ</span><span class="g">Google review</span></p>
+    </div>
+    <div class="slide">
+      <div class="stars"></div>
+      <blockquote>"Very professional team! Worked an event with us at the Sunshine Coast
+        Convention Centre and the outcome was superb."</blockquote>
+      <p class="at"><span>— Keith Dsouza</span><span class="g">Google review</span></p>
+    </div>
+    <div class="slide">
+      <div class="stars"></div>
+      <blockquote>"Thanks so much to the team at Pepper Productions for doing such a fantastic
+        job of videoing our conference."</blockquote>
+      <p class="at"><span>— Kathy Ferris</span><span class="g">Google review</span></p>
+    </div>
+  </div>
+  <div class="dots" id="qdots"></div>
+</div></section>
+
+<!-- ================= FAQ — fix-list item 18 ===================================
+     "Write and add FAQ sections to each service page." Biggest single item on
+     Darren's list, and there was no FAQ anywhere on the site or in the redesign.
+     Visible text, not an accordion — see the note in pepper.css.
+     This set is the Corporate one and the model for the other six pages.
+     [ tbc ] every answer below needs Beau's accuracy read before it ships —
+     particularly turnaround, crew size and anything that reads as a promise. ==-->
+<section class="faq"><div class="w">
+  <span class="lbl">Common questions</span>
+  <h2>Corporate video, <span class="van">answered.</span></h2>
+  <p class="intro">The questions we're asked most often before a corporate shoot. If yours
+    isn't here, ask us — we'd rather answer it now than after the quote.</p>
+
+  <div class="list">
+    <div class="q">
+      <h3>How long does a corporate video take from brief to delivery?</h3>
+      <p><span class="tbc">accuracy read</span> Most corporate projects run three to four weeks
+        end to end — a week to plan and script, a shoot day, then two weeks in post. Tighter
+        deadlines are usually possible; tell us the date and we'll tell you honestly whether
+        it's on.</p>
+    </div>
+    <div class="q">
+      <h3>What does a corporate video cost?</h3>
+      <p>It depends on shoot days, crew and how much post the piece needs, so we quote per
+        project rather than off a rate card. Every quote itemises what you're paying for, and
+        we'll tell you if something on your wish list isn't worth the money.</p>
+    </div>
+    <div class="q">
+      <h3>Do we need a script before we start?</h3>
+      <p>No. Most clients come to us with a goal rather than a script, and shaping that into a
+        story is part of the job — we're backed by Chilli, a marketing agency that's been doing
+        exactly this since 1993.</p>
+    </div>
+    <div class="q">
+      <h3>Where do you film?</h3>
+      <p>We're based in Birtinya on the Sunshine Coast and shoot across South East Queensland
+        and beyond. Our production vans are fitted out to run a full shoot anywhere, including
+        sites with no power.</p>
+    </div>
+    <div class="q">
+      <h3>Will our staff need to be on camera?</h3>
+      <p>Only if you want them to be. Plenty of corporate work is voiceover, b-roll and
+        on-screen text. When people are on camera we direct them properly — most say afterwards
+        it was easier than they expected.</p>
+    </div>
+    <div class="q">
+      <h3>Can we use the footage across social, not just the website?</h3>
+      <p>Yes, and you should. We build cut-downs for the platforms you're actually posting to
+        as part of the project rather than as an afterthought — one shoot day should feed
+        months of content.</p>
+    </div>
+    <div class="q">
+      <h3>Who owns the finished video?</h3>
+      <p><span class="tbc">accuracy read</span> You do. You get the final files to use however
+        you like. We keep the project archived so cut-downs and updates are quick later.</p>
+    </div>
+    <div class="q">
+      <h3>Do you do photography and video on the same day?</h3>
+      <p>Yes — it's usually the most cost-effective way to work, and it's how most of our
+        corporate clients run their shoots. Headshots, team and culture stills and video all
+        come out of one booking.</p>
+    </div>
+  </div>
+
+  <div class="more">
+    <a class="btn" href="contact.html">Ask us a question</a>
+    <a class="txtlink" href="work.html">See recent corporate work</a>
+  </div>
+</div></section>
+
 <!-- ================= CLOSER ================= -->
 <section class="closer"><div class="w grid">
   <div>
@@ -172,6 +286,43 @@
   </div></div>
 </div></div>
 <div class="legal">© Copyright Pepper Productions 2026. <a href="#">Privacy Policy</a>.</div>
+
+<script>
+/* Testimonials. The quotes themselves are static HTML above — this only adds the
+   star glyphs and drives the rotation, so nothing readable depends on JS running. */
+(function(){
+  const stage=document.getElementById('qstage'); if(!stage) return;
+  const slides=[...stage.querySelectorAll('.slide')], dots=document.getElementById('qdots');
+  const star='<svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>';
+  const GMARK='<svg viewBox="0 0 24 24"><path d="M12.24 10.29v3.63h5.19c-.23 1.34-1.63 3.93-5.19 3.93-3.12 0-5.67-2.58-5.67-5.76s2.55-5.76 5.67-5.76c1.78 0 2.97.76 3.65 1.41l2.48-2.39C16.78 3.71 14.7 2.8 12.24 2.8c-5.07 0-9.18 4.11-9.18 9.18s4.11 9.18 9.18 9.18c5.3 0 8.82-3.73 8.82-8.98 0-.6-.07-1.06-.15-1.52h-8.67z"/></svg>';
+  slides.forEach((s,i)=>{
+    s.querySelector('.stars').innerHTML=star.repeat(5);
+    const g=s.querySelector('.at .g'); if(g) g.insertAdjacentHTML('afterbegin',GMARK);
+    const dot=document.createElement('i'); if(!i) dot.className='on';
+    dot.addEventListener('click',()=>show(i)); dots.appendChild(dot);
+  });
+  /* Measure each slide at its natural content height. The slides are absolutely
+     positioned with inset:0, so their scrollHeight is the STAGE's height, not their
+     own — measuring that and feeding it back grows the stage on every call. Drop the
+     floor first, then take each slide out of absolute flow just long enough to read it. */
+  function fit(){
+    stage.style.minHeight='0';
+    let h=0;
+    slides.forEach(s=>{
+      const p=s.style.position; s.style.position='relative';
+      h=Math.max(h,s.offsetHeight);
+      s.style.position=p;
+    });
+    stage.style.minHeight=h+'px';
+  }
+  fit(); addEventListener('resize',fit);
+  let cur=0, timer=setInterval(()=>show((cur+1)%slides.length),6500);
+  function show(i){cur=i;
+    slides.forEach((s,j)=>s.classList.toggle('on',j===i));
+    dots.querySelectorAll('i').forEach((d,j)=>d.classList.toggle('on',j===i));
+    clearInterval(timer); timer=setInterval(()=>show((cur+1)%slides.length),6500);}
+})();
+</script>
 
 </body>
 </html>

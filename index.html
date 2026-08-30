@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="pepper.css?v=1787889575">
+<link rel="stylesheet" href="pepper.css?v=1788132496">
 </head>
 <body class="opt-a">
 
@@ -355,7 +355,19 @@ QUOTES.forEach(([q,a],i)=>{
   const dot=document.createElement('i'); if(!i)dot.className='on';
   dot.addEventListener('click',()=>show(i)); dots.appendChild(dot);
 });
-function fitStage(){let h=0; stage.querySelectorAll('.slide').forEach(sl=>h=Math.max(h,sl.scrollHeight)); stage.style.minHeight=(h+8)+'px';}
+/* Slides are absolutely positioned with inset:0, so scrollHeight reports the STAGE's
+   height, not the slide's own — feeding that back grew the stage 8px per resize.
+   Drop the floor, then read each slide briefly out of absolute flow. */
+function fitStage(){
+  stage.style.minHeight='0';
+  let h=0;
+  stage.querySelectorAll('.slide').forEach(sl=>{
+    const p=sl.style.position; sl.style.position='relative';
+    h=Math.max(h,sl.offsetHeight);
+    sl.style.position=p;
+  });
+  stage.style.minHeight=h+'px';
+}
 fitStage(); addEventListener('resize',fitStage);
 let cur=0, timer=setInterval(()=>show((cur+1)%QUOTES.length),6500);
 function show(i){cur=i;
