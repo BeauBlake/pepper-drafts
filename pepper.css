@@ -544,3 +544,26 @@ a[href="#"]{cursor:default}
 .faq .q p{margin-top:13px;color:var(--body);font-size:15.5px;max-width:48ch}
 .faq .more{margin-top:52px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
 @media(max-width:900px){.faq{padding-block:76px}.faq .list{grid-template-columns:1fr;gap:0}}
+
+/* ---- "The difference" — the page's one sustained prose argument, added 31 Aug.
+   Replaces the old "Why Pepper" 01–04 grid. Deliberately NOT a list: the page
+   already runs six list-shaped blocks, and this is the only place the reader
+   gets an argument instead of features. Keep the 58ch measure — it's the
+   parity-baked value used everywhere else.
+   NOTE: the opening paragraph's class is `opening`, NOT `lead` — `.lead` is
+   already taken by the blog's full-bleed lead story, which sets a flex layout
+   and height:clamp(460px,72vh,760px). Reusing it here forced a 25-word
+   paragraph to render 585px tall. ---- */
+.argue .copy{margin-top:30px}
+.argue .copy p.opening{font-size:clamp(1.05rem,1.7vw,1.32rem);line-height:1.5;
+  font-weight:600;color:#E4E5E1;max-width:50ch}
+/* Image column stretches to the prose height rather than sitting at a fixed 4/3
+   crop — the copy here is long, and a centred short image left a dead gap. */
+.argue.duo{align-items:stretch}
+.argue.duo img{height:100%;aspect-ratio:auto;object-fit:cover;min-height:340px}
+
+/* ---- Closer, narrowed 31 Aug. Its image moved up into "The difference".
+   The narrowing is on an inner block, NOT on .w — keeping .w at 1300 holds the
+   left edge on the same grid line as every other section. Narrowing .w itself
+   would centre the whole block and knock it off that line. ---- */
+.closer .narrow{max-width:620px}
