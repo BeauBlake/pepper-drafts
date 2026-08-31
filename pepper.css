@@ -617,3 +617,32 @@ a[href="#"]{cursor:default}
 .bar nav .menu a:hover{background:var(--paper)}
 .bar nav .menu a.on{color:var(--decal)}
 @media(max-width:900px){.bar nav .menu{display:none!important}}
+
+/* ---- Masonry gallery + video slots, added 31 Aug -------------------------
+   Beau: the rebuilds were "too photo and video light" — the live pages run a
+   video banner, a showreel, inline photos and a masonry gallery of ~15, where
+   the first pass had three tiles and no video at all.
+
+   Masonry is CSS columns, not grid: it keeps the natural aspect of every frame
+   (portrait headshots beside landscape drone shots) without cropping them to a
+   uniform tile. break-inside:avoid stops a photo splitting across a column.
+   Elementor: this is the UAE Image Gallery widget — masonry, 3 columns,
+   lightbox — the same one used on the HQPlantations case study. Not custom
+   code, so anyone can edit it without Beau. ------------------------------- */
+.gal{margin-top:44px;columns:3;column-gap:14px}
+.gal a{display:block;break-inside:avoid;margin-bottom:14px;position:relative;overflow:hidden}
+.gal img{width:100%;height:auto;transition:transform .6s}
+.gal a:hover img{transform:scale(1.03)}
+.galnote{margin-top:26px;font-size:12.5px;color:var(--decal)}
+@media(max-width:1000px){.gal{columns:2}}
+@media(max-width:620px){.gal{columns:1}}
+
+/* A video the page WILL carry but that doesn't exist yet. Beau: "any videos
+   embedded need to be at least shown that they will be embedded" — so the slot
+   is drawn at true 16:9 rather than quietly omitted, and says what it needs. */
+.reelembed .frame.slot{background:#0c0d0f;border:1px dashed #3a3d42;display:grid;place-items:center}
+.reelembed .frame.slot .m{text-align:center;padding:24px}
+.reelembed .frame.slot .m b{display:block;font-size:12px;letter-spacing:.28em;
+  text-transform:uppercase;color:var(--van)}
+.reelembed .frame.slot .m span{display:block;margin-top:12px;color:#8b8e93;font-size:14.5px;
+  max-width:44ch;line-height:1.6}

@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="pepper.css?v=1788136152">
+<link rel="stylesheet" href="pepper.css?v=1788137135">
 </head>
 <body class="opt-c">
 <!-- SITE CHROME: header template 1888. Placeholder only. -->
@@ -53,6 +53,21 @@
     </div>
   </div>
   <img src="https://pepperproductions.com.au/wp-content/uploads/frame_91142-cop-2y-scaled.webp" alt="Frame from a corporate film produced by Pepper">
+</div></section>
+
+<!-- ================= SHOWREEL — embedded player =========================
+     Mirrors build_services.py. The live corporate page already embeds this
+     edit; it was missing from the first pass of the redesign, which is what
+     made these pages read photo-and-video light.
+     Elementor: video widget, YouTube source, privacy mode, image overlay +
+     play icon. ======================================================== -->
+<section class="reelembed"><div class="w">
+  <span class="lbl">The showreel</span>
+  <h2>See the work <span class="van">move.</span></h2>
+  <div class="frame">
+    <iframe src="https://www.youtube.com/embed/rKm59TUCFv4?rel=0" title="Pepper Productions — corporate showreel" allow="fullscreen; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <div class="cap"><span>Pepper Productions — corporate showreel</span><span>Press play · sound on</span></div>
 </div></section>
 
 <!-- ================= HOW WE HELP ================= -->
@@ -157,6 +172,36 @@
     <a href="work.html"><img src="https://pepperproductions.com.au/wp-content/uploads/NHPE-375-scaled.jpg" alt="Corporate event coverage"><span class="cap">Event coverage</span></a>
     <a href="work.html"><img src="https://pepperproductions.com.au/wp-content/uploads/FSLA-235992.webp" alt="First Steps Learning Academy"><span class="cap">First Steps Learning Academy</span></a>
   </div>
+</div></section>
+
+<!-- ================= GALLERY — masonry ==================================
+     Mirrors build_services.py. CSS columns rather than a grid, so portrait and
+     landscape frames keep their real proportions instead of being cropped
+     square. Elementor: UAE Image Gallery — masonry, 3 columns, lightbox, the
+     same widget as the HQPlantations case study.
+     NOTE the live corporate page holds only ~10 usable photos, far fewer than
+     Business (34) or Product (42), so this set is topped up with corporate
+     clients whose images live on the Business page — Aurora, Mazda, Pacific
+     Blue, Spire. Worth a real corporate gallery shoot at some point.
+     [ tbc ] alt text comes from the media library, where these have none. -->
+<section class="sec paper"><div class="w">
+  <span class="lbl">The gallery</span>
+  <h2>More corporate <span class="van">work.</span></h2>
+  <div class="gal">
+    <a href="https://pepperproductions.com.au/wp-content/uploads/Aurora-158-scaled.jpg"><img src="https://pepperproductions.com.au/wp-content/uploads/Aurora-158-scaled.jpg" alt="Aurora" loading="lazy"></a>
+    <a href="https://pepperproductions.com.au/wp-content/uploads/Chilli-5761-civil-eng.jpeg"><img src="https://pepperproductions.com.au/wp-content/uploads/Chilli-5761-civil-eng.jpeg" alt="Civil engineering client" loading="lazy"></a>
+    <a href="https://pepperproductions.com.au/wp-content/uploads/PacificBlue-57.jpeg"><img src="https://pepperproductions.com.au/wp-content/uploads/PacificBlue-57.jpeg" alt="Pacific Blue" loading="lazy"></a>
+    <a href="https://pepperproductions.com.au/wp-content/uploads/Mazda-42.jpeg"><img src="https://pepperproductions.com.au/wp-content/uploads/Mazda-42.jpeg" alt="Mazda" loading="lazy"></a>
+    <a href="https://pepperproductions.com.au/wp-content/uploads/BB197969-copy.jpg"><img src="https://pepperproductions.com.au/wp-content/uploads/BB197969-copy.jpg" alt="Corporate photography" loading="lazy"></a>
+    <a href="https://pepperproductions.com.au/wp-content/uploads/Chilli-5786-copy.jpg"><img src="https://pepperproductions.com.au/wp-content/uploads/Chilli-5786-copy.jpg" alt="Team at work" loading="lazy"></a>
+    <a href="https://pepperproductions.com.au/wp-content/uploads/PacificBlue-6-copy.jpg"><img src="https://pepperproductions.com.au/wp-content/uploads/PacificBlue-6-copy.jpg" alt="Pacific Blue" loading="lazy"></a>
+    <a href="https://pepperproductions.com.au/wp-content/uploads/BB194578-copy.jpg"><img src="https://pepperproductions.com.au/wp-content/uploads/BB194578-copy.jpg" alt="Corporate photography" loading="lazy"></a>
+    <a href="https://pepperproductions.com.au/wp-content/uploads/Horizon-15.jpeg"><img src="https://pepperproductions.com.au/wp-content/uploads/Horizon-15.jpeg" alt="Horizon" loading="lazy"></a>
+    <a href="https://pepperproductions.com.au/wp-content/uploads/Daniel-McDonald-3-copy.jpg"><img src="https://pepperproductions.com.au/wp-content/uploads/Daniel-McDonald-3-copy.jpg" alt="Corporate portrait" loading="lazy"></a>
+    <a href="https://pepperproductions.com.au/wp-content/uploads/BB195682-copy.jpg"><img src="https://pepperproductions.com.au/wp-content/uploads/BB195682-copy.jpg" alt="Corporate photography" loading="lazy"></a>
+    <a href="https://pepperproductions.com.au/wp-content/uploads/Swimart147-copy.jpg"><img src="https://pepperproductions.com.au/wp-content/uploads/Swimart147-copy.jpg" alt="Swimart" loading="lazy"></a>
+  </div>
+  <p class="galnote">A selection from recent corporate shoots across the Sunshine Coast.</p>
 </div></section>
 
 <!-- ================= TESTIMONIALS — fix-list item 17 ==========================

@@ -545,6 +545,210 @@ PAGES = [
 ]
 
 
+# ---------------------------------------------------------------- media pass
+# Added 31 Aug after Beau: the first pass was "too photo and video light" —
+# the live pages run a video, inline photos and a gallery of ~15; the rebuilds
+# had three tiles and no video. Merged into PAGES in main().
+#
+# Video IDs are the real YouTube edits already embedded on the live page.
+# Pages with no ID have no video on the live site either — they get a drawn
+# 16:9 slot saying what is owed, rather than silently dropping the idea.
+# Gallery images are live media-library URLs, all verified 200, and exclude
+# whatever the page already uses as hero / why / difference / portfolio.
+G = lambda *names: [(UP + n, a) for n, a in names]
+
+EXTRA = {
+"business.html": {
+ "video": "azICrGNtRbE", "videoTitle": "Pepper Productions — business showreel",
+ "reelH2": ("See the work", "move."),
+ "galH2": ("More business", "work."),
+ "galNote": "A selection from recent business shoots across the Sunshine Coast.",
+ "gallery": G(("Chilli-5841.jpeg","Chilli agency team at work"),
+   ("BeauB7786-copy.jpg","Business portrait"),("DMF03-copy.jpg","Daniel Morcombe Foundation"),
+   ("RW-244-scaled.jpg","Brand shoot"),("BB197969-copy.jpg","Business photography"),
+   ("RW-115-scaled.jpg","Brand shoot"),("PacificBlue-57.jpeg","Pacific Blue"),
+   ("Aurora-BWlifted-129-scaled.jpg","Aurora"),("Chilli-5786-copy.jpg","Team at work"),
+   ("BB194578-copy.jpg","Business photography"),("Mazda-42.jpeg","Mazda"),
+   ("Aurora-158-scaled.jpg","Aurora"))},
+"product.html": {
+ "video": None,
+ "videoNeed": "The live product page carries no video at all — one of the reasons Darren "
+              "called it a boring page. An edit is owed here before launch.",
+ "reelH2": ("Product, in", "motion."),
+ "galH2": ("More product", "work."),
+ "galNote": "A selection from recent product shoots — studio and on location.",
+ "gallery": G(("2511-Pepper-website-images-1.jpg","Product photography"),
+   ("Get-Shit-Done-204.jpg","Get Shit Done"),("2S8A9393.jpg","Product detail"),
+   ("BB199121.jpg","Product photography"),("2S8A8593.jpg","Product detail"),
+   ("Get-Shit-Done-141.jpg","Get Shit Done"),("2S8A8801.jpg","Product detail"),
+   ("Wow-January-19-scaled.jpeg","WowWipes"),("Mullet-Mods-102.jpg","Mullet Mods"),
+   ("Daisies2-scaled.jpg","Product styling"),("Velectrix-149.jpeg","Velectrix"),
+   ("Set-Together-144.jpg","Set Together"),("Skygazer-106.jpg","Skygazer"),
+   ("Batch-353.jpg","Batch"))},
+"event.html": {
+ "video": None,
+ "videoNeed": "No event edit is embedded on the live page. A highlights film is the single "
+              "most useful thing this page could show — it is what sells next year's event.",
+ "reelH2": ("The room,", "on film."),
+ "galH2": ("More event", "work."),
+ "galNote": "Conferences, launches and community events across the Sunshine Coast.",
+ "gallery": G(("Musician.jpg","Live performance"),("NCVE122-scaled.jpg","Event coverage"),
+   ("BeauB-198118-scaled.jpeg","Event photography"),("NHPE-110-scaled.jpg","Conference"),
+   ("BeauB-9934-scaled.jpeg","Event coverage"),("NCVE-198-scaled.jpg","Event photography"),
+   ("NCVE-159-scaled.jpg","Event photography"),("NCVE-205-scaled.jpg","Event photography"),
+   ("BeauB-9948-scaled.jpeg","Event coverage"),("DMF04-copy-scaled.jpg","Daniel Morcombe Foundation"),
+   ("NHPE-104-copy-scaled.jpg","Conference"),("DMF02-copy-scaled.jpg","Daniel Morcombe Foundation"))},
+"headshots.html": {
+ "video": None,
+ "videoNeed": "No video on the live headshots page. A short behind-the-scenes cut of a team "
+              "session would do more to sell this than any still — it shows people how "
+              "painless it is.",
+ "reelH2": ("A session,", "start to finish."),
+ "galH2": ("More headshot", "work."),
+ "galNote": "Individual portraits and full team sets, shot on location.",
+ "gallery": G(("NCVEHS120.jpg","Professional headshot"),("Adapt-119.jpg","Adapt"),
+   ("Mantra-233154.jpg","Mantra"),("Vanessa.jpg","Professional headshot"),
+   ("DSF3129.jpg","Professional headshot"),("DSC09695.jpg","Professional headshot"),
+   ("BB192565.jpg","Professional headshot"),("BB196792.jpg","Professional headshot"),
+   ("BB199640.jpg","Professional headshot"),("DSF8005.jpg","Professional headshot"),
+   ("BB199343.jpg","Professional headshot"),("A23I0052-copy.jpg","Professional headshot"),
+   ("BB199437.jpg","Professional headshot"))},
+"education.html": {
+ "video": "aAdVDlBtf3E", "videoTitle": "Pepper Productions — education content",
+ "reelH2": ("Lessons,", "brought to life."),
+ "galH2": ("More education", "work."),
+ "galNote": "Classrooms, campuses and enrolment content for schools across the region.",
+ "gallery": G(("PLC-Year-5-19-scaled.jpeg","Pacific Lutheran College"),
+   ("School-Of-movement-e1547017051747.jpg","School of Movement"),
+   ("PLC-Prep-15-copy-scaled.jpg","Prep classroom"),
+   ("CCPS-Junior-Enrolments-38-1.jpg","Caloundra City Private School"),
+   ("PLC-Year-6-Bio-8-3.jpeg","Year 6 biology"),("Pelicans-Nest.jpg","Pelicans Nest"),
+   ("PLC-Year-6-Bio-3-copy-scaled-e1679874094807.jpg","Year 6 biology"),
+   ("BeauB8082-copy-scaled.jpg","Campus photography"),
+   ("CCPS-Junior-Enrolments-8-1.jpg","Junior enrolments"),
+   ("CCPS-Junior-Enrolments-11-e1547016760905.jpg","Junior enrolments"),
+   ("CCPS-hero2-e1547016767323.jpg","Campus"),
+   ("PLC-Year-5-46-copy-scaled.jpg","Year 5"),
+   ("PLC-Year-12-16-scaled.jpeg","Year 12"))},
+"adventure.html": {
+ "video": "P-3iopnwQvg", "videoTitle": "Pepper Productions — adventure filming",
+ "reelH2": ("Adventure,", "documented."),
+ "galH2": ("More outdoor", "work."),
+ "galNote": "Sunshine Coast to Fiji and everywhere in between.",
+ "gallery": G(("pepper-sa-road-trip.webp","South Australia road trip"),
+   ("pepper-cure-sailing.webp","Sailing with Cure"),("Cure-1419.webp","Cure"),
+   ("BeauB-1291.jpeg","On location"),("outdoor-and-action.webp","Outdoor and action videography"),
+   ("drone-filming.webp","Drone and aerial filming"),
+   ("cinematic-brand-storytelling.webp","Cinematic brand storytelling"),
+   ("social-media-content.webp","Social media content"),
+   ("tourism-filming.webp","Tourism filming"),("meet-beau-2.webp","Beau on location"),
+   ("RockyTrail-123_1.jpg","Rocky Trail"),("UnearthedRV-0150.jpg","Unearthed RV"),
+   ("KingFab-Kustoms-55.jpg","KingFab Kustoms"),
+   ("Push-The-Boundaries.jpg","Push the boundaries"))},
+}
+
+# --- Adventure: rebuilt from /adventure-filming-tmp/ ------------------------
+# Beau, 31 Aug: "can we make the adventure one a re-design of this page, it's
+# got much better content." It is — 1,148 words of specific, written-for-purpose
+# copy against the old page's vague 1,264, plus three real YouTube edits, its own
+# four-step process and a proper gear list. Everything below is that page's
+# content, trimmed; nothing carried over from adventure-outdoor-lifestyle except
+# a few gallery frames.
+# NOTE the tmp page is an unpublished draft ("Adventure Filming TEMP"). Confirm
+# with Darren which of the two adventure pages actually survives — this ties to
+# the open /drone-videographer/ question.
+EXTRA["adventure.html"].update({
+ "label": "Services · Adventure Filming",
+ "h1": ("Adventure filming", "Sunshine Coast."),
+ "hero": UP + "DJI_20230418143845_0069_D-Enhanced-NR.webp",
+ "heroAlt": "Aerial drone filming by Pepper Productions",
+ "stand": "Capturing picturesque content takes more than a camera. It takes timing, skill and "
+          "an understanding of how movement and nature work together.",
+ "rail": [("Deliverables", "Hero film · Social · Drone"),
+          ("Where we shoot", "Sunshine Coast to Fiji"),
+          ("Gear", "Gimbals · Waterproof · FPV drones"),
+          ("Turnaround", None)],
+ "whyH2": ("Adventure,", "documented."),
+ "why": ["Many businesses struggle to capture the thrill in a way that feels real. Fast "
+         "movement, shifting light and unpredictable conditions usually end in footage that "
+         "doesn't reflect the experience at all.",
+         "We film action with authenticity and attention to detail, working with outdoor "
+         "brands, tourism operators, athletes and creators who want to show real experiences "
+         "without having to plan or manage a fast-paced shoot themselves.",
+         "From coastal tracks and beaches to waterfalls, rainforest trails and mountain peaks, "
+         "we turn your experience into a visual story audiences remember — a hero brand video, "
+         "a social package, or an entire tourism campaign. We service the Sunshine Coast to "
+         "Fiji and everywhere in between."],
+ "whyImg": UP + "pepper-cure-sailing.webp",
+ "whyImgAlt": "Sailing content filmed by Pepper Productions",
+ "diffImg": UP + "meet-beau.webp",
+ "diffImgAlt": "Beau Blake, Pepper Productions",
+ "helpH2": ("Our adventure filming", "services."),
+ "cards": [("Outdoor and action videography",
+            "For outdoor brands, tourism operators, athletes and businesses wanting filming "
+            "that reflects real pace and energy."),
+           ("Drone and aerial filming",
+            "Wide, sweeping aerial visuals that show scale, location and movement — built for "
+            "tourism content and high-impact campaigns."),
+           ("Cinematic brand storytelling",
+            "Visual stories that support ads, websites, social campaigns and brand videos. "
+            "Clear, engaging and built for connection."),
+           ("Tourism filming",
+            "We work with kayak operators, hiking companies, guided tours, eco experiences and "
+            "retreats to create content that inspires travellers to book."),
+           ("Social media content",
+            "Short, engaging clips for Instagram, TikTok, YouTube Shorts and digital ads. Fast "
+            "to watch, designed for engagement."),
+           ("Professional gear",
+            "High-stability gimbals, waterproof cameras and both FPV and cinematic drones — so "
+            "the footage stays smooth and sharp in any environment.")],
+ # The tmp page's own four steps. Better than the generic set AND free of the
+ # step-3/step-4 duplication bug that is live on the other service pages.
+ "process": [("Creative planning",
+              "We learn about your goals, audience and brand message, then build a simple and "
+              "effective shoot plan.", False),
+             ("On location filming",
+              "We capture clean, powerful footage with professional gear designed for outdoor "
+              "action.", False),
+             ("Post production",
+              "Your footage is edited with colour grading, licensed music, sound design, "
+              "graphics, titles and optional social formats.", False),
+             ("Final delivery",
+              "Delivered in formats optimised for websites, social media, ads and broadcast "
+              "use.", False)],
+ "portH2": ("Recent outdoor", "work."),
+ "port": [(UP + "Cure-40.webp", "Cure"),
+          (UP + "pepper-obession-18.webp", "Obsession"),
+          (UP + "Mullet-Mods-102-2.jpg", "Mullet Mods")],
+ "diffNoun": "adventure filming",
+ "faqH2": ("Adventure filming,", "answered."),
+ "faq": [("Can you shoot in remote locations?",
+          "Yes — it's most of what we do. Our vans run solar, lithium and a 3000W inverter, so "
+          "a site with no power and no phone signal is a normal shoot day."),
+         ("Do you handle permits and access?",
+          "Yes. We manage timing, access, lighting and permits so you can concentrate on the "
+          "experience rather than the logistics."),
+         ("Do you know the locations?",
+          "Well. We work across Noosa, the Glass House Mountains, Mount Coolum and the "
+          "Hinterland constantly — local knowledge is the difference between arriving at the "
+          "right spot at the right hour and arriving an hour late."),
+         ("What gear do you bring?",
+          "High-stability gimbals, waterproof cameras, and both FPV and cinematic drones. The "
+          "kit is chosen for movement and weather, not for a studio."),
+         ("Do you fly drones commercially?",
+          tbc("Yes. Confirm current CASA licensing and insurance details before this "
+              "publishes.", "verify")),
+         ("What happens if the weather turns?",
+          "We plan for it. Outdoor work gets a weather window rather than a single date "
+          "wherever the schedule allows, and we'll tell you early if a day isn't worth "
+          "burning.")],
+ "closeH2": ("Ready to bring your next", "action video to life?"),
+ "close": "We make the whole process simple, from planning to delivery. Let's create adventure "
+          "content that attracts attention and does the job you need it to do.",
+ "workLink": "See recent outdoor work",
+})
+
+
 # --------------------------------------------------------------------- render
 def render(p, cssv):
     menu = "".join(
@@ -563,7 +767,7 @@ def render(p, cssv):
     flow = "\n    ".join(
         f'<div><div class="n">{i}</div><h3>{h}</h3>\n      <p>'
         f'{tbc(b) if flag else b}</p></div>'
-        for i, (h, b, flag) in enumerate(PROCESS, 1))
+        for i, (h, b, flag) in enumerate(p.get("process", PROCESS), 1))
     diff = "\n    ".join(
         f'<p{" class=\"opening\"" if c else ""}>{t.format(noun=p["diffNoun"])}</p>'
         for c, t in DIFFERENCE)
@@ -577,6 +781,25 @@ def render(p, cssv):
         f'      <p class="at"><span>— {Q[k][1]}</span>'
         f'<span class="g">Google review</span></p>\n    </div>'
         for i, k in enumerate(p["quotes"]))
+    yt = p.get("video")
+    if yt:
+        frame = (f'<div class="frame">\n'
+                 f'    <iframe src="https://www.youtube.com/embed/{yt}?rel=0" '
+                 f'title="{esc(p["videoTitle"])}" '
+                 f'allow="fullscreen; encrypted-media" allowfullscreen></iframe>\n  </div>')
+        cap = f'<div class="cap"><span>{esc(p["videoTitle"])}</span><span>Press play · sound on</span></div>'
+    else:
+        # Shown, not omitted — Beau: a video that will be embedded has to be
+        # visible as a real 16:9 slot so nobody forgets it is owed.
+        frame = ('<div class="frame slot"><div class="m">\n'
+                 '    <b>Video slot</b>\n'
+                 f'    <span>{esc(p["videoNeed"])}</span>\n'
+                 '  </div></div>')
+        cap = ('<div class="cap"><span>Reserved — 16:9 embed</span>'
+               '<span>Needs an edit before launch</span></div>')
+    gal = "\n    ".join(
+        f'<a href="{u}"><img src="{u}" alt="{esc(a)}" loading="lazy"></a>'
+        for u, a in p["gallery"])
     faq = "\n    ".join(
         f'<div class="q">\n      <h3>{q}</h3>\n      <p>{a}</p>\n    </div>'
         for q, a in p["faq"])
@@ -630,6 +853,21 @@ def render(p, cssv):
   <img src="{p['whyImg']}" alt="{esc(p['whyImgAlt'])}">
 </div></section>
 
+<!-- ================= SHOWREEL — embedded player =========================
+     Live service pages lead with video; the first pass of these rebuilds had
+     none, which is what made them read photo-and-video light. Where a real
+     YouTube edit exists on the live page it is embedded here. Where one does
+     not, the slot is still drawn at 16:9 and says what it needs, rather than
+     the page quietly pretending video was never part of it.
+     Elementor: video widget, YouTube source, privacy mode, image overlay +
+     play icon. ======================================================== -->
+<section class="reelembed"><div class="w">
+  <span class="lbl">The showreel</span>
+  <h2>{p['reelH2'][0]} <span class="van">{p['reelH2'][1]}</span></h2>
+  {frame}
+  {cap}
+</div></section>
+
 <!-- ================= HOW WE HELP ================= -->
 <section class="sec"><div class="w">
   <span class="lbl">How we help</span>
@@ -681,6 +919,24 @@ def render(p, cssv):
   <div class="mosaic">
     {port}
   </div>
+</div></section>
+
+<!-- ================= GALLERY — masonry ==================================
+     The live pages carry a gallery of roughly fifteen frames; the first pass
+     of these rebuilds had three tiles, which is the main reason they felt
+     thin. CSS columns rather than a grid, so portrait and landscape frames
+     keep their real proportions instead of being cropped square.
+     Elementor: UAE Image Gallery — masonry, 3 columns, lightbox. Same widget
+     as the HQPlantations case study.
+     [ tbc ] alt text comes from the media library, where these images
+     currently have none — see the alt-text task. ====================== -->
+<section class="sec paper"><div class="w">
+  <span class="lbl">The gallery</span>
+  <h2>{p['galH2'][0]} <span class="van">{p['galH2'][1]}</span></h2>
+  <div class="gal">
+    {gal}
+  </div>
+  <p class="galnote">{p['galNote']}</p>
 </div></section>
 
 <!-- ================= TESTIMONIALS — fix-list item 17 ==========================
@@ -796,6 +1052,7 @@ def main():
     m = re.search(r"pepper\.css\?v=(\d+)", (OUT / "corporate.html").read_text())
     cssv = m.group(1) if m else "1"
     for p in PAGES:
+        p = {**p, **EXTRA[p["file"]]}
         (OUT / p["file"]).write_text(render(p, cssv))
         print(f"  wrote {p['file']}")
     print(f"{len(PAGES)} service pages generated at css v={cssv}")
