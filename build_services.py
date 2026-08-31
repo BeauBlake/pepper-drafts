@@ -559,8 +559,13 @@ G = lambda *names: [(UP + n, a) for n, a in names]
 
 EXTRA = {
 "business.html": {
- "video": "azICrGNtRbE", "videoTitle": "Pepper Productions — business showreel",
- "reelH2": ("See the work", "move."),
+ # No video. The live business page embeds azICrGNtRbE — checked 31 Aug, its
+ # real title is "PEPPER | Corporate Showreel", i.e. the exact asset Darren
+ # asked to have taken off this page ("not very corporate"). It has been moved
+ # to corporate.html where it belongs. Business gets no showreel until a
+ # business-specific edit exists.
+ "video": None,
+ "reelH2": ("See the work", "move."), "reelLbl": "The showreel",
  "galH2": ("More business", "work."),
  "galNote": "A selection from recent business shoots across the Sunshine Coast.",
  "gallery": G(("Chilli-5841.jpeg","Chilli agency team at work"),
@@ -572,8 +577,6 @@ EXTRA = {
    ("Aurora-158-scaled.jpg","Aurora"))},
 "product.html": {
  "video": None,
- "videoNeed": "The live product page carries no video at all — one of the reasons Darren "
-              "called it a boring page. An edit is owed here before launch.",
  "reelH2": ("Product, in", "motion."),
  "galH2": ("More product", "work."),
  "galNote": "A selection from recent product shoots — studio and on location.",
@@ -587,8 +590,6 @@ EXTRA = {
    ("Batch-353.jpg","Batch"))},
 "event.html": {
  "video": None,
- "videoNeed": "No event edit is embedded on the live page. A highlights film is the single "
-              "most useful thing this page could show — it is what sells next year's event.",
  "reelH2": ("The room,", "on film."),
  "galH2": ("More event", "work."),
  "galNote": "Conferences, launches and community events across the Sunshine Coast.",
@@ -600,9 +601,6 @@ EXTRA = {
    ("NHPE-104-copy-scaled.jpg","Conference"),("DMF02-copy-scaled.jpg","Daniel Morcombe Foundation"))},
 "headshots.html": {
  "video": None,
- "videoNeed": "No video on the live headshots page. A short behind-the-scenes cut of a team "
-              "session would do more to sell this than any still — it shows people how "
-              "painless it is.",
  "reelH2": ("A session,", "start to finish."),
  "galH2": ("More headshot", "work."),
  "galNote": "Individual portraits and full team sets, shot on location.",
@@ -614,7 +612,9 @@ EXTRA = {
    ("BB199343.jpg","Professional headshot"),("A23I0052-copy.jpg","Professional headshot"),
    ("BB199437.jpg","Professional headshot"))},
 "education.html": {
- "video": "aAdVDlBtf3E", "videoTitle": "Pepper Productions — education content",
+ # Verified 31 Aug via oEmbed: real title "PEPPER | Education Showreel". Correct.
+ "video": "aAdVDlBtf3E", "videoTitle": "PEPPER | Education Showreel",
+ "reelLbl": "The showreel",
  "reelH2": ("Lessons,", "brought to life."),
  "galH2": ("More education", "work."),
  "galNote": "Classrooms, campuses and enrolment content for schools across the region.",
@@ -631,7 +631,13 @@ EXTRA = {
    ("PLC-Year-5-46-copy-scaled.jpg","Year 5"),
    ("PLC-Year-12-16-scaled.jpeg","Year 12"))},
 "adventure.html": {
- "video": "P-3iopnwQvg", "videoTitle": "Pepper Productions — adventure filming",
+ # Beau's catch, 31 Aug: P-3iopnwQvg is "Pepper Lifestyle Banner Tall" — a tall
+ # banner/background asset, not a showreel, so it was wrong for this slot.
+ # Swapped for a genuine adventure/tourism piece from the same page. The other
+ # option there is tYRnWoxC0s8 "Mullet Mods Hero Video" if Beau prefers it.
+ "video": "gAl9NpA9Law",
+ "videoTitle": "Namotu Island's Luxury Charter Boat, the Cobalt",
+ "reelLbl": "Recent film",
  "reelH2": ("Adventure,", "documented."),
  "galH2": ("More outdoor", "work."),
  "galNote": "Sunshine Coast to Fiji and everywhere in between.",
@@ -783,20 +789,30 @@ def render(p, cssv):
         for i, k in enumerate(p["quotes"]))
     yt = p.get("video")
     if yt:
-        frame = (f'<div class="frame">\n'
-                 f'    <iframe src="https://www.youtube.com/embed/{yt}?rel=0" '
-                 f'title="{esc(p["videoTitle"])}" '
-                 f'allow="fullscreen; encrypted-media" allowfullscreen></iframe>\n  </div>')
-        cap = f'<div class="cap"><span>{esc(p["videoTitle"])}</span><span>Press play · sound on</span></div>'
+        reel = f'''<!-- ================= SHOWREEL — embedded player =========================
+     Only rendered when the page has a real video that genuinely belongs here.
+     Video TITLES were checked via YouTube oEmbed on 31 Aug after Beau spotted
+     that Adventure had been given "Pepper Lifestyle Banner Tall" — a tall
+     banner/background asset, not a showreel. Never assume an ID found on a
+     page is the right piece for a showreel slot; check what it is called.
+     Elementor: video widget, YouTube source, privacy mode, image overlay +
+     play icon. ======================================================== -->
+<section class="reelembed"><div class="w">
+  <span class="lbl">{p["reelLbl"]}</span>
+  <h2>{p["reelH2"][0]} <span class="van">{p["reelH2"][1]}</span></h2>
+  <div class="frame">
+    <iframe src="https://www.youtube.com/embed/{yt}?rel=0" title="{esc(p["videoTitle"])}" allow="fullscreen; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <div class="cap"><span>{esc(p["videoTitle"])}</span><span>Press play · sound on</span></div>
+</div></section>
+
+'''
     else:
-        # Shown, not omitted — Beau: a video that will be embedded has to be
-        # visible as a real 16:9 slot so nobody forgets it is owed.
-        frame = ('<div class="frame slot"><div class="m">\n'
-                 '    <b>Video slot</b>\n'
-                 f'    <span>{esc(p["videoNeed"])}</span>\n'
-                 '  </div></div>')
-        cap = ('<div class="cap"><span>Reserved — 16:9 embed</span>'
-               '<span>Needs an edit before launch</span></div>')
+        # No section at all. Beau, 31 Aug: drop the placeholder for pages with
+        # nothing to put in it — "headshots can't have video, it's just not
+        # going to be a thing." A drawn empty slot on a page that will never
+        # carry video is clutter, not a reminder.
+        reel = ""
     gal = "\n    ".join(
         f'<a href="{u}"><img src="{u}" alt="{esc(a)}" loading="lazy"></a>'
         for u, a in p["gallery"])
@@ -853,22 +869,7 @@ def render(p, cssv):
   <img src="{p['whyImg']}" alt="{esc(p['whyImgAlt'])}">
 </div></section>
 
-<!-- ================= SHOWREEL — embedded player =========================
-     Live service pages lead with video; the first pass of these rebuilds had
-     none, which is what made them read photo-and-video light. Where a real
-     YouTube edit exists on the live page it is embedded here. Where one does
-     not, the slot is still drawn at 16:9 and says what it needs, rather than
-     the page quietly pretending video was never part of it.
-     Elementor: video widget, YouTube source, privacy mode, image overlay +
-     play icon. ======================================================== -->
-<section class="reelembed"><div class="w">
-  <span class="lbl">The showreel</span>
-  <h2>{p['reelH2'][0]} <span class="van">{p['reelH2'][1]}</span></h2>
-  {frame}
-  {cap}
-</div></section>
-
-<!-- ================= HOW WE HELP ================= -->
+{reel}<!-- ================= HOW WE HELP ================= -->
 <section class="sec"><div class="w">
   <span class="lbl">How we help</span>
   <h2>{p['helpH2'][0]} <span class="van">{p['helpH2'][1]}</span></h2>

@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="pepper.css?v=1788137135">
+<link rel="stylesheet" href="pepper.css?v=1788137537">
 </head>
 <body class="opt-c">
 <!-- SITE CHROME: header template 1888. Placeholder only. -->
@@ -56,18 +56,27 @@
 </div></section>
 
 <!-- ================= SHOWREEL — embedded player =========================
-     Mirrors build_services.py. The live corporate page already embeds this
-     edit; it was missing from the first pass of the redesign, which is what
-     made these pages read photo-and-video light.
+     Mirrors build_services.py. Video titles were checked via YouTube oEmbed on
+     31 Aug after Beau spotted a banner asset being used as a showreel — never
+     assume an ID found on a page is the right piece for this slot.
+     Two corrections came out of that check:
+       · The live CORPORATE page embeds rKm59TUCFv4, whose real title is
+         "B By Halcyon 2024 Update" — a single client update, not a showreel.
+       · The live BUSINESS page embeds azICrGNtRbE, whose real title is
+         "PEPPER | Corporate Showreel" — the actual corporate showreel, sitting
+         on the wrong page. It is also exactly the asset Darren asked to have
+         taken off Business ("replace the corporate showreel currently on it").
+     So it moves here, and Business ships without one until a business edit
+     exists. Frame is capped at 780px — Beau: make the video slot smaller.
      Elementor: video widget, YouTube source, privacy mode, image overlay +
      play icon. ======================================================== -->
 <section class="reelembed"><div class="w">
   <span class="lbl">The showreel</span>
   <h2>See the work <span class="van">move.</span></h2>
   <div class="frame">
-    <iframe src="https://www.youtube.com/embed/rKm59TUCFv4?rel=0" title="Pepper Productions — corporate showreel" allow="fullscreen; encrypted-media" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/azICrGNtRbE?rel=0" title="PEPPER | Corporate Showreel" allow="fullscreen; encrypted-media" allowfullscreen></iframe>
   </div>
-  <div class="cap"><span>Pepper Productions — corporate showreel</span><span>Press play · sound on</span></div>
+  <div class="cap"><span>PEPPER | Corporate Showreel</span><span>Press play · sound on</span></div>
 </div></section>
 
 <!-- ================= HOW WE HELP ================= -->
