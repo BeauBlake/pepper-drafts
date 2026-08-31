@@ -482,13 +482,21 @@ PAGES = [
 {
  "file": "headshots.html", "title": "Professional Headshots",
  "label": "Services · Headshots",
- # Darren: "Terrible header image." The live hero
- # (Pepper-professional-business-headshots-copy.webp) is deliberately NOT reused —
- # this is a proposed replacement from the 2025 website image set and needs his nod.
- "hero": UP + "2511-Pepper-website-images-3.jpg",
- "heroAlt": "Professional headshots by Pepper Productions",
- "heroNote": "PROPOSED REPLACEMENT — Darren called the live header image terrible. This is "
-             "from the 2025 website set; needs his approval or a better pick.",
+ # Darren: "Terrible header image." Beau, 1 Sept: "put that team shot in — the
+ # one in front of the house." That is Pepper-Headshots-example-team.jpeg: five
+ # people on a driveway in front of a white house. The individual headshot that
+ # used to be the banner moves down to Why invest, where it earns its place on a
+ # headshots page.
+ #
+ # ⚠ RESOLUTION: the team shot is only 640×427 and there is no larger version on
+ # the server (checked -scaled, -1536x1024 and -2048x1365 — all 404). The hero is
+ # a full-bleed band at clamp(520px,80vh,860px), so at 1440+ this will look soft.
+ # On a page selling image quality that is the wrong thing to be soft. The crop
+ # and composition are right — we need the full-res original from the shoot.
+ "hero": UP + "Pepper-Headshots-example-team.jpeg",
+ "heroAlt": "Pepper Productions team headshot session on location",
+ "heroNote": "IMAGE IS ONLY 640x427 — needs the full-res original before this ships. "
+             "Composition approved by Beau 1 Sept.",
  "h1": ("Professional headshots", "Sunshine Coast."),
  "stand": "Headshots that make your team look like the people clients want to deal with — "
           "consistent, credible and current.",
@@ -503,8 +511,8 @@ PAGES = [
          "We shoot individual portraits and full team sets that stay consistent across your "
          "website, LinkedIn and proposals — so a new starter's photo matches everyone "
          "else's."],
- "whyImg": UP + "Pepper-Headshots-example-team.jpeg",
- "whyImgAlt": "Team headshots by Pepper Productions",
+ "whyImg": UP + "2511-Pepper-website-images-3.jpg",
+ "whyImgAlt": "Professional headshot by Pepper Productions",
  "diffImg": UP + "Internal-2022-e1641515597742.jpeg",
  "diffImgAlt": "Pepper Productions headshot session on location",
  "helpH2": ("Our headshot", "services."),
