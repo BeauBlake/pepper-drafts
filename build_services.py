@@ -51,8 +51,8 @@ SERVICES = [("corporate.html", "Corporate Photo &amp; Video"),
             ("headshots.html", "Professional Headshots"),
             ("education.html", "Education Content")]
 REST = [("work.html", "Our Work"), ("about.html", "About"),
-        ("crew.html", "Your Crew"), ("blog.html", "The Blog"),
-        ("contact.html", "Contact")]
+        ("crew.html", "Your Crew"), ("vans.html", "The Pepper Van"),
+        ("blog.html", "The Blog"), ("contact.html", "Contact")]
 
 # The six real Google reviews from the homepage. Curated per page below so the
 # most relevant one leads — these are the only genuine reviews we have, so no

@@ -7,12 +7,22 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="pepper.css?v=1788137537">
+<link rel="stylesheet" href="pepper.css?v=1788137977">
 </head>
-<body class="opt-a">
+<!-- BANNER VERSION — Beau, 31 Aug: run version TWO for now, keep version one
+     so it can be flicked back.
+       · Version 2 (current) = class "opt-c"  — banner on top, type below.
+       · Version 1            = class "opt-a" — type over the banner.
+     To switch back: change opt-c to opt-a on the <body> tag below. Nothing
+     else needs touching — both banners are still in the markup and the CSS,
+     and the switcher bar below still works if you un-hide it. -->
+<body class="opt-c">
 
-<!-- version changer — mockup chrome only -->
-<div class="mockbar">
+<!-- Version changer — mockup chrome only. HIDDEN 31 Aug on Beau's call ("hide
+     the black bar at the top") now that version 2 is the chosen banner. The
+     markup stays so the comparison is one attribute away: delete style="display:none"
+     to bring the switcher back. -->
+<div class="mockbar" style="display:none">
   <span class="t">Draft v6 · Banner</span>
   <button data-opt="a" class="on">1 — Type over banner</button>
   <button data-opt="c">2 — Banner top, type below</button>
@@ -21,7 +31,7 @@
 <!-- SITE CHROME: header template 1888. Placeholder only. -->
 <div class="bar"><div class="w">
   <a class="logo" href="index.html"><img src="https://pepperproductions.com.au/wp-content/uploads/Pepper_logo_Mono-Rev-1024x437.png" alt="Pepper Productions"></a>
-  <nav><span class="drop"><a href="corporate.html">How We Help</a><span class="menu"><a href="corporate.html">Corporate Photo &amp; Video</a><a href="business.html">Business Photo &amp; Video</a><a href="product.html">Product Photography</a><a href="adventure.html">Adventure &amp; Outdoor</a><a href="event.html">Event Coverage</a><a href="headshots.html">Professional Headshots</a><a href="education.html">Education Content</a></span></span><a href="work.html">Our Work</a><a href="about.html">About</a><a href="crew.html">Your Crew</a><a href="blog.html">The Blog</a><a href="contact.html">Contact</a></nav>
+  <nav><span class="drop"><a href="corporate.html">How We Help</a><span class="menu"><a href="corporate.html">Corporate Photo &amp; Video</a><a href="business.html">Business Photo &amp; Video</a><a href="product.html">Product Photography</a><a href="adventure.html">Adventure &amp; Outdoor</a><a href="event.html">Event Coverage</a><a href="headshots.html">Professional Headshots</a><a href="education.html">Education Content</a></span></span><a href="work.html">Our Work</a><a href="about.html">About</a><a href="crew.html">Your Crew</a><a href="vans.html">The Pepper Van</a><a href="blog.html">The Blog</a><a href="contact.html">Contact</a></nav>
 </div></div>
 
 <!-- ================= HERO — Banner A / Banner B ==============================
@@ -80,25 +90,36 @@
 </div></div>
 
 
-<!-- showreel screening room — option 2 only. The white→paper bridge, in ink.
-     Elementor: ink container > [text col] | [video widget: youtube wTuWKk0w4ZA,
-     image overlay, play icon fab fa-youtube (standing rule), box-shadow frame]. -->
+<!-- screening room — option 2 only. The white→paper bridge, in ink.
+     CORRECTED 31 Aug. This section used to present wTuWKk0w4ZA as "The
+     showreel — two minutes of what we do", but that asset's real title is
+     "Pepper Productions Website Banner 2025 v3": it is the silent background
+     loop that already plays behind the hero at the top of this very page.
+     Featuring the page's own banner again, in a screening room, under a
+     "watch with sound" button, was wrong three ways over.
+     Now points at 5yY8V4UWRhw — "PEPPER | We Live to Tell Your Tale" — a real
+     brand film with sound, already approved and running on the live About
+     page. If Beau would rather this stayed a service showreel, the genuine
+     one is azICrGNtRbE ("PEPPER | Corporate Showreel"), now on corporate.html.
+     Elementor: ink container > [text col] | [video widget: youtube
+     5yY8V4UWRhw, image overlay, play icon fab fa-youtube (standing rule),
+     box-shadow frame]. -->
 <section class="reelsec"><div class="w grid">
   <div>
-    <span class="lbl">The showreel</span>
-    <p class="big">Two minutes of <span class="van">what we do.</span></p>
+    <span class="lbl">The film</span>
+    <p class="big">We live to tell <span class="van">your tale.</span></p>
     <p class="sub">Real shoots with real clients — forests, factories, beaches and boardrooms,
       all over the Sunshine Coast and beyond.</p>
     <!-- display copy — accuracy read [ tbc ] -->
-    <a class="btn" href="https://www.youtube.com/watch?v=wTuWKk0w4ZA" target="_blank" rel="noopener">▶&nbsp;&nbsp;Watch with sound</a>
+    <a class="btn" href="https://www.youtube.com/watch?v=5yY8V4UWRhw" target="_blank" rel="noopener">▶&nbsp;&nbsp;Watch with sound</a>
   </div>
   <div>
-    <a class="screen" href="https://www.youtube.com/watch?v=wTuWKk0w4ZA" target="_blank" rel="noopener">
+    <a class="screen" href="https://www.youtube.com/watch?v=5yY8V4UWRhw" target="_blank" rel="noopener">
       <img src="showreel-cover.jpg"
            alt="Pepper Productions crew filming an interview on location">
       <span class="play"><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></i></span>
     </a>
-    <div class="cap"><span>Pepper Productions — Showreel</span><span>YouTube ↗</span></div>
+    <div class="cap"><span>PEPPER — We Live to Tell Your Tale</span><span>YouTube ↗</span></div>
   </div>
 </div></section>
 
@@ -252,26 +273,39 @@
   </div>
 </div></section>
 
-<!-- ================= WHY CHOOSE ============================================== -->
+<!-- ================= WHY CHOOSE — now the van's spot on the homepage =========
+     Beau, 31 Aug: "More than just videographers" is the right section to carry
+     the van, and it wants a photo of one. Two things fixed at once:
+       · The four bullets here were Transparent communication / Professional
+         quality / Tailored service / Timely delivery — the SAME generic block
+         Darren rejected on the Event page and that we cut from all seven
+         service pages. It was still sitting on the homepage.
+       · /pepper-vans/ was orphaned. This is now a real link in to vans.html,
+         alongside the one on About.
+     What replaces the bullets is the one claim no Sunshine Coast competitor can
+     copy — in-house crew, an agency behind it, and the van — which is exactly
+     what "more than just videographers" is trying to say.
+     Elementor: container > [text col: heading + text-editor + button] |
+     [image widget]. ==================================================== -->
 <section class="why"><div class="w grid">
   <div>
     <span class="lbl">Why choose Pepper</span>
     <h2>More than just videographers</h2>
-    <p style="margin-top:26px;color:var(--body);max-width:58ch">We're your partners in
-      storytelling. Here's what sets us apart:</p>
-    <ul class="d">
-      <li><b>Transparent communication.</b> From start to finish, we keep things simple and
-        jargon-free, so you always know what to expect.</li>
-      <li><b>Professional quality.</b> Equipped with top-of-the-line video and lighting gear,
-        we deliver polished, premium content every time.</li>
-      <li><b>Tailored service.</b> We adapt our approach to match the tone, scale, and purpose
-        of your project.</li>
-      <li><b>Timely delivery.</b> We know deadlines matter. Our efficient post-production
-        process ensures you get your assets when you need them.</li>
-    </ul>
+    <p style="margin-top:26px;color:var(--body);max-width:58ch">Most production gets booked one
+      person at a time — a shooter here, an editor somewhere else. We run it in-house end to
+      end, we're backed by Chilli, the marketing agency that's been growing Sunshine Coast
+      businesses since 1993, and we bring our own production van.</p>
+    <p style="margin-top:20px;color:var(--body);max-width:58ch">The Pepper Van is a 4X4
+      running solar, lithium, shore power and a 3000W inverter. A factory floor, a plantation
+      track or a beach at first light works as easily as a boardroom — and it keeps the kit in
+      condition, the footage reviewable on the spot, and the coffee coming.</p>
+    <p style="margin-top:34px">
+      <a class="btn" href="vans.html">Meet the Pepper Van</a>
+      <a class="btn g" href="about.html">About us</a>
+    </p>
   </div>
-  <img src="https://pepperproductions.com.au/wp-content/uploads/BB1_0948.webp"
-       alt="Pepper crew member in high-vis setting up on a forestry site">
+  <img src="https://pepperproductions.com.au/wp-content/uploads/Van198-scaled.jpg"
+       alt="The Pepper Van, Pepper Productions' 4X4 off-grid production vehicle">
 </div></section>
 
 
