@@ -33,22 +33,35 @@
   var KEY = "pepper-review-v1";
   var MAILTO = "bblake@pepperproductions.com.au";
 
-  /* ---------------------------------------------------------------------
-     ENDPOINT — paste a form-backend URL here and every note posts itself
-     the moment it is written, so Beau sees them without Darren having to
-     remember to send anything. Leave empty and the page falls back to
-     Copy all / Email to Beau.
+  /* =====================================================================
+     LIVE SYNC — where Darren's notes go
+     ---------------------------------------------------------------------
+     Beau, 31 Aug: "I want him to be able to look over this in his own time
+     and make required comments and not have to send them to me."
 
-     WHY NOT STRAIGHT TO GITHUB: this site is static hosting. A page can
-     only write to a GitHub repo by carrying a token, and a token in a
-     public repo is a public token — GitHub's secret scanning finds and
-     revokes it within minutes, so it would break as fast as it shipped.
-     A form backend (Web3Forms, Formspree, Basin — all free, Darren needs
-     no account) is the smallest thing that actually works. Once notes are
-     arriving, committing them into the repo is a job for this end, not
-     for Darren's browser.
-     --------------------------------------------------------------------- */
-  var ENDPOINT = "";
+     Paste an endpoint below and every note posts itself the moment it is
+     written. Darren does nothing; Beau watches them arrive.
+
+     MODE "appsscript"  (recommended — see apps-script.gs in this folder)
+       A Google Apps Script web app bound to a Sheet Beau owns. No third
+       party, no submission cap, no account for Darren, and the Sheet
+       updates live. Posts go as text/plain on purpose: an application/json
+       body triggers a CORS preflight that Apps Script does not answer, and
+       the request dies before it arrives. text/plain is a "simple request",
+       so no preflight happens. This is the single most common reason an
+       Apps Script endpoint appears to silently fail.
+
+     MODE "json"  (Web3Forms / Formspree / Basin)
+       Standard JSON POST. Easier signup, but the free tiers cap monthly
+       submissions and a thorough review can produce a lot of notes.
+
+     WHY NOT GITHUB DIRECTLY: this is static hosting, so writing to the repo
+     would mean shipping a token in a public file. GitHub's secret scanning
+     revokes those within minutes, so it would break as fast as it shipped.
+     ===================================================================== */
+  var ENDPOINT = "";              // <— paste the web app / form URL here
+  var ENDPOINT_MODE = "appsscript";   // "appsscript" | "json"
+
   var page = location.pathname.split("/").pop() || "index.html";
 
   /* ---------- storage ------------------------------------------------- */
@@ -62,27 +75,50 @@
   }
   function notes() { return (loadAll()[page] || []); }
 
-  /* Fire-and-forget post of a single note. Never blocks the reviewer, never
-     shows an error mid-flow — if it fails the note is still in localStorage
-     and the Copy/Email fallback still works. */
-  function push(note) {
-    if (!ENDPOINT) { markUnsent(); return; }
-    try {
-      fetch(ENDPOINT, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          page: page, note: note.text, where: note.sel,
-          at: note.ts, site: location.href
-        })
-      }).then(function (r) {
-        if (r.ok) { markSent(); } else { markUnsent(); }
-      }, markUnsent);
-    } catch (e) { markUnsent(); }
+  /* Outbound queue. A note is written to localStorage first and only cleared
+     from the queue once the server has taken it, so a dropped connection, a
+     closed laptop or a sleeping endpoint costs nothing — the next page load
+     flushes whatever is still pending. Without this, "it sends automatically"
+     quietly becomes "it sent, except the ones that didn't". */
+  var QKEY = "pepper-review-queue-v1";
+  function queue() {
+    try { return JSON.parse(localStorage.getItem(QKEY)) || []; } catch (e) { return []; }
   }
-  var sentState = null;
-  function markSent() { sentState = true; renderPanel(); }
-  function markUnsent() { sentState = false; renderPanel(); }
+  function setQueue(q) {
+    try { localStorage.setItem(QKEY, JSON.stringify(q)); } catch (e) {}
+  }
+  function push(note) {
+    if (!ENDPOINT) { renderPanel(); return; }
+    var q = queue();
+    q.push({ page: page, kind: note.kind || "pin", note: note.text,
+             before: note.before || "", after: note.after || "",
+             where: note.sel, at: note.ts, site: location.href });
+    setQueue(q);
+    flush();
+  }
+  var flushing = false, sentState = null;
+  function flush() {
+    if (!ENDPOINT || flushing) return;
+    var q = queue();
+    if (!q.length) { sentState = true; renderPanel(); return; }
+    flushing = true;
+    var item = q[0];
+    var opts = ENDPOINT_MODE === "appsscript"
+      ? { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" },
+          body: JSON.stringify(item) }
+      : { method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(item) };
+    fetch(ENDPOINT, opts).then(function (r) {
+      flushing = false;
+      if (r.ok) {
+        var cur = queue(); cur.shift(); setQueue(cur);
+        sentState = true; renderPanel();
+        if (cur.length) flush();
+      } else { sentState = false; renderPanel(); }
+    }, function () { flushing = false; sentState = false; renderPanel(); });
+  }
+  function pending() { return queue().length; }
+
   function setNotes(list) { var d = loadAll(); d[page] = list; saveAll(d); }
   function totalAll() {
     var d = loadAll(), n = 0;
@@ -241,11 +277,11 @@
       list.length + " on this page · " + t + " in total";
     var note = panel.querySelector(".pr-note");
     if (note) {
-      if (ENDPOINT && sentState === true) {
-        note.textContent = "Saved and sent to Beau automatically.";
+      if (ENDPOINT && pending() === 0 && t) {
+        note.textContent = "✓ Sent to Beau automatically — nothing for you to do.";
         note.style.color = "#3F6B5E";
-      } else if (ENDPOINT && sentState === false) {
-        note.textContent = "Couldn't reach the server — your notes are still saved here. Use Copy all before you finish.";
+      } else if (ENDPOINT && pending() > 0) {
+        note.textContent = pending() + " note(s) still to send. They'll go automatically when the connection is back — leave the tab open a moment.";
         note.style.color = "#8C4A32";
       } else if (t) {
         note.textContent = "⚠ These " + t + " notes are saved in THIS browser only. Beau cannot see them until you hit Copy all or Email to Beau.";
@@ -461,7 +497,7 @@
     /* Losing an hour of Darren's feedback silently is the worst outcome here,
        so warn on the way out whenever anything is unsent. */
     window.addEventListener("beforeunload", function (e) {
-      if (!ENDPOINT && totalAll() > 0) {
+      if ((!ENDPOINT && totalAll() > 0) || (ENDPOINT && pending() > 0)) {
         e.preventDefault();
         e.returnValue = "";
         return "";
@@ -470,7 +506,8 @@
 
     document.addEventListener("click", onClick, true);
     window.addEventListener("resize", render);
-    window.addEventListener("load", render);
+    window.addEventListener("load", function () { render(); flush(); });
+    window.addEventListener("online", flush);
     render();
   }
 

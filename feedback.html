@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Pepper draft — Darren's feedback</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="pepper.css?v=1788144761">
+<style>
+/* Dashboard chrome — this page is a tool, not part of the site design. */
+.fb{max-width:1080px;margin-inline:auto;padding:52px 28px 90px}
+.fb h1{font-size:clamp(1.8rem,3.4vw,2.6rem);letter-spacing:-.03em;margin:12px 0 0}
+.fb .sub{margin-top:16px;color:var(--body);max-width:62ch;line-height:1.6}
+.fb .bar{margin-top:28px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.fb .stat{border:1px solid var(--hair);padding:9px 15px;font-size:12.5px}
+.fb button{font-family:var(--font);font-size:11.5px;font-weight:700;letter-spacing:.16em;
+  text-transform:uppercase;padding:11px 18px;background:var(--ink);color:#fff;border:0;cursor:pointer}
+.fb button.g{background:transparent;color:var(--ink);border:1px solid var(--hair)}
+.grp{margin-top:38px;border-top:1px solid var(--hair);padding-top:22px}
+.grp h2{font-size:1.05rem;letter-spacing:-.01em;margin:0 0 4px}
+.grp .n{font-size:11.5px;color:var(--decal);letter-spacing:.16em;text-transform:uppercase}
+.item{display:flex;gap:14px;padding:15px 0;border-bottom:1px solid var(--hair)}
+.dot{flex:0 0 auto;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;
+  font-size:11px;font-weight:700;color:#fff;background:#C8102E;margin-top:2px}
+.dot.edit{background:#3F6B5E}
+.item .b{flex:1;min-width:0}
+.item .t{font-size:14.5px;line-height:1.55;color:var(--ink);word-break:break-word}
+.was{display:block;color:var(--decal);text-decoration:line-through;font-size:13px}
+.now{display:block;color:#1F3D33;font-weight:600;margin-top:3px;font-size:14.5px}
+.meta{margin-top:5px;font-size:11.5px;color:var(--decal)}
+.empty{margin-top:40px;padding:34px;border:1px dashed var(--hair);text-align:center;color:var(--body)}
+.setup{margin-top:34px;background:var(--paper);border:1px solid var(--hair);padding:26px 28px}
+.setup h3{margin:0 0 12px;font-size:1rem}
+.setup ol{margin:0;padding-left:20px;line-height:1.75;font-size:14.5px;color:var(--body)}
+.setup code{background:#fff;border:1px solid var(--hair);padding:1px 6px;font-size:13px}
+</style>
+</head>
+<body class="opt-c">
+<div class="bar"><div class="w">
+  <a class="logo" href="index.html"><img src="https://pepperproductions.com.au/wp-content/uploads/Pepper_logo_Mono-Rev-1024x437.png" alt="Pepper Productions"></a>
+  <nav><a href="index.html">Back to the draft site</a></nav>
+</div></div>
+
+<div class="fb">
+  <span class="lbl">Draft site · review</span>
+  <h1>Darren's feedback</h1>
+  <p class="sub">Every note and rewrite Darren leaves on the draft site lands here
+    automatically. He doesn't send anything and doesn't need an account — he just
+    browses the site with Review mode on.</p>
+
+  <div class="bar">
+    <button id="refresh">Refresh</button>
+    <button class="g" id="copy">Copy all</button>
+    <span class="stat" id="count">Loading…</span>
+    <span class="stat" id="when"></span>
+  </div>
+
+  <div id="out"></div>
+</div>
+
+<script>
+/* Reads back from the same Apps Script web app the site posts to. Keep this
+   URL identical to ENDPOINT in review.js — one place, one endpoint. */
+var ENDPOINT = "";
+
+var out = document.getElementById('out');
+var countEl = document.getElementById('count');
+var whenEl = document.getElementById('when');
+var all = [];
+
+function setup() {
+  out.innerHTML =
+    '<div class="setup"><h3>Not connected yet</h3><ol>' +
+    '<li>Open <code>sheets.new</code> and name it “Pepper site feedback”.</li>' +
+    '<li>Extensions → Apps Script, clear the editor, paste in <code>apps-script.gs</code> from the drafts folder, save.</li>' +
+    '<li>Deploy → New deployment → Web app. Execute as <b>Me</b>, access <b>Anyone</b>.</li>' +
+    '<li>Copy the <code>/exec</code> URL and send it to Beau — it goes into <code>ENDPOINT</code> ' +
+    'in <code>review.js</code> and at the top of this page.</li>' +
+    '</ol></div>';
+  countEl.textContent = 'Endpoint not set';
+}
+
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
+    return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+  });
+}
+
+function render() {
+  if (!all.length) {
+    out.innerHTML = '<div class="empty">No notes yet. They appear here as soon as Darren writes them.</div>';
+    countEl.textContent = '0 notes';
+    return;
+  }
+  var byPage = {};
+  all.forEach(function (n) { (byPage[n.page] = byPage[n.page] || []).push(n); });
+  var html = '';
+  Object.keys(byPage).sort().forEach(function (p) {
+    var list = byPage[p];
+    html += '<div class="grp"><div class="n">' + list.length + ' note' + (list.length > 1 ? 's' : '') +
+            '</div><h2>' + esc(p) + '</h2>';
+    list.forEach(function (n, i) {
+      var isEdit = n.kind === 'edit';
+      html += '<div class="item"><div class="dot' + (isEdit ? ' edit' : '') + '">' +
+              (isEdit ? '✎' : (i + 1)) + '</div><div class="b"><div class="t">';
+      html += isEdit
+        ? '<span class="was">' + esc(n.before) + '</span><span class="now">' + esc(n.after) + '</span>'
+        : esc(n.note);
+      html += '</div><div class="meta">' +
+              (n.at ? new Date(n.at).toLocaleString() : '') +
+              (n.site ? ' · <a href="' + esc(n.site) + '" target="_blank" rel="noopener">open the page</a>' : '') +
+              '</div></div></div>';
+    });
+    html += '</div>';
+  });
+  out.innerHTML = html;
+  countEl.textContent = all.length + ' note' + (all.length === 1 ? '' : 's') +
+    ' across ' + Object.keys(byPage).length + ' page' + (Object.keys(byPage).length === 1 ? '' : 's');
+}
+
+function load() {
+  if (!ENDPOINT) { setup(); return; }
+  countEl.textContent = 'Loading…';
+  fetch(ENDPOINT).then(function (r) { return r.json(); }).then(function (d) {
+    all = (d && d.notes) || [];
+    render();
+    whenEl.textContent = 'Updated ' + new Date().toLocaleTimeString();
+  }).catch(function () {
+    out.innerHTML = '<div class="empty">Could not reach the feedback endpoint. ' +
+      'Check the web app is deployed with access set to “Anyone”.</div>';
+    countEl.textContent = 'Connection failed';
+  });
+}
+
+document.getElementById('refresh').addEventListener('click', load);
+document.getElementById('copy').addEventListener('click', function () {
+  if (!all.length) return;
+  var byPage = {};
+  all.forEach(function (n) { (byPage[n.page] = byPage[n.page] || []).push(n); });
+  var lines = ['PEPPER DRAFT SITE — DARREN\'S FEEDBACK', new Date().toLocaleString(), ''];
+  Object.keys(byPage).sort().forEach(function (p) {
+    lines.push('── ' + p + ' ──');
+    byPage[p].forEach(function (n, i) {
+      if (n.kind === 'edit') {
+        lines.push('   WAS: ' + n.before);
+        lines.push('   NOW: ' + n.after);
+      } else { lines.push((i + 1) + '. ' + n.note); }
+    });
+    lines.push('');
+  });
+  navigator.clipboard.writeText(lines.join('\n'));
+  this.textContent = 'Copied';
+  setTimeout(function () { document.getElementById('copy').textContent = 'Copy all'; }, 1500);
+});
+
+load();
+if (ENDPOINT) setInterval(load, 60000);   // live-ish without hammering the script
+</script>
+</body>
+</html>
