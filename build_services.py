@@ -50,9 +50,13 @@ SERVICES = [("corporate.html", "Corporate Photo &amp; Video"),
             ("event.html", "Event Coverage"),
             ("headshots.html", "Professional Headshots"),
             ("education.html", "Education Content")]
-REST = [("work.html", "Our Work"), ("about.html", "About"),
-        ("crew.html", "Your Crew"), ("vans.html", "The Pepper Van"),
-        ("blog.html", "The Blog"), ("contact.html", "Contact")]
+# About is a dropdown too (Beau, 31 Aug): the van sits under About rather than
+# taking a top-level slot. Kept in sync with the hand-written pages by nav2.py —
+# if you change one, change both.
+ABOUT = [("about.html", "About Pepper"), ("vans.html", "The Pepper Van")]
+REST_A = [("work.html", "Our Work")]
+REST_B = [("crew.html", "Your Crew"), ("blog.html", "The Blog"),
+          ("contact.html", "Contact")]
 
 # The six real Google reviews from the homepage. Curated per page below so the
 # most relevant one leads — these are the only genuine reviews we have, so no
@@ -760,9 +764,15 @@ def render(p, cssv):
     menu = "".join(
         f'<a href="{h}"{" class=\"on\"" if h == p["file"] else ""}>{t}</a>'
         for h, t in SERVICES)
-    rest = "".join(f'<a href="{h}">{t}</a>' for h, t in REST)
+    about = "".join(
+        f'<a href="{h}"{" class=\"on\"" if h == p["file"] else ""}>{t}</a>'
+        for h, t in ABOUT)
+    ra = "".join(f'<a href="{h}">{t}</a>' for h, t in REST_A)
+    rb = "".join(f'<a href="{h}">{t}</a>' for h, t in REST_B)
     nav = (f'<span class="drop"><a href="corporate.html">How We Help</a>'
-           f'<span class="menu">{menu}</span></span>{rest}')
+           f'<span class="menu">{menu}</span></span>{ra}'
+           f'<span class="drop"><a href="about.html">About</a>'
+           f'<span class="menu">{about}</span></span>{rb}')
     rail = "".join(
         f'<div class="it"><div class="k">{k}</div><div class="v">'
         f'{v if v else "<span class=\'tbc\'>confirm</span>"}</div></div>'
