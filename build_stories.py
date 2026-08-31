@@ -295,6 +295,8 @@ def render(slug, data):
 </div></div>
 <div class="legal">© Copyright Pepper Productions 2026. <a href="#">Privacy Policy</a>.</div>
 
+<!-- Review mode — draft only, not part of the site build. See review.js -->
+<script src="review.js"></script>
 </body>
 </html>
 '''

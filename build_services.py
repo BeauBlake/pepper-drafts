@@ -1054,6 +1054,8 @@ def render(p, cssv):
 }})();
 </script>
 
+<!-- Review mode — draft only, not part of the site build. See review.js -->
+<script src="review.js"></script>
 </body>
 </html>
 """
