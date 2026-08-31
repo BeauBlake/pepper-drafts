@@ -14,6 +14,13 @@
    ============================================================ */
 :root{
   --van:#C3C4C0; --van-lt:#E4E5E1; --paper:#F3F3F0; --glass:#16171A;
+  /* Second half of a two-tone display heading. --van is correct on the dark
+     sections (10.2:1 on ink) but it is only 1.4–1.8:1 on white/paper/dust, which
+     is what "light grey on lighter grey looks funky" actually is. --van-mid is
+     the lightest value in the same grey family that clears 3:1 on all three
+     light grounds (4.00 white / 3.59 paper / 3.16 dust) — still clearly the
+     quieter half of the pair, but legible. Use --van on dark, --van-mid on light. */
+  --van-mid:#7E807A;
   --ink:#0F1012; --ink-2:#33353A; --body:#55575C; --decal:#9FA09C;
   --hair:#D3D4CF; --tbc:#6B6D71; --accent:var(--ink);
   --font:'Montserrat',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;
@@ -111,7 +118,7 @@ body.opt-c .heroC{display:block}
    Builder display conditions on template 1888's sibling. */
 .bar{background:#fff;color:var(--ink);border-bottom:1px solid var(--hair)}
 .bar nav a{color:var(--ink)}
-.heroC h1 .van{color:var(--van)}
+.heroC h1 .van{color:var(--van-mid)}
 .heroC .row{margin-top:38px}   /* buttons sit UNDER the standfirst, not beside it */
 .heroC .stand{font-size:clamp(1.02rem,1.5vw,1.25rem);line-height:1.55;color:var(--ink-2);max-width:48ch}
 .heroC .ctas{margin-top:34px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
@@ -140,7 +147,7 @@ body.opt-c .heroC{display:block}
 .proof .grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:72px;align-items:center}
 .proof .big{font-size:clamp(2.2rem,5.4vw,4.6rem);line-height:.96;letter-spacing:-.045em;
   text-transform:uppercase;font-weight:700;max-width:16ch}
-.proof .big .van{color:var(--van)}
+.proof .big .van{color:var(--van-mid)}
 .proof .copy{color:var(--body);max-width:48ch}
 @media(max-width:1000px){.proof .grid{grid-template-columns:1fr;gap:34px}}
 .proof .who{margin-top:72px;border-top:1px solid var(--hair);padding-top:26px}
@@ -157,7 +164,7 @@ body.opt-c .heroC{display:block}
 .svc .rail{position:sticky;top:110px}
 .svc .rail h2{margin-top:22px;font-size:clamp(2.2rem,4.6vw,3.8rem);line-height:.94;
   letter-spacing:-.045em;text-transform:uppercase}
-.svc .rail h2 .van{color:var(--van)}
+.svc .rail h2 .van{color:var(--van-mid)}
 .svc .rail p{margin-top:26px;color:var(--body);max-width:38ch}
 .svc .rail .btn{margin-top:36px}
 .svc .item{border-top:2px solid var(--ink);padding:30px 0 40px}
@@ -245,7 +252,7 @@ ul.d b{color:var(--ink);font-weight:600}
 .cta{padding-block:130px}
 .cta .big{font-size:clamp(2.2rem,5.6vw,4.8rem);line-height:.94;letter-spacing:-.045em;
   text-transform:uppercase;font-weight:700;max-width:16ch}
-.cta .big .van{color:var(--van)}
+.cta .big .van{color:var(--van-mid)}
 .cta p{margin-top:30px;color:var(--body);max-width:58ch}
 
 /* ---- footer replica (template 1901 content parity) ---- */
@@ -293,7 +300,7 @@ ul.d b{color:var(--ink);font-weight:600}
 .pagehero .type{background:#fff;padding:64px 0 34px}
 .pagehero h1{margin-top:24px;font-size:clamp(2.2rem,5.6vw,4.6rem);line-height:.94;
   letter-spacing:-.045em;text-transform:uppercase;max-width:18ch}
-.pagehero h1 .van{color:var(--van)}
+.pagehero h1 .van{color:var(--van-mid)}
 .pagehero .stand{margin-top:32px;font-size:clamp(1.02rem,1.5vw,1.25rem);line-height:1.55;
   color:var(--ink-2);max-width:56ch}
 .pagehero .ctas{margin-top:36px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
@@ -320,7 +327,8 @@ ul.d b{color:var(--ink);font-weight:600}
 .sec h2{margin-top:22px;font-size:clamp(1.8rem,4vw,3rem);line-height:.98;
   letter-spacing:-.04em;text-transform:uppercase;max-width:18ch}
 .sec.ink h2{color:#fff;max-width:22ch}
-.sec h2 .van{color:var(--van)}
+.sec h2 .van{color:var(--van-mid)}
+.sec.ink h2 .van{color:var(--van)}   /* dark ground — the pale van is right here */
 .sec .copy{margin-top:26px;color:var(--body)}
 .sec.ink .copy{color:#A9ABAE}
 .sec .copy p{max-width:58ch}
@@ -395,9 +403,14 @@ a[href="#"]{cursor:default}
 .closer{background:var(--van-lt);border-top:1px solid var(--hair);padding-block:104px}
 .closer .grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);
   gap:72px;align-items:center}
+/* colour is explicit: .big is a <p>, so without it the later `.closer p` rule
+   painted this heading in --body grey (#55575C) while every other display
+   heading on the site is --ink. That's the two-tone inconsistency Beau spotted
+   — the first half of THIS pair was a different colour from all the others. */
 .closer .big{margin-top:22px;font-size:clamp(1.9rem,4.2vw,3.4rem);line-height:.98;
-  letter-spacing:-.04em;text-transform:uppercase;font-weight:700;max-width:15ch}
-.closer .big .van{color:var(--van)}
+  letter-spacing:-.04em;text-transform:uppercase;font-weight:700;max-width:15ch;
+  color:var(--ink)}
+.closer .big .van{color:var(--van-mid)}
 .closer p{margin-top:26px;color:var(--body);max-width:52ch}
 .closer .ctas{margin-top:38px;display:flex;gap:10px;flex-wrap:wrap}
 .closer .btn.g{margin-left:0}
@@ -552,7 +565,7 @@ a[href="#"]{cursor:default}
 .faq{background:var(--paper);padding-block:88px}
 .faq h2{margin-top:18px;font-size:clamp(1.9rem,4vw,3.2rem);line-height:1;
   letter-spacing:-.04em;text-transform:uppercase;max-width:20ch}
-.faq h2 .van{color:var(--van)}
+.faq h2 .van{color:var(--van-mid)}
 .faq .intro{margin-top:22px;color:var(--body);max-width:58ch}
 .faq .list{margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:0 72px}
 .faq .q{padding:24px 0;border-top:1px solid var(--hair)}
