@@ -77,24 +77,117 @@ Q = {
              "to embrace profile headshot day!", "Marketing HeartHQ"),
 }
 
-# "The difference" — identical on every page by design. It is the one argument
-# that is true of Pepper regardless of service, and it replaces the generic
-# "Why Choose" block Darren rejected on the Event page.
-DIFFERENCE = [
- ("opening", "Most {noun} gets booked one person at a time — a shooter here, an editor "
-             "somewhere else, and a client left holding it together."),
- ("", "We run the whole thing in-house, from the first planning conversation to the final "
-      "delivered file. There is no handover between a freelancer and a stranger, because there "
-      "is no handover — the people who plan your shoot are the people who turn up to it and the "
-      "people who cut it."),
- ("", "Behind that crew is Chilli, the Sunshine Coast marketing agency that has been growing "
-      "local businesses since 1993. It changes the first question we ask: not what you want the "
-      "work to look like, but what it has to achieve — where it runs, who it's aimed at, and "
-      "what it needs to shift. Strategy isn't a line item here, it's the building we work in."),
- ("", "And we bring our own production vans, fitted out with solar, lithium and a 3000W "
-      "inverter. A factory floor, a plantation access track or a construction site works as "
-      "easily as a boardroom — no scrambling for power, no half-day lost to logistics."),
-]
+# "The difference" — REWRITTEN 1 Sept.
+#
+# Beau: use the terminology from the market audit we did for Darren, drop the
+# van, and tailor it per service page — the heading doesn't have to match
+# across pages.
+#
+# The audit (Projects/Pepper Marketing.md) recommended claiming two
+# territories, and this block is Territory 1 on every page:
+#
+#   1. "The agency-backed content partner" — the Chilli advantage.
+#      Structurally impossible for any competitor to copy; every one of them is
+#      a production house with no marketing engine.
+#   2. "Adventure, outdoor and sport" — the vans, the surf clubs, SLSQ.
+#
+# The brief attached to Territory 1 is specifically "more on WHY being
+# agency-backed matters to the client" — so none of these say "we're backed by
+# an agency" and stop. Each one says what that buys the reader on this
+# particular service.
+#
+# The van paragraph is gone from all of them (Beau's call). The van still has
+# its own page and its own link from Home and About.
+DIFFERENCE = {
+ "corporate.html": {
+   "lbl": "The difference",
+   "h": ("Backed by an agency,", "not just a camera."),
+   "p": [("opening", "Every other production company on the Coast is a production "
+                     "company. That is the whole business."),
+         ("", "Pepper is the content arm of Chilli, the Sunshine Coast marketing "
+              "agency that has been growing local businesses since 1993. The "
+              "practical difference is the first question we ask: not what you "
+              "want the film to look like, but what it has to achieve — who it's "
+              "aimed at, where it runs, and what it needs to shift."),
+         ("", "That means strategists and marketers in the room at the planning "
+              "stage, not just camera operators on the day. You get a corporate "
+              "film built against an objective, and a team who can tell you when "
+              "the thing you asked for isn't the thing that will work.")]},
+ "business.html": {
+   "lbl": "The difference",
+   "h": ("A marketing team", "you don't have to hire."),
+   "p": [("opening", "Most businesses booking video are buying a camera operator "
+                     "and hoping the rest works itself out."),
+         ("", "Pepper is the content arm of Chilli, a marketing agency that has "
+              "been growing Sunshine Coast businesses since 1993. So the shoot is "
+              "planned by people who think about where the content runs, who it "
+              "has to reach, and what it needs to do for the business."),
+         ("", "For a business without a marketing department, that is the whole "
+              "point: you get the strategy that normally has to be bought "
+              "separately, included in the people who turn up to film.")]},
+ "product.html": {
+   "lbl": "The difference",
+   "h": ("Product content built", "to sell, not just to look good."),
+   "p": [("opening", "A beautiful product photo that doesn't suit the channel it "
+                     "runs on is an expensive picture."),
+         ("", "Pepper is the content arm of Chilli, a marketing agency that has "
+              "been running campaigns for Sunshine Coast businesses since 1993 — "
+              "so we start from where the images are going. A product listing, a "
+              "paid ad and a social feed all want different framing, different "
+              "crops and different amounts of context."),
+         ("", "We plan the shoot around that, which is why one day on set usually "
+              "produces a set that works everywhere rather than one hero shot and "
+              "a pile of near-misses.")]},
+ "adventure.html": {
+   "lbl": "The difference",
+   "h": ("Outdoor specialists,", "with an agency behind them."),
+   "p": [("opening", "Adventure content usually comes from one of two places: a "
+                     "specialist who can shoot it, or an agency who can plan it. "
+                     "Rarely both."),
+         ("", "Adventure, outdoor and sport is the work we are known for — the "
+              "surf clubs, the trails, the water, the vans that get us there. It "
+              "is a genuine specialism, not a service line we added."),
+         ("", "And behind it is Chilli, the marketing agency that has been growing "
+              "Sunshine Coast businesses since 1993. So the footage is shot by "
+              "people who ride the terrain, and planned by people who know what "
+              "the campaign has to do when it lands.")]},
+ "event.html": {
+   "lbl": "The difference",
+   "h": ("One day covered,", "a year of content."),
+   "p": [("opening", "Most event coverage is treated as a record of the day. It "
+                     "should be the cheapest content you buy all year."),
+         ("", "Pepper is the content arm of Chilli, a marketing agency that has "
+              "been growing Sunshine Coast businesses since 1993. We plan event "
+              "coverage around what happens afterwards — the recap, the highlights "
+              "cut, the social clips, and the material that sells next year's "
+              "event to the people who didn't come."),
+         ("", "That planning happens before the day, not when someone asks what "
+              "else we can do with the footage.")]},
+ "headshots.html": {
+   "lbl": "The difference",
+   "h": ("Consistent everywhere", "they'll be seen."),
+   "p": [("opening", "A headshot isn't one image. It's the same face on a website, "
+                     "a LinkedIn profile, a proposal and a conference slide."),
+         ("", "Pepper is the content arm of Chilli, a marketing agency that has "
+              "been building brands on the Sunshine Coast since 1993 — so we shoot "
+              "a team the way a brand needs them: one lighting setup, one "
+              "treatment, and a look that still matches when you add someone in "
+              "six months."),
+         ("", "It is the difference between a set of portraits and a team page "
+              "that looks like one company.")]},
+ "education.html": {
+   "lbl": "The difference",
+   "h": ("Enrolment content,", "not just nice footage."),
+   "p": [("opening", "Families choose a school long before they book a tour, and "
+                     "most of that decision happens on a screen."),
+         ("", "Pepper is the content arm of Chilli, a marketing agency that has "
+              "been growing Sunshine Coast organisations since 1993. So we plan "
+              "school content around the enrolment cycle and the questions "
+              "families actually ask, rather than filming a nice day on campus and "
+              "hoping it lands."),
+         ("", "Strategy, filming and delivery come from the same team, which "
+              "matters when the content has a deadline the intake won't move.")]},
+}
 
 # Process is shared and unchanged from corporate.html — with one correction.
 # NOTE: on the LIVE site, step 4 "Post-production" repeats step 3's sentence
@@ -140,7 +233,7 @@ PAGES = [
  "rail": [("Deliverables", "Brand films · Client stories · Stills"),
           ("Where it runs", "Web · Social · Sales"),
           ("Crew", "In-house, end-to-end"),
-          ("Turnaround", None)],
+          ("Backed by", "Chilli — since 1993")],
  "whyH2": ("Why invest in business photography &amp;", "videography?"),
  "why": ["Every business has a story to tell. The business you've built from the ground up "
          "deserves to be shown in a way that connects with your audience and creates demand "
@@ -164,10 +257,6 @@ PAGES = [
             "ad looks like the same company."),
            ("Social content", "Cut-downs built for the platforms where your audience already "
             "is.")],
- "portH2": ("Recent business", "work."),
- "port": [(UP + "RW-186-scaled.jpg", "Brand shoot"),
-          (UP + "Coolum-Accountants-25-copy.jpg", "Coolum Accountants"),
-          (UP + "NCVE-193-copy.jpg", "North Coast Vet Specialists")],
  "quotes": ["clint", "kane", "bruce", "kathy"],
  "diffNoun": "business video",
  "faqH2": ("Business video,", "answered."),
@@ -210,7 +299,7 @@ PAGES = [
  "rail": [("Deliverables", "Stills · Video · Packaging"),
           ("Where it runs", "E-commerce · Social · Retail"),
           ("Crew", "In-house, end-to-end"),
-          ("Turnaround", None)],
+          ("Backed by", "Chilli — since 1993")],
  "whyH2": ("Why product photography &amp;", "videography matters."),
  "why": ["Customers are far more likely to buy when a product is presented with imagery that "
          "shows what it is and why it helps them. Good product content is the closest thing "
@@ -233,10 +322,6 @@ PAGES = [
             "reformatted for it."),
            ("Campaign imagery", "A consistent set for a launch, so every channel looks like "
             "one campaign.")],
- "portH2": ("Recent product", "work."),
- "port": [(UP + "Get-Shit-Done-314.jpg", "Get Shit Done"),
-          (UP + "Go-Safe-103.jpg", "Go Safe"),
-          (UP + "BB190316.jpg", "Product detail")],
  "quotes": ["bruce", "clint", "kane", "keith"],
  "diffNoun": "product content",
  "faqH2": ("Product photography,", "answered."),
@@ -279,7 +364,7 @@ PAGES = [
  "rail": [("Deliverables", "Film · Stills · Drone"),
           ("Where it runs", "Brand · Social · Campaign"),
           ("Crew", "In-house, end-to-end"),
-          ("Turnaround", None)],
+          ("Backed by", "Chilli — since 1993")],
  "whyH2": ("Capture", "real life."),
  "why": ["We're Queensland's adventure and outdoor content specialists, and we shoot the "
          "things that don't wait for a second take — on the water, on the trail, in weather "
@@ -302,10 +387,6 @@ PAGES = [
            ("Tourism &amp; destination", "Content that makes somewhere look worth the trip, "
             "without the stock-footage gloss."),
            ("Social content", "Vertical cut-downs from the same shoot, built for the feed.")],
- "portH2": ("Recent outdoor", "work."),
- "port": [(UP + "RockyTrail-123_1.jpg", "Rocky Trail"),
-          (UP + "UnearthedRV-0150.jpg", "Unearthed RV"),
-          (UP + "KingFab-Kustoms-55.jpg", "KingFab Kustoms")],
  "quotes": ["clint", "bruce", "kane", "keith"],
  "diffNoun": "outdoor content",
  "faqH2": ("Adventure content,", "answered."),
@@ -348,7 +429,7 @@ PAGES = [
  "rail": [("Deliverables", "Stills · Highlights film · Social"),
           ("Where it runs", "Recap · Promo · Next year's sell"),
           ("Crew", "In-house, end-to-end"),
-          ("Turnaround", None)],
+          ("Backed by", "Chilli — since 1993")],
  "whyH2": ("Capture every key moment with", "professional coverage."),
  "why": ["We work with local and national businesses to cover conferences, launches, awards "
          "nights and community events — the highlights, the speakers, and the moments between "
@@ -372,10 +453,6 @@ PAGES = [
             "and next year's promotion."),
            ("Same-day social", "Selected images and cut-downs delivered while the event is "
             "still running.")],
- "portH2": ("Recent event", "work."),
- "port": [(UP + "NHPE-375-scaled.jpg", "Event coverage"),
-          (UP + "SunshineCoastHealth-57.jpg", "Sunshine Coast Health"),
-          (UP + "NHPE-166-copy.jpg", "Conference")],
  "quotes": ["keith", "kathy", "kane", "clint"],
  "diffNoun": "event coverage",
  "faqH2": ("Event coverage,", "answered."),
@@ -418,7 +495,7 @@ PAGES = [
  "rail": [("Deliverables", "Individual · Team · On location"),
           ("Where it runs", "Website · LinkedIn · Proposals"),
           ("Crew", "In-house, end-to-end"),
-          ("Turnaround", None)],
+          ("Backed by", "Chilli — since 1993")],
  "whyH2": ("Why invest in professional", "headshots?"),
  "why": ["Your team is the face of your business. A good headshot is the difference between "
          "looking like a company someone wants to call and looking like one they'll scroll "
@@ -443,12 +520,8 @@ PAGES = [
             "page never goes mismatched."),
            ("Environmental portraits", "People photographed where they actually work, when a "
             "plain background isn't the story.")],
- "portH2": ("Recent headshot", "work."),
  # Darren: "Update the gallery urgently." These are the most recent usable frames on
  # the live page; a genuinely new gallery still needs a shoot.
- "port": [(UP + "Joy118.jpg", "Portrait"),
-          (UP + "Miller-Sockhill-196.jpg", "Miller Sockhill"),
-          (UP + "Alora-233843-copy.jpg", "Alora")],
  "quotes": ["hearthq", "kane", "clint", "kathy"],
  "diffNoun": "headshot work",
  "faqH2": ("Headshots,", "answered."),
@@ -491,7 +564,7 @@ PAGES = [
  "rail": [("Deliverables", "Enrolment film · Campus · Stills"),
           ("Where it runs", "Website · Open day · Social"),
           ("Crew", "In-house, end-to-end"),
-          ("Turnaround", None)],
+          ("Backed by", "Chilli — since 1993")],
  "whyH2": ("Why invest in professional", "education content?"),
  "why": ["Families research schools online long before they book a tour, and video is how most "
          "of them form a first impression. A campus feels very different on film than it does "
@@ -514,10 +587,6 @@ PAGES = [
             "the people living it."),
            ("Event coverage", "Open days, presentations and graduations covered end to end."),
            ("Social content", "Cut-downs sized for the channels families actually use.")],
- "portH2": ("Recent education", "work."),
- "port": [(UP + "PLC-Year-9-Science-4-copy.jpg", "Pacific Lutheran College"),
-          (UP + "PLC-Prep-17-copy-scaled.jpg", "Prep"),
-          (UP + "CityStarsKindergarten.jpg", "City Stars Kindergarten")],
  # Darren: "No testimonials on this page?" — the template adds them. But note:
  # none of the six real reviews is from an education client. Worth chasing one.
  "quotes": ["kathy", "clint", "kane", "hearthq"],
@@ -616,7 +685,8 @@ EXTRA = {
    ("BB199343.jpg","Professional headshot"),("A23I0052-copy.jpg","Professional headshot"),
    ("BB199437.jpg","Professional headshot"))},
 "education.html": {
- # Verified 31 Aug via oEmbed: real title "PEPPER | Education Showreel". Correct.
+ # Darren, 1 Sept: remove the education showreel. Hidden, not deleted.
+ "hideVideo": True,
  "video": "aAdVDlBtf3E", "videoTitle": "PEPPER | Education Showreel",
  "reelLbl": "The showreel",
  "reelH2": ("Lessons,", "brought to life."),
@@ -677,7 +747,7 @@ EXTRA["adventure.html"].update({
  "rail": [("Deliverables", "Hero film · Social · Drone"),
           ("Where we shoot", "Sunshine Coast to Fiji"),
           ("Gear", "Gimbals · Waterproof · FPV drones"),
-          ("Turnaround", None)],
+          ("Backed by", "Chilli — since 1993")],
  "whyH2": ("Adventure,", "documented."),
  "why": ["Many businesses struggle to capture the thrill in a way that feels real. Fast "
          "movement, shifting light and unpredictable conditions usually end in footage that "
@@ -726,10 +796,6 @@ EXTRA["adventure.html"].update({
              ("Final delivery",
               "Delivered in formats optimised for websites, social media, ads and broadcast "
               "use.", False)],
- "portH2": ("Recent outdoor", "work."),
- "port": [(UP + "Cure-40.webp", "Cure"),
-          (UP + "pepper-obession-18.webp", "Obsession"),
-          (UP + "Mullet-Mods-102-2.jpg", "Mullet Mods")],
  "diffNoun": "adventure filming",
  "faqH2": ("Adventure filming,", "answered."),
  "faq": [("Can you shoot in remote locations?",
@@ -784,12 +850,9 @@ def render(p, cssv):
         f'<div><div class="n">{i}</div><h3>{h}</h3>\n      <p>'
         f'{tbc(b) if flag else b}</p></div>'
         for i, (h, b, flag) in enumerate(p.get("process", PROCESS), 1))
+    D = DIFFERENCE[p["file"]]
     diff = "\n    ".join(
-        f'<p{" class=\"opening\"" if c else ""}>{t.format(noun=p["diffNoun"])}</p>'
-        for c, t in DIFFERENCE)
-    port = "\n    ".join(
-        f'<a href="work.html"><img src="{u}" alt="{esc(c)}"><span class="cap">{c}</span></a>'
-        for u, c in p["port"])
+        f'<p{" class=\"opening\"" if c else ""}>{t}</p>' for c, t in D["p"])
     slides = "\n    ".join(
         f'<div class="slide{" on" if i == 0 else ""}">\n'
         f'      <div class="stars"></div>\n'
@@ -823,6 +886,14 @@ def render(p, cssv):
         # going to be a thing." A drawn empty slot on a page that will never
         # carry video is clutter, not a reminder.
         reel = ""
+    if p.get("hideVideo"):
+        # HIDDEN, not deleted — Beau, 1 Sept: "he doesn't like those videos, so
+        # we're just going to hide them for now. Once I've made better videos
+        # we'll bring those blocks back." Kept in the markup, commented out, so
+        # restoring is deleting two lines rather than rebuilding the section.
+        reel = ("\n<!-- VIDEO BLOCK HIDDEN 1 Sept on Darren's feedback. The block is "
+                "intact below;\n     delete this comment wrapper to bring it back once "
+                "a better cut exists.\n" + reel.replace("--", "- -") + "\n-->\n")
     gal = "\n    ".join(
         f'<a href="{u}"><img src="{u}" alt="{esc(a)}" loading="lazy"></a>'
         for u, a in p["gallery"])
@@ -914,22 +985,13 @@ def render(p, cssv):
      URL on import, attached by script afterwards]. ========================= -->
 <section class="sec ink"><div class="w argue duo">
   <div>
-  <span class="lbl">The difference</span>
-  <h2>In-house crew. <span class="van">Agency brain.</span></h2>
+  <span class="lbl">{D["lbl"]}</span>
+  <h2>{D["h"][0]} <span class="van">{D["h"][1]}</span></h2>
   <div class="copy">
     {diff}
   </div>
   </div>
   <img src="{p['diffImg']}" alt="{esc(p['diffImgAlt'])}">
-</div></section>
-
-<!-- ================= PORTFOLIO STRIP ================= -->
-<section class="sec"><div class="w">
-  <span class="lbl">Client success stories</span>
-  <h2>{p['portH2'][0]} <span class="van">{p['portH2'][1]}</span></h2>
-  <div class="mosaic">
-    {port}
-  </div>
 </div></section>
 
 <!-- ================= GALLERY — masonry ==================================

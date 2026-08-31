@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="pepper.css?v=1788144761">
+<link rel="stylesheet" href="pepper.css?v=1788212384">
 </head>
 <body class="opt-c">
 <!-- SITE CHROME: header template 1888. Placeholder only. -->
@@ -34,7 +34,7 @@
       <div class="it"><div class="k">Deliverables</div><div class="v">Brand films · Headshots · Events</div></div>
       <div class="it"><div class="k">Where it runs</div><div class="v">Web · Social · Internal</div></div>
       <div class="it"><div class="k">Crew</div><div class="v">In-house, end-to-end</div></div>
-      <div class="it"><div class="k">Turnaround</div><div class="v"><span class="tbc">confirm</span></div></div>
+      <div class="it"><div class="k">Backed by</div><div class="v">Chilli — since 1993</div></div>
     </div>
   </div></div>
 </section>
@@ -55,7 +55,10 @@
   <img src="https://pepperproductions.com.au/wp-content/uploads/frame_91142-cop-2y-scaled.webp" alt="Frame from a corporate film produced by Pepper">
 </div></section>
 
-<!-- ================= SHOWREEL — embedded player =========================
+<!-- VIDEO BLOCK HIDDEN 1 Sept on Darren's feedback. Beau: hide for now, bring
+     it back once a better cut exists. The block is intact below — delete this
+     comment wrapper to restore it.
+<!- - ================= SHOWREEL — embedded player =========================
      Mirrors build_services.py. Video titles were checked via YouTube oEmbed on
      31 Aug after Beau spotted a banner asset being used as a showreel — never
      assume an ID found on a page is the right piece for this slot.
@@ -69,7 +72,7 @@
      So it moves here, and Business ships without one until a business edit
      exists. Frame is capped at 780px — Beau: make the video slot smaller.
      Elementor: video widget, YouTube source, privacy mode, image overlay +
-     play icon. ======================================================== -->
+     play icon. ======================================================== - ->
 <section class="reelembed"><div class="w">
   <span class="lbl">The showreel</span>
   <h2>See the work <span class="van">move.</span></h2>
@@ -78,6 +81,7 @@
   </div>
   <div class="cap"><span>PEPPER | Corporate Showreel</span><span>Press play · sound on</span></div>
 </div></section>
+-->
 
 <!-- ================= HOW WE HELP ================= -->
 <section class="sec"><div class="w">
@@ -126,61 +130,40 @@
   </div>
 </div></section>
 
-<!-- ================= THE DIFFERENCE — prose, deliberately not a list =========
-     Replaces the old "Why Pepper" 01–04 grid, cut 31 Aug. Two reasons:
-     (1) it was the second identical 4-item numbered list in a row — Process 1–4
-         immediately above it, same number → h3 → p shape, no reason for either
-         the numbering or the repetition;
-     (2) its content was the generic homepage boilerplate — Transparent
-         communication / Professional quality / Tailored service / Timely
-         delivery — which is word-for-word the block Darren complained about on
-         the Event page ("does not match the topic"). Putting it on a redesigned
-         page, then copying that page seven times, would have shipped his own
-         rejected copy across the whole site.
-
-     This is now the page's ONE sustained argument and the only place the reader
-     gets prose rather than cards. If it ever becomes a grid again, the page goes
-     back to having no voice. Every claim here is checkable: in-house crew is on
-     the hero rail, Chilli/1993 is on the live About page, and the van spec comes
-     from /pepper-vans/.
-     Elementor: ink container > [text col: heading + text-editor] | [image widget,
-     empty URL on import, attached by script afterwards].
-     The image is the Spire Contractors on-site shot moved up from the closer
-     (Beau, 31 Aug): the closer reads better as a narrow type-only sign-off, and
-     this section is long enough to carry a full-height image beside it.
-     ========================================================================= -->
+<!-- ================= THE DIFFERENCE — rewritten 1 Sept ====================
+     Now carries Territory 1 from the market audit we did for Darren
+     (Projects/Pepper Marketing.md): "the agency-backed content partner" — the
+     Chilli advantage, which the audit calls structurally impossible for any
+     competitor to copy, because every one of them is a production house with
+     no marketing engine.
+     The brief attached to that territory is specifically "more on WHY being
+     agency-backed matters to the client", so this does not say "we're backed
+     by an agency" and stop — it says what that buys a corporate client.
+     Two changes on Beau's call, 1 Sept:
+       · the van paragraph is gone (the van has its own page and its own links
+         from Home and About);
+       · the heading and copy are now per-page, not identical site-wide.
+     Still replaces the generic Why Choose block Darren rejected.
+     Elementor: ink container > [heading + text-editor] | [image widget].
+     IMAGE PENDING: this is still spire-desktop.webp, the hi-vis shot Darren
+     asked to remove. Waiting on Beau's replacement links. ================ -->
 <section class="sec ink"><div class="w argue duo">
   <div>
   <span class="lbl">The difference</span>
-  <h2>In-house crew. <span class="van">Agency brain.</span></h2>
+  <h2>Backed by an agency, <span class="van">not just a camera.</span></h2>
   <div class="copy">
-    <p class="opening">Most corporate video gets booked one person at a time — a shooter here,
-      an editor somewhere else, and a client left holding it together.</p>
-    <p>We run the whole thing in-house, from the first planning conversation to the final
-      delivered file. There is no handover between a freelancer and a stranger, because there
-      is no handover — the people who plan your shoot are the people who turn up to it and the
-      people who cut it.</p>
-    <p>Behind that crew is Chilli, the Sunshine Coast marketing agency that has been growing
-      local businesses since 1993. It changes the first question we ask: not what you want the
-      video to look like, but what it has to achieve — where it runs, who it's aimed at, and
-      what it needs to shift. Strategy isn't a line item here, it's the building we work in.</p>
-    <p>And we bring our own production vans, fitted out with solar, lithium and a 3000W
-      inverter. A factory floor, a plantation access track or a construction site works as
-      easily as a boardroom — no scrambling for power, no half-day lost to logistics.</p>
+    <p class="opening">Every other production company on the Coast is a production company.
+      That is the whole business.</p>
+    <p>Pepper is the content arm of Chilli, the Sunshine Coast marketing agency that has been
+      growing local businesses since 1993. The practical difference is the first question we
+      ask: not what you want the film to look like, but what it has to achieve — who it's
+      aimed at, where it runs, and what it needs to shift.</p>
+    <p>That means strategists and marketers in the room at the planning stage, not just camera
+      operators on the day. You get a corporate film built against an objective, and a team who
+      can tell you when the thing you asked for isn't the thing that will work.</p>
   </div>
   </div>
-  <img src="https://pepperproductions.com.au/wp-content/uploads/spire-desktop.webp" alt="Spire Contractors on site — corporate photography by Pepper">
-</div></section>
-
-<!-- ================= PORTFOLIO STRIP ================= -->
-<section class="sec"><div class="w">
-  <span class="lbl">Client success stories</span>
-  <h2>Recent corporate <span class="van">work.</span></h2>
-  <div class="mosaic">
-    <a href="work.html"><img src="https://pepperproductions.com.au/wp-content/uploads/NCVE122-scaled.jpg" alt="North Coast Veterinary Specialists"><span class="cap">North Coast Vet Specialists</span></a>
-    <a href="work.html"><img src="https://pepperproductions.com.au/wp-content/uploads/NHPE-375-scaled.jpg" alt="Corporate event coverage"><span class="cap">Event coverage</span></a>
-    <a href="work.html"><img src="https://pepperproductions.com.au/wp-content/uploads/FSLA-235992.webp" alt="First Steps Learning Academy"><span class="cap">First Steps Learning Academy</span></a>
-  </div>
+  <img src="https://pepperproductions.com.au/wp-content/uploads/spire-desktop.webp" alt="Pepper Productions on location">
 </div></section>
 
 <!-- ================= GALLERY — masonry ==================================
