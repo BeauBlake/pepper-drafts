@@ -294,10 +294,16 @@ ul.d b{color:var(--ink);font-weight:600}
 /* page hero — banner height matches the homepage's option 2 */
 .pagehero .vband{position:relative;height:clamp(520px,80vh,860px);overflow:hidden;
   background:var(--glass) center/cover no-repeat}
-/* Bottom padding matches the rail's own padding-top (34px) so the rail strip sits
-   optically centred between its top rule and the next section's border. It was
-   28px above / 60px below, which pushed the whole strip high — Beau, 31 Aug. */
-.pagehero .type{background:#fff;padding:64px 0 34px}
+/* Hero type band. Symmetric 64/64 by default.
+   The 34px bottom applies ONLY where a spec rail is present: there the rail's
+   own 34px padding-top supplies the matching gap, so the strip sits optically
+   centred between its top rule and the next section's border (it used to be
+   28 above / 60 below, which pushed it high — Beau, 31 Aug).
+   Without that :has() guard the 34px also hit the client-story heroes, which
+   have no rail, leaving 73px above the label and 34px below the buttons —
+   Beau, 31 Aug: "much less padding at the bottom than at the top". */
+.pagehero .type{background:#fff;padding:64px 0}
+.pagehero .type:has(.rail){padding-bottom:34px}
 .pagehero h1{margin-top:24px;font-size:clamp(2.2rem,5.6vw,4.6rem);line-height:.94;
   letter-spacing:-.045em;text-transform:uppercase;max-width:18ch}
 .pagehero h1 .van{color:var(--van-mid)}
