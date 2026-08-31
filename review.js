@@ -32,6 +32,23 @@
 
   var KEY = "pepper-review-v1";
   var MAILTO = "bblake@pepperproductions.com.au";
+
+  /* ---------------------------------------------------------------------
+     ENDPOINT — paste a form-backend URL here and every note posts itself
+     the moment it is written, so Beau sees them without Darren having to
+     remember to send anything. Leave empty and the page falls back to
+     Copy all / Email to Beau.
+
+     WHY NOT STRAIGHT TO GITHUB: this site is static hosting. A page can
+     only write to a GitHub repo by carrying a token, and a token in a
+     public repo is a public token — GitHub's secret scanning finds and
+     revokes it within minutes, so it would break as fast as it shipped.
+     A form backend (Web3Forms, Formspree, Basin — all free, Darren needs
+     no account) is the smallest thing that actually works. Once notes are
+     arriving, committing them into the repo is a job for this end, not
+     for Darren's browser.
+     --------------------------------------------------------------------- */
+  var ENDPOINT = "";
   var page = location.pathname.split("/").pop() || "index.html";
 
   /* ---------- storage ------------------------------------------------- */
@@ -44,6 +61,28 @@
     catch (e) { alert("Couldn't save that note — the browser is blocking storage.\n\nCopy your feedback out now so you don't lose it."); }
   }
   function notes() { return (loadAll()[page] || []); }
+
+  /* Fire-and-forget post of a single note. Never blocks the reviewer, never
+     shows an error mid-flow — if it fails the note is still in localStorage
+     and the Copy/Email fallback still works. */
+  function push(note) {
+    if (!ENDPOINT) { markUnsent(); return; }
+    try {
+      fetch(ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          page: page, note: note.text, where: note.sel,
+          at: note.ts, site: location.href
+        })
+      }).then(function (r) {
+        if (r.ok) { markSent(); } else { markUnsent(); }
+      }, markUnsent);
+    } catch (e) { markUnsent(); }
+  }
+  var sentState = null;
+  function markSent() { sentState = true; renderPanel(); }
+  function markUnsent() { sentState = false; renderPanel(); }
   function setNotes(list) { var d = loadAll(); d[page] = list; saveAll(d); }
   function totalAll() {
     var d = loadAll(), n = 0;
@@ -69,7 +108,7 @@
   }
 
   /* ---------- state ---------------------------------------------------- */
-  var on = false, layer, panel, fab, badge;
+  var on = false, mode = "pin", layer, panel, fab, badge, bMode;
 
   function el(tag, cls, txt) {
     var n = document.createElement(tag);
@@ -78,11 +117,72 @@
     return n;
   }
 
+  /* ---------- text edits ----------------------------------------------- */
+  var EDITABLE = "h1,h2,h3,p,li,.lbl,.stand,.big,.cap,.tag,.v,.k,blockquote";
+
+  /* Paint saved rewrites back into the page so Darren sees his own version on
+     return, not the original. Note this sets textContent, so a two-tone
+     heading (black + grey halves) goes flat once it has been rewritten — the
+     colour split lives in a child <span> that free-text editing can't preserve.
+     Acceptable on a review draft; the recorded before/after is what matters. */
+  function applyEdits() {
+    notes().forEach(function (n) {
+      if (n.kind !== "edit") return;
+      var t = resolve(n.sel);
+      if (!t) return;
+      if (t.textContent.trim() !== n.after.trim()) t.textContent = n.after;
+      t.classList.add("pr-edited");
+      t.title = "Was: " + n.before;
+    });
+  }
+
+  function beginEdit(t) {
+    if (t.isContentEditable) return;
+    var before = t.textContent.trim();
+    var prior = notes().filter(function (n) {
+      return n.kind === "edit" && n.sel === selectorFor(t);
+    })[0];
+    t.contentEditable = "true";
+    t.classList.add("pr-editing");
+    t.focus();
+    function finish() {
+      t.contentEditable = "false";
+      t.classList.remove("pr-editing");
+      t.removeEventListener("blur", finish);
+      var after = t.textContent.trim();
+      if (!after) { t.textContent = before; return; }
+      if (after === before) return;
+      var list = notes();
+      var sel = selectorFor(t);
+      var existing = list.filter(function (n) { return n.kind === "edit" && n.sel === sel; })[0];
+      if (existing) {
+        existing.after = after;
+      } else {
+        var rec = { kind: "edit", sel: sel,
+                    before: (prior ? prior.before : before), after: after,
+                    text: "", ts: new Date().toISOString() };
+        rec.text = "TEXT: “" + rec.before + "” → “" + after + "”";
+        list.push(rec);
+        push(rec);
+      }
+      setNotes(list);
+      t.classList.add("pr-edited");
+      render();
+    }
+    t.addEventListener("blur", finish);
+    t.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); t.blur(); }
+      if (e.key === "Escape") { t.textContent = before; t.blur(); }
+    });
+  }
+
   /* ---------- rendering ------------------------------------------------ */
   function render() {
     layer.innerHTML = "";
+    applyEdits();
     var list = notes();
     list.forEach(function (n, i) {
+      if (n.kind === "edit") return;           // edits show in the text itself
       var host = resolve(n.sel);
       if (!host) return;                       // section changed since the note
       var r = host.getBoundingClientRect();
@@ -104,16 +204,29 @@
     body.innerHTML = "";
     if (!list.length) {
       body.appendChild(el("p", "pr-empty",
-        "No notes on this page yet. Click anywhere on the page to drop a pin."));
+        "Nothing on this page yet. In review mode: Pins drops a marker anywhere, Text lets you rewrite a heading or paragraph in place."));
     }
     list.forEach(function (n, i) {
       var row = el("div", "pr-row");
-      var num = el("span", "pr-num", String(i + 1));
-      var txt = el("div", "pr-txt", n.text);
+      var isEdit = n.kind === "edit";
+      var num = el("span", "pr-num" + (isEdit ? " edit" : ""), isEdit ? "✎" : String(i + 1));
+      var txt = el("div", "pr-txt");
+      if (isEdit) {
+        var was = el("span", "pr-was", n.before);
+        var now = el("span", "pr-now", n.after);
+        txt.appendChild(was); txt.appendChild(now);
+      } else {
+        txt.textContent = n.text;
+      }
       var del = el("button", "pr-del", "×");
       del.title = "Delete this note";
       del.addEventListener("click", function () {
-        var l = notes(); l.splice(i, 1); setNotes(l); render();
+        var l = notes();
+        if (l[i].kind === "edit") {
+          var t = resolve(l[i].sel);
+          if (t) { t.textContent = l[i].before; t.classList.remove("pr-edited"); t.title = ""; }
+        }
+        l.splice(i, 1); setNotes(l); render();
       });
       row.appendChild(num); row.appendChild(txt); row.appendChild(del);
       row.addEventListener("click", function (e) {
@@ -126,12 +239,26 @@
     var t = totalAll();
     panel.querySelector(".pr-count").textContent =
       list.length + " on this page · " + t + " in total";
+    var note = panel.querySelector(".pr-note");
+    if (note) {
+      if (ENDPOINT && sentState === true) {
+        note.textContent = "Saved and sent to Beau automatically.";
+        note.style.color = "#3F6B5E";
+      } else if (ENDPOINT && sentState === false) {
+        note.textContent = "Couldn't reach the server — your notes are still saved here. Use Copy all before you finish.";
+        note.style.color = "#8C4A32";
+      } else if (t) {
+        note.textContent = "⚠ These " + t + " notes are saved in THIS browser only. Beau cannot see them until you hit Copy all or Email to Beau.";
+        note.style.color = "#8C4A32";
+      }
+    }
     badge.textContent = t ? String(t) : "";
     badge.style.display = t ? "grid" : "none";
   }
 
   function openNote(i) {
     var list = notes();
+    if (list[i].kind === "edit") { return; }
     var v = prompt("Edit this note (clear the box to delete it):", list[i].text);
     if (v === null) return;
     if (!v.trim()) list.splice(i, 1); else list[i].text = v.trim();
@@ -142,8 +269,14 @@
   function onClick(e) {
     if (!on) return;
     if (e.target.closest(".pr-ui")) return;             // our own chrome
+    if (e.target.isContentEditable) return;             // typing, not clicking
     e.preventDefault();
     e.stopPropagation();
+    if (mode === "text") {
+      var t = e.target.closest(EDITABLE);
+      if (t && !t.closest(".pr-ui")) beginEdit(t);
+      return;
+    }
     var host = e.target.closest("section, .fcontact, .bar") || document.body;
     var r = host.getBoundingClientRect();
     var txt = prompt("What's the note here?");
@@ -157,6 +290,7 @@
       ts: new Date().toISOString()
     });
     setNotes(list);
+    push(list[list.length - 1]);
     render();
   }
 
@@ -167,10 +301,21 @@
     Object.keys(d).sort().forEach(function (p) {
       if (!d[p].length) return;
       out.push("── " + p + " ──");
-      d[p].forEach(function (n, i) { out.push((i + 1) + ". " + n.text); });
+      var pins = d[p].filter(function (n) { return n.kind !== "edit"; });
+      var eds = d[p].filter(function (n) { return n.kind === "edit"; });
+      pins.forEach(function (n, i) { out.push((i + 1) + ". " + n.text); });
+      if (eds.length) {
+        out.push(pins.length ? "" : null);
+        out.push("  Text rewrites:");
+        eds.forEach(function (n) {
+          out.push("   WAS: " + n.before);
+          out.push("   NOW: " + n.after);
+          out.push("");
+        });
+      }
       out.push("");
     });
-    return out.join("\n");
+    return out.filter(function (l) { return l !== null; }).join("\n");
   }
   function copyAll() {
     var t = asText();
@@ -233,7 +378,15 @@
       "  font:600 11px/1 'Montserrat',sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:11px 8px}",
       ".pr-foot button.primary{background:#0F1012;color:#fff;border-color:#0F1012}",
       ".pr-note{padding:0 16px 12px;font-size:11.5px;color:#8A8C90;line-height:1.5}",
+      ".pr-num.edit{background:#3F6B5E;font-size:12px}",
+      ".pr-was{display:block;color:#9FA09C;text-decoration:line-through;font-size:12px;line-height:1.4}",
+      ".pr-now{display:block;color:#1F3D33;font-weight:600;margin-top:2px;line-height:1.4}",
+      ".pr-edited{background:linear-gradient(transparent 62%,#BFE3D6 62%);cursor:text}",
+      ".pr-editing{outline:2px solid #3F6B5E;outline-offset:3px;background:#F2F8F5;cursor:text}",
+      "body.pr-text .pr-hoverable:hover{outline:2px dashed #3F6B5E;outline-offset:3px;cursor:text}",
       "body.pr-on{cursor:crosshair}",
+      "body.pr-text{cursor:text}",
+      "body.pr-text [contenteditable=true]{pointer-events:auto!important}",
       "body.pr-on a,body.pr-on button:not(.pr-ui *){pointer-events:none}",
       "@media print{#pr-fab,#pr-panel,#pr-layer{display:none!important}}"
     ].join("");
@@ -265,17 +418,55 @@
     var bToggle = el("button", null, "Review mode");
     badge = el("span", "pr-ui"); badge.id = "pr-badge";
     wrap.appendChild(bToggle); wrap.appendChild(badge);
+    bMode = el("button", null, "Pins");
+    bMode.title = "Switch between dropping pins and rewriting text";
+    bMode.addEventListener("click", function () {
+      mode = mode === "pin" ? "text" : "pin";
+      bMode.textContent = mode === "pin" ? "Pins" : "Text";
+      document.body.classList.toggle("pr-text", mode === "text" && on);
+      var t = document.querySelector("#pr-fab button");
+      if (on && t) {
+        t.textContent = mode === "pin"
+          ? "Reviewing — click to pin"
+          : "Reviewing — click text to edit";
+      }
+      if (mode === "text") {
+        document.querySelectorAll(EDITABLE).forEach(function (n) {
+          if (!n.closest(".pr-ui")) n.classList.add("pr-hoverable");
+        });
+      } else {
+        document.querySelectorAll(".pr-hoverable").forEach(function (n) {
+          n.classList.remove("pr-hoverable");
+        });
+      }
+    });
+
     var bList = el("button", null, "Notes");
     bToggle.addEventListener("click", function () {
       on = !on;
       document.body.classList.toggle("pr-on", on);
       bToggle.classList.toggle("on", on);
-      bToggle.textContent = on ? "Reviewing — click the page" : "Review mode";
+      bToggle.textContent = on
+        ? (mode === "pin" ? "Reviewing — click to pin" : "Reviewing — click text to edit")
+        : "Review mode";
+      document.body.classList.toggle("pr-text", mode === "text" && on);
+      bMode.style.display = on ? "" : "none";
       if (on) panel.classList.add("open");
     });
     bList.addEventListener("click", function () { panel.classList.toggle("open"); });
-    fab.appendChild(wrap); fab.appendChild(bList);
+    bMode.style.display = "none";
+    fab.appendChild(wrap); fab.appendChild(bMode); fab.appendChild(bList);
     document.body.appendChild(fab);
+
+    /* Losing an hour of Darren's feedback silently is the worst outcome here,
+       so warn on the way out whenever anything is unsent. */
+    window.addEventListener("beforeunload", function (e) {
+      if (!ENDPOINT && totalAll() > 0) {
+        e.preventDefault();
+        e.returnValue = "";
+        return "";
+      }
+    });
 
     document.addEventListener("click", onClick, true);
     window.addEventListener("resize", render);
