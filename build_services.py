@@ -494,15 +494,24 @@ PAGES = [
  # used to be the banner moves down to Why invest, where it earns its place on a
  # headshots page.
  #
- # ⚠ RESOLUTION: the team shot is only 640×427 and there is no larger version on
- # the server (checked -scaled, -1536x1024 and -2048x1365 — all 404). The hero is
- # a full-bleed band at clamp(520px,80vh,860px), so at 1440+ this will look soft.
- # On a page selling image quality that is the wrong thing to be soft. The crop
- # and composition are right — we need the full-res original from the shoot.
- "hero": UP + "Pepper-Headshots-example-team.jpeg",
- "heroAlt": "Pepper Productions team headshot session on location",
- "heroNote": "IMAGE IS ONLY 640x427 — needs the full-res original before this ships. "
-             "Composition approved by Beau 1 Sept.",
+ # RESOLUTION RESOLVED 2 Sept. This ran at 640×427 — the only copy on the server,
+ # upscaled 2.25× in a full-bleed band, soft on a page whose subject is image
+ # quality. Beau supplied the original from the shoot (ThomsonEstateGroup-0209,
+ # 7940×5296), resized here to 2500×1667 to match the van banner.
+ #
+ # LOCAL FILE, NOT IN THE MEDIA LIBRARY YET — same as the van and edit-suite
+ # shots. Upload before the Elementor build or the hero 404s.
+ #
+ # REFRAMED, not just resized. The camera frame is 3:2 (1.50) and this band is
+ # 1.67 at desktop and wider still on a large monitor, so `cover` cropped top and
+ # bottom — at 1920 it clipped the feet of the group. Rather than chase that with
+ # a focal point (which cannot win: the shot has deep foreground pavement, so any
+ # position either cuts feet or floats the group), the source is cropped once to
+ # the band's own aspect — sky off the top, pavement off the bottom, 2500×1493 at
+ # 1.674. `cover` now crops almost nothing at any width and centre is correct.
+ # Verified by simulating the crop at 1200/1440/1920: everyone stays whole.
+ "hero": "headshots-team.jpg",
+ "heroAlt": "The Pepper team photographed on location for a group headshot session",
  "h1": ("Professional headshots", "Sunshine Coast."),
  "stand": "Headshots that make your team look like the people clients want to deal with — "
           "consistent, credible and current.",
@@ -922,6 +931,10 @@ def render(p, cssv):
         f'<div class="q">\n      <h3>{q}</h3>\n      <p>{a}</p>\n    </div>'
         for q, a in p["faq"])
     heroNote = (f"\n     {p['heroNote']}" if p.get("heroNote") else "")
+    # Optional focal point. .vband defaults to `center`, which is right for most
+    # of these frames; a page sets heroPos only where the subject is off-centre
+    # and a centre crop would cut it (headshots, vans).
+    heroPos = (f";background-position:{p['heroPos']}" if p.get("heroPos") else "")
 
     return f"""<!doctype html>
 <html lang="en">
@@ -946,7 +959,7 @@ def render(p, cssv):
 
 <!-- ================= PAGE HERO ================={heroNote} -->
 <section class="pagehero">
-  <div class="vband" style="background-image:url('{p['hero']}')"></div>
+  <div class="vband" style="background-image:url('{p['hero']}'){heroPos}"></div>
   <div class="type"><div class="w">
     <span class="lbl">{p['label']}</span>
     <h1>{p['h1'][0]} <span class="van">{p['h1'][1]}</span></h1>
