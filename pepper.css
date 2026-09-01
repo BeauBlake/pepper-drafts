@@ -705,3 +705,49 @@ a[href="#"]{cursor:default}
 .reelembed.lite h2{color:var(--ink)}
 .reelembed.lite h2 .van{color:var(--van-mid)}
 .reelembed.lite .cap{color:var(--decal)}
+
+/* ---- Compact story template, added 1 Sept -------------------------------
+   Beau: "the thin pages can stay thin, I don't have time to approve vastly
+   different copy — they can just have a more simple template to accommodate
+   less copy."
+
+   The standard story layout assumes media carries the page: full-bleed bands,
+   110px of air, four alternating tones. Give it two images and 150 words and
+   the same layout reads as a series of empty slabs. So a story with little to
+   show gets a quieter treatment — tighter vertical rhythm, smaller display
+   type, and only two tones instead of four, so the page reads as one document
+   rather than a stack of near-empty sections.
+
+   Applied automatically by build_stories.py: no gallery and six images or
+   fewer. Nothing about the copy changes. ---------------------------------- */
+.story-compact .sec{padding-block:66px}
+.story-compact .reelembed{padding-block:64px}
+.story-compact .sec h2{font-size:clamp(1.45rem,3vw,2.15rem)}
+.story-compact .pagehero .vband{height:clamp(360px,52vh,520px)}
+.story-compact .closer{padding-block:76px}
+.story-compact .sec .copy p + p{margin-top:18px}
+@media(max-width:900px){.story-compact .sec{padding-block:48px}}
+
+/* ---- Banner treatment, added 1 Sept -------------------------------------
+   Beau: "make sure the banners are all consistent colours, some have
+   different greys."
+
+   Measured all 31 banner images. The spread was the problem, not any one
+   picture: saturation ran 0 to 110 and luminance 61 to 163. Four banners are
+   already effectively black and white — the Transit, MXRP, the product laptop,
+   the headshots team shot — while Namotu and the Education campus shot are
+   fully saturated. Side by side they read as different sites.
+
+   The brand is greyscale by definition (van / ink / paper, red still held
+   out), so the banners resolve to greyscale and the colour work stays in the
+   galleries and inline images, where it belongs. That unifies 31 images
+   without re-grading a single file.
+
+   TO REVERT: delete this block. One line, no other dependencies.
+   Note it does NOT equalise brightness — the darkest banner is still ~2.7x
+   darker than the lightest. Type sits below the band rather than over it, so
+   that is a look question, not a legibility one. ------------------------- */
+.pagehero .vband,
+.heroC .vband,
+.blog .lead,
+section.lead{filter:grayscale(1)}

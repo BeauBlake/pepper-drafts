@@ -102,10 +102,14 @@ def two_tone(text):
 
 
 class Tones:
-    """Alternate light tones, never repeating the previous section."""
+    """Alternate light tones, never repeating the previous section.
+    Compact stories use a two-tone cycle: four bands of colour under a page
+    with two images makes the emptiness louder, not quieter."""
     CYCLE = ["paper", "", "dust", ""]
+    CYCLE_COMPACT = ["", "paper"]
 
-    def __init__(self):
+    def __init__(self, compact=False):
+        self.CYCLE = self.CYCLE_COMPACT if compact else self.CYCLE
         self.i, self.prev = 0, "hero"
 
     def next(self, force=None, avoid=None):
@@ -217,10 +221,34 @@ def render(slug, data):
     blocks = data["blocks"]
     h1 = next((b["text"] for b in blocks if b["t"] == "h1"), slug)
     rest = [b for b in blocks if b["t"] != "h1"]
+    # Every story needs a photographic banner. If the first block after the H1
+    # is not an image, take the first image from anywhere on the page rather
+    # than leaving the band empty — an empty .vband falls back to flat --glass,
+    # which is why First Steps and Unearthed RV were showing a grey slab where
+    # every other page shows a photo (Beau, 1 Sept: "some have different greys").
     hero = None
     if rest and rest[0]["t"] == "img":
         hero = rest.pop(0)["src"]
-    secs, tones, body = group(rest), Tones(), []
+    else:
+        idx = next((i for i, b in enumerate(rest) if b["t"] == "img"), None)
+        if idx is not None:
+            hero = rest.pop(idx)["src"]
+    # A story is "compact" when it has little to show: no gallery and six
+    # images or fewer. Those pages get the quieter template (see pepper.css)
+    # rather than new copy — Beau's call, 1 Sept.
+    n_img = sum(1 for b in rest if b["t"] == "img")
+    runs, run = [], 0
+    for b in rest:
+        if b["t"] == "img":
+            run += 1
+        else:
+            runs.append(run); run = 0
+    runs.append(run)
+    has_gallery = max(runs) >= 3
+    compact = (not has_gallery) and n_img <= 6
+
+    secs, tones, body = group(rest), Tones(compact=compact), []
+    used_default_vhead = False
 
     for si, s in enumerate(secs):
         last = (si == len(secs) - 1)
@@ -229,9 +257,15 @@ def render(slug, data):
             # black bands never touch.
             lite = (tones.prev == "ink")
             tones.prev = "paper" if lite else "ink"
-            a, b2 = two_tone(s["head"]) if s.get("head") else ("From the", "shoot.")
-            vhead = (f'<h2>{a} <span class="van">{b2}</span></h2>' if b2
-                     else f'<h2>{a}</h2>')
+            if s.get("head"):
+                a, b2 = two_tone(s["head"])
+                vhead = (f'<h2>{a} <span class="van">{b2}</span></h2>' if b2
+                         else f'<h2>{a}</h2>')
+            elif used_default_vhead:
+                vhead = ""          # already said it once on this page
+            else:
+                used_default_vhead = True
+                vhead = '<h2>From the <span class="van">shoot.</span></h2>' 
             body.append(f'''
 <!-- ================= VIDEO — in the position it holds on the live page ==== -->
 <section class="reelembed{" lite" if lite else ""}"><div class="w">
@@ -324,7 +358,7 @@ def render(slug, data):
      Copy, image order and video placement are the live page's own, unchanged.
      Nothing here is new writing, which is the whole point: this should need a
      look-and-feel sign-off from Darren, not a content one. -->
-<body class="opt-c">
+<body class="opt-c{" story-compact" if compact else ""}">
 <div class="bar"><div class="w">
   <a class="logo" href="index.html"><img src="{UP}Pepper_logo_Mono-Rev-1024x437.png" alt="Pepper Productions"></a>
   <nav><span class="drop"><a href="corporate.html">How We Help</a><span class="menu">{menu}</span></span><a href="work.html">Our Work</a><span class="drop"><a href="about.html">About</a><span class="menu">{about}</span></span><a href="crew.html">Your Crew</a><a href="blog.html">The Blog</a><a href="contact.html">Contact</a><a href="quote.html">Get a Quote</a></nav>
