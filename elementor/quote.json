@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "0a3d74ce",
+   "id": "0eacb416",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -35,7 +35,7 @@
    },
    "elements": [
     {
-     "id": "18ca3fc2",
+     "id": "0d39800a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -62,7 +62,7 @@
      "elements": []
     },
     {
-     "id": "19081dc4",
+     "id": "0d775e0c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -74,7 +74,7 @@
      "elements": []
     },
     {
-     "id": "1945fbc6",
+     "id": "0db53c0e",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -114,7 +114,7 @@
      "elements": []
     },
     {
-     "id": "1983d9c8",
+     "id": "0df31a10",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -126,7 +126,7 @@
      "elements": []
     },
     {
-     "id": "19c1b7ca",
+     "id": "0e30f812",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -148,7 +148,7 @@
    ]
   },
   {
-   "id": "0af70ed4",
+   "id": "0f664e1c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -176,7 +176,7 @@
    },
    "elements": [
     {
-     "id": "0a7b52d0",
+     "id": "0eea9218",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -203,7 +203,7 @@
      "elements": []
     },
     {
-     "id": "0ab930d2",
+     "id": "0f28701a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -217,7 +217,7 @@
    ]
   },
   {
-   "id": "0c6a42e0",
+   "id": "179dca60",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -245,7 +245,7 @@
    },
    "elements": [
     {
-     "id": "0b34ecd6",
+     "id": "0fa42c1e",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -272,7 +272,7 @@
      "elements": []
     },
     {
-     "id": "0b72cad8",
+     "id": "0fe20a20",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -284,7 +284,7 @@
      "elements": []
     },
     {
-     "id": "0bb0a8da",
+     "id": "101fe822",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -324,7 +324,7 @@
      "elements": []
     },
     {
-     "id": "0bee86dc",
+     "id": "17220e5c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -336,7 +336,7 @@
      "elements": []
     },
     {
-     "id": "0c2c64de",
+     "id": "175fec5e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -357,12 +357,629 @@
       },
       "flex_direction": "row"
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "11d0fa30",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 266
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "109ba426",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "padding": {
+           "unit": "px",
+           "top": "9",
+           "right": "0",
+           "bottom": "9",
+           "left": "0",
+           "isLinked": false
+          },
+          "flex_gap": {
+           "unit": "px",
+           "column": "0",
+           "row": "0",
+           "isLinked": false
+          },
+          "background_background": "classic",
+          "background_color": "#0F1012",
+          "width": {
+           "unit": "px",
+           "size": 46
+          },
+          "flex_justify_content": "center",
+          "flex_align_items": "center"
+         },
+         "elements": [
+          {
+           "id": "105dc624",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "1",
+            "header_size": "div",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 17
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 28.56
+            }
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "10d98228",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 18
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "1117602a",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "We read it properly",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.6
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "11553e2c",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "11931c2e",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Your brief goes to the people who would actually run the shoot, not into a generic\n        inbox.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "13820c3e",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 266
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "124cb634",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "padding": {
+           "unit": "px",
+           "top": "9",
+           "right": "0",
+           "bottom": "9",
+           "left": "0",
+           "isLinked": false
+          },
+          "flex_gap": {
+           "unit": "px",
+           "column": "0",
+           "row": "0",
+           "isLinked": false
+          },
+          "background_background": "classic",
+          "background_color": "#0F1012",
+          "width": {
+           "unit": "px",
+           "size": 46
+          },
+          "flex_justify_content": "center",
+          "flex_align_items": "center"
+         },
+         "elements": [
+          {
+           "id": "120ed832",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "2",
+            "header_size": "div",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 17
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 28.56
+            }
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "128a9436",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 18
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "12c87238",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "We come back with an approach",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.6
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "1306503a",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "13442e3c",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Not just a number — what we would make, why, and where it would run.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "15331e4c",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 266
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "13fdc842",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "padding": {
+           "unit": "px",
+           "top": "9",
+           "right": "0",
+           "bottom": "9",
+           "left": "0",
+           "isLinked": false
+          },
+          "flex_gap": {
+           "unit": "px",
+           "column": "0",
+           "row": "0",
+           "isLinked": false
+          },
+          "background_background": "classic",
+          "background_color": "#0F1012",
+          "width": {
+           "unit": "px",
+           "size": 46
+          },
+          "flex_justify_content": "center",
+          "flex_align_items": "center"
+         },
+         "elements": [
+          {
+           "id": "13bfea40",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "3",
+            "header_size": "div",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 17
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 28.56
+            }
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "143ba644",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 18
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "14798446",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "You get an itemised quote",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.6
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "14b76248",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "14f5404a",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>Every line says what it is, so you can see what to keep and what to cut.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "16e4305a",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 266
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "15aeda50",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "padding": {
+           "unit": "px",
+           "top": "9",
+           "right": "0",
+           "bottom": "9",
+           "left": "0",
+           "isLinked": false
+          },
+          "flex_gap": {
+           "unit": "px",
+           "column": "0",
+           "row": "0",
+           "isLinked": false
+          },
+          "background_background": "classic",
+          "background_color": "#0F1012",
+          "width": {
+           "unit": "px",
+           "size": 46
+          },
+          "flex_justify_content": "center",
+          "flex_align_items": "center"
+         },
+         "elements": [
+          {
+           "id": "1570fc4e",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "4",
+            "header_size": "div",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 17
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 28.56
+            }
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "15ecb852",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 18
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "162a9654",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "We tell you if it won't work",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.6
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "16687456",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "16a65258",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p>If the budget and the goal don't meet, we'll say so and suggest what would.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
     }
    ]
   },
   {
-   "id": "0ed4eef4",
+   "id": "0a087774",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -390,7 +1007,7 @@
    },
    "elements": [
     {
-     "id": "0ca820e2",
+     "id": "17dba862",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -417,7 +1034,7 @@
      "elements": []
     },
     {
-     "id": "0ce5fee4",
+     "id": "18198664",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -429,7 +1046,7 @@
      "elements": []
     },
     {
-     "id": "0d23dce6",
+     "id": "18576466",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -469,7 +1086,7 @@
      "elements": []
     },
     {
-     "id": "0d61bae8",
+     "id": "18954268",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -481,7 +1098,7 @@
      "elements": []
     },
     {
-     "id": "0d9f98ea",
+     "id": "18d3206a",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -501,7 +1118,7 @@
      "elements": []
     },
     {
-     "id": "0ddd76ec",
+     "id": "1910fe6c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -513,7 +1130,7 @@
      "elements": []
     },
     {
-     "id": "0e9710f2",
+     "id": "19ca9872",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -537,7 +1154,7 @@
      },
      "elements": [
       {
-       "id": "0e1b54ee",
+       "id": "194edc6e",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -581,7 +1198,7 @@
        "elements": []
       },
       {
-       "id": "0e5932f0",
+       "id": "198cba70",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
