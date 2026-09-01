@@ -1,0 +1,1076 @@
+{
+ "title": "work — redesign draft",
+ "type": "page",
+ "version": "0.4",
+ "page_settings": {
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "0f50aaf8",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "padding": {
+     "unit": "px",
+     "top": "0",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "0f12ccf6",
+     "elType": "widget",
+     "widgetType": "image",
+     "settings": {
+      "image": {
+       "url": "",
+       "id": "",
+       "alt": ""
+      },
+      "image_size": "large",
+      "width": {
+       "unit": "%",
+       "size": 100
+      },
+      "css_classes": "slot--still-2026-01-13-094629-1-2-1-topaz-upscale-2x-c",
+      "height": {
+       "unit": "px",
+       "size": 720
+      },
+      "object-fit": "cover"
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "1101bc06",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "64",
+     "right": "52",
+     "bottom": "64",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF"
+   },
+   "elements": [
+    {
+     "id": "0f8e88fa",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Our work",
+      "header_size": "div",
+      "title_color": "#9FA09C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0fcc66fc",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 29
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "100a44fe",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Stories that got <span style=\"color:#7E807A\">results.</span>",
+      "header_size": "h1",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 74
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 34
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 69.184
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -3.312
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 899
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "10482200",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 32
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "10860002",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"max-width:742px;\">At Pepper, we're your Sunshine Coast video marketing agency with a difference. We've worked on countless professional video and photography projects that have helped businesses like yours cut through the noise and connect with their audience.</p>",
+      "text_color": "#33353A",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 20
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 31
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "13aa461c",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "96",
+     "right": "52",
+     "bottom": "96",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#F3F3F0"
+   },
+   "elements": [
+    {
+     "id": "11f9340e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "The showreel",
+      "header_size": "div",
+      "title_color": "#9FA09C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "117d780a",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 27
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "11bb560c",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Two minutes of <span style=\"color:#7E807A\">what we do.</span>",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "12371210",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 40
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "12b2ce14",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 780
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "1274f012",
+       "elType": "widget",
+       "widgetType": "video",
+       "settings": {
+        "video_type": "youtube",
+        "youtube_url": "https://www.youtube.com/watch?v=wTuWKk0w4ZA",
+        "show_image_overlay": "yes",
+        "image_overlay": {
+         "url": "",
+         "id": ""
+        },
+        "image_overlay_size": "large",
+        "show_play_icon": "yes",
+        "aspect_ratio": "169",
+        "play_icon": {
+         "value": "fab fa-youtube",
+         "library": "fa-brands"
+        },
+        "css_classes": "slot--reel-overlay"
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
+     "id": "12f0ac16",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 16
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "136c681a",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 780
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "132e8a18",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Pepper Productions — Showreel",
+        "header_size": "div",
+        "title_color": "#9FA09C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 10
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 16
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.4
+        }
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "14a1be24",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF"
+   },
+   "elements": [
+    {
+     "id": "13e8241e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Success stories",
+      "header_size": "div",
+      "title_color": "#9FA09C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "14260220",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 27
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1463e022",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Featured <span style=\"color:#7E807A\">projects.</span>",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "1599362c",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#F3F3F0"
+   },
+   "elements": [
+    {
+     "id": "14df9c26",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "More of the work",
+      "header_size": "div",
+      "title_color": "#9FA09C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "151d7a28",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 27
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "155b582a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Who we've <span style=\"color:#7E807A\">assisted.</span>",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "170c6a38",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#16171A"
+   },
+   "elements": [
+    {
+     "id": "15d7142e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "The gear",
+      "header_size": "div",
+      "title_color": "#C3C4C0",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1614f230",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 27
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1652d032",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "We don't like to brag, but <span style=\"color:#C3C4C0\">we've got a lot of stuff.</span>",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1690ae34",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "16ce8c36",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"max-width:615px;\">We're passionate about staying ahead of the game with top-of-the-range professional video\n      and photography equipment that will help your business shine — and we're constantly\n      improving our skills so we can provide stand-out content that gets your business noticed.</p>",
+      "text_color": "#A9ABAE",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "1977164c",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#E4E5E1"
+   },
+   "elements": [
+    {
+     "id": "174a483a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Next",
+      "header_size": "div",
+      "title_color": "#9FA09C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1788263c",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 22
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "17c6043e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Let's create something <span style=\"color:#7E807A\">great together.</span>",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 54
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 38
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 29
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 53.312
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -2.176
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 620
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1803e240",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 24
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1841c042",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"max-width:551px;\">Let's create something great together.</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "187f9e44",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1939384a",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "10",
+       "row": "10",
+       "isLinked": false
+      },
+      "flex_direction": "row",
+      "flex_wrap": "wrap"
+     },
+     "elements": [
+      {
+       "id": "18bd7c46",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Request a quote",
+        "link": {
+         "url": "/request-a-quote/",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.76
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "36",
+         "bottom": "20",
+         "left": "36",
+         "isLinked": false
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "background_color": "#0F1012",
+        "button_text_color": "#FFFFFF"
+       },
+       "elements": []
+      },
+      {
+       "id": "18fb5a48",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Contact us",
+        "link": {
+         "url": "/contact/",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.76
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "36",
+         "bottom": "20",
+         "left": "36",
+         "isLinked": false
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "background_color": "rgba(0,0,0,0)",
+        "button_text_color": "#0F1012",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#D3D4CF"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

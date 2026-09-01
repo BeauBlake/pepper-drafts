@@ -1,0 +1,79 @@
+{
+ "title": "index — redesign draft",
+ "type": "page",
+ "version": "0.4",
+ "page_settings": {
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "0e0e9172",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "100",
+     "right": "52",
+     "bottom": "100",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#0F1012"
+   },
+   "elements": [
+    {
+     "id": "0d92d56e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "In our clients' words",
+      "header_size": "div",
+      "title_color": "#C3C4C0",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0dd0b370",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34
+      }
+     },
+     "elements": []
+    }
+   ]
+  }
+ ]
+}

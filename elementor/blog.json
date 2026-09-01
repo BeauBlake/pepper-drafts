@@ -1,0 +1,428 @@
+{
+ "title": "blog — redesign draft",
+ "type": "page",
+ "version": "0.4",
+ "page_settings": {
+  "hide_title": "yes"
+ },
+ "content": [
+  {
+   "id": "0aea4b58",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF"
+   },
+   "elements": [
+    {
+     "id": "19b4f44e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Latest articles",
+      "header_size": "div",
+      "title_color": "#9FA09C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "19f2d250",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 27
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0a30b152",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Stories worth <span style=\"color:#7E807A\">reading.</span>",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0a6e8f54",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0aac6d56",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"max-width:615px;\">Keep up with the latest news and tips on how to promote your business\n    through strategic videography and photography.</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "0d54f76c",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#E4E5E1"
+   },
+   "elements": [
+    {
+     "id": "0b28295a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Next",
+      "header_size": "div",
+      "title_color": "#9FA09C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0b66075c",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 22
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0ba3e55e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Let's create something <span style=\"color:#7E807A\">great together.</span>",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 54
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 38
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 29
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 53.312
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -2.176
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 620
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0be1c360",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 24
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0c1fa162",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"max-width:551px;\">Let's create something great together.</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0c5d7f64",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0d17196a",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "10",
+       "row": "10",
+       "isLinked": false
+      },
+      "flex_direction": "row",
+      "flex_wrap": "wrap"
+     },
+     "elements": [
+      {
+       "id": "0c9b5d66",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Request a quote",
+        "link": {
+         "url": "/request-a-quote/",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.76
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "36",
+         "bottom": "20",
+         "left": "36",
+         "isLinked": false
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "background_color": "#0F1012",
+        "button_text_color": "#FFFFFF"
+       },
+       "elements": []
+      },
+      {
+       "id": "0cd93b68",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Contact us",
+        "link": {
+         "url": "/contact/",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.76
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "36",
+         "bottom": "20",
+         "left": "36",
+         "isLinked": false
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "background_color": "rgba(0,0,0,0)",
+        "button_text_color": "#0F1012",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#D3D4CF"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

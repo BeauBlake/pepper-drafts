@@ -1,5 +1,5 @@
 {
- "title": "adventure — redesign draft",
+ "title": "education — redesign draft",
  "type": "page",
  "version": "0.4",
  "page_settings": {
@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "189d0610",
+   "id": "1985ca32",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -29,7 +29,7 @@
    },
    "elements": [
     {
-     "id": "185f280e",
+     "id": "1947ec30",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -43,7 +43,7 @@
        "unit": "%",
        "size": 100
       },
-      "css_classes": "slot--dji-20230418143845-0069-d-enhanced-nr",
+      "css_classes": "slot--ccps-junior-enrolments-22-1-scaled",
       "height": {
        "unit": "px",
        "size": 720
@@ -55,7 +55,7 @@
    ]
   },
   {
-   "id": "0b836f28",
+   "id": "0c6c334a",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -83,11 +83,11 @@
    },
    "elements": [
     {
-     "id": "18dae412",
+     "id": "19c3a834",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Services · Adventure Filming",
+      "title": "Services · Education",
       "header_size": "div",
       "title_color": "#9FA09C",
       "typography_typography": "custom",
@@ -110,7 +110,7 @@
      "elements": []
     },
     {
-     "id": "1918c214",
+     "id": "0a018736",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -122,11 +122,11 @@
      "elements": []
     },
     {
-     "id": "1956a016",
+     "id": "0a3f6538",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Adventure filming <span style=\"color:#7E807A\">Sunshine Coast.</span>",
+      "title": "Education content <span style=\"color:#7E807A\">Sunshine Coast.</span>",
       "header_size": "h1",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -162,7 +162,7 @@
      "elements": []
     },
     {
-     "id": "19947e18",
+     "id": "0a7d433a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -174,11 +174,11 @@
      "elements": []
     },
     {
-     "id": "19d25c1a",
+     "id": "0abb213c",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:742px;\">Capturing picturesque content takes more than a camera. It takes timing, skill and an understanding of how movement and nature work together.</p>",
+      "editor": "<p style=\"max-width:742px;\">Content that brings lessons, campuses and enrolment stories to life — made with schools, for the families choosing them.</p>",
       "text_color": "#33353A",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -194,7 +194,7 @@
      "elements": []
     },
     {
-     "id": "0a103b1c",
+     "id": "0af8ff3e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -206,7 +206,7 @@
      "elements": []
     },
     {
-     "id": "0ac9d522",
+     "id": "0bb29944",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -230,7 +230,7 @@
      },
      "elements": [
       {
-       "id": "0a4e191e",
+       "id": "0b36dd40",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -274,7 +274,7 @@
        "elements": []
       },
       {
-       "id": "0a8bf720",
+       "id": "0b74bb42",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -330,7 +330,7 @@
      ]
     },
     {
-     "id": "0b07b324",
+     "id": "0bf07746",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -342,7 +342,7 @@
      "elements": []
     },
     {
-     "id": "0b459126",
+     "id": "0c2e5548",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -378,7 +378,7 @@
    ]
   },
   {
-   "id": "0db03d3a",
+   "id": "0e99015c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -408,7 +408,7 @@
    },
    "elements": [
     {
-     "id": "0cf6a334",
+     "id": "0ddf6756",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -435,7 +435,7 @@
      },
      "elements": [
       {
-       "id": "0bc14d2a",
+       "id": "0caa114c",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -462,7 +462,7 @@
        "elements": []
       },
       {
-       "id": "0bff2b2c",
+       "id": "0ce7ef4e",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -474,11 +474,11 @@
        "elements": []
       },
       {
-       "id": "0c3d092e",
+       "id": "0d25cd50",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Adventure, <span style=\"color:#7E807A\">documented.</span>",
+        "title": "Why invest in professional <span style=\"color:#7E807A\">education content?</span>",
         "header_size": "h2",
         "title_color": "#0F1012",
         "typography_typography": "custom",
@@ -514,7 +514,7 @@
        "elements": []
       },
       {
-       "id": "0c7ae730",
+       "id": "0d63ab52",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -526,11 +526,11 @@
        "elements": []
       },
       {
-       "id": "0cb8c532",
+       "id": "0da18954",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Many businesses struggle to capture the thrill in a way that feels real. Fast movement, shifting light and unpredictable conditions usually end in footage that doesn't reflect the experience at all.</p><p style=\"max-width:615px;\">We film action with authenticity and attention to detail, working with outdoor brands, tourism operators, athletes and creators who want to show real experiences without having to plan or manage a fast-paced shoot themselves.</p><p style=\"max-width:615px;\">From coastal tracks and beaches to waterfalls, rainforest trails and mountain peaks, we turn your experience into a visual story audiences remember — a hero brand video, a social package, or an entire tourism campaign. We service the Sunshine Coast to Fiji and everywhere in between.</p>",
+        "editor": "<p style=\"max-width:615px;\">Families research schools online long before they book a tour, and video is how most of them form a first impression. A campus feels very different on film than it does in a prospectus.</p><p style=\"max-width:615px;\">We've worked with schools and educators end to end — showcasing new facilities, programs and the day-to-day of a place, in a way that helps the right families picture their child there.</p>",
         "text_color": "#55575C",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -548,7 +548,7 @@
      ]
     },
     {
-     "id": "0d725f38",
+     "id": "0e5b235a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -575,21 +575,21 @@
      },
      "elements": [
       {
-       "id": "0d348136",
+       "id": "0e1d4558",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
          "url": "",
          "id": "",
-         "alt": "Sailing content filmed by Pepper Productions"
+         "alt": "Classroom content produced by Pepper Productions"
         },
         "image_size": "large",
         "width": {
          "unit": "%",
          "size": 100
         },
-        "css_classes": "slot--pepper-cure-sailing",
+        "css_classes": "slot--plc-year-5-32-scaled",
         "height": {
          "unit": "px",
          "size": 375
@@ -603,248 +603,7 @@
    ]
   },
   {
-   "id": "1058c750",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "96",
-     "right": "52",
-     "bottom": "96",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#16171A"
-   },
-   "elements": [
-    {
-     "id": "0ea7b542",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Recent film",
-      "header_size": "div",
-      "title_color": "#C3C4C0",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0e2bf93e",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 27
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0e69d740",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Shot <span style=\"color:#C3C4C0\">on location.</span>",
-      "header_size": "h2",
-      "title_color": "#FFFFFF",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0ee59344",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 40
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0f614f48",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      },
-      "width": {
-       "unit": "px",
-       "size": 780
-      },
-      "flex_shrink": "0"
-     },
-     "elements": [
-      {
-       "id": "0f237146",
-       "elType": "widget",
-       "widgetType": "video",
-       "settings": {
-        "video_type": "youtube",
-        "youtube_url": "https://www.youtube.com/watch?v=gAl9NpA9Law",
-        "show_image_overlay": "yes",
-        "image_overlay": {
-         "url": "",
-         "id": ""
-        },
-        "image_overlay_size": "large",
-        "show_play_icon": "yes",
-        "aspect_ratio": "169",
-        "play_icon": {
-         "value": "fab fa-youtube",
-         "library": "fa-brands"
-        },
-        "css_classes": "slot--reel-overlay"
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "0f9f2d4a",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 16
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "101ae94e",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      },
-      "width": {
-       "unit": "px",
-       "size": 780
-      },
-      "flex_shrink": "0"
-     },
-     "elements": [
-      {
-       "id": "0fdd0b4c",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Namotu Island's Luxury Charter Boat, the Cobalt",
-        "header_size": "div",
-        "title_color": "#9FA09C",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_weight": "600",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 10
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 16
-        },
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 2.4
-        }
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "12c37364",
+   "id": "1103ad70",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -872,7 +631,7 @@
    },
    "elements": [
     {
-     "id": "1096a552",
+     "id": "0ed6df5e",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -899,7 +658,7 @@
      "elements": []
     },
     {
-     "id": "10d48354",
+     "id": "0f14bd60",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -911,11 +670,11 @@
      "elements": []
     },
     {
-     "id": "11126156",
+     "id": "0f529b62",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Our adventure filming <span style=\"color:#7E807A\">services.</span>",
+      "title": "How we help bring lessons <span style=\"color:#7E807A\">to life.</span>",
       "header_size": "h2",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -951,7 +710,7 @@
      "elements": []
     },
     {
-     "id": "1247b760",
+     "id": "1087f16c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -963,7 +722,7 @@
      "elements": []
     },
     {
-     "id": "12859562",
+     "id": "10c5cf6e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -986,7 +745,7 @@
      },
      "elements": [
       {
-       "id": "1209d95e",
+       "id": "104a136a",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1013,11 +772,11 @@
        },
        "elements": [
         {
-         "id": "11503f58",
+         "id": "0f907964",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Outdoor and action videography",
+          "title": "Enrolment & brand films",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -1040,7 +799,7 @@
          "elements": []
         },
         {
-         "id": "118e1d5a",
+         "id": "0fce5766",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -1052,11 +811,11 @@
          "elements": []
         },
         {
-         "id": "11cbfb5c",
+         "id": "100c3568",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>For outdoor brands, tourism operators, athletes and businesses wanting filming that reflects real pace and energy.</p>",
+          "editor": "<p>The film that does the work of an open day for families who haven't visited yet.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1078,7 +837,7 @@
    ]
   },
   {
-   "id": "1436a770",
+   "id": "1276e17c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1106,7 +865,7 @@
    },
    "elements": [
     {
-     "id": "13015166",
+     "id": "11418b72",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1133,7 +892,7 @@
      "elements": []
     },
     {
-     "id": "133f2f68",
+     "id": "117f6974",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1145,7 +904,7 @@
      "elements": []
     },
     {
-     "id": "137d0d6a",
+     "id": "11bd4776",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1185,7 +944,7 @@
      "elements": []
     },
     {
-     "id": "13baeb6c",
+     "id": "11fb2578",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1197,7 +956,7 @@
      "elements": []
     },
     {
-     "id": "13f8c96e",
+     "id": "1239037a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1223,7 +982,7 @@
    ]
   },
   {
-   "id": "16df3186",
+   "id": "151f6b92",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1253,7 +1012,7 @@
    },
    "elements": [
     {
-     "id": "16259780",
+     "id": "1465d18c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1280,7 +1039,7 @@
      },
      "elements": [
       {
-       "id": "14748572",
+       "id": "12b4bf7e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1307,7 +1066,7 @@
        "elements": []
       },
       {
-       "id": "14b26374",
+       "id": "12f29d80",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1319,11 +1078,11 @@
        "elements": []
       },
       {
-       "id": "14f04176",
+       "id": "13307b82",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Outdoor specialists, <span style=\"color:#C3C4C0\">with an agency behind them.</span>",
+        "title": "Enrolment content, <span style=\"color:#C3C4C0\">not just nice footage.</span>",
         "header_size": "h2",
         "title_color": "#FFFFFF",
         "typography_typography": "custom",
@@ -1359,7 +1118,7 @@
        "elements": []
       },
       {
-       "id": "152e1f78",
+       "id": "136e5984",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1371,11 +1130,11 @@
        "elements": []
       },
       {
-       "id": "156bfd7a",
+       "id": "13ac3786",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:624px;\">Adventure content usually comes from one of two places: a specialist who can shoot it, or an agency who can plan it. Rarely both.</p>",
+        "editor": "<p style=\"max-width:624px;\">Families choose a school long before they book a tour, and most of that decision happens on a screen.</p>",
         "text_color": "#E4E5E1",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -1392,7 +1151,7 @@
        "elements": []
       },
       {
-       "id": "15a9db7c",
+       "id": "13ea1588",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1404,11 +1163,11 @@
        "elements": []
       },
       {
-       "id": "15e7b97e",
+       "id": "1427f38a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Adventure, outdoor and sport is the work we are known for — the surf clubs, the trails, the water, the vans that get us there. It is a genuine specialism, not a service line we added.</p><p style=\"max-width:615px;\">And behind it is Chilli, the marketing agency that has been growing Sunshine Coast businesses since 1993. So the footage is shot by people who ride the terrain, and planned by people who know what the campaign has to do when it lands.</p>",
+        "editor": "<p style=\"max-width:615px;\">Pepper is the content arm of Chilli, a marketing agency that has been growing Sunshine Coast organisations since 1993. So we plan school content around the enrolment cycle and the questions families actually ask, rather than filming a nice day on campus and hoping it lands.</p><p style=\"max-width:615px;\">Strategy, filming and delivery come from the same team, which matters when the content has a deadline the intake won't move.</p>",
         "text_color": "#A9ABAE",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -1426,7 +1185,7 @@
      ]
     },
     {
-     "id": "16a15384",
+     "id": "14e18d90",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1453,21 +1212,21 @@
      },
      "elements": [
       {
-       "id": "16637582",
+       "id": "14a3af8e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
          "url": "",
          "id": "",
-         "alt": "Beau Blake, Pepper Productions"
+         "alt": "Pepper Productions filming on a school campus"
         },
         "image_size": "large",
         "width": {
          "unit": "%",
          "size": 100
         },
-        "css_classes": "slot--meet-beau",
+        "css_classes": "slot--beaub8065-copy-scaled",
         "height": {
          "unit": "px",
          "size": 375
@@ -1481,7 +1240,7 @@
    ]
   },
   {
-   "id": "18ce2196",
+   "id": "170e5ba2",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1509,7 +1268,7 @@
    },
    "elements": [
     {
-     "id": "171d0f88",
+     "id": "155d4994",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1536,7 +1295,7 @@
      "elements": []
     },
     {
-     "id": "175aed8a",
+     "id": "159b2796",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1548,11 +1307,11 @@
      "elements": []
     },
     {
-     "id": "1798cb8c",
+     "id": "15d90598",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "More outdoor <span style=\"color:#7E807A\">work.</span>",
+      "title": "More education <span style=\"color:#7E807A\">work.</span>",
       "header_size": "h2",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -1588,7 +1347,7 @@
      "elements": []
     },
     {
-     "id": "17d6a98e",
+     "id": "1616e39a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1600,7 +1359,7 @@
      "elements": []
     },
     {
-     "id": "18148790",
+     "id": "1654c19c",
      "elType": "widget",
      "widgetType": "uael-image-gallery",
      "settings": {
@@ -1614,7 +1373,7 @@
      "elements": []
     },
     {
-     "id": "18526592",
+     "id": "16929f9e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1626,11 +1385,11 @@
      "elements": []
     },
     {
-     "id": "18904394",
+     "id": "16d07da0",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Sunshine Coast to Fiji and everywhere in between.</p>",
+      "editor": "<p>Classrooms, campuses and enrolment content for schools across the region.</p>",
       "text_color": "#9FA09C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -1648,7 +1407,7 @@
    ]
   },
   {
-   "id": "0e1f36c2",
+   "id": "0c5f70ce",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1676,7 +1435,7 @@
    },
    "elements": [
     {
-     "id": "190bff98",
+     "id": "174c39a4",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1703,7 +1462,7 @@
      "elements": []
     },
     {
-     "id": "1949dd9a",
+     "id": "178a17a6",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1715,7 +1474,7 @@
      "elements": []
     },
     {
-     "id": "0a4156a2",
+     "id": "18818fae",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1737,7 +1496,103 @@
      },
      "elements": [
       {
-       "id": "1987bb9c",
+       "id": "17c7f5a8",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"max-width:900px;\">\"Thanks so much to the team at Pepper Productions for doing such a fantastic job of videoing our conference.\"</p>",
+        "text_color": "#FFFFFF",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 25
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 38
+        },
+        "typography_font_weight": "600"
+       },
+       "elements": []
+      },
+      {
+       "id": "1805d3aa",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 22
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "1843b1ac",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "— Kathy Ferris   ·   Google review",
+        "header_size": "div",
+        "title_color": "#9FA09C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 17.64
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.15
+        }
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
+     "id": "18bf6db0",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 46
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "19b6e5b8",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "18fd4bb2",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1758,7 +1613,7 @@
        "elements": []
       },
       {
-       "id": "19c5999e",
+       "id": "193b29b4",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1770,7 +1625,7 @@
        "elements": []
       },
       {
-       "id": "0a0378a0",
+       "id": "197907b6",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1799,7 +1654,7 @@
      ]
     },
     {
-     "id": "0a7f34a4",
+     "id": "19f4c3ba",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1811,7 +1666,7 @@
      "elements": []
     },
     {
-     "id": "0b76acac",
+     "id": "0aec3cc2",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1833,103 +1688,7 @@
      },
      "elements": [
       {
-       "id": "0abd12a6",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Just reviewed the promotional video Pepper has done for my Kickstarter campaign. Couldn't be happier! Very professional from start to finish.\"</p>",
-        "text_color": "#FFFFFF",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 25
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 38
-        },
-        "typography_font_weight": "600"
-       },
-       "elements": []
-      },
-      {
-       "id": "0afaf0a8",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 22
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "0b38ceaa",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "— Bruce Jackson   ·   Google review",
-        "header_size": "div",
-        "title_color": "#9FA09C",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_weight": "600",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 17.64
-        },
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 3.15
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "0bb48aae",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 46
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0cac02b6",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "0bf268b0",
+       "id": "0a32a2bc",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1950,7 +1709,7 @@
        "elements": []
       },
       {
-       "id": "0c3046b2",
+       "id": "0a7080be",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1962,7 +1721,7 @@
        "elements": []
       },
       {
-       "id": "0c6e24b4",
+       "id": "0aae5ec0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1991,7 +1750,7 @@
      ]
     },
     {
-     "id": "0ce9e0b8",
+     "id": "0b2a1ac4",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2003,7 +1762,7 @@
      "elements": []
     },
     {
-     "id": "0de158c0",
+     "id": "0c2192cc",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2025,11 +1784,11 @@
      },
      "elements": [
       {
-       "id": "0d27beba",
+       "id": "0b67f8c6",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Very professional team! Worked an event with us at the Sunshine Coast Convention Centre and the outcome was superb.\"</p>",
+        "editor": "<p style=\"max-width:900px;\">\"Super friendly, professional and enthusiastic team that helped encourage our staff to embrace profile headshot day!\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -2046,7 +1805,7 @@
        "elements": []
       },
       {
-       "id": "0d659cbc",
+       "id": "0ba5d6c8",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2058,11 +1817,11 @@
        "elements": []
       },
       {
-       "id": "0da37abe",
+       "id": "0be3b4ca",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "— Keith Dsouza   ·   Google review",
+        "title": "— Marketing HeartHQ   ·   Google review",
         "header_size": "div",
         "title_color": "#9FA09C",
         "typography_typography": "custom",
@@ -2089,7 +1848,7 @@
    ]
   },
   {
-   "id": "17c9e612",
+   "id": "160a201e",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2117,7 +1876,7 @@
    },
    "elements": [
     {
-     "id": "0e5d14c4",
+     "id": "0c9d4ed0",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -2144,7 +1903,7 @@
      "elements": []
     },
     {
-     "id": "0e9af2c6",
+     "id": "0cdb2cd2",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2156,11 +1915,11 @@
      "elements": []
     },
     {
-     "id": "0ed8d0c8",
+     "id": "0d190ad4",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Adventure filming, <span style=\"color:#7E807A\">answered.</span>",
+      "title": "Education content, <span style=\"color:#7E807A\">answered.</span>",
       "header_size": "h2",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -2196,7 +1955,7 @@
      "elements": []
     },
     {
-     "id": "0f16aeca",
+     "id": "0d56e8d6",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2208,7 +1967,7 @@
      "elements": []
     },
     {
-     "id": "0f548ccc",
+     "id": "0d94c6d8",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -2228,7 +1987,7 @@
      "elements": []
     },
     {
-     "id": "155f3afe",
+     "id": "139f740a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2240,7 +1999,7 @@
      "elements": []
     },
     {
-     "id": "159d1800",
+     "id": "13dd520c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2263,7 +2022,7 @@
      },
      "elements": [
       {
-       "id": "104c04d4",
+       "id": "0e8c3ee0",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2290,11 +2049,11 @@
        },
        "elements": [
         {
-         "id": "0f926ace",
+         "id": "0dd2a4da",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Can you shoot in remote locations?",
+          "title": "Do your crew have Blue Cards?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2321,7 +2080,7 @@
          "elements": []
         },
         {
-         "id": "0fd048d0",
+         "id": "0e1082dc",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2333,11 +2092,11 @@
          "elements": []
         },
         {
-         "id": "100e26d2",
+         "id": "0e4e60de",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes — it's most of what we do. Our vans run solar, lithium and a 3000W inverter, so a site with no power and no phone signal is a normal shoot day.</p>",
+          "editor": "<p style=\"max-width:493px;\">Yes. The operators who work on school shoots hold current Queensland Blue Cards (working with children checks), and we'll provide the details for your records before the shoot.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2355,7 +2114,7 @@
        ]
       },
       {
-       "id": "11437cdc",
+       "id": "0f83b6e8",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2382,11 +2141,11 @@
        },
        "elements": [
         {
-         "id": "1089e2d6",
+         "id": "0eca1ce2",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Do you handle permits and access?",
+          "title": "How do you handle permission for student images?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2413,7 +2172,7 @@
          "elements": []
         },
         {
-         "id": "10c7c0d8",
+         "id": "0f07fae4",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2425,11 +2184,11 @@
          "elements": []
         },
         {
-         "id": "11059eda",
+         "id": "0f45d8e6",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes. We manage timing, access, lighting and permits so you can concentrate on the experience rather than the logistics.</p>",
+          "editor": "<p style=\"max-width:493px;\">[ accuracy read ] We work to the school's own consent lists and shoot around students without permission. Confirm the exact process with a school before publishing.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2449,7 +2208,7 @@
      ]
     },
     {
-     "id": "15daf602",
+     "id": "141b300e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2461,7 +2220,7 @@
      "elements": []
     },
     {
-     "id": "1618d404",
+     "id": "14590e10",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2484,7 +2243,7 @@
      },
      "elements": [
       {
-       "id": "123af4e4",
+       "id": "107b2ef0",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2511,11 +2270,11 @@
        },
        "elements": [
         {
-         "id": "11815ade",
+         "id": "0fc194ea",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Do you know the locations?",
+          "title": "Will filming disrupt classes?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2542,7 +2301,7 @@
          "elements": []
         },
         {
-         "id": "11bf38e0",
+         "id": "0fff72ec",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2554,11 +2313,11 @@
          "elements": []
         },
         {
-         "id": "11fd16e2",
+         "id": "103d50ee",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Well. We work across Noosa, the Glass House Mountains, Mount Coolum and the Hinterland constantly — local knowledge is the difference between arriving at the right spot at the right hour and arriving an hour late.</p>",
+          "editor": "<p style=\"max-width:493px;\">It shouldn't. Most classroom work is done quietly with available light, and we plan around timetables rather than asking a school to work around us.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2576,7 +2335,7 @@
        ]
       },
       {
-       "id": "13326cec",
+       "id": "1172a6f8",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2603,11 +2362,11 @@
        },
        "elements": [
         {
-         "id": "1278d2e6",
+         "id": "10b90cf2",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "What gear do you bring?",
+          "title": "Can you film across multiple campuses?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2634,7 +2393,7 @@
          "elements": []
         },
         {
-         "id": "12b6b0e8",
+         "id": "10f6eaf4",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2646,11 +2405,11 @@
          "elements": []
         },
         {
-         "id": "12f48eea",
+         "id": "1134c8f6",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">High-stability gimbals, waterproof cameras, and both FPV and cinematic drones. The kit is chosen for movement and weather, not for a studio.</p>",
+          "editor": "<p style=\"max-width:493px;\">Yes. Multi-campus shoots are usually more efficient run as one project, since the look and the edit stay consistent across all of them.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2670,7 +2429,7 @@
      ]
     },
     {
-     "id": "1656b206",
+     "id": "1496ec12",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2682,7 +2441,7 @@
      "elements": []
     },
     {
-     "id": "16949008",
+     "id": "14d4ca14",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2705,7 +2464,7 @@
      },
      "elements": [
       {
-       "id": "1429e4f4",
+       "id": "126a1e00",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2732,11 +2491,11 @@
        },
        "elements": [
         {
-         "id": "13704aee",
+         "id": "11b084fa",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Do you fly drones commercially?",
+          "title": "What's the best time of year to shoot?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2763,7 +2522,7 @@
          "elements": []
         },
         {
-         "id": "13ae28f0",
+         "id": "11ee62fc",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2775,11 +2534,11 @@
          "elements": []
         },
         {
-         "id": "13ec06f2",
+         "id": "122c40fe",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">[ verify ] Yes. Confirm current CASA licensing and insurance details before this publishes.</p>",
+          "editor": "<p style=\"max-width:493px;\">[ accuracy read ] Ahead of your enrolment cycle, so the content is ready when families are actually looking. Confirm the timing that suits your intake.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2797,7 +2556,7 @@
        ]
       },
       {
-       "id": "15215cfc",
+       "id": "13619608",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2824,11 +2583,11 @@
        },
        "elements": [
         {
-         "id": "1467c2f6",
+         "id": "12a7fc02",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "What happens if the weather turns?",
+          "title": "Do we get stills as well as video?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2855,7 +2614,7 @@
          "elements": []
         },
         {
-         "id": "14a5a0f8",
+         "id": "12e5da04",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2867,11 +2626,11 @@
          "elements": []
         },
         {
-         "id": "14e37efa",
+         "id": "1323b806",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">We plan for it. Outdoor work gets a weather window rather than a single date wherever the schedule allows, and we'll tell you early if a day isn't worth burning.</p>",
+          "editor": "<p style=\"max-width:493px;\">Yes, from the same visit — schools tend to need both, and a second shoot day is the expensive way to get there.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2891,7 +2650,7 @@
      ]
     },
     {
-     "id": "174e2a0e",
+     "id": "158e641a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2903,7 +2662,7 @@
      "elements": []
     },
     {
-     "id": "178c0810",
+     "id": "15cc421c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2927,7 +2686,7 @@
      },
      "elements": [
       {
-       "id": "16d26e0a",
+       "id": "1512a816",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2971,11 +2730,11 @@
        "elements": []
       },
       {
-       "id": "17104c0c",
+       "id": "15508618",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
-        "text": "See recent outdoor work",
+        "text": "See recent education work",
         "link": {
          "url": "/our-work/",
          "is_external": "",
@@ -3029,7 +2788,7 @@
    ]
   },
   {
-   "id": "0a349326",
+   "id": "1874cc32",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3057,7 +2816,7 @@
    },
    "elements": [
     {
-     "id": "1807c414",
+     "id": "1647fe20",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -3084,7 +2843,7 @@
      "elements": []
     },
     {
-     "id": "1845a216",
+     "id": "1685dc22",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3096,11 +2855,11 @@
      "elements": []
     },
     {
-     "id": "18838018",
+     "id": "16c3ba24",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Ready to bring your next <span style=\"color:#7E807A\">action video to life?</span>",
+      "title": "Ready to show families <span style=\"color:#7E807A\">what you do?</span>",
       "header_size": "h2",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -3136,7 +2895,7 @@
      "elements": []
     },
     {
-     "id": "18c15e1a",
+     "id": "17019826",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3148,11 +2907,11 @@
      "elements": []
     },
     {
-     "id": "18ff3c1c",
+     "id": "173f7628",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:551px;\">Ready to bring your next action video to life?</p>",
+      "editor": "<p style=\"max-width:551px;\">Ready to show families what you do?</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -3168,7 +2927,7 @@
      "elements": []
     },
     {
-     "id": "193d1a1e",
+     "id": "177d542a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3180,7 +2939,7 @@
      "elements": []
     },
     {
-     "id": "19f6b424",
+     "id": "1836ee30",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3204,7 +2963,7 @@
      },
      "elements": [
       {
-       "id": "197af820",
+       "id": "17bb322c",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3248,7 +3007,7 @@
        "elements": []
       },
       {
-       "id": "19b8d622",
+       "id": "17f9102e",
        "elType": "widget",
        "widgetType": "button",
        "settings": {

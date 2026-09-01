@@ -1,5 +1,5 @@
 {
- "title": "adventure — redesign draft",
+ "title": "corporate — redesign draft",
  "type": "page",
  "version": "0.4",
  "page_settings": {
@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "189d0610",
+   "id": "0a5ccd04",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -29,7 +29,7 @@
    },
    "elements": [
     {
-     "id": "185f280e",
+     "id": "0a1eef02",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -43,7 +43,7 @@
        "unit": "%",
        "size": 100
       },
-      "css_classes": "slot--dji-20230418143845-0069-d-enhanced-nr",
+      "css_classes": "slot--corporate-desktop",
       "height": {
        "unit": "px",
        "size": 720
@@ -55,7 +55,7 @@
    ]
   },
   {
-   "id": "0b836f28",
+   "id": "0d43351c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -83,11 +83,11 @@
    },
    "elements": [
     {
-     "id": "18dae412",
+     "id": "0a9aab06",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Services · Adventure Filming",
+      "title": "Services · Corporate",
       "header_size": "div",
       "title_color": "#9FA09C",
       "typography_typography": "custom",
@@ -110,7 +110,7 @@
      "elements": []
     },
     {
-     "id": "1918c214",
+     "id": "0ad88908",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -122,11 +122,11 @@
      "elements": []
     },
     {
-     "id": "1956a016",
+     "id": "0b16670a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Adventure filming <span style=\"color:#7E807A\">Sunshine Coast.</span>",
+      "title": "Corporate photo &amp; video <span style=\"color:#7E807A\">Sunshine Coast.</span>",
       "header_size": "h1",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -162,7 +162,7 @@
      "elements": []
     },
     {
-     "id": "19947e18",
+     "id": "0b54450c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -174,11 +174,11 @@
      "elements": []
     },
     {
-     "id": "19d25c1a",
+     "id": "0b92230e",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:742px;\">Capturing picturesque content takes more than a camera. It takes timing, skill and an understanding of how movement and nature work together.</p>",
+      "editor": "<p style=\"max-width:742px;\">Investing in corporate photography and videography ensures your brand is represented in the best possible way — helping you attract the right clients, build relationships, and drive long-term success.</p>",
       "text_color": "#33353A",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -194,7 +194,7 @@
      "elements": []
     },
     {
-     "id": "0a103b1c",
+     "id": "0bd00110",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -206,7 +206,7 @@
      "elements": []
     },
     {
-     "id": "0ac9d522",
+     "id": "0c899b16",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -230,7 +230,7 @@
      },
      "elements": [
       {
-       "id": "0a4e191e",
+       "id": "0c0ddf12",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -274,7 +274,7 @@
        "elements": []
       },
       {
-       "id": "0a8bf720",
+       "id": "0c4bbd14",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -330,7 +330,7 @@
      ]
     },
     {
-     "id": "0b07b324",
+     "id": "0cc77918",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -342,7 +342,7 @@
      "elements": []
     },
     {
-     "id": "0b459126",
+     "id": "0d05571a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -378,7 +378,7 @@
    ]
   },
   {
-   "id": "0db03d3a",
+   "id": "0f70032e",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -408,7 +408,7 @@
    },
    "elements": [
     {
-     "id": "0cf6a334",
+     "id": "0eb66928",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -435,7 +435,7 @@
      },
      "elements": [
       {
-       "id": "0bc14d2a",
+       "id": "0d81131e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -462,7 +462,7 @@
        "elements": []
       },
       {
-       "id": "0bff2b2c",
+       "id": "0dbef120",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -474,11 +474,11 @@
        "elements": []
       },
       {
-       "id": "0c3d092e",
+       "id": "0dfccf22",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Adventure, <span style=\"color:#7E807A\">documented.</span>",
+        "title": "Why corporate photography &amp; <span style=\"color:#7E807A\">videography?</span>",
         "header_size": "h2",
         "title_color": "#0F1012",
         "typography_typography": "custom",
@@ -514,7 +514,7 @@
        "elements": []
       },
       {
-       "id": "0c7ae730",
+       "id": "0e3aad24",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -526,11 +526,11 @@
        "elements": []
       },
       {
-       "id": "0cb8c532",
+       "id": "0e788b26",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Many businesses struggle to capture the thrill in a way that feels real. Fast movement, shifting light and unpredictable conditions usually end in footage that doesn't reflect the experience at all.</p><p style=\"max-width:615px;\">We film action with authenticity and attention to detail, working with outdoor brands, tourism operators, athletes and creators who want to show real experiences without having to plan or manage a fast-paced shoot themselves.</p><p style=\"max-width:615px;\">From coastal tracks and beaches to waterfalls, rainforest trails and mountain peaks, we turn your experience into a visual story audiences remember — a hero brand video, a social package, or an entire tourism campaign. We service the Sunshine Coast to Fiji and everywhere in between.</p>",
+        "editor": "<p style=\"max-width:615px;\">Every corporate photography and videography project we undertake starts with a deep\n        understanding of your business, goals, and brand values. Our tailored approach ensures\n        your content reflects your unique style and enhances your credibility.</p><p style=\"max-width:615px;\">First impressions count — and more often than not, yours happens online before it\n        happens in person.</p>",
         "text_color": "#55575C",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -548,7 +548,7 @@
      ]
     },
     {
-     "id": "0d725f38",
+     "id": "0f32252c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -575,21 +575,21 @@
      },
      "elements": [
       {
-       "id": "0d348136",
+       "id": "0ef4472a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
          "url": "",
          "id": "",
-         "alt": "Sailing content filmed by Pepper Productions"
+         "alt": "Frame from a corporate film produced by Pepper"
         },
         "image_size": "large",
         "width": {
          "unit": "%",
          "size": 100
         },
-        "css_classes": "slot--pepper-cure-sailing",
+        "css_classes": "slot--frame-91142-cop-2y-scaled",
         "height": {
          "unit": "px",
          "size": 375
@@ -603,248 +603,7 @@
    ]
   },
   {
-   "id": "1058c750",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "96",
-     "right": "52",
-     "bottom": "96",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#16171A"
-   },
-   "elements": [
-    {
-     "id": "0ea7b542",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Recent film",
-      "header_size": "div",
-      "title_color": "#C3C4C0",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0e2bf93e",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 27
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0e69d740",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Shot <span style=\"color:#C3C4C0\">on location.</span>",
-      "header_size": "h2",
-      "title_color": "#FFFFFF",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0ee59344",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 40
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0f614f48",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      },
-      "width": {
-       "unit": "px",
-       "size": 780
-      },
-      "flex_shrink": "0"
-     },
-     "elements": [
-      {
-       "id": "0f237146",
-       "elType": "widget",
-       "widgetType": "video",
-       "settings": {
-        "video_type": "youtube",
-        "youtube_url": "https://www.youtube.com/watch?v=gAl9NpA9Law",
-        "show_image_overlay": "yes",
-        "image_overlay": {
-         "url": "",
-         "id": ""
-        },
-        "image_overlay_size": "large",
-        "show_play_icon": "yes",
-        "aspect_ratio": "169",
-        "play_icon": {
-         "value": "fab fa-youtube",
-         "library": "fa-brands"
-        },
-        "css_classes": "slot--reel-overlay"
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "0f9f2d4a",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 16
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "101ae94e",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      },
-      "width": {
-       "unit": "px",
-       "size": 780
-      },
-      "flex_shrink": "0"
-     },
-     "elements": [
-      {
-       "id": "0fdd0b4c",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Namotu Island's Luxury Charter Boat, the Cobalt",
-        "header_size": "div",
-        "title_color": "#9FA09C",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_weight": "600",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 10
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 16
-        },
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 2.4
-        }
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "12c37364",
+   "id": "11daaf42",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -872,7 +631,7 @@
    },
    "elements": [
     {
-     "id": "1096a552",
+     "id": "0fade130",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -899,7 +658,7 @@
      "elements": []
     },
     {
-     "id": "10d48354",
+     "id": "0febbf32",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -911,11 +670,11 @@
      "elements": []
     },
     {
-     "id": "11126156",
+     "id": "10299d34",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Our adventure filming <span style=\"color:#7E807A\">services.</span>",
+      "title": "How we help your business <span style=\"color:#7E807A\">stand out.</span>",
       "header_size": "h2",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -951,7 +710,7 @@
      "elements": []
     },
     {
-     "id": "1247b760",
+     "id": "115ef33e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -963,7 +722,7 @@
      "elements": []
     },
     {
-     "id": "12859562",
+     "id": "119cd140",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -986,7 +745,7 @@
      },
      "elements": [
       {
-       "id": "1209d95e",
+       "id": "1121153c",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1013,11 +772,11 @@
        },
        "elements": [
         {
-         "id": "11503f58",
+         "id": "10677b36",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Outdoor and action videography",
+          "title": "Corporate brand films",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -1040,7 +799,7 @@
          "elements": []
         },
         {
-         "id": "118e1d5a",
+         "id": "10a55938",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -1052,11 +811,11 @@
          "elements": []
         },
         {
-         "id": "11cbfb5c",
+         "id": "10e3373a",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>For outdoor brands, tourism operators, athletes and businesses wanting filming that reflects real pace and energy.</p>",
+          "editor": "<p>Tell the story of who you are and why you do it — films that build trust before the\n        first meeting.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1078,7 +837,7 @@
    ]
   },
   {
-   "id": "1436a770",
+   "id": "134de34e",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1106,7 +865,7 @@
    },
    "elements": [
     {
-     "id": "13015166",
+     "id": "12188d44",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1133,7 +892,7 @@
      "elements": []
     },
     {
-     "id": "133f2f68",
+     "id": "12566b46",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1145,7 +904,7 @@
      "elements": []
     },
     {
-     "id": "137d0d6a",
+     "id": "12944948",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1185,7 +944,7 @@
      "elements": []
     },
     {
-     "id": "13baeb6c",
+     "id": "12d2274a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1197,7 +956,7 @@
      "elements": []
     },
     {
-     "id": "13f8c96e",
+     "id": "1310054c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1223,7 +982,7 @@
    ]
   },
   {
-   "id": "16df3186",
+   "id": "15f66d64",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1253,7 +1012,7 @@
    },
    "elements": [
     {
-     "id": "16259780",
+     "id": "153cd35e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1280,7 +1039,7 @@
      },
      "elements": [
       {
-       "id": "14748572",
+       "id": "138bc150",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1307,7 +1066,7 @@
        "elements": []
       },
       {
-       "id": "14b26374",
+       "id": "13c99f52",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1319,11 +1078,11 @@
        "elements": []
       },
       {
-       "id": "14f04176",
+       "id": "14077d54",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "Outdoor specialists, <span style=\"color:#C3C4C0\">with an agency behind them.</span>",
+        "title": "Backed by an agency, <span style=\"color:#C3C4C0\">not just a camera.</span>",
         "header_size": "h2",
         "title_color": "#FFFFFF",
         "typography_typography": "custom",
@@ -1359,7 +1118,7 @@
        "elements": []
       },
       {
-       "id": "152e1f78",
+       "id": "14455b56",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1371,11 +1130,11 @@
        "elements": []
       },
       {
-       "id": "156bfd7a",
+       "id": "14833958",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:624px;\">Adventure content usually comes from one of two places: a specialist who can shoot it, or an agency who can plan it. Rarely both.</p>",
+        "editor": "<p style=\"max-width:624px;\">Every other production company on the Coast is a production company.\n      That is the whole business.</p>",
         "text_color": "#E4E5E1",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -1392,7 +1151,7 @@
        "elements": []
       },
       {
-       "id": "15a9db7c",
+       "id": "14c1175a",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1404,11 +1163,11 @@
        "elements": []
       },
       {
-       "id": "15e7b97e",
+       "id": "14fef55c",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Adventure, outdoor and sport is the work we are known for — the surf clubs, the trails, the water, the vans that get us there. It is a genuine specialism, not a service line we added.</p><p style=\"max-width:615px;\">And behind it is Chilli, the marketing agency that has been growing Sunshine Coast businesses since 1993. So the footage is shot by people who ride the terrain, and planned by people who know what the campaign has to do when it lands.</p>",
+        "editor": "<p style=\"max-width:615px;\">Pepper is the content arm of Chilli, the Sunshine Coast marketing agency that has been\n      growing local businesses since 1993. The practical difference is the first question we\n      ask: not what you want the film to look like, but what it has to achieve — who it's\n      aimed at, where it runs, and what it needs to shift.</p><p style=\"max-width:615px;\">That means strategists and marketers in the room at the planning stage, not just camera\n      operators on the day. You get a corporate film built against an objective, and a team who\n      can tell you when the thing you asked for isn't the thing that will work.</p>",
         "text_color": "#A9ABAE",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -1426,7 +1185,7 @@
      ]
     },
     {
-     "id": "16a15384",
+     "id": "15b88f62",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1453,21 +1212,21 @@
      },
      "elements": [
       {
-       "id": "16637582",
+       "id": "157ab160",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
         "image": {
          "url": "",
          "id": "",
-         "alt": "Beau Blake, Pepper Productions"
+         "alt": "Pepper Productions on location"
         },
         "image_size": "large",
         "width": {
          "unit": "%",
          "size": 100
         },
-        "css_classes": "slot--meet-beau",
+        "css_classes": "slot--spire-desktop",
         "height": {
          "unit": "px",
          "size": 375
@@ -1481,7 +1240,7 @@
    ]
   },
   {
-   "id": "18ce2196",
+   "id": "17e55d74",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1509,7 +1268,7 @@
    },
    "elements": [
     {
-     "id": "171d0f88",
+     "id": "16344b66",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1536,7 +1295,7 @@
      "elements": []
     },
     {
-     "id": "175aed8a",
+     "id": "16722968",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1548,11 +1307,11 @@
      "elements": []
     },
     {
-     "id": "1798cb8c",
+     "id": "16b0076a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "More outdoor <span style=\"color:#7E807A\">work.</span>",
+      "title": "More corporate <span style=\"color:#7E807A\">work.</span>",
       "header_size": "h2",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -1588,7 +1347,7 @@
      "elements": []
     },
     {
-     "id": "17d6a98e",
+     "id": "16ede56c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1600,7 +1359,7 @@
      "elements": []
     },
     {
-     "id": "18148790",
+     "id": "172bc36e",
      "elType": "widget",
      "widgetType": "uael-image-gallery",
      "settings": {
@@ -1614,7 +1373,7 @@
      "elements": []
     },
     {
-     "id": "18526592",
+     "id": "1769a170",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1626,11 +1385,11 @@
      "elements": []
     },
     {
-     "id": "18904394",
+     "id": "17a77f72",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Sunshine Coast to Fiji and everywhere in between.</p>",
+      "editor": "<p>A selection from recent corporate shoots across the Sunshine Coast.</p>",
       "text_color": "#9FA09C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -1648,7 +1407,7 @@
    ]
   },
   {
-   "id": "0e1f36c2",
+   "id": "0d3672a0",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1676,7 +1435,7 @@
    },
    "elements": [
     {
-     "id": "190bff98",
+     "id": "18233b76",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1703,7 +1462,7 @@
      "elements": []
     },
     {
-     "id": "1949dd9a",
+     "id": "18611978",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1715,7 +1474,7 @@
      "elements": []
     },
     {
-     "id": "0a4156a2",
+     "id": "19589180",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1737,199 +1496,7 @@
      },
      "elements": [
       {
-       "id": "1987bb9c",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"The Pepper lads produced me an amazing video for my business. The finished product was even better than I hoped for.\"</p>",
-        "text_color": "#FFFFFF",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 25
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 38
-        },
-        "typography_font_weight": "600"
-       },
-       "elements": []
-      },
-      {
-       "id": "19c5999e",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 22
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "0a0378a0",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "— Clint Jensen   ·   Google review",
-        "header_size": "div",
-        "title_color": "#9FA09C",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_weight": "600",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 17.64
-        },
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 3.15
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "0a7f34a4",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 46
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0b76acac",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "0abd12a6",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Just reviewed the promotional video Pepper has done for my Kickstarter campaign. Couldn't be happier! Very professional from start to finish.\"</p>",
-        "text_color": "#FFFFFF",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 25
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 38
-        },
-        "typography_font_weight": "600"
-       },
-       "elements": []
-      },
-      {
-       "id": "0afaf0a8",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 22
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "0b38ceaa",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "— Bruce Jackson   ·   Google review",
-        "header_size": "div",
-        "title_color": "#9FA09C",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_weight": "600",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 17.64
-        },
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 3.15
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "0bb48aae",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 46
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0cac02b6",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "0bf268b0",
+       "id": "189ef77a",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1950,7 +1517,7 @@
        "elements": []
       },
       {
-       "id": "0c3046b2",
+       "id": "18dcd57c",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1962,7 +1529,7 @@
        "elements": []
       },
       {
-       "id": "0c6e24b4",
+       "id": "191ab37e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1991,7 +1558,7 @@
      ]
     },
     {
-     "id": "0ce9e0b8",
+     "id": "19966f82",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2003,7 +1570,7 @@
      "elements": []
     },
     {
-     "id": "0de158c0",
+     "id": "0a8de88a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2025,7 +1592,103 @@
      },
      "elements": [
       {
-       "id": "0d27beba",
+       "id": "19d44d84",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"max-width:900px;\">\"Super friendly, professional and enthusiastic team that helped encourage our staff to embrace profile headshot day!\"</p>",
+        "text_color": "#FFFFFF",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 25
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 38
+        },
+        "typography_font_weight": "600"
+       },
+       "elements": []
+      },
+      {
+       "id": "0a122c86",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 22
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0a500a88",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "— Marketing HeartHQ   ·   Google review",
+        "header_size": "div",
+        "title_color": "#9FA09C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 17.64
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.15
+        }
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
+     "id": "0acbc68c",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 46
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0bc33e94",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "0b09a48e",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2046,7 +1709,7 @@
        "elements": []
       },
       {
-       "id": "0d659cbc",
+       "id": "0b478290",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2058,7 +1721,7 @@
        "elements": []
       },
       {
-       "id": "0da37abe",
+       "id": "0b856092",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2085,11 +1748,107 @@
        "elements": []
       }
      ]
+    },
+    {
+     "id": "0c011c96",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 46
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0cf8949e",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "0c3efa98",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"max-width:900px;\">\"Thanks so much to the team at Pepper Productions for doing such a fantastic job of videoing our conference.\"</p>",
+        "text_color": "#FFFFFF",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 25
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 38
+        },
+        "typography_font_weight": "600"
+       },
+       "elements": []
+      },
+      {
+       "id": "0c7cd89a",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 22
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0cbab69c",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "— Kathy Ferris   ·   Google review",
+        "header_size": "div",
+        "title_color": "#9FA09C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 17.64
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.15
+        }
+       },
+       "elements": []
+      }
+     ]
     }
    ]
   },
   {
-   "id": "17c9e612",
+   "id": "16e122f0",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2117,7 +1876,7 @@
    },
    "elements": [
     {
-     "id": "0e5d14c4",
+     "id": "0d7450a2",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -2144,7 +1903,7 @@
      "elements": []
     },
     {
-     "id": "0e9af2c6",
+     "id": "0db22ea4",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2156,11 +1915,11 @@
      "elements": []
     },
     {
-     "id": "0ed8d0c8",
+     "id": "0df00ca6",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Adventure filming, <span style=\"color:#7E807A\">answered.</span>",
+      "title": "Corporate video, <span style=\"color:#7E807A\">answered.</span>",
       "header_size": "h2",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -2196,7 +1955,7 @@
      "elements": []
     },
     {
-     "id": "0f16aeca",
+     "id": "0e2deaa8",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2208,11 +1967,11 @@
      "elements": []
     },
     {
-     "id": "0f548ccc",
+     "id": "0e6bc8aa",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:615px;\">The questions we're asked most often. If yours isn't here, ask us — we'd rather answer it now than after the quote.</p>",
+      "editor": "<p style=\"max-width:615px;\">The questions we're asked most often before a corporate shoot. If yours isn't here, ask us — we'd rather answer it now than after the quote.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -2228,7 +1987,7 @@
      "elements": []
     },
     {
-     "id": "155f3afe",
+     "id": "147676dc",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2240,7 +1999,7 @@
      "elements": []
     },
     {
-     "id": "159d1800",
+     "id": "14b454de",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2263,7 +2022,7 @@
      },
      "elements": [
       {
-       "id": "104c04d4",
+       "id": "0f6340b2",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2290,11 +2049,11 @@
        },
        "elements": [
         {
-         "id": "0f926ace",
+         "id": "0ea9a6ac",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Can you shoot in remote locations?",
+          "title": "How long does a corporate video take from brief to delivery?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2321,7 +2080,7 @@
          "elements": []
         },
         {
-         "id": "0fd048d0",
+         "id": "0ee784ae",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2333,11 +2092,11 @@
          "elements": []
         },
         {
-         "id": "100e26d2",
+         "id": "0f2562b0",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes — it's most of what we do. Our vans run solar, lithium and a 3000W inverter, so a site with no power and no phone signal is a normal shoot day.</p>",
+          "editor": "<p style=\"max-width:493px;\">[ accuracy read ] Most corporate projects run three to four weeks end to end — a week to plan and script, a shoot day, then two weeks in post. Tighter deadlines are usually possible; tell us the date and we'll tell you honestly whether it's on.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2355,7 +2114,7 @@
        ]
       },
       {
-       "id": "11437cdc",
+       "id": "105ab8ba",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2382,11 +2141,11 @@
        },
        "elements": [
         {
-         "id": "1089e2d6",
+         "id": "0fa11eb4",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Do you handle permits and access?",
+          "title": "What does a corporate video cost?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2413,7 +2172,7 @@
          "elements": []
         },
         {
-         "id": "10c7c0d8",
+         "id": "0fdefcb6",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2425,11 +2184,11 @@
          "elements": []
         },
         {
-         "id": "11059eda",
+         "id": "101cdab8",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes. We manage timing, access, lighting and permits so you can concentrate on the experience rather than the logistics.</p>",
+          "editor": "<p style=\"max-width:493px;\">It depends on shoot days, crew and how much post the piece needs, so we quote per project rather than off a rate card. Every quote itemises what you're paying for, and we'll tell you if something on your wish list isn't worth the money.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2449,7 +2208,7 @@
      ]
     },
     {
-     "id": "15daf602",
+     "id": "14f232e0",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2461,7 +2220,7 @@
      "elements": []
     },
     {
-     "id": "1618d404",
+     "id": "153010e2",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2484,7 +2243,7 @@
      },
      "elements": [
       {
-       "id": "123af4e4",
+       "id": "115230c2",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2511,11 +2270,11 @@
        },
        "elements": [
         {
-         "id": "11815ade",
+         "id": "109896bc",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Do you know the locations?",
+          "title": "Do we need a script before we start?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2542,7 +2301,7 @@
          "elements": []
         },
         {
-         "id": "11bf38e0",
+         "id": "10d674be",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2554,11 +2313,11 @@
          "elements": []
         },
         {
-         "id": "11fd16e2",
+         "id": "111452c0",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Well. We work across Noosa, the Glass House Mountains, Mount Coolum and the Hinterland constantly — local knowledge is the difference between arriving at the right spot at the right hour and arriving an hour late.</p>",
+          "editor": "<p style=\"max-width:493px;\">No. Most clients come to us with a goal rather than a script, and shaping that into a story is part of the job — we're backed by Chilli, a marketing agency that's been doing exactly this since 1993.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2576,7 +2335,7 @@
        ]
       },
       {
-       "id": "13326cec",
+       "id": "1249a8ca",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2603,11 +2362,11 @@
        },
        "elements": [
         {
-         "id": "1278d2e6",
+         "id": "11900ec4",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "What gear do you bring?",
+          "title": "Where do you film?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2634,7 +2393,7 @@
          "elements": []
         },
         {
-         "id": "12b6b0e8",
+         "id": "11cdecc6",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2646,11 +2405,11 @@
          "elements": []
         },
         {
-         "id": "12f48eea",
+         "id": "120bcac8",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">High-stability gimbals, waterproof cameras, and both FPV and cinematic drones. The kit is chosen for movement and weather, not for a studio.</p>",
+          "editor": "<p style=\"max-width:493px;\">We're based in Birtinya on the Sunshine Coast and shoot across South East Queensland and beyond. Our production vans are fitted out to run a full shoot anywhere, including sites with no power.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2670,7 +2429,7 @@
      ]
     },
     {
-     "id": "1656b206",
+     "id": "156deee4",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2682,7 +2441,7 @@
      "elements": []
     },
     {
-     "id": "16949008",
+     "id": "15abcce6",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2705,7 +2464,7 @@
      },
      "elements": [
       {
-       "id": "1429e4f4",
+       "id": "134120d2",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2732,11 +2491,11 @@
        },
        "elements": [
         {
-         "id": "13704aee",
+         "id": "128786cc",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Do you fly drones commercially?",
+          "title": "Will our staff need to be on camera?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2763,7 +2522,7 @@
          "elements": []
         },
         {
-         "id": "13ae28f0",
+         "id": "12c564ce",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2775,11 +2534,11 @@
          "elements": []
         },
         {
-         "id": "13ec06f2",
+         "id": "130342d0",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">[ verify ] Yes. Confirm current CASA licensing and insurance details before this publishes.</p>",
+          "editor": "<p style=\"max-width:493px;\">Only if you want them to be. Plenty of corporate work is voiceover, b-roll and on-screen text. When people are on camera we direct them properly — most say afterwards it was easier than they expected.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2797,7 +2556,7 @@
        ]
       },
       {
-       "id": "15215cfc",
+       "id": "143898da",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2824,11 +2583,11 @@
        },
        "elements": [
         {
-         "id": "1467c2f6",
+         "id": "137efed4",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "What happens if the weather turns?",
+          "title": "Do you do photography and video on the same day?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2855,7 +2614,7 @@
          "elements": []
         },
         {
-         "id": "14a5a0f8",
+         "id": "13bcdcd6",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2867,11 +2626,11 @@
          "elements": []
         },
         {
-         "id": "14e37efa",
+         "id": "13fabad8",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">We plan for it. Outdoor work gets a weather window rather than a single date wherever the schedule allows, and we'll tell you early if a day isn't worth burning.</p>",
+          "editor": "<p style=\"max-width:493px;\">Yes — it's usually the most cost-effective way to work, and it's how most of our corporate clients run their shoots. Headshots, team and culture stills and video all come out of one booking.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2891,7 +2650,7 @@
      ]
     },
     {
-     "id": "174e2a0e",
+     "id": "166566ec",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2903,7 +2662,7 @@
      "elements": []
     },
     {
-     "id": "178c0810",
+     "id": "16a344ee",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2927,7 +2686,7 @@
      },
      "elements": [
       {
-       "id": "16d26e0a",
+       "id": "15e9aae8",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2971,11 +2730,11 @@
        "elements": []
       },
       {
-       "id": "17104c0c",
+       "id": "162788ea",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
-        "text": "See recent outdoor work",
+        "text": "See recent corporate work",
         "link": {
          "url": "/our-work/",
          "is_external": "",
@@ -3029,7 +2788,7 @@
    ]
   },
   {
-   "id": "0a349326",
+   "id": "194bce04",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3057,7 +2816,7 @@
    },
    "elements": [
     {
-     "id": "1807c414",
+     "id": "171f00f2",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -3084,7 +2843,7 @@
      "elements": []
     },
     {
-     "id": "1845a216",
+     "id": "175cdef4",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3096,11 +2855,11 @@
      "elements": []
     },
     {
-     "id": "18838018",
+     "id": "179abcf6",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Ready to bring your next <span style=\"color:#7E807A\">action video to life?</span>",
+      "title": "Ready to look <span style=\"color:#7E807A\">the part?</span>",
       "header_size": "h2",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -3136,7 +2895,7 @@
      "elements": []
     },
     {
-     "id": "18c15e1a",
+     "id": "17d89af8",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3148,11 +2907,11 @@
      "elements": []
     },
     {
-     "id": "18ff3c1c",
+     "id": "181678fa",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:551px;\">Ready to bring your next action video to life?</p>",
+      "editor": "<p style=\"max-width:551px;\">Get in touch with our corporate photography team on the Sunshine Coast today for a tailored quote. Let's make your brand stand out with professional visual content that connects and converts.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -3168,7 +2927,7 @@
      "elements": []
     },
     {
-     "id": "193d1a1e",
+     "id": "185456fc",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3180,7 +2939,7 @@
      "elements": []
     },
     {
-     "id": "19f6b424",
+     "id": "190df002",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3204,7 +2963,7 @@
      },
      "elements": [
       {
-       "id": "197af820",
+       "id": "189234fe",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -3248,7 +3007,7 @@
        "elements": []
       },
       {
-       "id": "19b8d622",
+       "id": "18d01200",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
