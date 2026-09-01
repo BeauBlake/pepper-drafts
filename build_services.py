@@ -56,7 +56,7 @@ SERVICES = [("corporate.html", "Corporate Photo &amp; Video"),
 ABOUT = [("about.html", "About Pepper"), ("vans.html", "The Pepper Vans")]
 REST_A = [("work.html", "Our Work")]
 REST_B = [("crew.html", "Your Crew"), ("blog.html", "The Blog"),
-          ("contact.html", "Contact")]
+          ("contact.html", "Contact"), ("quote.html", "Get a Quote")]
 
 # The six real Google reviews from the homepage. Curated per page below so the
 # most relevant one leads — these are the only genuine reviews we have, so no
@@ -946,7 +946,7 @@ def render(p, cssv):
     <h1>{p['h1'][0]} <span class="van">{p['h1'][1]}</span></h1>
     <p class="stand">{p['stand']}</p>
     <div class="ctas">
-      <a class="btn" href="contact.html">Request a quote</a>
+      <a class="btn" href="quote.html">Request a quote</a>
       <a class="btn g" href="work.html">See our work</a>
     </div>
     <div class="rail">{rail}</div>
@@ -1070,7 +1070,7 @@ def render(p, cssv):
   <p class="big">{p['closeH2'][0]} <span class="van">{p['closeH2'][1]}</span></p>
   <p>{p['close']}</p>
   <div class="ctas">
-    <a class="btn" href="contact.html">Request a quote</a>
+    <a class="btn" href="quote.html">Request a quote</a>
     <a class="btn g" href="contact.html">Contact us</a>
   </div>
 </div></div></section>

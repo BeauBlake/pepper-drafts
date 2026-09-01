@@ -658,3 +658,50 @@ a[href="#"]{cursor:default}
   text-transform:uppercase;color:var(--van)}
 .reelembed .frame.slot .m span{display:block;margin-top:12px;color:#8b8e93;font-size:14.5px;
   max-width:44ch;line-height:1.6}
+
+/* ---- Quote form — the Request a Quote page, added 1 Sept -----------------
+   Beau: "there is also a contact page missing — the get a quote page."
+   /request-a-quote/ exists on the live site and every "Request a quote"
+   button on the draft was pointing at contact.html instead, so the whole
+   primary conversion path led to the wrong form.
+   Structure mirrors the live Gravity Form: three groups (Photography /
+   Videography / Extra requirements) with a details block above.
+   Elementor: this is Gravity Form 11 on the live site — do NOT rebuild the
+   fields by hand there, embed the existing form and style the wrapper. ---- */
+.qform{margin-top:12px}
+.qgroup{border-top:1px solid var(--hair);padding-top:30px;margin-top:34px}
+.qgroup:first-of-type{border-top:0;margin-top:0;padding-top:0}
+.qgroup h3{font-size:12px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;
+  color:var(--decal);margin:0 0 20px}
+.qrow{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.qrow.one{grid-template-columns:1fr}
+.qform input,.qform textarea,.qform select{background:#fff;border:1px solid var(--hair);
+  padding:15px;font-family:var(--font);font-size:14.5px;width:100%;color:var(--ink)}
+.qform textarea{min-height:130px;resize:vertical}
+.qform input:focus,.qform textarea:focus,.qform select:focus{outline:2px solid var(--ink);
+  outline-offset:-2px}
+.qopts{display:flex;flex-wrap:wrap;gap:10px}
+.qopt{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--hair);
+  background:#fff;padding:12px 16px;font-size:14px;cursor:pointer}
+.qopt input{width:auto;padding:0;border:0}
+.qnote{margin-top:10px;font-size:13px;color:var(--body);line-height:1.55}
+.qsubmit{margin-top:36px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.qsubmit button{background:var(--ink);color:#fff;border:0;cursor:pointer;font-family:var(--font);
+  font-size:11.5px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;padding:20px 36px}
+.qaside{align-self:start}
+.qaside .row{display:flex;gap:16px;padding:13px 0;border-bottom:1px solid var(--hair)}
+.qaside .k{flex:0 0 78px;font-size:10.5px;font-weight:600;letter-spacing:.22em;
+  text-transform:uppercase;color:var(--decal);padding-top:3px}
+.qaside .v{font-size:15px;font-weight:600}
+@media(max-width:900px){.qrow{grid-template-columns:1fr}}
+
+/* ---- Light video band, added 1 Sept --------------------------------------
+   Several client stories run two or three videos back to back (Go Turf has
+   three, Namotu and SLSQ likewise). Every .reelembed is dark, so consecutive
+   ones produced touching black bands — the exact adjacent-same-colour fault
+   the brand rules forbid everywhere else. Runs now alternate dark / light. -- */
+.reelembed.lite{background:var(--paper);color:var(--ink);border-top:1px solid var(--hair)}
+.reelembed.lite .lbl{color:var(--decal)}
+.reelembed.lite h2{color:var(--ink)}
+.reelembed.lite h2 .van{color:var(--van-mid)}
+.reelembed.lite .cap{color:var(--decal)}

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Pepper — Get a Quote (draft)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="pepper.css?v=1788258297">
+</head>
+<!-- ADDED 1 Sept — Beau: "there is also a contact page missing, the get a quote
+     page." /request-a-quote/ is live and is the site's primary conversion path,
+     and every "Request a quote" button across this draft was pointing at
+     contact.html instead. Those are all repointed here.
+
+     Fields are the live Gravity Form's own, in its order and grouping
+     (Photography / Videography / Extra requirements). Nothing invented.
+     ELEMENTOR: this is an existing Gravity Form on the live site — embed it and
+     style the wrapper. Do NOT rebuild these fields by hand, or the submissions
+     stop going where they currently go. The markup below is display-only.
+     [ tbc ] the budget bands are the one thing not on the live form as fixed
+     options — it is a free-text field there. Confirm before making them ranges. -->
+<body class="opt-c">
+<div class="bar"><div class="w">
+  <a class="logo" href="index.html"><img src="https://pepperproductions.com.au/wp-content/uploads/Pepper_logo_Mono-Rev-1024x437.png" alt="Pepper Productions"></a>
+  <nav><span class="drop"><a href="corporate.html">How We Help</a><span class="menu"><a href="corporate.html">Corporate Photo &amp; Video</a><a href="business.html">Business Photo &amp; Video</a><a href="product.html">Product Photography</a><a href="adventure.html">Adventure &amp; Outdoor</a><a href="event.html">Event Coverage</a><a href="headshots.html">Professional Headshots</a><a href="education.html">Education Content</a></span></span><a href="work.html">Our Work</a><span class="drop"><a href="about.html">About</a><span class="menu"><a href="about.html">About Pepper</a><a href="vans.html">The Pepper Vans</a></span></span><a href="crew.html">Your Crew</a><a href="blog.html">The Blog</a><a href="contact.html">Contact</a><a href="quote.html" class="on">Get a Quote</a></nav>
+</div></div>
+
+<!-- ================= PAGE HERO — type only, direct ================= -->
+<section class="pagehero">
+  <div class="type" style="padding-top:78px"><div class="w">
+    <span class="lbl">Start here</span>
+    <h1>Get a <span class="van">quote.</span></h1>
+    <p class="stand">We're committed to achieving excellence within your budget. Tell us what
+      you're making, who it's for and roughly what you have to spend — we'll come back with an
+      approach and a price.</p>
+  </div></div>
+</section>
+
+<!-- ================= THE FORM ================= -->
+<section class="sec paper" style="border-top:0"><div class="w duo">
+  <div>
+    <div class="qform">
+
+      <div class="qgroup">
+        <h3>About you</h3>
+        <div class="qrow one">
+          <input placeholder="Company name *">
+        </div>
+        <div class="qrow" style="margin-top:14px">
+          <input placeholder="First name *"><input placeholder="Last name *">
+        </div>
+        <div class="qrow" style="margin-top:14px">
+          <input placeholder="Email *"><input placeholder="Phone">
+        </div>
+      </div>
+
+      <div class="qgroup">
+        <h3>What do you need?</h3>
+        <div class="qopts">
+          <label class="qopt"><input type="checkbox"> Photography</label>
+          <label class="qopt"><input type="checkbox"> Videography</label>
+          <label class="qopt"><input type="checkbox"> Other</label>
+        </div>
+        <p class="qnote">Tick both if you need stills and video — it's usually the most
+          cost-effective way to work, because the set is already built and lit.</p>
+      </div>
+
+      <div class="qgroup">
+        <h3>Photography</h3>
+        <p class="qnote" style="margin:0 0 14px">Where will the images be used?</p>
+        <div class="qopts">
+          <label class="qopt"><input type="checkbox"> Social media</label>
+          <label class="qopt"><input type="checkbox"> Website</label>
+          <label class="qopt"><input type="checkbox"> Signage or print</label>
+        </div>
+        <p class="qnote" style="margin:18px 0 14px">What shape do you need them in?</p>
+        <div class="qopts">
+          <label class="qopt"><input type="checkbox"> Landscape</label>
+          <label class="qopt"><input type="checkbox"> Portrait</label>
+          <label class="qopt"><input type="checkbox"> Square</label>
+          <label class="qopt"><input type="checkbox"> Web banners</label>
+        </div>
+        <div class="qrow one" style="margin-top:18px">
+          <input placeholder="Approximate number of images *">
+        </div>
+      </div>
+
+      <div class="qgroup">
+        <h3>Videography</h3>
+        <div class="qrow one">
+          <input placeholder="Type of video *">
+        </div>
+        <p class="qnote" style="margin:18px 0 14px">How many, and how long?</p>
+        <div class="qrow">
+          <input placeholder="× 15 second video"><input placeholder="× 30 second video">
+          <input placeholder="× 60 second video"><input placeholder="× Other length">
+        </div>
+      </div>
+
+      <div class="qgroup">
+        <h3>Extra requirements</h3>
+        <div class="qopts">
+          <label class="qopt"><input type="checkbox"> Talent</label>
+          <label class="qopt"><input type="checkbox"> Script writing</label>
+          <label class="qopt"><input type="checkbox"> Makeup</label>
+          <label class="qopt"><input type="checkbox"> Studio rental</label>
+        </div>
+      </div>
+
+      <div class="qgroup">
+        <h3>Budget and brief</h3>
+        <div class="qrow one">
+          <input placeholder="Approximate budget for this project *">
+        </div>
+        <div class="qrow one" style="margin-top:14px">
+          <textarea placeholder="Tell us briefly what you're making and who it's for *"></textarea>
+        </div>
+        <div class="qrow one" style="margin-top:14px">
+          <textarea placeholder="Anything else we should know?" style="min-height:90px"></textarea>
+        </div>
+      </div>
+
+      <div class="qsubmit">
+        <button type="button" title="Display only in the draft — the live form is Gravity Forms">Send my brief</button>
+        <span class="qnote" style="margin:0">Display only in this draft. The live page submits through Gravity Forms.</span>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="qaside">
+    <span class="lbl">Or just call us</span>
+    <div style="margin-top:18px">
+      <div class="row"><div class="k">Call</div><div class="v">07 5437 7788</div></div>
+      <div class="row"><div class="k">Email</div><div class="v">info@pepperproductions.com.au</div></div>
+      <div class="row"><div class="k">Visit</div><div class="v">2/1 Innovation Parkway,<br>Birtinya QLD 4575</div></div>
+      <div class="row"><div class="k">Backed by</div><div class="v">Chilli — since 1993</div></div>
+    </div>
+    <p class="qnote" style="margin-top:22px">Not sure what you need yet? That's normal — most
+      people arrive with a goal rather than a shot list. Call and we'll work it out with you.</p>
+    <p style="margin-top:26px"><a class="btn g" href="contact.html">Contact page</a></p>
+  </div>
+</div></section>
+
+<!-- ================= WHAT HAPPENS NEXT ================= -->
+<section class="sec"><div class="w">
+  <span class="lbl">What happens next</span>
+  <h2>No mystery, <span class="van">no chasing.</span></h2>
+  <div class="flow">
+    <div><div class="n">1</div><h3>We read it properly</h3>
+      <p>Your brief goes to the people who would actually run the shoot, not into a generic
+        inbox.</p></div>
+    <div><div class="n">2</div><h3>We come back with an approach</h3>
+      <p>Not just a number — what we would make, why, and where it would run.</p></div>
+    <div><div class="n">3</div><h3>You get an itemised quote</h3>
+      <p>Every line says what it is, so you can see what to keep and what to cut.</p></div>
+    <div><div class="n">4</div><h3>We tell you if it won't work</h3>
+      <p>If the budget and the goal don't meet, we'll say so and suggest what would.</p></div>
+  </div>
+</div></section>
+
+<!-- ================= CLOSER — narrow, type only ================= -->
+<section class="closer"><div class="w"><div class="narrow">
+  <span class="lbl">Next</span>
+  <p class="big">Rather talk it <span class="van">through first?</span></p>
+  <p>Call 07 5437 7788 or drop us a line — we'd rather understand the job than guess at it.</p>
+  <div class="ctas">
+    <a class="btn" href="contact.html">Contact us</a>
+    <a class="btn g" href="work.html">See our work</a>
+  </div>
+</div></div></section>
+
+<!-- ================= FOOTER — replica of template 1901 ======================= -->
+<div class="fcontact"><div class="w grid">
+  <div>
+    <h2>Contact us</h2>
+    <p class="tag">Get started on your next project today.</p>
+    <div class="soc">
+      <a href="https://www.facebook.com/pepperproductionsau/" aria-label="Facebook">f</a>
+      <a href="https://www.instagram.com/pepper_productions/?hl=en" aria-label="Instagram">ig</a>
+      <a href="#" aria-label="LinkedIn">in</a><!-- [ tbc — confirm LinkedIn URL ] -->
+      <a href="https://www.youtube.com/@pepperproductions6986" aria-label="YouTube">yt</a>
+    </div>
+    <div class="line">✉ <b>info@pepperproductions.com.au</b></div>
+    <div class="line">☎ <b>07 5437 7788</b></div>
+    <div class="line">📍 <b>2/1 Innovation Parkway, Birtinya, QLD 4575</b></div>
+  </div>
+  <div class="fform"><div class="f">
+    <input placeholder="First Name *"><input placeholder="Last Name *">
+    <input placeholder="Phone *"><input placeholder="Email *">
+    <textarea placeholder="Enquiry *"></textarea>
+    <div class="cap">I'm not a robot &nbsp;·&nbsp; reCAPTCHA renders here</div>
+    <button type="button" title="Display only — the live form submits via the site">Submit</button>
+  </div></div>
+</div></div>
+<div class="legal">© Copyright Pepper Productions 2026. <a href="#">Privacy Policy</a>.</div>
+
+<!-- Review mode — draft only, not part of the site build. See review.js -->
+<script src="review.js"></script>
+</body>
+</html>

@@ -37,9 +37,10 @@ back-to-back, which is the rhythm rule the rest of the redesign follows.
 import json, pathlib, re, html as _html
 
 HERE = pathlib.Path(__file__).parent
-BLOCKS = pathlib.Path(
-    "/private/tmp/claude-501/-Users-beaublake-Documents-Claude-Brain/"
-    "9e05c70b-cce8-4855-95e7-1ab08047cae0/scratchpad/portfolio-blocks.json")
+# Build input lives WITH the build. It used to sit in a scratch directory,
+# which got cleaned — and then the generator could not run at all, which is a
+# silly way to lose the ability to rebuild twenty pages.
+BLOCKS = HERE / "portfolio-blocks.json"
 UP = "https://pepperproductions.com.au/wp-content/uploads/"
 
 SERVICES = [("corporate.html", "Corporate Photo &amp; Video"),
@@ -74,14 +75,21 @@ class Tones:
     def __init__(self):
         self.i, self.prev = 0, "hero"
 
-    def next(self, force=None):
+    def next(self, force=None, avoid=None):
+        """avoid: a tone this section must not take. Used for the LAST content
+        section, because the closer that follows it is always dust — so a final
+        dust section produced two touching dust bands."""
         if force is not None:
             self.prev = force
             return force
         for _ in range(len(self.CYCLE) + 1):
             t = self.CYCLE[self.i % len(self.CYCLE)]
             self.i += 1
-            if t != self.prev:
+            if t != self.prev and t != avoid:
+                self.prev = t
+                return t
+        for t in self.CYCLE:
+            if t != self.prev and t != avoid:
                 self.prev = t
                 return t
         return ""
@@ -117,13 +125,33 @@ def group(blocks):
                         run.append(blocks[i])
                         i += 1
                     if len(run) >= 3:
-                        # a gallery interrupts the section — flush what we have
-                        out.append({"kind": "prose", "head": head,
-                                    "body": body, "imgs": imgs})
+                        # A gallery interrupts the section. If the heading has
+                        # no prose and no images of its own it is the GALLERY'S
+                        # label ("Go Turf Photography.", "Behind the Scenes.") —
+                        # give it to the gallery rather than emitting an empty
+                        # band above it.
+                        if head is not None and not body and not imgs:
+                            out.append({"kind": "gallery", "imgs": run, "head": head})
+                        else:
+                            out.append({"kind": "prose", "head": head,
+                                        "body": body, "imgs": imgs})
+                            out.append({"kind": "gallery", "imgs": run})
                         head, body, imgs = None, [], []
-                        out.append({"kind": "gallery", "imgs": run})
                     else:
                         imgs += run
+            if head is not None and not body and not imgs:
+                # Orphan heading: on the live pages these label a video or a
+                # gallery ("40 Year Anniversary Video.", "MTB Sugarbag Road.").
+                # Emitting it as its own section produced a full-width band
+                # containing a heading and nothing else, which is most of what
+                # Beau meant by "didn't come over very well". Hand it to the
+                # next block instead.
+                pending_head = head
+                if i < n:
+                    out.append({"kind": "__head__", "head": pending_head})
+                else:
+                    out.append({"kind": "prose", "head": head, "body": [], "imgs": []})
+                continue
             if head is not None or body or imgs:
                 out.append({"kind": "prose", "head": head, "body": body,
                             "imgs": imgs})
@@ -136,7 +164,19 @@ def group(blocks):
             out.append({"kind": "prose", "head": None, "body": body, "imgs": []})
             continue
         i += 1
-    return out
+
+    folded, carry = [], None
+    for sec in out:
+        if sec["kind"] == "__head__":
+            carry = sec["head"]
+            continue
+        if carry:
+            sec = {**sec, "head": carry}
+            carry = None
+        folded.append(sec)
+    if carry:
+        folded.append({"kind": "prose", "head": carry, "body": [], "imgs": []})
+    return folded
 
 
 def render(slug, data):
@@ -148,14 +188,21 @@ def render(slug, data):
         hero = rest.pop(0)["src"]
     secs, tones, body = group(rest), Tones(), []
 
-    for s in secs:
+    for si, s in enumerate(secs):
+        last = (si == len(secs) - 1)
         if s["kind"] == "video":
-            tones.prev = "ink"
+            # Alternate dark/light through a run of consecutive videos so two
+            # black bands never touch.
+            lite = (tones.prev == "ink")
+            tones.prev = "paper" if lite else "ink"
+            a, b2 = two_tone(s["head"]) if s.get("head") else ("From the", "shoot.")
+            vhead = (f'<h2>{a} <span class="van">{b2}</span></h2>' if b2
+                     else f'<h2>{a}</h2>')
             body.append(f'''
 <!-- ================= VIDEO — in the position it holds on the live page ==== -->
-<section class="reelembed"><div class="w">
+<section class="reelembed{" lite" if lite else ""}"><div class="w">
   <span class="lbl">Watch</span>
-  <h2>From the <span class="van">shoot.</span></h2>
+  {vhead}
   <div class="frame">
     <iframe src="https://www.youtube.com/embed/{s["id"]}?rel=0" title="{esc(h1)} — Pepper Productions" allow="fullscreen; encrypted-media" allowfullscreen></iframe>
   </div>
@@ -163,14 +210,18 @@ def render(slug, data):
             continue
 
         if s["kind"] == "gallery":
-            t = tones.next()
+            t = tones.next(avoid="dust" if last else None)
             cls = ("sec " + t).strip()
+            ga, gb = two_tone(s["head"]) if s.get("head") else ("", "")
+            ghead = (f'<h2>{ga} <span class="van">{gb}</span></h2>' if gb
+                     else (f'<h2>{ga}</h2>' if ga else ""))
             items = "\n    ".join(
                 f'<a href="{i["src"]}"><img src="{i["src"]}" alt="{esc(i["alt"]) or esc(h1)}" loading="lazy"></a>'
                 for i in s["imgs"])
             body.append(f'''
 <!-- ================= GALLERY — the page's own images, same order ========= -->
 <section class="{cls}"><div class="w">
+  {ghead}
   <div class="gal">
     {items}
   </div>
@@ -178,7 +229,7 @@ def render(slug, data):
             continue
 
         if s["kind"] == "images":
-            t = tones.next()
+            t = tones.next(avoid="dust" if last else None)
             cls = ("sec " + t).strip()
             items = "\n    ".join(
                 f'<img src="{i["src"]}" alt="{esc(i["alt"]) or esc(h1)}" loading="lazy">'
@@ -190,7 +241,7 @@ def render(slug, data):
             continue
 
         # prose, optionally with one or two images beside it
-        t = tones.next()
+        t = tones.next(avoid="dust" if last else None)
         cls = ("sec " + t).strip()
         a, b2 = two_tone(s["head"]) if s["head"] else ("", "")
         head = (f'<h2>{a} <span class="van">{b2}</span></h2>' if b2
@@ -242,7 +293,7 @@ def render(slug, data):
 <body class="opt-c">
 <div class="bar"><div class="w">
   <a class="logo" href="index.html"><img src="{UP}Pepper_logo_Mono-Rev-1024x437.png" alt="Pepper Productions"></a>
-  <nav><span class="drop"><a href="corporate.html">How We Help</a><span class="menu">{menu}</span></span><a href="work.html">Our Work</a><span class="drop"><a href="about.html">About</a><span class="menu">{about}</span></span><a href="crew.html">Your Crew</a><a href="blog.html">The Blog</a><a href="contact.html">Contact</a></nav>
+  <nav><span class="drop"><a href="corporate.html">How We Help</a><span class="menu">{menu}</span></span><a href="work.html">Our Work</a><span class="drop"><a href="about.html">About</a><span class="menu">{about}</span></span><a href="crew.html">Your Crew</a><a href="blog.html">The Blog</a><a href="contact.html">Contact</a><a href="quote.html">Get a Quote</a></nav>
 </div></div>
 
 <!-- ================= PAGE HERO ================= -->
@@ -265,7 +316,7 @@ def render(slug, data):
   <p class="big">Got a project <span class="van">like this one?</span></p>
   <p>Get in touch with our Sunshine Coast team for a tailored quote.</p>
   <div class="ctas">
-    <a class="btn" href="contact.html">Request a quote</a>
+    <a class="btn" href="quote.html">Request a quote</a>
     <a class="btn g" href="work.html">See more work</a>
   </div>
 </div></div></section>
