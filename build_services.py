@@ -53,7 +53,7 @@ SERVICES = [("corporate.html", "Corporate Photo &amp; Video"),
 # About is a dropdown too (Beau, 31 Aug): the van sits under About rather than
 # taking a top-level slot. Kept in sync with the hand-written pages by nav2.py —
 # if you change one, change both.
-ABOUT = [("about.html", "About Pepper"), ("vans.html", "The Pepper Van")]
+ABOUT = [("about.html", "About Pepper"), ("vans.html", "The Pepper Vans")]
 REST_A = [("work.html", "Our Work")]
 REST_B = [("crew.html", "Your Crew"), ("blog.html", "The Blog"),
           ("contact.html", "Contact")]
@@ -571,7 +571,9 @@ PAGES = [
           "schools, for the families choosing them.",
  "rail": [("Deliverables", "Enrolment film · Campus · Stills"),
           ("Where it runs", "Website · Open day · Social"),
-          ("Crew", "In-house, end-to-end"),
+          # Blue Cards surfaced in the rail as well as the FAQ — Darren asked for
+          # "copy about blue cards", and a school checks this before anything else.
+          ("Crew", "In-house · Blue Card holders"),
           ("Backed by", "Chilli — since 1993")],
  "whyH2": ("Why invest in professional", "education content?"),
  "why": ["Families research schools online long before they book a tour, and video is how most "
@@ -600,9 +602,14 @@ PAGES = [
  "quotes": ["kathy", "clint", "kane", "hearthq"],
  "diffNoun": "education content",
  "faqH2": ("Education content,", "answered."),
- "faq": [("Do you have working with children checks?",
-          tbc("Confirm current Blue Card status for all crew before this publishes — this is "
-              "the first question every school will ask.", "verify")),
+ "faq": [# CONFIRMED by Beau 1 Sept — "we do have operators with blue cards". Worded to
+         # match exactly what he said: the operators who work on school shoots hold
+         # them. Do NOT widen this to "all staff" without checking, and do not
+         # state a card number or expiry here.
+         ("Do your crew have Blue Cards?",
+          "Yes. The operators who work on school shoots hold current Queensland Blue Cards "
+          "(working with children checks), and we'll provide the details for your records "
+          "before the shoot."),
          ("How do you handle permission for student images?",
           tbc("We work to the school's own consent lists and shoot around students without "
               "permission. Confirm the exact process with a school before publishing.")),
