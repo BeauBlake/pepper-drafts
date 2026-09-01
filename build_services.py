@@ -981,14 +981,19 @@ def render(p, cssv):
 </div></section>
 
 <!-- ================= THE DIFFERENCE — prose, deliberately not a list =========
-     Identical on every service page by design. This replaces the generic
-     "Why Choose" block (Transparent communication / Professional quality /
-     Tailored service / Timely delivery) that Darren rejected on the Event page
-     — so that complaint is fixed structurally, everywhere, not page by page.
+     PER-PAGE since 1 Sept, not identical site-wide — heading and copy both come
+     from the page's own D entry. Carries Territory 1 ("the agency-backed content
+     partner") written for THIS service: never stop at "we are agency-backed",
+     say what it buys this client. See Reference/Pepper Brand Guidelines.md.
+     This replaces the generic "Why Choose" block (Transparent communication /
+     Professional quality / Tailored service / Timely delivery) that Darren
+     rejected on the Event page — fixed structurally, everywhere, not page by
+     page. Do not reintroduce those four phrases anywhere on the site.
      It is also the only place on the page the reader gets prose instead of
      cards. If it ever becomes a grid, the page loses its voice.
      Every claim is checkable: in-house crew is on the hero rail, Chilli/1993 is
-     on the live About page, the van spec comes from /pepper-vans/.
+     on the live About page. The van paragraph was removed 1 Sept — the van has
+     its own page, linked from Home and About.
      Elementor: ink container > [heading + text-editor] | [image widget, empty
      URL on import, attached by script afterwards]. ========================= -->
 <section class="sec ink"><div class="w argue duo">
