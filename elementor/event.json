@@ -178,7 +178,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:742px;\">Professional event photography and video that captures the moments worth keeping — and gives you a year of content afterwards.</p>",
+      "editor": "<p style=\"margin:0;max-width:742px;\">Professional event photography and video that captures the moments worth keeping — and gives you a year of content afterwards.</p>",
       "text_color": "#33353A",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -891,7 +891,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">We work with local and national businesses to cover conferences, launches, awards nights and community events — the highlights, the speakers, and the moments between them that nobody schedules.</p><p style=\"max-width:615px;\">The footage does double duty: a recap for the people who came, and the thing that sells next year's event to the people who didn't.</p>",
+        "editor": "<p style=\"margin:0;max-width:615px;\">We work with local and national businesses to cover conferences, launches, awards nights and community events — the highlights, the speakers, and the moments between them that nobody schedules.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">The footage does double duty: a recap for the people who came, and the thing that sells next year's event to the people who didn't.</p>",
         "text_color": "#55575C",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -1176,7 +1176,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Multi-day coverage, keynote capture and daily turnarounds when you need them.</p>",
+          "editor": "<p style=\"margin:0;\">Multi-day coverage, keynote capture and daily turnarounds when you need them.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1264,7 +1264,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>The room, the reaction and the product, covered without getting in the way.</p>",
+          "editor": "<p style=\"margin:0;\">The room, the reaction and the product, covered without getting in the way.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1352,7 +1352,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Winners, speeches and the candid moments people actually share afterwards.</p>",
+          "editor": "<p style=\"margin:0;\">Winners, speeches and the candid moments people actually share afterwards.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1465,7 +1465,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Big, fast, outdoor events covered by a crew used to them.</p>",
+          "editor": "<p style=\"margin:0;\">Big, fast, outdoor events covered by a crew used to them.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1553,7 +1553,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>A short cut that carries the energy of the day for social and next year's promotion.</p>",
+          "editor": "<p style=\"margin:0;\">A short cut that carries the energy of the day for social and next year's promotion.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1641,7 +1641,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Selected images and cut-downs delivered while the event is still running.</p>",
+          "editor": "<p style=\"margin:0;\">Selected images and cut-downs delivered while the event is still running.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1941,7 +1941,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Fill out our online form or give us a call to tell us about your vision and project goals, and receive a quote.</p>",
+          "editor": "<p style=\"margin:0;\">Fill out our online form or give us a call to tell us about your vision and project goals, and receive a quote.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2095,7 +2095,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Share your vision and goals for the project and we'll work with you to plan the shoot, ensuring we capture everything you need.</p>",
+          "editor": "<p style=\"margin:0;\">Share your vision and goals for the project and we'll work with you to plan the shoot, ensuring we capture everything you need.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2249,7 +2249,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Our professional team will guide you through a seamless and stress-free shoot.</p>",
+          "editor": "<p style=\"margin:0;\">Our professional team will guide you through a seamless and stress-free shoot.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2403,7 +2403,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p><span class=\"tbc\">accuracy read</span> We edit, grade and deliver polished content, built for the platforms where it needs to perform.</p>",
+          "editor": "<p style=\"margin:0;\"><span class=\"tbc\">accuracy read</span> We edit, grade and deliver polished content, built for the platforms where it needs to perform.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2577,7 +2577,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:624px;\">Most event coverage is treated as a record of the day. It should be the cheapest content you buy all year.</p>",
+        "editor": "<p style=\"margin:0;max-width:624px;\">Most event coverage is treated as a record of the day. It should be the cheapest content you buy all year.</p>",
         "text_color": "#E4E5E1",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -2610,7 +2610,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Pepper is the content arm of Chilli, a marketing agency that has been growing Sunshine Coast businesses since 1993. We plan event coverage around what happens afterwards — the recap, the highlights cut, the social clips, and the material that sells next year's event to the people who didn't come.</p><p style=\"max-width:615px;\">That planning happens before the day, not when someone asks what else we can do with the footage.</p>",
+        "editor": "<p style=\"margin:0;max-width:615px;\">Pepper is the content arm of Chilli, a marketing agency that has been growing Sunshine Coast businesses since 1993. We plan event coverage around what happens afterwards — the recap, the highlights cut, the social clips, and the material that sells next year's event to the people who didn't come.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">That planning happens before the day, not when someone asks what else we can do with the footage.</p>",
         "text_color": "#A9ABAE",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -2832,7 +2832,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Conferences, launches and community events across the Sunshine Coast.</p>",
+      "editor": "<p style=\"margin:0;\">Conferences, launches and community events across the Sunshine Coast.</p>",
       "text_color": "#9FA09C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -2943,7 +2943,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Very professional team! Worked an event with us at the Sunshine Coast Convention Centre and the outcome was superb.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"Very professional team! Worked an event with us at the Sunshine Coast Convention Centre and the outcome was superb.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3039,7 +3039,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Thanks so much to the team at Pepper Productions for doing such a fantastic job of videoing our conference.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"Thanks so much to the team at Pepper Productions for doing such a fantastic job of videoing our conference.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3135,7 +3135,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3231,7 +3231,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"The Pepper lads produced me an amazing video for my business. The finished product was even better than I hoped for.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"The Pepper lads produced me an amazing video for my business. The finished product was even better than I hoped for.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3414,7 +3414,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:615px;\">The questions we're asked most often. If yours isn't here, ask us — we'd rather answer it now than after the quote.</p>",
+      "editor": "<p style=\"margin:0;max-width:615px;\">The questions we're asked most often. If yours isn't here, ask us — we'd rather answer it now than after the quote.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -3539,7 +3539,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes. Same-day selects are one of the most useful things we do at events — you can post while people are still in the room.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Yes. Same-day selects are one of the most useful things we do at events — you can post while people are still in the room.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3631,7 +3631,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">[ accuracy read ] It depends on the size of the venue and how many things happen at once. A single-room conference is usually one; a multi-stream event needs two.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">[ accuracy read ] It depends on the size of the venue and how many things happen at once. A single-room conference is usually one; a multi-stream event needs two.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3760,7 +3760,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes, and there's a real advantage in it — by day two the crew knows the room, the run sheet and who the key people are.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Yes, and there's a real advantage in it — by day two the crew knows the room, the run sheet and who the key people are.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3852,7 +3852,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes. Keynote capture and photography run together, and the talks become content long after the event.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Yes. Keynote capture and photography run together, and the talks become content long after the event.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3981,7 +3981,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">[ accuracy read ] Selects within a few days, the full gallery and any highlights film inside two to three weeks.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">[ accuracy read ] Selects within a few days, the full gallery and any highlights film inside two to three weeks.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4073,7 +4073,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">No. Event work is done quietly with long lenses and available light wherever possible — most guests won't notice the crew at all.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">No. Event work is done quietly with long lenses and available light wherever possible — most guests won't notice the crew at all.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4354,7 +4354,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:551px;\">Get in touch with our event photography team on the Sunshine Coast for a tailored quote.</p>",
+      "editor": "<p style=\"margin:0;max-width:551px;\">Get in touch with our event photography team on the Sunshine Coast for a tailored quote.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",

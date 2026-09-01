@@ -130,7 +130,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:742px;\">We're committed to achieving excellence within your budget. Tell us what you're making, who it's for and roughly what you have to spend — we'll come back with an approach and a price.</p>",
+      "editor": "<p style=\"margin:0;max-width:742px;\">We're committed to achieving excellence within your budget. Tell us what you're making, who it's for and roughly what you have to spend — we'll come back with an approach and a price.</p>",
       "text_color": "#33353A",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -495,7 +495,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Your brief goes to the people who would actually run the shoot, not into a generic\n        inbox.</p>",
+          "editor": "<p style=\"margin:0;\">Your brief goes to the people who would actually run the shoot, not into a generic\n        inbox.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -649,7 +649,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Not just a number — what we would make, why, and where it would run.</p>",
+          "editor": "<p style=\"margin:0;\">Not just a number — what we would make, why, and where it would run.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -803,7 +803,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Every line says what it is, so you can see what to keep and what to cut.</p>",
+          "editor": "<p style=\"margin:0;\">Every line says what it is, so you can see what to keep and what to cut.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -957,7 +957,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>If the budget and the goal don't meet, we'll say so and suggest what would.</p>",
+          "editor": "<p style=\"margin:0;\">If the budget and the goal don't meet, we'll say so and suggest what would.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1102,7 +1102,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:551px;\">Call 07 5437 7788 or drop us a line — we'd rather understand the job than guess at it.</p>",
+      "editor": "<p style=\"margin:0;max-width:551px;\">Call 07 5437 7788 or drop us a line — we'd rather understand the job than guess at it.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",

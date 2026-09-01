@@ -178,7 +178,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:742px;\">Headshots that make your team look like the people clients want to deal with — consistent, credible and current.</p>",
+      "editor": "<p style=\"margin:0;max-width:742px;\">Headshots that make your team look like the people clients want to deal with — consistent, credible and current.</p>",
       "text_color": "#33353A",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -891,7 +891,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Your team is the face of your business. A good headshot is the difference between looking like a company someone wants to call and looking like one they'll scroll past.</p><p style=\"max-width:615px;\">We shoot individual portraits and full team sets that stay consistent across your website, LinkedIn and proposals — so a new starter's photo matches everyone else's.</p>",
+        "editor": "<p style=\"margin:0;max-width:615px;\">Your team is the face of your business. A good headshot is the difference between looking like a company someone wants to call and looking like one they'll scroll past.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">We shoot individual portraits and full team sets that stay consistent across your website, LinkedIn and proposals — so a new starter's photo matches everyone else's.</p>",
         "text_color": "#55575C",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -1176,7 +1176,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Images that present you and your team as confident, approachable and credible.</p>",
+          "editor": "<p style=\"margin:0;\">Images that present you and your team as confident, approachable and credible.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1264,7 +1264,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>A consistent look across an entire team, however many people that is.</p>",
+          "editor": "<p style=\"margin:0;\">A consistent look across an entire team, however many people that is.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1352,7 +1352,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>For business owners and professionals who need more than a cropped group photo.</p>",
+          "editor": "<p style=\"margin:0;\">For business owners and professionals who need more than a cropped group photo.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1465,7 +1465,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>We come to you and set up on site — no one loses half a day travelling to a studio.</p>",
+          "editor": "<p style=\"margin:0;\">We come to you and set up on site — no one loses half a day travelling to a studio.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1553,7 +1553,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Quick sessions that match your existing set, so the team page never goes mismatched.</p>",
+          "editor": "<p style=\"margin:0;\">Quick sessions that match your existing set, so the team page never goes mismatched.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1641,7 +1641,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>People photographed where they actually work, when a plain background isn't the story.</p>",
+          "editor": "<p style=\"margin:0;\">People photographed where they actually work, when a plain background isn't the story.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1941,7 +1941,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Fill out our online form or give us a call to tell us about your vision and project goals, and receive a quote.</p>",
+          "editor": "<p style=\"margin:0;\">Fill out our online form or give us a call to tell us about your vision and project goals, and receive a quote.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2095,7 +2095,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Share your vision and goals for the project and we'll work with you to plan the shoot, ensuring we capture everything you need.</p>",
+          "editor": "<p style=\"margin:0;\">Share your vision and goals for the project and we'll work with you to plan the shoot, ensuring we capture everything you need.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2249,7 +2249,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Our professional team will guide you through a seamless and stress-free shoot.</p>",
+          "editor": "<p style=\"margin:0;\">Our professional team will guide you through a seamless and stress-free shoot.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2403,7 +2403,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p><span class=\"tbc\">accuracy read</span> We edit, grade and deliver polished content, built for the platforms where it needs to perform.</p>",
+          "editor": "<p style=\"margin:0;\"><span class=\"tbc\">accuracy read</span> We edit, grade and deliver polished content, built for the platforms where it needs to perform.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2577,7 +2577,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:624px;\">A headshot isn't one image. It's the same face on a website, a LinkedIn profile, a proposal and a conference slide.</p>",
+        "editor": "<p style=\"margin:0;max-width:624px;\">A headshot isn't one image. It's the same face on a website, a LinkedIn profile, a proposal and a conference slide.</p>",
         "text_color": "#E4E5E1",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -2610,7 +2610,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Pepper is the content arm of Chilli, a marketing agency that has been building brands on the Sunshine Coast since 1993 — so we shoot a team the way a brand needs them: one lighting setup, one treatment, and a look that still matches when you add someone in six months.</p><p style=\"max-width:615px;\">It is the difference between a set of portraits and a team page that looks like one company.</p>",
+        "editor": "<p style=\"margin:0;max-width:615px;\">Pepper is the content arm of Chilli, a marketing agency that has been building brands on the Sunshine Coast since 1993 — so we shoot a team the way a brand needs them: one lighting setup, one treatment, and a look that still matches when you add someone in six months.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">It is the difference between a set of portraits and a team page that looks like one company.</p>",
         "text_color": "#A9ABAE",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -2832,7 +2832,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Individual portraits and full team sets, shot on location.</p>",
+      "editor": "<p style=\"margin:0;\">Individual portraits and full team sets, shot on location.</p>",
       "text_color": "#9FA09C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -2943,7 +2943,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Super friendly, professional and enthusiastic team that helped encourage our staff to embrace profile headshot day!\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"Super friendly, professional and enthusiastic team that helped encourage our staff to embrace profile headshot day!\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3039,7 +3039,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3135,7 +3135,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"The Pepper lads produced me an amazing video for my business. The finished product was even better than I hoped for.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"The Pepper lads produced me an amazing video for my business. The finished product was even better than I hoped for.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3231,7 +3231,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Thanks so much to the team at Pepper Productions for doing such a fantastic job of videoing our conference.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"Thanks so much to the team at Pepper Productions for doing such a fantastic job of videoing our conference.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3414,7 +3414,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:615px;\">The questions we're asked most often. If yours isn't here, ask us — we'd rather answer it now than after the quote.</p>",
+      "editor": "<p style=\"margin:0;max-width:615px;\">The questions we're asked most often. If yours isn't here, ask us — we'd rather answer it now than after the quote.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -3539,7 +3539,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">[ accuracy read ] Around five to ten minutes each once the set is lit, so a team of twenty fits comfortably into a morning.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">[ accuracy read ] Around five to ten minutes each once the set is lit, so a team of twenty fits comfortably into a morning.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3631,7 +3631,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes — most team shoots happen on site. We bring the lighting and backdrop and set up in a meeting room or a corner of the office.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Yes — most team shoots happen on site. We bring the lighting and backdrop and set up in a meeting room or a corner of the office.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3760,7 +3760,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Whatever they'd wear to meet a good client. We'll send guidance beforehand so the team looks like a team rather than four different companies.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Whatever they'd wear to meet a good client. We'll send guidance beforehand so the team looks like a team rather than four different companies.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3852,7 +3852,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Most people say that, and most are fine within a minute. Directing people who don't like being photographed is the actual skill in headshots.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Most people say that, and most are fine within a minute. Directing people who don't like being photographed is the actual skill in headshots.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3981,7 +3981,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes. We keep the lighting setup on file so a top-up session matches the original set rather than standing out on the team page.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Yes. We keep the lighting setup on file so a top-up session matches the original set rather than standing out on the team page.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4073,7 +4073,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">[ verify ] Several usable frames per person, retouched once you've picked. Confirm the exact number and retouching inclusions before this publishes.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">[ verify ] Several usable frames per person, retouched once you've picked. Confirm the exact number and retouching inclusions before this publishes.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4354,7 +4354,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:551px;\">Get in touch with our headshot photography team on the Sunshine Coast for a tailored quote.</p>",
+      "editor": "<p style=\"margin:0;max-width:551px;\">Get in touch with our headshot photography team on the Sunshine Coast for a tailored quote.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",

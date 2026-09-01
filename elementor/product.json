@@ -178,7 +178,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:742px;\">High-quality product photography and video that captures attention, builds trust and turns browsers into buyers.</p>",
+      "editor": "<p style=\"margin:0;max-width:742px;\">High-quality product photography and video that captures attention, builds trust and turns browsers into buyers.</p>",
       "text_color": "#33353A",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -891,7 +891,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Customers are far more likely to buy when a product is presented with imagery that shows what it is and why it helps them. Good product content is the closest thing online to picking something up.</p><p style=\"max-width:615px;\">We don't do generic. Every project starts with your brand and your goals, so the content suits where it's going — e-commerce, social or a campaign.</p>",
+        "editor": "<p style=\"margin:0;max-width:615px;\">Customers are far more likely to buy when a product is presented with imagery that shows what it is and why it helps them. Good product content is the closest thing online to picking something up.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">We don't do generic. Every project starts with your brand and your goals, so the content suits where it's going — e-commerce, social or a campaign.</p>",
         "text_color": "#55575C",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -1176,7 +1176,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Clean, consistent product images built to the specs your store actually needs.</p>",
+          "editor": "<p style=\"margin:0;\">Clean, consistent product images built to the specs your store actually needs.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1264,7 +1264,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Your product in the world, being used by the people you sell to.</p>",
+          "editor": "<p style=\"margin:0;\">Your product in the world, being used by the people you sell to.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1352,7 +1352,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Short films that show how it works and why it's worth it.</p>",
+          "editor": "<p style=\"margin:0;\">Short films that show how it works and why it's worth it.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1465,7 +1465,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Close work that does justice to the finish, the texture and the build.</p>",
+          "editor": "<p style=\"margin:0;\">Close work that does justice to the finish, the texture and the build.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1553,7 +1553,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Vertical cut-downs and stills made for the feed, not reformatted for it.</p>",
+          "editor": "<p style=\"margin:0;\">Vertical cut-downs and stills made for the feed, not reformatted for it.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1641,7 +1641,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>A consistent set for a launch, so every channel looks like one campaign.</p>",
+          "editor": "<p style=\"margin:0;\">A consistent set for a launch, so every channel looks like one campaign.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1941,7 +1941,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Fill out our online form or give us a call to tell us about your vision and project goals, and receive a quote.</p>",
+          "editor": "<p style=\"margin:0;\">Fill out our online form or give us a call to tell us about your vision and project goals, and receive a quote.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2095,7 +2095,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Share your vision and goals for the project and we'll work with you to plan the shoot, ensuring we capture everything you need.</p>",
+          "editor": "<p style=\"margin:0;\">Share your vision and goals for the project and we'll work with you to plan the shoot, ensuring we capture everything you need.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2249,7 +2249,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Our professional team will guide you through a seamless and stress-free shoot.</p>",
+          "editor": "<p style=\"margin:0;\">Our professional team will guide you through a seamless and stress-free shoot.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2403,7 +2403,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p><span class=\"tbc\">accuracy read</span> We edit, grade and deliver polished content, built for the platforms where it needs to perform.</p>",
+          "editor": "<p style=\"margin:0;\"><span class=\"tbc\">accuracy read</span> We edit, grade and deliver polished content, built for the platforms where it needs to perform.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2577,7 +2577,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:624px;\">A beautiful product photo that doesn't suit the channel it runs on is an expensive picture.</p>",
+        "editor": "<p style=\"margin:0;max-width:624px;\">A beautiful product photo that doesn't suit the channel it runs on is an expensive picture.</p>",
         "text_color": "#E4E5E1",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -2610,7 +2610,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Pepper is the content arm of Chilli, a marketing agency that has been running campaigns for Sunshine Coast businesses since 1993 — so we start from where the images are going. A product listing, a paid ad and a social feed all want different framing, different crops and different amounts of context.</p><p style=\"max-width:615px;\">We plan the shoot around that, which is why one day on set usually produces a set that works everywhere rather than one hero shot and a pile of near-misses.</p>",
+        "editor": "<p style=\"margin:0;max-width:615px;\">Pepper is the content arm of Chilli, a marketing agency that has been running campaigns for Sunshine Coast businesses since 1993 — so we start from where the images are going. A product listing, a paid ad and a social feed all want different framing, different crops and different amounts of context.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">We plan the shoot around that, which is why one day on set usually produces a set that works everywhere rather than one hero shot and a pile of near-misses.</p>",
         "text_color": "#A9ABAE",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -2832,7 +2832,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>A selection from recent product shoots — studio and on location.</p>",
+      "editor": "<p style=\"margin:0;\">A selection from recent product shoots — studio and on location.</p>",
       "text_color": "#9FA09C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -2943,7 +2943,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Just reviewed the promotional video Pepper has done for my Kickstarter campaign. Couldn't be happier! Very professional from start to finish.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"Just reviewed the promotional video Pepper has done for my Kickstarter campaign. Couldn't be happier! Very professional from start to finish.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3039,7 +3039,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"The Pepper lads produced me an amazing video for my business. The finished product was even better than I hoped for.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"The Pepper lads produced me an amazing video for my business. The finished product was even better than I hoped for.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3135,7 +3135,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3231,7 +3231,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Very professional team! Worked an event with us at the Sunshine Coast Convention Centre and the outcome was superb.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"Very professional team! Worked an event with us at the Sunshine Coast Convention Centre and the outcome was superb.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3414,7 +3414,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:615px;\">The questions we're asked most often. If yours isn't here, ask us — we'd rather answer it now than after the quote.</p>",
+      "editor": "<p style=\"margin:0;max-width:615px;\">The questions we're asked most often. If yours isn't here, ask us — we'd rather answer it now than after the quote.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -3539,7 +3539,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">[ accuracy read ] It depends on how much setup each one needs — simple pack shots move quickly, lifestyle setups take longer. Send us the list and we'll tell you what a day realistically covers.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">[ accuracy read ] It depends on how much setup each one needs — simple pack shots move quickly, lifestyle setups take longer. Send us the list and we'll tell you what a day realistically covers.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3631,7 +3631,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">[ accuracy read ] Either. We shoot in-studio and on location, and our vans mean a warehouse or a factory floor works as well as a studio.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">[ accuracy read ] Either. We shoot in-studio and on location, and our vans mean a warehouse or a factory floor works as well as a studio.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3760,7 +3760,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">It's quoted per project, based on the number of products, how much styling is involved and whether you need video as well as stills.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">It's quoted per project, based on the number of products, how much styling is involved and whether you need video as well as stills.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3852,7 +3852,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes. If you've got a library you're extending rather than replacing, we'll match the lighting and background so the new work sits beside the old.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Yes. If you've got a library you're extending rather than replacing, we'll match the lighting and background so the new work sits beside the old.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3981,7 +3981,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes, and it's the most cost-effective way to do it. The set is already built and lit, so adding motion costs far less than a separate shoot.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Yes, and it's the most cost-effective way to do it. The set is already built and lit, so adding motion costs far less than a separate shoot.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4073,7 +4073,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">[ accuracy read ] Web-ready and print-ready files, plus vertical crops for social when you need them. Tell us where the images are going and we'll deliver to suit.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">[ accuracy read ] Web-ready and print-ready files, plus vertical crops for social when you need them. Tell us where the images are going and we'll deliver to suit.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4354,7 +4354,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:551px;\">Get in touch with our product photography team on the Sunshine Coast for a tailored quote.</p>",
+      "editor": "<p style=\"margin:0;max-width:551px;\">Get in touch with our product photography team on the Sunshine Coast for a tailored quote.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",

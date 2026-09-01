@@ -130,7 +130,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:742px;\">Fill out your details below and our team will be in touch — or just call. We work in a very consultative nature with our clients, and we'd like to invite you into Pepper Productions for a great coffee and a chat.</p>",
+      "editor": "<p style=\"margin:0;max-width:742px;\">Fill out your details below and our team will be in touch — or just call. We work in a very consultative nature with our clients, and we'd like to invite you into Pepper Productions for a great coffee and a chat.</p>",
       "text_color": "#33353A",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -300,7 +300,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:615px;\">If you already have a project in mind, the quote form is faster than an email — it asks the things we'd otherwise have to come back to you about. Format, where it runs, how many, and roughly what you have to spend.</p>",
+      "editor": "<p style=\"margin:0;max-width:615px;\">If you already have a project in mind, the quote form is faster than an email — it asks the things we'd otherwise have to come back to you about. Format, where it runs, how many, and roughly what you have to spend.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",

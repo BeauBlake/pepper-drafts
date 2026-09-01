@@ -178,7 +178,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:742px;\">Capturing picturesque content takes more than a camera. It takes timing, skill and an understanding of how movement and nature work together.</p>",
+      "editor": "<p style=\"margin:0;max-width:742px;\">Capturing picturesque content takes more than a camera. It takes timing, skill and an understanding of how movement and nature work together.</p>",
       "text_color": "#33353A",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -891,7 +891,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Many businesses struggle to capture the thrill in a way that feels real. Fast movement, shifting light and unpredictable conditions usually end in footage that doesn't reflect the experience at all.</p><p style=\"max-width:615px;\">We film action with authenticity and attention to detail, working with outdoor brands, tourism operators, athletes and creators who want to show real experiences without having to plan or manage a fast-paced shoot themselves.</p><p style=\"max-width:615px;\">From coastal tracks and beaches to waterfalls, rainforest trails and mountain peaks, we turn your experience into a visual story audiences remember — a hero brand video, a social package, or an entire tourism campaign. We service the Sunshine Coast to Fiji and everywhere in between.</p>",
+        "editor": "<p style=\"margin:0;max-width:615px;\">Many businesses struggle to capture the thrill in a way that feels real. Fast movement, shifting light and unpredictable conditions usually end in footage that doesn't reflect the experience at all.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">We film action with authenticity and attention to detail, working with outdoor brands, tourism operators, athletes and creators who want to show real experiences without having to plan or manage a fast-paced shoot themselves.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">From coastal tracks and beaches to waterfalls, rainforest trails and mountain peaks, we turn your experience into a visual story audiences remember — a hero brand video, a social package, or an entire tourism campaign. We service the Sunshine Coast to Fiji and everywhere in between.</p>",
         "text_color": "#55575C",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -1417,7 +1417,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>For outdoor brands, tourism operators, athletes and businesses wanting filming that reflects real pace and energy.</p>",
+          "editor": "<p style=\"margin:0;\">For outdoor brands, tourism operators, athletes and businesses wanting filming that reflects real pace and energy.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1505,7 +1505,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Wide, sweeping aerial visuals that show scale, location and movement — built for tourism content and high-impact campaigns.</p>",
+          "editor": "<p style=\"margin:0;\">Wide, sweeping aerial visuals that show scale, location and movement — built for tourism content and high-impact campaigns.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1593,7 +1593,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Visual stories that support ads, websites, social campaigns and brand videos. Clear, engaging and built for connection.</p>",
+          "editor": "<p style=\"margin:0;\">Visual stories that support ads, websites, social campaigns and brand videos. Clear, engaging and built for connection.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1706,7 +1706,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>We work with kayak operators, hiking companies, guided tours, eco experiences and retreats to create content that inspires travellers to book.</p>",
+          "editor": "<p style=\"margin:0;\">We work with kayak operators, hiking companies, guided tours, eco experiences and retreats to create content that inspires travellers to book.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1794,7 +1794,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Short, engaging clips for Instagram, TikTok, YouTube Shorts and digital ads. Fast to watch, designed for engagement.</p>",
+          "editor": "<p style=\"margin:0;\">Short, engaging clips for Instagram, TikTok, YouTube Shorts and digital ads. Fast to watch, designed for engagement.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1882,7 +1882,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>High-stability gimbals, waterproof cameras and both FPV and cinematic drones — so the footage stays smooth and sharp in any environment.</p>",
+          "editor": "<p style=\"margin:0;\">High-stability gimbals, waterproof cameras and both FPV and cinematic drones — so the footage stays smooth and sharp in any environment.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2182,7 +2182,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>We learn about your goals, audience and brand message, then build a simple and effective shoot plan.</p>",
+          "editor": "<p style=\"margin:0;\">We learn about your goals, audience and brand message, then build a simple and effective shoot plan.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2336,7 +2336,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>We capture clean, powerful footage with professional gear designed for outdoor action.</p>",
+          "editor": "<p style=\"margin:0;\">We capture clean, powerful footage with professional gear designed for outdoor action.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2490,7 +2490,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Your footage is edited with colour grading, licensed music, sound design, graphics, titles and optional social formats.</p>",
+          "editor": "<p style=\"margin:0;\">Your footage is edited with colour grading, licensed music, sound design, graphics, titles and optional social formats.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2644,7 +2644,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Delivered in formats optimised for websites, social media, ads and broadcast use.</p>",
+          "editor": "<p style=\"margin:0;\">Delivered in formats optimised for websites, social media, ads and broadcast use.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2818,7 +2818,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:624px;\">Adventure content usually comes from one of two places: a specialist who can shoot it, or an agency who can plan it. Rarely both.</p>",
+        "editor": "<p style=\"margin:0;max-width:624px;\">Adventure content usually comes from one of two places: a specialist who can shoot it, or an agency who can plan it. Rarely both.</p>",
         "text_color": "#E4E5E1",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -2851,7 +2851,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Adventure, outdoor and sport is the work we are known for — the surf clubs, the trails, the water, the vans that get us there. It is a genuine specialism, not a service line we added.</p><p style=\"max-width:615px;\">And behind it is Chilli, the marketing agency that has been growing Sunshine Coast businesses since 1993. So the footage is shot by people who ride the terrain, and planned by people who know what the campaign has to do when it lands.</p>",
+        "editor": "<p style=\"margin:0;max-width:615px;\">Adventure, outdoor and sport is the work we are known for — the surf clubs, the trails, the water, the vans that get us there. It is a genuine specialism, not a service line we added.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">And behind it is Chilli, the marketing agency that has been growing Sunshine Coast businesses since 1993. So the footage is shot by people who ride the terrain, and planned by people who know what the campaign has to do when it lands.</p>",
         "text_color": "#A9ABAE",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3073,7 +3073,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Sunshine Coast to Fiji and everywhere in between.</p>",
+      "editor": "<p style=\"margin:0;\">Sunshine Coast to Fiji and everywhere in between.</p>",
       "text_color": "#9FA09C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -3184,7 +3184,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"The Pepper lads produced me an amazing video for my business. The finished product was even better than I hoped for.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"The Pepper lads produced me an amazing video for my business. The finished product was even better than I hoped for.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3280,7 +3280,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Just reviewed the promotional video Pepper has done for my Kickstarter campaign. Couldn't be happier! Very professional from start to finish.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"Just reviewed the promotional video Pepper has done for my Kickstarter campaign. Couldn't be happier! Very professional from start to finish.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3376,7 +3376,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3472,7 +3472,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Very professional team! Worked an event with us at the Sunshine Coast Convention Centre and the outcome was superb.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"Very professional team! Worked an event with us at the Sunshine Coast Convention Centre and the outcome was superb.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3655,7 +3655,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:615px;\">The questions we're asked most often. If yours isn't here, ask us — we'd rather answer it now than after the quote.</p>",
+      "editor": "<p style=\"margin:0;max-width:615px;\">The questions we're asked most often. If yours isn't here, ask us — we'd rather answer it now than after the quote.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -3780,7 +3780,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes — it's most of what we do. Our vans run solar, lithium and a 3000W inverter, so a site with no power and no phone signal is a normal shoot day.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Yes — it's most of what we do. Our vans run solar, lithium and a 3000W inverter, so a site with no power and no phone signal is a normal shoot day.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3872,7 +3872,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes. We manage timing, access, lighting and permits so you can concentrate on the experience rather than the logistics.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Yes. We manage timing, access, lighting and permits so you can concentrate on the experience rather than the logistics.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4001,7 +4001,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Well. We work across Noosa, the Glass House Mountains, Mount Coolum and the Hinterland constantly — local knowledge is the difference between arriving at the right spot at the right hour and arriving an hour late.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Well. We work across Noosa, the Glass House Mountains, Mount Coolum and the Hinterland constantly — local knowledge is the difference between arriving at the right spot at the right hour and arriving an hour late.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4093,7 +4093,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">High-stability gimbals, waterproof cameras, and both FPV and cinematic drones. The kit is chosen for movement and weather, not for a studio.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">High-stability gimbals, waterproof cameras, and both FPV and cinematic drones. The kit is chosen for movement and weather, not for a studio.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4222,7 +4222,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">[ verify ] Yes. Confirm current CASA licensing and insurance details before this publishes.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">[ verify ] Yes. Confirm current CASA licensing and insurance details before this publishes.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4314,7 +4314,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">We plan for it. Outdoor work gets a weather window rather than a single date wherever the schedule allows, and we'll tell you early if a day isn't worth burning.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">We plan for it. Outdoor work gets a weather window rather than a single date wherever the schedule allows, and we'll tell you early if a day isn't worth burning.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4595,7 +4595,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:551px;\">We make the whole process simple, from planning to delivery. Let's create adventure content that attracts attention and does the job you need it to do.</p>",
+      "editor": "<p style=\"margin:0;max-width:551px;\">We make the whole process simple, from planning to delivery. Let's create adventure content that attracts attention and does the job you need it to do.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",

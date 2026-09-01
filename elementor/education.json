@@ -178,7 +178,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:742px;\">Content that brings lessons, campuses and enrolment stories to life — made with schools, for the families choosing them.</p>",
+      "editor": "<p style=\"margin:0;max-width:742px;\">Content that brings lessons, campuses and enrolment stories to life — made with schools, for the families choosing them.</p>",
       "text_color": "#33353A",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -891,7 +891,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Families research schools online long before they book a tour, and video is how most of them form a first impression. A campus feels very different on film than it does in a prospectus.</p><p style=\"max-width:615px;\">We've worked with schools and educators end to end — showcasing new facilities, programs and the day-to-day of a place, in a way that helps the right families picture their child there.</p>",
+        "editor": "<p style=\"margin:0;max-width:615px;\">Families research schools online long before they book a tour, and video is how most of them form a first impression. A campus feels very different on film than it does in a prospectus.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">We've worked with schools and educators end to end — showcasing new facilities, programs and the day-to-day of a place, in a way that helps the right families picture their child there.</p>",
         "text_color": "#55575C",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -1176,7 +1176,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>The film that does the work of an open day for families who haven't visited yet.</p>",
+          "editor": "<p style=\"margin:0;\">The film that does the work of an open day for families who haven't visited yet.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1264,7 +1264,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>New buildings and spaces shown properly, rather than in a phone photo.</p>",
+          "editor": "<p style=\"margin:0;\">New buildings and spaces shown properly, rather than in a phone photo.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1352,7 +1352,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Short pieces on what a subject or program actually involves day to day.</p>",
+          "editor": "<p style=\"margin:0;\">Short pieces on what a subject or program actually involves day to day.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1465,7 +1465,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>The most persuasive content a school has, told by the people living it.</p>",
+          "editor": "<p style=\"margin:0;\">The most persuasive content a school has, told by the people living it.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1553,7 +1553,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Open days, presentations and graduations covered end to end.</p>",
+          "editor": "<p style=\"margin:0;\">Open days, presentations and graduations covered end to end.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1641,7 +1641,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Cut-downs sized for the channels families actually use.</p>",
+          "editor": "<p style=\"margin:0;\">Cut-downs sized for the channels families actually use.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1941,7 +1941,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Fill out our online form or give us a call to tell us about your vision and project goals, and receive a quote.</p>",
+          "editor": "<p style=\"margin:0;\">Fill out our online form or give us a call to tell us about your vision and project goals, and receive a quote.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2095,7 +2095,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Share your vision and goals for the project and we'll work with you to plan the shoot, ensuring we capture everything you need.</p>",
+          "editor": "<p style=\"margin:0;\">Share your vision and goals for the project and we'll work with you to plan the shoot, ensuring we capture everything you need.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2249,7 +2249,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p>Our professional team will guide you through a seamless and stress-free shoot.</p>",
+          "editor": "<p style=\"margin:0;\">Our professional team will guide you through a seamless and stress-free shoot.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2403,7 +2403,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p><span class=\"tbc\">accuracy read</span> We edit, grade and deliver polished content, built for the platforms where it needs to perform.</p>",
+          "editor": "<p style=\"margin:0;\"><span class=\"tbc\">accuracy read</span> We edit, grade and deliver polished content, built for the platforms where it needs to perform.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2577,7 +2577,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:624px;\">Families choose a school long before they book a tour, and most of that decision happens on a screen.</p>",
+        "editor": "<p style=\"margin:0;max-width:624px;\">Families choose a school long before they book a tour, and most of that decision happens on a screen.</p>",
         "text_color": "#E4E5E1",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -2610,7 +2610,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:615px;\">Pepper is the content arm of Chilli, a marketing agency that has been growing Sunshine Coast organisations since 1993. So we plan school content around the enrolment cycle and the questions families actually ask, rather than filming a nice day on campus and hoping it lands.</p><p style=\"max-width:615px;\">Strategy, filming and delivery come from the same team, which matters when the content has a deadline the intake won't move.</p>",
+        "editor": "<p style=\"margin:0;max-width:615px;\">Pepper is the content arm of Chilli, a marketing agency that has been growing Sunshine Coast organisations since 1993. So we plan school content around the enrolment cycle and the questions families actually ask, rather than filming a nice day on campus and hoping it lands.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">Strategy, filming and delivery come from the same team, which matters when the content has a deadline the intake won't move.</p>",
         "text_color": "#A9ABAE",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -2832,7 +2832,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p>Classrooms, campuses and enrolment content for schools across the region.</p>",
+      "editor": "<p style=\"margin:0;\">Classrooms, campuses and enrolment content for schools across the region.</p>",
       "text_color": "#9FA09C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -2943,7 +2943,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Thanks so much to the team at Pepper Productions for doing such a fantastic job of videoing our conference.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"Thanks so much to the team at Pepper Productions for doing such a fantastic job of videoing our conference.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3039,7 +3039,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"The Pepper lads produced me an amazing video for my business. The finished product was even better than I hoped for.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"The Pepper lads produced me an amazing video for my business. The finished product was even better than I hoped for.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3135,7 +3135,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3231,7 +3231,7 @@
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
-        "editor": "<p style=\"max-width:900px;\">\"Super friendly, professional and enthusiastic team that helped encourage our staff to embrace profile headshot day!\"</p>",
+        "editor": "<p style=\"margin:0;max-width:900px;\">\"Super friendly, professional and enthusiastic team that helped encourage our staff to embrace profile headshot day!\"</p>",
         "text_color": "#FFFFFF",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
@@ -3414,7 +3414,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:615px;\">The questions we're asked most often. If yours isn't here, ask us — we'd rather answer it now than after the quote.</p>",
+      "editor": "<p style=\"margin:0;max-width:615px;\">The questions we're asked most often. If yours isn't here, ask us — we'd rather answer it now than after the quote.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -3539,7 +3539,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes. The operators who work on school shoots hold current Queensland Blue Cards (working with children checks), and we'll provide the details for your records before the shoot.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Yes. The operators who work on school shoots hold current Queensland Blue Cards (working with children checks), and we'll provide the details for your records before the shoot.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3631,7 +3631,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">[ accuracy read ] We work to the school's own consent lists and shoot around students without permission. Confirm the exact process with a school before publishing.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">[ accuracy read ] We work to the school's own consent lists and shoot around students without permission. Confirm the exact process with a school before publishing.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3760,7 +3760,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">It shouldn't. Most classroom work is done quietly with available light, and we plan around timetables rather than asking a school to work around us.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">It shouldn't. Most classroom work is done quietly with available light, and we plan around timetables rather than asking a school to work around us.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3852,7 +3852,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes. Multi-campus shoots are usually more efficient run as one project, since the look and the edit stay consistent across all of them.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Yes. Multi-campus shoots are usually more efficient run as one project, since the look and the edit stay consistent across all of them.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -3981,7 +3981,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">[ accuracy read ] Ahead of your enrolment cycle, so the content is ready when families are actually looking. Confirm the timing that suits your intake.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">[ accuracy read ] Ahead of your enrolment cycle, so the content is ready when families are actually looking. Confirm the timing that suits your intake.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4073,7 +4073,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"max-width:493px;\">Yes, from the same visit — schools tend to need both, and a second shoot day is the expensive way to get there.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">Yes, from the same visit — schools tend to need both, and a second shoot day is the expensive way to get there.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4354,7 +4354,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"max-width:551px;\">Get in touch with our education content team on the Sunshine Coast for a tailored quote.</p>",
+      "editor": "<p style=\"margin:0;max-width:551px;\">Get in touch with our education content team on the Sunshine Coast for a tailored quote.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
