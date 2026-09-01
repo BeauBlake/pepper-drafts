@@ -294,7 +294,90 @@
    ]
   },
   {
-   "id": "153fe1c8",
+   "id": "140a8bbe",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "72",
+     "right": "52",
+     "bottom": "72",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF"
+   },
+   "elements": [
+    {
+     "id": "1350f1b8",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Brands we've told tales for",
+      "header_size": "div",
+      "title_color": "#9FA09C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "138ecfba",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 28
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "13ccadbc",
+     "elType": "widget",
+     "widgetType": "uael-image-gallery",
+     "settings": {
+      "wp_gallery": [],
+      "gallery_style": "masonry",
+      "gallery_columns": "3",
+      "image_size": "large",
+      "click_action": "lightbox",
+      "css_classes": "slot--logos"
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "163759d0",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -324,7 +407,7 @@
    },
    "elements": [
     {
-     "id": "148647c2",
+     "id": "157dbfca",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -351,7 +434,7 @@
      },
      "elements": [
       {
-       "id": "1350f1b8",
+       "id": "144869c0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -378,7 +461,7 @@
        "elements": []
       },
       {
-       "id": "138ecfba",
+       "id": "148647c2",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -390,7 +473,7 @@
        "elements": []
       },
       {
-       "id": "13ccadbc",
+       "id": "14c425c4",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -430,7 +513,7 @@
        "elements": []
       },
       {
-       "id": "140a8bbe",
+       "id": "150203c6",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -442,7 +525,7 @@
        "elements": []
       },
       {
-       "id": "144869c0",
+       "id": "153fe1c8",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -464,7 +547,7 @@
      ]
     },
     {
-     "id": "150203c6",
+     "id": "15f97bce",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -491,7 +574,7 @@
      },
      "elements": [
       {
-       "id": "14c425c4",
+       "id": "15bb9dcc",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -519,7 +602,7 @@
    ]
   },
   {
-   "id": "17aa8ddc",
+   "id": "18a205e4",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -547,7 +630,7 @@
    },
    "elements": [
     {
-     "id": "157dbfca",
+     "id": "167537d2",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -574,7 +657,7 @@
      "elements": []
     },
     {
-     "id": "15bb9dcc",
+     "id": "16b315d4",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -586,7 +669,7 @@
      "elements": []
     },
     {
-     "id": "15f97bce",
+     "id": "16f0f3d6",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -626,7 +709,7 @@
      "elements": []
     },
     {
-     "id": "163759d0",
+     "id": "172ed1d8",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -638,7 +721,7 @@
      "elements": []
     },
     {
-     "id": "167537d2",
+     "id": "176cafda",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -658,7 +741,7 @@
      "elements": []
     },
     {
-     "id": "16b315d4",
+     "id": "17aa8ddc",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -670,7 +753,7 @@
      "elements": []
     },
     {
-     "id": "176cafda",
+     "id": "186427e2",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -694,7 +777,7 @@
      },
      "elements": [
       {
-       "id": "16f0f3d6",
+       "id": "17e86bde",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -738,7 +821,7 @@
        "elements": []
       },
       {
-       "id": "172ed1d8",
+       "id": "182649e0",
        "elType": "widget",
        "widgetType": "button",
        "settings": {

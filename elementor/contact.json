@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "195b9fea",
+   "id": "0a5318f2",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -35,7 +35,7 @@
    },
    "elements": [
     {
-     "id": "17e86bde",
+     "id": "18dfe3e6",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -62,7 +62,7 @@
      "elements": []
     },
     {
-     "id": "182649e0",
+     "id": "191dc1e8",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -74,7 +74,7 @@
      "elements": []
     },
     {
-     "id": "186427e2",
+     "id": "195b9fea",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -114,7 +114,7 @@
      "elements": []
     },
     {
-     "id": "18a205e4",
+     "id": "19997dec",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -126,7 +126,7 @@
      "elements": []
     },
     {
-     "id": "18dfe3e6",
+     "id": "19d75bee",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -148,7 +148,7 @@
    ]
   },
   {
-   "id": "19997dec",
+   "id": "0a90f6f4",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -177,7 +177,7 @@
    "elements": []
   },
   {
-   "id": "0b0cb2f8",
+   "id": "0c042a00",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -205,7 +205,7 @@
    },
    "elements": [
     {
-     "id": "19d75bee",
+     "id": "0aced4f6",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -232,7 +232,7 @@
      "elements": []
     },
     {
-     "id": "0a153af0",
+     "id": "0b0cb2f8",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -244,7 +244,7 @@
      "elements": []
     },
     {
-     "id": "0a5318f2",
+     "id": "0b4a90fa",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -284,7 +284,7 @@
      "elements": []
     },
     {
-     "id": "0a90f6f4",
+     "id": "0b886efc",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -296,7 +296,7 @@
      "elements": []
     },
     {
-     "id": "0aced4f6",
+     "id": "0bc64cfe",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -314,6 +314,313 @@
       }
      },
      "elements": []
+    }
+   ]
+  },
+  {
+   "id": "0eea9218",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "72",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "flex_direction": "row",
+    "flex_align_items": "center",
+    "background_background": "classic",
+    "background_color": "#16171A"
+   },
+   "elements": [
+    {
+     "id": "0e30f812",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 624
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "0c420802",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "On the house",
+        "header_size": "div",
+        "title_color": "#C3C4C0",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 17.64
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.36
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0c7fe604",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 22
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0cbdc406",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Complimentary video <span style=\"color:#C3C4C0\">discovery session.</span>",
+        "header_size": "h2",
+        "title_color": "#FFFFFF",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 48
+        },
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": 36
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 28
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 47.04
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": -1.92
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "px",
+         "size": 586
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0cfba208",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 26
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0d39800a",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"margin:0;max-width:615px;\">We're super happy to put some time aside to learn a little more about how we can help — and from there put together a plan for your content. Coffee's on us.</p>",
+        "text_color": "#A9ABAE",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 16
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 26.88
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0d775e0c",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 36
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0df31a10",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "10",
+         "row": "10",
+         "isLinked": false
+        },
+        "flex_direction": "row",
+        "flex_wrap": "wrap"
+       },
+       "elements": [
+        {
+         "id": "0db53c0e",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Book a session",
+          "link": {
+           "url": "/request-a-quote/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.76
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "36",
+           "bottom": "20",
+           "left": "36",
+           "isLinked": false
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "background_color": "#FFFFFF",
+          "button_text_color": "#0F1012"
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "0eacb416",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 500
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "0e6ed614",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "",
+         "id": "",
+         "alt": "Pepper filming an interview on location"
+        },
+        "image_size": "large",
+        "width": {
+         "unit": "%",
+         "size": 100
+        },
+        "css_classes": "slot--showreel-cover",
+        "height": {
+         "unit": "px",
+         "size": 470
+        },
+        "object-fit": "cover"
+       },
+       "elements": []
+      }
+     ]
     }
    ]
   }

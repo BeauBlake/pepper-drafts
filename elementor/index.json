@@ -7,7 +7,3751 @@
  },
  "content": [
   {
-   "id": "175329e2",
+   "id": "11f5523a",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "190",
+     "right": "52",
+     "bottom": "150",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#16171A",
+    "background_overlay_background": "classic",
+    "background_overlay_color": "rgba(10,10,12,.55)"
+   },
+   "elements": [
+    {
+     "id": "0f8aa626",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Sunshine Coast · Video &amp; Photography",
+      "header_size": "div",
+      "title_color": "#C3C4C0",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0fc88428",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1006622a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Video production company <span style=\"color:#C3C4C0\">Sunshine Coast</span>",
+      "header_size": "h1",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 74
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 34
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 69.184
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -3.312
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 980
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1044402c",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 30
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "10821e2e",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0;max-width:760px;\">Bring your vision to life with professional photography and video production on the Sunshine Coast — strategic content that cuts through the noise and connects.</p>",
+      "text_color": "#E2E3E0",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 20
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 31
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "10bffc30",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 38
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "11b77438",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "10",
+       "row": "10",
+       "isLinked": false
+      },
+      "flex_direction": "row",
+      "flex_wrap": "wrap"
+     },
+     "elements": [
+      {
+       "id": "10fdda32",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Request a quote",
+        "link": {
+         "url": "/request-a-quote/",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.76
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "36",
+         "bottom": "20",
+         "left": "36",
+         "isLinked": false
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "background_color": "#FFFFFF",
+        "button_text_color": "#0F1012"
+       },
+       "elements": []
+      },
+      {
+       "id": "113bb834",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "See our work",
+        "link": {
+         "url": "#projects",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.76
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "36",
+         "bottom": "20",
+         "left": "36",
+         "isLinked": false
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "background_color": "rgba(0,0,0,0)",
+        "button_text_color": "#FFFFFF",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "rgba(255,255,255,.55)"
+       },
+       "elements": []
+      },
+      {
+       "id": "11799636",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "&nbsp;&nbsp;Watch the showreel",
+        "link": {
+         "url": "https://www.youtube.com/watch?v=wTuWKk0w4ZA",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.76
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "36",
+         "bottom": "20",
+         "left": "36",
+         "isLinked": false
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "background_color": "rgba(0,0,0,0)",
+        "button_text_color": "#FFFFFF",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "rgba(255,255,255,.55)"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "15577656",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "96",
+     "right": "52",
+     "bottom": "96",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "72",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "flex_direction": "row",
+    "flex_align_items": "center",
+    "background_background": "classic",
+    "background_color": "#16171A"
+   },
+   "elements": [
+    {
+     "id": "14dbba52",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 560
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "1233303c",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "The film",
+        "header_size": "div",
+        "title_color": "#C3C4C0",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 17.64
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.36
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "12710e3e",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 22
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "12aeec40",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "We live to tell <span style=\"color:#C3C4C0\">your tale.</span>",
+        "header_size": "h2",
+        "title_color": "#FFFFFF",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 48
+        },
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": 36
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 28
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 47.04
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": -1.92
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "px",
+         "size": 586
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "12ecca42",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 24
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "132aa844",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"margin:0;max-width:560px;\">Real shoots with real clients — forests, factories, beaches and boardrooms, all over the Sunshine Coast and beyond.</p>",
+        "text_color": "#A9ABAE",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 16
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 26.88
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "13688646",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 34
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "13e4424a",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "10",
+         "row": "10",
+         "isLinked": false
+        },
+        "flex_direction": "row",
+        "flex_wrap": "wrap"
+       },
+       "elements": [
+        {
+         "id": "13a66448",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "&nbsp;&nbsp;Watch with sound",
+          "link": {
+           "url": "https://www.youtube.com/watch?v=5yY8V4UWRhw",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.76
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "36",
+           "bottom": "20",
+           "left": "36",
+           "isLinked": false
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "background_color": "#FFFFFF",
+          "button_text_color": "#0F1012"
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "15199854",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 636
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "1422204c",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "",
+         "id": "",
+         "alt": "Pepper Productions crew filming an interview on location"
+        },
+        "image_size": "large",
+        "width": {
+         "unit": "%",
+         "size": 100
+        },
+        "css_classes": "slot--showreel-cover",
+        "height": {
+         "unit": "px",
+         "size": 400
+        },
+        "object-fit": "cover"
+       },
+       "elements": []
+      },
+      {
+       "id": "145ffe4e",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 14
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "149ddc50",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "PEPPER — We Live to Tell Your Tale",
+        "header_size": "div",
+        "title_color": "#9FA09C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 10
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 16
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.4
+        }
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "164eee5e",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "72",
+     "right": "52",
+     "bottom": "72",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF"
+   },
+   "elements": [
+    {
+     "id": "15955458",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Who we work with",
+      "header_size": "div",
+      "title_color": "#9FA09C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "15d3325a",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 28
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1611105c",
+     "elType": "widget",
+     "widgetType": "uael-image-gallery",
+     "settings": {
+      "wp_gallery": [],
+      "gallery_style": "masonry",
+      "gallery_columns": "3",
+      "image_size": "large",
+      "click_action": "lightbox",
+      "css_classes": "slot--logos"
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "0d8ef39a",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF"
+   },
+   "elements": [
+    {
+     "id": "168ccc60",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Our work",
+      "header_size": "div",
+      "title_color": "#9FA09C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "16caaa62",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 22
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "17088864",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Recent projects",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 521
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "17466666",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 46
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0d511598",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "46",
+       "row": "0",
+       "isLinked": false
+      },
+      "flex_direction": "row"
+     },
+     "elements": [
+      {
+       "id": "19355676",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 368
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "17844468",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "",
+           "id": "",
+           "alt": "Pepper crew filming inside an HQPlantations pine forest"
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100
+          },
+          "css_classes": "slot--bb1-0953-copy",
+          "height": {
+           "unit": "px",
+           "size": 250
+          },
+          "object-fit": "cover"
+         },
+         "elements": []
+        },
+        {
+         "id": "17c2226a",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 18
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "1800006c",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "01  HQPlantations",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "183dde6e",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 8
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "187bbc70",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Forestry · Safety campaign",
+          "header_size": "div",
+          "title_color": "#9FA09C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "600",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 10
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.4
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "18b99a72",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 12
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "18f77874",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;\">Safety films shot inside a working pine plantation — real sites, real crews, without a single machine stopping.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "0b244786",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 368
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "19733478",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "",
+           "id": "",
+           "alt": "Cure Marine catamaran filmed on the water"
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100
+          },
+          "css_classes": "slot--cure-10",
+          "height": {
+           "unit": "px",
+           "size": 250
+          },
+          "object-fit": "cover"
+         },
+         "elements": []
+        },
+        {
+         "id": "19b1127a",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 18
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "19eef07c",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "02  Cure Marine",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0a2ccf7e",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 8
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0a6aad80",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Marine · Brand film",
+          "header_size": "div",
+          "title_color": "#9FA09C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "600",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 10
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.4
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0aa88b82",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 12
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0ae66984",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;\">A brand film shot on the water for a Sunshine Coast catamaran builder — cinematic sailing footage built to sell a flagship.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "0d133796",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 368
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "0b622588",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "",
+           "id": "",
+           "alt": "Surf Life Saving Queensland lifeguards on patrol"
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100
+          },
+          "css_classes": "slot--slsqlg-6508-copy",
+          "height": {
+           "unit": "px",
+           "size": 250
+          },
+          "object-fit": "cover"
+         },
+         "elements": []
+        },
+        {
+         "id": "0ba0038a",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 18
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0bdde18c",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "03  Surf Life Saving Queensland",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0c1bbf8e",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 8
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0c599d90",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Community · Campaign",
+          "header_size": "div",
+          "title_color": "#9FA09C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "600",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 10
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.4
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0c977b92",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 12
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0cd55994",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;\">Campaign content with the crews who patrol Queensland's beaches — shot on the sand, in the surf and from the air.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1739a3ea",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "72",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "flex_direction": "row",
+    "background_background": "classic",
+    "background_color": "#F3F3F0"
+   },
+   "elements": [
+    {
+     "id": "16bde7e6",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 460
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "0dccd19c",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "What we do best",
+        "header_size": "div",
+        "title_color": "#9FA09C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 17.64
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.36
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0e0aaf9e",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 22
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0e488da0",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Six ways we help you <span style=\"color:#7E807A\">stand out</span>",
+        "header_size": "h2",
+        "title_color": "#0F1012",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 48
+        },
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": 36
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 28
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 47.04
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": -1.92
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "px",
+         "size": 420
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0e866ba2",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 26
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0ec449a4",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"margin:0;max-width:420px;\">Every service runs through the same in-house crew — one team from first call to final delivery, so nothing gets lost between departments.</p>",
+        "text_color": "#55575C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 16
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 26.88
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0f0227a6",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 34
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0f7de3aa",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "10",
+         "row": "10",
+         "isLinked": false
+        },
+        "flex_direction": "row",
+        "flex_wrap": "wrap"
+       },
+       "elements": [
+        {
+         "id": "0f4005a8",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Start a project",
+          "link": {
+           "url": "/request-a-quote/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.76
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "36",
+           "bottom": "20",
+           "left": "36",
+           "isLinked": false
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "background_color": "#0F1012",
+          "button_text_color": "#FFFFFF"
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "16fbc5e8",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 664
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "10755bb2",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "0fbbc1ac",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "01   Corporate & business content",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0ff99fae",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "10377db0",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;\">Showcase your business with professional photography and videography that builds trust, engages your audience, and elevates your brand from the Sunshine Coast's trusted video production team.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "10b339b4",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 34
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "11aab1bc",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "10f117b6",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "02   Product photography",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "112ef5b8",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "116cd3ba",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;\">Cut through the noise with stunning product content designed to get results. Our expert videography services help your brand stand out.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "11e88fbe",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 34
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "12e007c6",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "12266dc0",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "03   Active lifestyle",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "12644bc2",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "12a229c4",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;\">Show the energy and movement of your brand with dynamic video and photography for active lifestyles. From fitness to outdoor and water-based pursuits, our Sunshine Coast team captures authentic content that brings your brand to life.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "131de5c8",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 34
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "14155dd0",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "135bc3ca",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "04   Professional headshots",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "1399a1cc",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "13d77fce",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;\">Showcase your team with professional headshots that build trust and credibility. Let our videography and photography experts take your brand to the next level.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "14533bd2",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 34
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "154ab3da",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "149119d4",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "05   Event coverage",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "14cef7d6",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "150cd5d8",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;\">Conferences, launches and celebrations — covered end to end without missing the moment, from full recordings to highlights reels.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "158891dc",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 34
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "168009e4",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "15c66fde",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "06   Education content",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "16044de0",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "16422be2",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;\">Showcase your educational institution with professional content that highlights your values, facilities, and achievements. From promotional videos to event coverage, our team brings your story to life and helps you connect with your audience.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "0a5dea04",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "72",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "flex_direction": "row",
+    "flex_align_items": "center",
+    "background_background": "classic",
+    "background_color": "#FFFFFF"
+   },
+   "elements": [
+    {
+     "id": "19e22d00",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 560
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "177781ec",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "",
+         "id": "",
+         "alt": "Pepper Productions filming on location on the Sunshine Coast"
+        },
+        "image_size": "large",
+        "width": {
+         "unit": "%",
+         "size": 100
+        },
+        "css_classes": "slot--who-we-are-1",
+        "height": {
+         "unit": "px",
+         "size": 470
+        },
+        "object-fit": "cover"
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
+     "id": "0a200c02",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 636
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "17b55fee",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Who we are",
+        "header_size": "div",
+        "title_color": "#9FA09C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 17.64
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.36
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "17f33df0",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 22
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "18311bf2",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Storytellers with a full crew attached",
+        "header_size": "h2",
+        "title_color": "#0F1012",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 48
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 47.04
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": -1.92
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "px",
+         "size": 586
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "186ef9f4",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 26
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "18acd7f6",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"margin:0;max-width:615px;\">We offer end-to-end project support — from concept and strategy to production and\n        distribution. Whether you need corporate videos, professional headshots, or full event\n        coverage, our video production team on the Sunshine Coast is ready to bring your vision\n        to life.</p>",
+        "text_color": "#55575C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 16
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 26.88
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "18eab5f8",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 34
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "19a44ffe",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "10",
+         "row": "10",
+         "isLinked": false
+        },
+        "flex_direction": "row",
+        "flex_wrap": "wrap"
+       },
+       "elements": [
+        {
+         "id": "192893fa",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "About us",
+          "link": {
+           "url": "/about/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.76
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "36",
+           "bottom": "20",
+           "left": "36",
+           "isLinked": false
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "background_color": "#0F1012",
+          "button_text_color": "#FFFFFF"
+         },
+         "elements": []
+        },
+        {
+         "id": "196671fc",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Meet the crew",
+          "link": {
+           "url": "/your-crew/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.76
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "36",
+           "bottom": "20",
+           "left": "36",
+           "isLinked": false
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "background_color": "rgba(0,0,0,0)",
+          "button_text_color": "#0F1012",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "1",
+           "right": "1",
+           "bottom": "1",
+           "left": "1",
+           "isLinked": true
+          },
+          "border_color": "#D3D4CF"
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "12578846",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#16171A"
+   },
+   "elements": [
+    {
+     "id": "0a9bc806",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Our simple process",
+      "header_size": "div",
+      "title_color": "#C3C4C0",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0ad9a608",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 22
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0b17840a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "From first call to final cut",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0b55620c",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 46
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0d06741a",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "26",
+       "right": "0",
+       "bottom": "26",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "flex_direction": "row",
+      "border_border": "solid",
+      "border_width": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "1",
+       "left": "0",
+       "isLinked": false
+      },
+      "border_color": "#2A2C30"
+     },
+     "elements": [
+      {
+       "id": "0bd11e10",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 70
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "0b93400e",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "01",
+          "header_size": "div",
+          "title_color": "#C3C4C0",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 17
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 28.56
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "0cc89618",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 1050
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "0c0efc12",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Request a quote & share your brief",
+          "header_size": "h3",
+          "title_color": "#FFFFFF",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0c4cda14",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0c8ab816",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;max-width:760px;\">Fill out our online form or give us a call to tell us about your vision and project goals, and receive a quote.</p>",
+          "text_color": "#A9ABAE",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "0eb78628",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "26",
+       "right": "0",
+       "bottom": "26",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "flex_direction": "row",
+      "border_border": "solid",
+      "border_width": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "1",
+       "left": "0",
+       "isLinked": false
+      },
+      "border_color": "#2A2C30"
+     },
+     "elements": [
+      {
+       "id": "0d82301e",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 70
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "0d44521c",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "02",
+          "header_size": "div",
+          "title_color": "#C3C4C0",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 17
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 28.56
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "0e79a826",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 1050
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "0dc00e20",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Pre-production planning",
+          "header_size": "h3",
+          "title_color": "#FFFFFF",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0dfdec22",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0e3bca24",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;max-width:760px;\">Share your vision and goals for the project and we'll work with you to plan the shoot, ensuring we capture everything you need.</p>",
+          "text_color": "#A9ABAE",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "10689836",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "26",
+       "right": "0",
+       "bottom": "26",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "flex_direction": "row",
+      "border_border": "solid",
+      "border_width": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "1",
+       "left": "0",
+       "isLinked": false
+      },
+      "border_color": "#2A2C30"
+     },
+     "elements": [
+      {
+       "id": "0f33422c",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 70
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "0ef5642a",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "03",
+          "header_size": "div",
+          "title_color": "#C3C4C0",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 17
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 28.56
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "102aba34",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 1050
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "0f71202e",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Shoot day",
+          "header_size": "h3",
+          "title_color": "#FFFFFF",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0faefe30",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0fecdc32",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;max-width:760px;\">Our professional team will guide you through a seamless and stress-free shoot.</p>",
+          "text_color": "#A9ABAE",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "1219aa44",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "26",
+       "right": "0",
+       "bottom": "26",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "flex_direction": "row",
+      "border_border": "solid",
+      "border_width": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "1",
+       "left": "0",
+       "isLinked": false
+      },
+      "border_color": "#2A2C30"
+     },
+     "elements": [
+      {
+       "id": "10e4543a",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 70
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "10a67638",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "04",
+          "header_size": "div",
+          "title_color": "#C3C4C0",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 17
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 28.56
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "11dbcc42",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 1050
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "1122323c",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Post-production",
+          "header_size": "h3",
+          "title_color": "#FFFFFF",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 16
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21.6
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.64
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "1160103e",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "119dee40",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;max-width:760px;\">[ new copy ] We edit, grade and deliver polished content, built for the platforms where it needs to perform — ready to publish from day one.</p>",
+          "text_color": "#A9ABAE",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "157bce60",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "72",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "flex_direction": "row",
+    "flex_align_items": "center",
+    "background_background": "classic",
+    "background_color": "#F3F3F0"
+   },
+   "elements": [
+    {
+     "id": "14c2345a",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 624
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "12956648",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Why choose Pepper",
+        "header_size": "div",
+        "title_color": "#9FA09C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 17.64
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.36
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "12d3444a",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 22
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "1311224c",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "More than just videographers",
+        "header_size": "h2",
+        "title_color": "#0F1012",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 48
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 47.04
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": -1.92
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "px",
+         "size": 586
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "134f004e",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 26
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "138cde50",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"margin:0;max-width:615px;\">Most production gets booked one person at a time — a shooter here, an editor somewhere else. We run it in-house end to end, we're backed by Chilli, the marketing agency that's been growing Sunshine Coast businesses since 1993, and we bring our own production vans.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">There are two: a 4X4 running solar, lithium, shore power and a 3000W inverter for remote and overnight work, and a 2026 Transit Custom Trail that handles the day-to-day production and grip. A factory floor, a plantation track or a beach at first light works as easily as a boardroom — and they keep the kit in condition, the footage reviewable on the spot, and the coffee coming.</p>",
+        "text_color": "#55575C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 16
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 26.88
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "13cabc52",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 34
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "14845658",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "10",
+         "row": "10",
+         "isLinked": false
+        },
+        "flex_direction": "row",
+        "flex_wrap": "wrap"
+       },
+       "elements": [
+        {
+         "id": "14089a54",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Meet the Pepper Vans",
+          "link": {
+           "url": "/pepper-vans/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.76
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "36",
+           "bottom": "20",
+           "left": "36",
+           "isLinked": false
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "background_color": "#0F1012",
+          "button_text_color": "#FFFFFF"
+         },
+         "elements": []
+        },
+        {
+         "id": "14467856",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "About us",
+          "link": {
+           "url": "/about/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.76
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "36",
+           "bottom": "20",
+           "left": "36",
+           "isLinked": false
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "background_color": "rgba(0,0,0,0)",
+          "button_text_color": "#0F1012",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "1",
+           "right": "1",
+           "bottom": "1",
+           "left": "1",
+           "isLinked": true
+          },
+          "border_color": "#D3D4CF"
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "153df05e",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 500
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "1500125c",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "",
+         "id": "",
+         "alt": "The Pepper vans, Pepper Productions' 4X4 off-grid and daily production vehicles"
+        },
+        "image_size": "large",
+        "width": {
+         "unit": "%",
+         "size": 100
+        },
+        "css_classes": "slot--van198-scaled",
+        "height": {
+         "unit": "px",
+         "size": 470
+        },
+        "object-fit": "cover"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "16356866",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -35,7 +3779,7 @@
    },
    "elements": [
     {
-     "id": "16d76dde",
+     "id": "15b9ac62",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -62,7 +3806,7 @@
      "elements": []
     },
     {
-     "id": "17154be0",
+     "id": "15f78a64",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -72,6 +3816,283 @@
       }
      },
      "elements": []
+    }
+   ]
+  },
+  {
+   "id": "18a0147a",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#E4E5E1"
+   },
+   "elements": [
+    {
+     "id": "16734668",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Stories worth watching",
+      "header_size": "div",
+      "title_color": "#9FA09C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "16b1246a",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 24
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "16ef026c",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Let's make something <span style=\"color:#7E807A\">worth watching.</span>",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 54
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 38
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 29
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 53.312
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -2.176
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 620
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "172ce06e",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 24
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "176abe70",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0;max-width:620px;\">Pepper Productions is a video production agency specialising in results-driven content to help businesses connect with their audience and grow online.</p><p style=\"margin:0;margin-top:20px;max-width:620px;\">Fuelled by coffee, sunshine and a passion for storytelling, our team has big ideas and even bigger drive to help your business stand out from the crowd. We're also backed by an experienced Sunshine Coast marketing agency, Chilli, which has been growing businesses since 1993.</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "17a89c72",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 38
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "18623678",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "10",
+       "row": "10",
+       "isLinked": false
+      },
+      "flex_direction": "row",
+      "flex_wrap": "wrap"
+     },
+     "elements": [
+      {
+       "id": "17e67a74",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Request a quote",
+        "link": {
+         "url": "/request-a-quote/",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.76
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "36",
+         "bottom": "20",
+         "left": "36",
+         "isLinked": false
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "background_color": "#0F1012",
+        "button_text_color": "#FFFFFF"
+       },
+       "elements": []
+      },
+      {
+       "id": "18245876",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Contact us",
+        "link": {
+         "url": "/contact/",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.76
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "36",
+         "bottom": "20",
+         "left": "36",
+         "isLinked": false
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "background_color": "rgba(0,0,0,0)",
+        "button_text_color": "#0F1012",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "#D3D4CF"
+       },
+       "elements": []
+      }
+     ]
     }
    ]
   }

@@ -198,11 +198,19 @@
    "pepper-meta-0134-copy": "https://pepperproductions.com.au/wp-content/uploads/Pepper-Meta-0134-copy.webp",
    "crew-edit-suite": "crew-edit-suite.jpg"
   },
-  "gallery": [],
+  "gallery": [
+   "https://pepperproductions.com.au/wp-content/uploads/Queensland-Health-logo-300x200.jpg",
+   "https://pepperproductions.com.au/wp-content/uploads/queenslandhydro_logo.png",
+   "https://pepperproductions.com.au/wp-content/uploads/SGP.AX_BIG-da5f05d5-300x78.jpg",
+   "https://pepperproductions.com.au/wp-content/uploads/PLC_Mono-Rev-K-300x117.png",
+   "https://pepperproductions.com.au/wp-content/uploads/aa-ANTA-Logo-CMYK-300x300.jpg"
+  ],
   "overlay": null
  },
  "contact": {
-  "images": {},
+  "images": {
+   "showreel-cover": "showreel-cover.jpg"
+  },
   "gallery": [],
   "overlay": null
  },
@@ -219,13 +227,28 @@
   "overlay": null
  },
  "blog": {
-  "images": {},
+  "images": {
+   "beau-and-jack-37-scaled": "https://pepperproductions.com.au/wp-content/uploads/beau-and-jack-37-scaled.jpg"
+  },
   "gallery": [],
   "overlay": null
  },
  "index": {
-  "images": {},
-  "gallery": [],
+  "images": {
+   "showreel-cover": "showreel-cover.jpg",
+   "bb1-0953-copy": "https://pepperproductions.com.au/wp-content/uploads/BB1_0953-copy.webp",
+   "cure-10": "https://pepperproductions.com.au/wp-content/uploads/Cure-10.jpg",
+   "slsqlg-6508-copy": "https://pepperproductions.com.au/wp-content/uploads/SLSQLG-6508-copy.webp",
+   "who-we-are-1": "https://pepperproductions.com.au/wp-content/uploads/Who-We-Are-1.webp",
+   "van198-scaled": "https://pepperproductions.com.au/wp-content/uploads/Van198-scaled.jpg"
+  },
+  "gallery": [
+   "https://pepperproductions.com.au/wp-content/uploads/Queensland-Health-logo-300x200.jpg",
+   "https://pepperproductions.com.au/wp-content/uploads/queenslandhydro_logo.png",
+   "https://pepperproductions.com.au/wp-content/uploads/SGP.AX_BIG-da5f05d5-300x78.jpg",
+   "https://pepperproductions.com.au/wp-content/uploads/PLC_Mono-Rev-K-300x117.png",
+   "https://pepperproductions.com.au/wp-content/uploads/aa-ANTA-Logo-CMYK-300x300.jpg"
+  ],
   "overlay": null
  }
 }

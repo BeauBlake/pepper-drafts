@@ -7,7 +7,235 @@
  },
  "content": [
   {
-   "id": "142ee3c8",
+   "id": "18c65dee",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "140",
+     "right": "52",
+     "bottom": "140",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#16171A",
+    "background_overlay_background": "classic",
+    "background_overlay_color": "rgba(10,10,12,.62)",
+    "css_classes": "slot-bg--slsq"
+   },
+   "elements": [
+    {
+     "id": "16d76dde",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "The Pepper blog · Getting started",
+      "header_size": "div",
+      "title_color": "#C3C4C0",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "17154be0",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 24
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "175329e2",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Been putting off your business video? Here's how to start.",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 44
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 46
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.6
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 900
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "179107e4",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 22
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "17cee5e6",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0;max-width:620px;\">The hardest part of any business video is the first step. Here's how we take clients from \"we should do a video\" to a finished film people actually watch.</p>",
+      "text_color": "#D8D9D6",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 18
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 29
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "180cc3e8",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 30
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "18887fec",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "10",
+       "row": "10",
+       "isLinked": false
+      },
+      "flex_direction": "row",
+      "flex_wrap": "wrap"
+     },
+     "elements": [
+      {
+       "id": "184aa1ea",
+       "elType": "widget",
+       "widgetType": "button",
+       "settings": {
+        "text": "Read the article",
+        "link": {
+         "url": "#",
+         "is_external": "",
+         "nofollow": ""
+        },
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 12
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.76
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "36",
+         "bottom": "20",
+         "left": "36",
+         "isLinked": false
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "background_color": "rgba(0,0,0,0)",
+        "button_text_color": "#FFFFFF",
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "1",
+         "bottom": "1",
+         "left": "1",
+         "isLinked": true
+        },
+        "border_color": "rgba(255,255,255,.55)"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "0a3992fa",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -35,7 +263,7 @@
    },
    "elements": [
     {
-     "id": "12f98dbe",
+     "id": "19043bf0",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -62,7 +290,7 @@
      "elements": []
     },
     {
-     "id": "13376bc0",
+     "id": "194219f2",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -74,7 +302,7 @@
      "elements": []
     },
     {
-     "id": "137549c2",
+     "id": "197ff7f4",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -114,7 +342,7 @@
      "elements": []
     },
     {
-     "id": "13b327c4",
+     "id": "19bdd5f6",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -126,7 +354,7 @@
      "elements": []
     },
     {
-     "id": "13f105c6",
+     "id": "19fbb3f8",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -148,7 +376,264 @@
    ]
   },
   {
-   "id": "16998fdc",
+   "id": "0ce21c10",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "72",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "flex_direction": "row",
+    "flex_align_items": "center",
+    "background_background": "classic",
+    "background_color": "#16171A"
+   },
+   "elements": [
+    {
+     "id": "0c28820a",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 624
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "0a7770fc",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Stay in the loop",
+        "header_size": "div",
+        "title_color": "#C3C4C0",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 17.64
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.36
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0ab54efe",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 22
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0af32c00",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "New stories, <span style=\"color:#C3C4C0\">straight to you.</span>",
+        "header_size": "h2",
+        "title_color": "#FFFFFF",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 48
+        },
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": 36
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 28
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 47.04
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": -1.92
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "px",
+         "size": 586
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0b310a02",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 26
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0b6ee804",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"margin:0;max-width:615px;\">Occasional notes on making content that actually works — no spam, no fluff.</p>",
+        "text_color": "#A9ABAE",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 16
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 26.88
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0bacc606",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 20
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0beaa408",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"margin:0;\">[ Gravity Form goes here — insert the existing newsletter form; do not rebuild the fields by hand or submissions stop flowing. ]</p>",
+        "text_color": "#9FA09C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 13
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 21
+        }
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
+     "id": "0ca43e0e",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 500
+      },
+      "flex_shrink": "0"
+     },
+     "elements": [
+      {
+       "id": "0c66600c",
+       "elType": "widget",
+       "widgetType": "image",
+       "settings": {
+        "image": {
+         "url": "",
+         "id": "",
+         "alt": "Pepper Productions editing suite"
+        },
+        "image_size": "large",
+        "width": {
+         "unit": "%",
+         "size": 100
+        },
+        "css_classes": "slot--beau-and-jack-37-scaled",
+        "height": {
+         "unit": "px",
+         "size": 470
+        },
+        "object-fit": "cover"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "0f4cc824",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -176,7 +661,7 @@
    },
    "elements": [
     {
-     "id": "146cc1ca",
+     "id": "0d1ffa12",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -203,7 +688,7 @@
      "elements": []
     },
     {
-     "id": "14aa9fcc",
+     "id": "0d5dd814",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -215,7 +700,7 @@
      "elements": []
     },
     {
-     "id": "14e87dce",
+     "id": "0d9bb616",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -255,7 +740,7 @@
      "elements": []
     },
     {
-     "id": "15265bd0",
+     "id": "0dd99418",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -267,7 +752,7 @@
      "elements": []
     },
     {
-     "id": "156439d2",
+     "id": "0e17721a",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -287,7 +772,7 @@
      "elements": []
     },
     {
-     "id": "15a217d4",
+     "id": "0e55501c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -299,7 +784,7 @@
      "elements": []
     },
     {
-     "id": "165bb1da",
+     "id": "0f0eea22",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -323,7 +808,7 @@
      },
      "elements": [
       {
-       "id": "15dff5d6",
+       "id": "0e932e1e",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -367,7 +852,7 @@
        "elements": []
       },
       {
-       "id": "161dd3d8",
+       "id": "0ed10c20",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
