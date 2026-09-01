@@ -8,13 +8,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="pepper.css?v=1788259101">
+<link rel="stylesheet" href="pepper.css?v=1788260013">
 </head>
 <body class="opt-c">
 <!-- SITE CHROME: header template 1888. Placeholder only. -->
 <div class="bar"><div class="w">
   <a class="logo" href="index.html"><img src="https://pepperproductions.com.au/wp-content/uploads/Pepper_logo_Mono-Rev-1024x437.png" alt="Pepper Productions"></a>
-  <nav><span class="drop"><a href="corporate.html">How We Help</a><span class="menu"><a href="corporate.html">Corporate Photo &amp; Video</a><a href="business.html">Business Photo &amp; Video</a><a href="product.html">Product Photography</a><a href="adventure.html">Adventure &amp; Outdoor</a><a href="event.html">Event Coverage</a><a href="headshots.html">Professional Headshots</a><a href="education.html">Education Content</a></span></span><a href="work.html">Our Work</a><span class="drop"><a href="about.html">About</a><span class="menu"><a href="about.html">About Pepper</a><a href="vans.html">The Pepper Vans</a></span></span><a href="crew.html">Your Crew</a><a href="blog.html">The Blog</a><a href="contact.html">Contact</a><a href="quote.html">Get a Quote</a></nav>
+  <nav><span class="drop"><a href="corporate.html">How We Help</a><span class="menu"><a href="corporate.html">Corporate Photo &amp; Video</a><a href="business.html">Business Photo &amp; Video</a><a href="product.html">Product Photography</a><a href="adventure.html">Adventure &amp; Outdoor</a><a href="event.html">Event Coverage</a><a href="headshots.html">Professional Headshots</a><a href="education.html">Education Content</a></span></span><a href="work.html">Our Work</a><span class="drop"><a href="about.html">About</a><span class="menu"><a href="about.html">About Pepper</a><a href="vans.html">The Pepper Vans</a></span></span><a href="crew.html">Your Crew</a><a href="blog.html">The Blog</a><a href="contact.html">Contact</a></nav>
 </div></div>
 
 <!-- ================= PAGE HERO — type only, direct ================= -->
@@ -29,7 +29,8 @@
 </section>
 
 <!-- ================= DETAILS + FORM ================= -->
-<section class="sec" style="border-top:0;padding-top:24px"><div class="w contactgrid">
+<!-- paper, matching every other page's opening band (Beau, 1 Sept). -->
+<section class="sec paper" style="padding-top:24px"><div class="w contactgrid">
   <div class="details">
     <div class="row"><div class="k">Call</div><div class="v">07 5437 7788</div></div>
     <div class="row"><div class="k">Email</div><div class="v">info@pepperproductions.com.au</div></div>
@@ -46,6 +47,39 @@
   </div></div>
 </div></section>
 
+<!-- ================= GET A QUOTE — the route to quote.html =================
+     ADDED 1 Sept — Beau: "I need the get a quote to only be accessable from the
+     buttons, and a section on the contact page." Get a Quote came out of the
+     nav on all 35 pages the same day, so this block and the "Request a quote"
+     buttons are now the site's only routes to it. It sits above the discovery
+     offer because the two are different asks — a priced brief versus a chat —
+     and the paid one should be read first by anyone who already knows what they
+     want. Dust, because the band above is paper and the offer below is ink. -->
+<section class="sec dust"><div class="w duo">
+  <div>
+    <span class="lbl">Know what you need?</span>
+    <h2>Send us a brief, <span class="van">get a price.</span></h2>
+    <p class="opening">If you already have a project in mind, the quote form is faster than an
+      email — it asks the things we'd otherwise have to come back to you about. Format, where it
+      runs, how many, and roughly what you have to spend.</p>
+    <p>It goes to the people who would actually run the shoot. You get back an approach and an
+      itemised price, so you can see what to keep and what to cut. If the budget and the goal
+      don't meet, we'll tell you that too.</p>
+    <div class="ctas" style="margin-top:32px">
+      <a class="btn" href="quote.html">Request a quote</a>
+    </div>
+  </div>
+  <!-- .qaside, not .rail: the rail's key/value styling is scoped to .pagehero,
+       so out here both lines rendered in ink at the same weight and the
+       label/value hierarchy vanished. .qaside is the same pattern, already in
+       the stylesheet for quote.html's sidebar, and works anywhere. -->
+  <div class="qaside">
+    <div class="row"><div class="k">Takes</div><div class="v">About five minutes</div></div>
+    <div class="row"><div class="k">You get</div><div class="v">An approach and an itemised price</div></div>
+    <div class="row"><div class="k">Or call</div><div class="v">07 5437 7788</div></div>
+  </div>
+</div></section>
+
 <!-- ================= DISCOVERY SESSION — ink offer ================= -->
 <section class="offer"><div class="w grid">
   <div>
@@ -53,7 +87,7 @@
     <h2>Complimentary video <span class="van">discovery session.</span></h2>
     <p>We're super happy to put some time aside to learn a little more about how we can help —
       and from there put together a plan for your content. Coffee's on us.</p>
-    <a class="btn" href="#">Book a session</a>
+    <a class="btn" href="quote.html">Book a session</a>
     <!-- offer wording — accuracy read [ tbc ] -->
   </div>
   <img src="showreel-cover.jpg" alt="Pepper filming an interview on location">

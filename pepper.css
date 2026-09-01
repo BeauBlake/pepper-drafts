@@ -728,26 +728,4 @@ a[href="#"]{cursor:default}
 .story-compact .sec .copy p + p{margin-top:18px}
 @media(max-width:900px){.story-compact .sec{padding-block:48px}}
 
-/* ---- Banner treatment, added 1 Sept -------------------------------------
-   Beau: "make sure the banners are all consistent colours, some have
-   different greys."
 
-   Measured all 31 banner images. The spread was the problem, not any one
-   picture: saturation ran 0 to 110 and luminance 61 to 163. Four banners are
-   already effectively black and white — the Transit, MXRP, the product laptop,
-   the headshots team shot — while Namotu and the Education campus shot are
-   fully saturated. Side by side they read as different sites.
-
-   The brand is greyscale by definition (van / ink / paper, red still held
-   out), so the banners resolve to greyscale and the colour work stays in the
-   galleries and inline images, where it belongs. That unifies 31 images
-   without re-grading a single file.
-
-   TO REVERT: delete this block. One line, no other dependencies.
-   Note it does NOT equalise brightness — the darkest banner is still ~2.7x
-   darker than the lightest. Type sits below the band rather than over it, so
-   that is a look question, not a legibility one. ------------------------- */
-.pagehero .vband,
-.heroC .vband,
-.blog .lead,
-section.lead{filter:grayscale(1)}

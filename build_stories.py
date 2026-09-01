@@ -90,6 +90,34 @@ def esc(s):
     return (_html.escape(s, quote=True) if s else "")
 
 
+
+def client_h1(name):
+    """The client name as the story's H1, in the house two-tone treatment.
+
+    WHY THE H1 CHANGED — Beau, 1 Sept: "check the names of the projects are the
+    client names, only about half are." He was right, and it was worse than half:
+    15 of 20 H1s were the live page's SEO line rather than the client, and two
+    pages — HQPlantations and Surf Life Saving Queensland — carried the same
+    sentence, "Sunshine Coast Photography at its Finest", verbatim. The set had a
+    literal duplicate title in it.
+
+    The client name is promoted to the H1 and the old H1 drops to the standfirst
+    immediately beneath. Nothing is deleted: every word Darren approved is still
+    on the page, in the same order, one level down. That keeps the story re-skin
+    a look-and-feel change rather than a copy change, which is its whole premise.
+
+    Separate from two_tone() on purpose. That one is for sentence-shaped headings:
+    it esc()s its input and needs three words before it will split. Client names
+    are neither — they arrive already escaped from CLIENT ("Scooter &amp; Skate"),
+    so escaping again would yield "&amp;amp;", and most are two words, which
+    two_tone would leave entirely untinted.
+    """
+    parts = name.split(" ")
+    if len(parts) < 2:
+        return name + "."
+    return " ".join(parts[:-1]) + f' <span class="van">{parts[-1]}.</span>'
+
+
 def two_tone(text):
     """Split a heading so the last word or two takes the second tone, which is
     the house treatment everywhere else on the site."""
@@ -106,7 +134,11 @@ class Tones:
     Compact stories use a two-tone cycle: four bands of colour under a page
     with two images makes the emptiness louder, not quieter."""
     CYCLE = ["paper", "", "dust", ""]
-    CYCLE_COMPACT = ["", "paper"]
+    # Starts on paper, not white. Every page on the site opens on paper under
+    # the header — Beau, 1 Sept: the headers "have different greys". A compact
+    # page starting white put a second, slightly different light directly below
+    # the white hero type band, with no rule between them.
+    CYCLE_COMPACT = ["paper", ""]
 
     def __init__(self, compact=False):
         self.CYCLE = self.CYCLE_COMPACT if compact else self.CYCLE
@@ -255,7 +287,12 @@ def render(slug, data):
         if s["kind"] == "video":
             # Alternate dark/light through a run of consecutive videos so two
             # black bands never touch.
-            lite = (tones.prev == "ink")
+            # "hero" counts as light here. tones.prev starts at "hero", so a
+            # page whose first block is a video (unearthed-rv) opened on a black
+            # band directly under the white header type — the one page out of 35
+            # not opening on paper. Beau, 1 Sept: the headers "have different
+            # greys".
+            lite = tones.prev in ("ink", "hero")
             tones.prev = "paper" if lite else "ink"
             if s.get("head"):
                 a, b2 = two_tone(s["head"])
@@ -361,15 +398,16 @@ def render(slug, data):
 <body class="opt-c{" story-compact" if compact else ""}">
 <div class="bar"><div class="w">
   <a class="logo" href="index.html"><img src="{UP}Pepper_logo_Mono-Rev-1024x437.png" alt="Pepper Productions"></a>
-  <nav><span class="drop"><a href="corporate.html">How We Help</a><span class="menu">{menu}</span></span><a href="work.html">Our Work</a><span class="drop"><a href="about.html">About</a><span class="menu">{about}</span></span><a href="crew.html">Your Crew</a><a href="blog.html">The Blog</a><a href="contact.html">Contact</a><a href="quote.html">Get a Quote</a></nav>
+  <nav><span class="drop"><a href="corporate.html">How We Help</a><span class="menu">{menu}</span></span><a href="work.html">Our Work</a><span class="drop"><a href="about.html">About</a><span class="menu">{about}</span></span><a href="crew.html">Your Crew</a><a href="blog.html">The Blog</a><a href="contact.html">Contact</a></nav>
 </div></div>
 
 <!-- ================= PAGE HERO ================= -->
 <section class="pagehero">
   {heroband}
   <div class="type"><div class="w">
-    <span class="lbl">Our work · {client}</span>
-    <h1>{esc(h1)}</h1>
+    <span class="lbl">Our work</span>
+    <h1>{client_h1(client)}</h1>
+    <p class="stand">{esc(h1)}</p>
     <div class="ctas">
       <a class="btn" href="contact.html">Start a project</a>
       <a class="btn g" href="work.html">More of our work</a>

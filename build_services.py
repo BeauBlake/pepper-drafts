@@ -55,8 +55,14 @@ SERVICES = [("corporate.html", "Corporate Photo &amp; Video"),
 # if you change one, change both.
 ABOUT = [("about.html", "About Pepper"), ("vans.html", "The Pepper Vans")]
 REST_A = [("work.html", "Our Work")]
+# Get a Quote is deliberately NOT in the nav — Beau, 1 Sept: "I need the get a
+# quote to only be accessable from the buttons, and a section on the contact
+# page." The page still exists and is still the primary conversion path; it is
+# reached from the "Request a quote" buttons (37 of them across the site) and
+# from the block on contact.html. Keeping it out of the nav stops the header
+# offering two competing contact destinations.
 REST_B = [("crew.html", "Your Crew"), ("blog.html", "The Blog"),
-          ("contact.html", "Contact"), ("quote.html", "Get a Quote")]
+          ("contact.html", "Contact")]
 
 # The six real Google reviews from the homepage. Curated per page below so the
 # most relevant one leads — these are the only genuine reviews we have, so no
