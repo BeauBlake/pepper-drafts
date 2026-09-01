@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "16e621c4",
+   "id": "0a4846e0",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -29,7 +29,7 @@
    },
    "elements": [
     {
-     "id": "16a843c2",
+     "id": "0a0a68de",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -55,7 +55,7 @@
    ]
   },
   {
-   "id": "0daa6afc",
+   "id": "110c8e18",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -83,7 +83,7 @@
    },
    "elements": [
     {
-     "id": "1723ffc6",
+     "id": "0a8624e2",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -110,7 +110,7 @@
      "elements": []
     },
     {
-     "id": "1761ddc8",
+     "id": "0ac402e4",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -122,7 +122,7 @@
      "elements": []
     },
     {
-     "id": "179fbbca",
+     "id": "0b01e0e6",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -162,7 +162,7 @@
      "elements": []
     },
     {
-     "id": "17dd99cc",
+     "id": "0b3fbee8",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -174,7 +174,7 @@
      "elements": []
     },
     {
-     "id": "181b77ce",
+     "id": "0b7d9cea",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -194,7 +194,7 @@
      "elements": []
     },
     {
-     "id": "185955d0",
+     "id": "0bbb7aec",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -206,7 +206,7 @@
      "elements": []
     },
     {
-     "id": "1912efd6",
+     "id": "0c7514f2",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -230,7 +230,7 @@
      },
      "elements": [
       {
-       "id": "189733d2",
+       "id": "0bf958ee",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -274,7 +274,7 @@
        "elements": []
       },
       {
-       "id": "18d511d4",
+       "id": "0c3736f0",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -330,7 +330,7 @@
      ]
     },
     {
-     "id": "1950cdd8",
+     "id": "0cb2f2f4",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -342,7 +342,7 @@
      "elements": []
     },
     {
-     "id": "0d6c8cfa",
+     "id": "10ceb016",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -375,7 +375,7 @@
      },
      "elements": [
       {
-       "id": "0a4846e0",
+       "id": "0daa6afc",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -402,7 +402,7 @@
        },
        "elements": [
         {
-         "id": "198eabda",
+         "id": "0cf0d0f6",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -429,7 +429,7 @@
          "elements": []
         },
         {
-         "id": "19cc89dc",
+         "id": "0d2eaef8",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -441,7 +441,7 @@
          "elements": []
         },
         {
-         "id": "0a0a68de",
+         "id": "0d6c8cfa",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -465,7 +465,7 @@
        ]
       },
       {
-       "id": "0b3fbee8",
+       "id": "0ea1e204",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -492,7 +492,7 @@
        },
        "elements": [
         {
-         "id": "0a8624e2",
+         "id": "0de848fe",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -519,7 +519,7 @@
          "elements": []
         },
         {
-         "id": "0ac402e4",
+         "id": "0e262600",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -531,7 +531,7 @@
          "elements": []
         },
         {
-         "id": "0b01e0e6",
+         "id": "0e640402",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -555,7 +555,7 @@
        ]
       },
       {
-       "id": "0c3736f0",
+       "id": "0f995a0c",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -582,7 +582,7 @@
        },
        "elements": [
         {
-         "id": "0b7d9cea",
+         "id": "0edfc006",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -609,7 +609,7 @@
          "elements": []
         },
         {
-         "id": "0bbb7aec",
+         "id": "0f1d9e08",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -621,7 +621,7 @@
          "elements": []
         },
         {
-         "id": "0bf958ee",
+         "id": "0f5b7c0a",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -645,7 +645,7 @@
        ]
       },
       {
-       "id": "0d2eaef8",
+       "id": "1090d214",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -672,7 +672,7 @@
        },
        "elements": [
         {
-         "id": "0c7514f2",
+         "id": "0fd7380e",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -699,7 +699,7 @@
          "elements": []
         },
         {
-         "id": "0cb2f2f4",
+         "id": "10151610",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -711,7 +711,7 @@
          "elements": []
         },
         {
-         "id": "0cf0d0f6",
+         "id": "1052f412",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -739,7 +739,7 @@
    ]
   },
   {
-   "id": "0fd7380e",
+   "id": "13395c2a",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -769,7 +769,7 @@
    },
    "elements": [
     {
-     "id": "0f1d9e08",
+     "id": "127fc224",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -796,7 +796,7 @@
      },
      "elements": [
       {
-       "id": "0de848fe",
+       "id": "114a6c1a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -823,7 +823,7 @@
        "elements": []
       },
       {
-       "id": "0e262600",
+       "id": "11884a1c",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -835,7 +835,7 @@
        "elements": []
       },
       {
-       "id": "0e640402",
+       "id": "11c6281e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -875,7 +875,7 @@
        "elements": []
       },
       {
-       "id": "0ea1e204",
+       "id": "12040620",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -887,7 +887,7 @@
        "elements": []
       },
       {
-       "id": "0edfc006",
+       "id": "1241e422",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -909,7 +909,7 @@
      ]
     },
     {
-     "id": "0f995a0c",
+     "id": "12fb7e28",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -936,7 +936,7 @@
      },
      "elements": [
       {
-       "id": "0f5b7c0a",
+       "id": "12bda026",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -964,7 +964,7 @@
    ]
   },
   {
-   "id": "114a6c1a",
+   "id": "14ac9036",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -992,7 +992,7 @@
    },
    "elements": [
     {
-     "id": "10151610",
+     "id": "13773a2c",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1019,7 +1019,7 @@
      "elements": []
     },
     {
-     "id": "1052f412",
+     "id": "13b5182e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1031,7 +1031,7 @@
      "elements": []
     },
     {
-     "id": "1090d214",
+     "id": "13f2f630",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1071,7 +1071,7 @@
      "elements": []
     },
     {
-     "id": "10ceb016",
+     "id": "1430d432",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1083,7 +1083,7 @@
      "elements": []
     },
     {
-     "id": "110c8e18",
+     "id": "146eb234",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1105,7 +1105,7 @@
    ]
   },
   {
-   "id": "12bda026",
+   "id": "161fc442",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1133,7 +1133,7 @@
    },
    "elements": [
     {
-     "id": "11884a1c",
+     "id": "14ea6e38",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1160,7 +1160,7 @@
      "elements": []
     },
     {
-     "id": "11c6281e",
+     "id": "15284c3a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1172,7 +1172,7 @@
      "elements": []
     },
     {
-     "id": "12040620",
+     "id": "15662a3c",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1212,7 +1212,7 @@
      "elements": []
     },
     {
-     "id": "1241e422",
+     "id": "15a4083e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1224,7 +1224,7 @@
      "elements": []
     },
     {
-     "id": "127fc224",
+     "id": "15e1e640",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1246,7 +1246,7 @@
    ]
   },
   {
-   "id": "13b5182e",
+   "id": "17173c4a",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1274,7 +1274,7 @@
    },
    "elements": [
     {
-     "id": "12fb7e28",
+     "id": "165da244",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1301,7 +1301,7 @@
      "elements": []
     },
     {
-     "id": "13395c2a",
+     "id": "169b8046",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1313,7 +1313,7 @@
      "elements": []
     },
     {
-     "id": "13773a2c",
+     "id": "16d95e48",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1355,7 +1355,7 @@
    ]
   },
   {
-   "id": "15284c3a",
+   "id": "188a7056",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1383,7 +1383,7 @@
    },
    "elements": [
     {
-     "id": "13f2f630",
+     "id": "17551a4c",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1410,7 +1410,7 @@
      "elements": []
     },
     {
-     "id": "1430d432",
+     "id": "1792f84e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1422,7 +1422,7 @@
      "elements": []
     },
     {
-     "id": "146eb234",
+     "id": "17d0d650",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1462,7 +1462,7 @@
      "elements": []
     },
     {
-     "id": "14ac9036",
+     "id": "180eb452",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1474,7 +1474,7 @@
      "elements": []
     },
     {
-     "id": "14ea6e38",
+     "id": "184c9254",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1496,7 +1496,7 @@
    ]
   },
   {
-   "id": "0d5fc97e",
+   "id": "10c1ed9a",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1524,7 +1524,7 @@
    },
    "elements": [
     {
-     "id": "15662a3c",
+     "id": "18c84e58",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1551,7 +1551,7 @@
      "elements": []
     },
     {
-     "id": "15a4083e",
+     "id": "19062c5a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1563,7 +1563,7 @@
      "elements": []
     },
     {
-     "id": "15e1e640",
+     "id": "19440a5c",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1603,7 +1603,7 @@
      "elements": []
     },
     {
-     "id": "0ce40d7a",
+     "id": "10463196",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1615,7 +1615,7 @@
      "elements": []
     },
     {
-     "id": "0d21eb7c",
+     "id": "10840f98",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1637,314 +1637,6 @@
       "flex_direction": "row"
      },
      "elements": [
-      {
-       "id": "1792f84e",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "flex_gap": {
-         "unit": "px",
-         "column": "0",
-         "row": "0",
-         "isLinked": false
-        },
-        "width": {
-         "unit": "px",
-         "size": 266
-        },
-        "flex_shrink": "0"
-       },
-       "elements": [
-        {
-         "id": "165da244",
-         "elType": "container",
-         "isInner": true,
-         "settings": {
-          "content_width": "full",
-          "padding": {
-           "unit": "px",
-           "top": "9",
-           "right": "0",
-           "bottom": "9",
-           "left": "0",
-           "isLinked": false
-          },
-          "flex_gap": {
-           "unit": "px",
-           "column": "0",
-           "row": "0",
-           "isLinked": false
-          },
-          "background_background": "classic",
-          "background_color": "#0F1012",
-          "width": {
-           "unit": "px",
-           "size": 46
-          },
-          "flex_justify_content": "center",
-          "flex_align_items": "center"
-         },
-         "elements": [
-          {
-           "id": "161fc442",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "1",
-            "header_size": "div",
-            "title_color": "#FFFFFF",
-            "typography_typography": "custom",
-            "typography_font_family": "Montserrat",
-            "typography_font_weight": "700",
-            "typography_font_size": {
-             "unit": "px",
-             "size": 17
-            },
-            "typography_line_height": {
-             "unit": "px",
-             "size": 28.56
-            }
-           },
-           "elements": []
-          }
-         ]
-        },
-        {
-         "id": "169b8046",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 18
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "16d95e48",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Request a quote &amp; share your brief",
-          "header_size": "h3",
-          "title_color": "#0F1012",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "700",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 15
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 21
-          },
-          "typography_text_transform": "uppercase",
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": 0.6
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "17173c4a",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 10
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "17551a4c",
-         "elType": "widget",
-         "widgetType": "text-editor",
-         "settings": {
-          "editor": "<p style=\"margin:0;\">Fill out our online form or give us a call to tell us about your vision and project\n        goals, and receive a quote.</p>",
-          "text_color": "#55575C",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 15
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 23.925
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "19440a5c",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "flex_gap": {
-         "unit": "px",
-         "column": "0",
-         "row": "0",
-         "isLinked": false
-        },
-        "width": {
-         "unit": "px",
-         "size": 266
-        },
-        "flex_shrink": "0"
-       },
-       "elements": [
-        {
-         "id": "180eb452",
-         "elType": "container",
-         "isInner": true,
-         "settings": {
-          "content_width": "full",
-          "padding": {
-           "unit": "px",
-           "top": "9",
-           "right": "0",
-           "bottom": "9",
-           "left": "0",
-           "isLinked": false
-          },
-          "flex_gap": {
-           "unit": "px",
-           "column": "0",
-           "row": "0",
-           "isLinked": false
-          },
-          "background_background": "classic",
-          "background_color": "#0F1012",
-          "width": {
-           "unit": "px",
-           "size": 46
-          },
-          "flex_justify_content": "center",
-          "flex_align_items": "center"
-         },
-         "elements": [
-          {
-           "id": "17d0d650",
-           "elType": "widget",
-           "widgetType": "heading",
-           "settings": {
-            "title": "2",
-            "header_size": "div",
-            "title_color": "#FFFFFF",
-            "typography_typography": "custom",
-            "typography_font_family": "Montserrat",
-            "typography_font_weight": "700",
-            "typography_font_size": {
-             "unit": "px",
-             "size": 17
-            },
-            "typography_line_height": {
-             "unit": "px",
-             "size": 28.56
-            }
-           },
-           "elements": []
-          }
-         ]
-        },
-        {
-         "id": "184c9254",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 18
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "188a7056",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Pre-production planning",
-          "header_size": "h3",
-          "title_color": "#0F1012",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "700",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 15
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 21
-          },
-          "typography_text_transform": "uppercase",
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": 0.6
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "18c84e58",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 10
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "19062c5a",
-         "elType": "widget",
-         "widgetType": "text-editor",
-         "settings": {
-          "editor": "<p style=\"margin:0;\">Share your vision and goals for the project and we'll work with you to plan the shoot,\n        ensuring we capture everything you need.</p>",
-          "text_color": "#55575C",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 15
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 23.925
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
       {
        "id": "0af51d6a",
        "elType": "container",
@@ -2007,7 +1699,7 @@
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
-            "title": "3",
+            "title": "1",
             "header_size": "div",
             "title_color": "#FFFFFF",
             "typography_typography": "custom",
@@ -2043,7 +1735,7 @@
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Shoot day",
+          "title": "Request a quote &amp; share your brief",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2082,7 +1774,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"margin:0;\">Our professional team will guide you through a seamless and stress-free shoot.</p>",
+          "editor": "<p style=\"margin:0;\">Fill out our online form or give us a call to tell us about your vision and project\n        goals, and receive a quote.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -2161,7 +1853,7 @@
            "elType": "widget",
            "widgetType": "heading",
            "settings": {
-            "title": "4",
+            "title": "2",
             "header_size": "div",
             "title_color": "#FFFFFF",
             "typography_typography": "custom",
@@ -2197,7 +1889,7 @@
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "Post-production",
+          "title": "Pre-production planning",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -2236,6 +1928,314 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
+          "editor": "<p style=\"margin:0;\">Share your vision and goals for the project and we'll work with you to plan the shoot,\n        ensuring we capture everything you need.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "0e574186",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 266
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "0d21eb7c",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "padding": {
+           "unit": "px",
+           "top": "9",
+           "right": "0",
+           "bottom": "9",
+           "left": "0",
+           "isLinked": false
+          },
+          "flex_gap": {
+           "unit": "px",
+           "column": "0",
+           "row": "0",
+           "isLinked": false
+          },
+          "background_background": "classic",
+          "background_color": "#0F1012",
+          "width": {
+           "unit": "px",
+           "size": 46
+          },
+          "flex_justify_content": "center",
+          "flex_align_items": "center"
+         },
+         "elements": [
+          {
+           "id": "0ce40d7a",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "3",
+            "header_size": "div",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 17
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 28.56
+            }
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "0d5fc97e",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 18
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0d9da780",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Shoot day",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.6
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0ddb8582",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0e196384",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
+          "editor": "<p style=\"margin:0;\">Our professional team will guide you through a seamless and stress-free shoot.</p>",
+          "text_color": "#55575C",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 23.925
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "10085394",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 266
+        },
+        "flex_shrink": "0"
+       },
+       "elements": [
+        {
+         "id": "0ed2fd8a",
+         "elType": "container",
+         "isInner": true,
+         "settings": {
+          "content_width": "full",
+          "padding": {
+           "unit": "px",
+           "top": "9",
+           "right": "0",
+           "bottom": "9",
+           "left": "0",
+           "isLinked": false
+          },
+          "flex_gap": {
+           "unit": "px",
+           "column": "0",
+           "row": "0",
+           "isLinked": false
+          },
+          "background_background": "classic",
+          "background_color": "#0F1012",
+          "width": {
+           "unit": "px",
+           "size": 46
+          },
+          "flex_justify_content": "center",
+          "flex_align_items": "center"
+         },
+         "elements": [
+          {
+           "id": "0e951f88",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "4",
+            "header_size": "div",
+            "title_color": "#FFFFFF",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 17
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 28.56
+            }
+           },
+           "elements": []
+          }
+         ]
+        },
+        {
+         "id": "0f10db8c",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 18
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0f4eb98e",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Post-production",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 15
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 21
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 0.6
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0f8c9790",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0fca7592",
+         "elType": "widget",
+         "widgetType": "text-editor",
+         "settings": {
           "editor": "<p style=\"margin:0;\"><span class=\"tbc\">new copy</span> We edit, grade and deliver polished content, built for\n        the platforms where it needs to perform.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
@@ -2258,7 +2258,7 @@
    ]
   },
   {
-   "id": "0e574186",
+   "id": "11b965a2",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2286,7 +2286,7 @@
    },
    "elements": [
     {
-     "id": "0d9da780",
+     "id": "10ffcb9c",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -2313,7 +2313,7 @@
      "elements": []
     },
     {
-     "id": "0ddb8582",
+     "id": "113da99e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2325,7 +2325,7 @@
      "elements": []
     },
     {
-     "id": "0e196384",
+     "id": "117b87a0",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -2367,7 +2367,7 @@
    ]
   },
   {
-   "id": "10c1ed9a",
+   "id": "142411b6",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2395,7 +2395,7 @@
    },
    "elements": [
     {
-     "id": "0e951f88",
+     "id": "11f743a4",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -2422,7 +2422,7 @@
      "elements": []
     },
     {
-     "id": "0ed2fd8a",
+     "id": "123521a6",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2434,7 +2434,7 @@
      "elements": []
     },
     {
-     "id": "0f10db8c",
+     "id": "1272ffa8",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -2474,7 +2474,7 @@
      "elements": []
     },
     {
-     "id": "0f4eb98e",
+     "id": "12b0ddaa",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2486,7 +2486,7 @@
      "elements": []
     },
     {
-     "id": "0f8c9790",
+     "id": "12eebbac",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -2506,7 +2506,7 @@
      "elements": []
     },
     {
-     "id": "0fca7592",
+     "id": "132c99ae",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2518,7 +2518,7 @@
      "elements": []
     },
     {
-     "id": "10840f98",
+     "id": "13e633b4",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2542,7 +2542,7 @@
      },
      "elements": [
       {
-       "id": "10085394",
+       "id": "136a77b0",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2586,7 +2586,7 @@
        "elements": []
       },
       {
-       "id": "10463196",
+       "id": "13a855b2",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
