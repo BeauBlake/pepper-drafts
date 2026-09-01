@@ -742,7 +742,11 @@ EXTRA = {
  "video": "gAl9NpA9Law",
  "videoTitle": "Namotu Island's Luxury Charter Boat, the Cobalt",
  "reelLbl": "Recent film",
- "reelH2": ("Adventure,", "documented."),
+ # Was ("Adventure,", "documented.") — the same words as this page's "Why
+ # invest" H2, so the heading appeared twice within one screen of scrolling.
+ # Every other page's reelH2 describes the film rather than restating the
+ # page premise; this one now does too.
+ "reelH2": ("Shot", "on location."),
  "galH2": ("More outdoor", "work."),
  "galNote": "Sunshine Coast to Fiji and everywhere in between.",
  "gallery": G(("pepper-sa-road-trip.webp","South Australia road trip"),
