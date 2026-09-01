@@ -53,6 +53,39 @@ SERVICES = [("corporate.html", "Corporate Photo &amp; Video"),
 ABOUT = [("about.html", "About Pepper"), ("vans.html", "The Pepper Van")]
 
 
+# Client names, keyed by slug. Explicit rather than derived, because neither the
+# slug nor the live <title> is reliable: nine of the twenty pages are titled
+# after a SERVICE ("Corporate Videography", "Dealership Promotional Campaign")
+# rather than the client, and two — HQPlantations and Surf Life Saving
+# Queensland — share the identical H1 "Sunshine Coast Photography at its Finest".
+#
+# The H1 is the live page's own and stays untouched. The client name goes in the
+# eyebrow above it and in the browser title, so every story says whose story it
+# is without a word of the copy changing.
+CLIENT = {
+ "namotu-island-resort": "Namotu Island Resort",
+ "sunshine-coast-mazda": "Sunshine Coast Mazda",
+ "kangaroo-bus-lines": "Kangaroo Bus Lines",
+ "wow-wipes": "WOW Wipes",
+ "go-turf": "Go Turf",
+ "aurora-global-logistics": "Aurora Global Logistics",
+ "scooter-skate": "Scooter &amp; Skate",
+ "mxrp": "MXRP",
+ "rocky-trail-entertainment": "Rocky Trail Entertainment",
+ "get-sht-done": "Get Sh*t Done",
+ "skygazer": "Skygazer",
+ "mullet-mods": "Mullet Mods",
+ "stick-rudder": "Stick &amp; Rudder",
+ "north-coast-veterinary-specialists": "North Coast Veterinary Specialists",
+ "zempire-camping-equipment": "Zempire Camping Equipment",
+ "unearthed-rv": "Unearthed RV",
+ "first-steps-elc": "First Steps Learning Academy",
+ "surf-life-saving-queensland": "Surf Life Saving Queensland",
+ "hqplantations-11838": "HQPlantations",
+ "cure-marine": "Cure Marine",
+}
+
+
 def esc(s):
     return (_html.escape(s, quote=True) if s else "")
 
@@ -180,6 +213,7 @@ def group(blocks):
 
 
 def render(slug, data):
+    client = CLIENT.get(slug, slug.replace("-", " ").title())
     blocks = data["blocks"]
     h1 = next((b["text"] for b in blocks if b["t"] == "h1"), slug)
     rest = [b for b in blocks if b["t"] != "h1"]
@@ -278,7 +312,7 @@ def render(slug, data):
 <head>
 <meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow, noarchive">
-<title>Pepper — {esc(h1)} (draft)</title>
+<title>Pepper — {client} (draft)</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -300,7 +334,7 @@ def render(slug, data):
 <section class="pagehero">
   {heroband}
   <div class="type"><div class="w">
-    <span class="lbl">Our work · Client story</span>
+    <span class="lbl">Our work · {client}</span>
     <h1>{esc(h1)}</h1>
     <div class="ctas">
       <a class="btn" href="contact.html">Start a project</a>

@@ -66,9 +66,9 @@ class Walker(HTMLParser):
         self.seen_video = set()
 
     def emit_video(self, vid):
-        if vid in self.seen_video:
-            return
-        self.seen_video.add(vid)
+        # No dedupe here — it happens in clean(), after the pre-H1 trim, so a
+        # hero background video does not swallow the content video that reuses
+        # the same id.
         self.flush()
         self.blocks.append({"t": "video", "id": vid})
 
@@ -139,6 +139,10 @@ class Walker(HTMLParser):
 
 def clean(blocks):
     start = next((i for i, b in enumerate(blocks) if b["t"] == "h1"), 0)
+    # A hero background video lives before the H1. Keep it — it is the page's
+    # video — by remembering it and reinserting after the trim if nothing else
+    # on the page carries it.
+    pre_videos = [b["id"] for b in blocks[:start] if b["t"] == "video"]
     blocks = blocks[start:]
     end = len(blocks)
     for i, b in enumerate(blocks):
@@ -148,8 +152,12 @@ def clean(blocks):
             break
     blocks = blocks[:end]
 
-    out, seen = [], set()
+    out, seen, seen_vid = [], set(), set()
     for b in blocks:
+        if b["t"] == "video":
+            if b["id"] in seen_vid:
+                continue
+            seen_vid.add(b["id"])
         if b["t"] == "img":
             base = re.sub(r"-\d+x\d+(?=\.\w+$)", "", b["src"])
             base = re.sub(r"-scaled(?=\.\w+$)", "", base)
@@ -159,6 +167,12 @@ def clean(blocks):
         if b["t"] == "p" and len(b.get("text", "")) < 25:
             continue
         out.append(b)
+
+    for vid in pre_videos:
+        if vid not in seen_vid:
+            seen_vid.add(vid)
+            insert_at = 1 if out and out[0]["t"] == "h1" else 0
+            out.insert(insert_at, {"t": "video", "id": vid, "hero": True})
 
     # An orphan heading is one with no media and no prose before the next
     # heading — the thing it labelled went missing. After the video fix these
