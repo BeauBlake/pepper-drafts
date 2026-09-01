@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="pepper.css?v=1788257219">
+<link rel="stylesheet" href="pepper.css?v=1788257572">
 </head>
 <!-- REBUILT 31 Aug from the live /pepper-vans/ page, which was orphaned: it is
      live and good, but nothing on the site links to it any more and it is not
@@ -28,11 +28,15 @@
 <!-- ================= PAGE HERO =================
      Banner is van-transit-crew.jpg (Beau, 1 Sept): the B&W Transit Custom Trail
      with a crew member and camera. Greyscale suits the palette exactly while red
-     is still held out, and at 2000x1333 it has the resolution the headshots
-     banner lacks. The old 4X4 hero (Van198) moved into the gallery rather than
+     is still held out. Full 2500x1667 original, not the 2000px web copy — a
+     full-bleed band on a 2560px display was upscaling the smaller one.
+     background-position is 50% 35%, not centre: the default crop left a wide
+     empty band of road along the bottom, so the frame is slid down to bring in
+     more canopy above the van (Beau, 1 Sept). Simulated the exact crop at 50 /
+     40 / 35 / 30% before choosing. The old 4X4 hero (Van198) moved into the gallery rather than
      being dropped. Committed to this repo — NOT yet in the WP media library. -->
 <section class="pagehero">
-  <div class="vband" style="background-image:url('van-transit-crew.jpg')"></div>
+  <div class="vband" style="background-image:url('van-transit-crew.jpg');background-position:50% 35%"></div>
   <div class="type"><div class="w">
     <span class="lbl">The kit · Pepper Vans</span>
     <h1>Sunshine Coast's toughest <span class="van">video production vans.</span></h1>
