@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "161dd3d8",
+   "id": "142ee3c8",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -35,7 +35,7 @@
    },
    "elements": [
     {
-     "id": "14e87dce",
+     "id": "12f98dbe",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -62,7 +62,7 @@
      "elements": []
     },
     {
-     "id": "15265bd0",
+     "id": "13376bc0",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -74,7 +74,7 @@
      "elements": []
     },
     {
-     "id": "156439d2",
+     "id": "137549c2",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -114,7 +114,7 @@
      "elements": []
     },
     {
-     "id": "15a217d4",
+     "id": "13b327c4",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -126,7 +126,7 @@
      "elements": []
     },
     {
-     "id": "15dff5d6",
+     "id": "13f105c6",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -148,7 +148,7 @@
    ]
   },
   {
-   "id": "18887fec",
+   "id": "16998fdc",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -176,7 +176,7 @@
    },
    "elements": [
     {
-     "id": "165bb1da",
+     "id": "146cc1ca",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -203,7 +203,7 @@
      "elements": []
     },
     {
-     "id": "16998fdc",
+     "id": "14aa9fcc",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -215,7 +215,7 @@
      "elements": []
     },
     {
-     "id": "16d76dde",
+     "id": "14e87dce",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -255,7 +255,7 @@
      "elements": []
     },
     {
-     "id": "17154be0",
+     "id": "15265bd0",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -267,7 +267,7 @@
      "elements": []
     },
     {
-     "id": "175329e2",
+     "id": "156439d2",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -287,7 +287,7 @@
      "elements": []
     },
     {
-     "id": "179107e4",
+     "id": "15a217d4",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -299,7 +299,7 @@
      "elements": []
     },
     {
-     "id": "184aa1ea",
+     "id": "165bb1da",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -323,7 +323,7 @@
      },
      "elements": [
       {
-       "id": "17cee5e6",
+       "id": "15dff5d6",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -367,7 +367,7 @@
        "elements": []
       },
       {
-       "id": "180cc3e8",
+       "id": "161dd3d8",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
