@@ -2763,7 +2763,8 @@
       "gallery_columns": "3",
       "image_size": "large",
       "click_action": "lightbox",
-      "css_classes": "slot--gallery"
+      "css_classes": "slot--gallery",
+      "_css_classes": "slot--gallery"
      },
      "elements": []
     },
