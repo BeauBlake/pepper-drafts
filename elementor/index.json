@@ -1270,9 +1270,9 @@
     "content_width": "boxed",
     "padding": {
      "unit": "px",
-     "top": "104",
+     "top": "0",
      "right": "52",
-     "bottom": "104",
+     "bottom": "0",
      "left": "52",
      "isLinked": false
     },
@@ -1291,89 +1291,6 @@
     "css_classes": "pp-hscroll"
    },
    "elements": [
-    {
-     "id": "16b0076a",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Our work",
-      "header_size": "div",
-      "title_color": "#9FA09C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "16ede56c",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 22
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "172bc36e",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Recent projects",
-      "header_size": "h2",
-      "title_color": "#0F1012",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 521
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "1769a170",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 46
-      }
-     },
-     "elements": []
-    },
     {
      "id": "0db22ea4",
      "elType": "container",
@@ -1397,6 +1314,89 @@
       "css_classes": "pp-hscroll__pin"
      },
      "elements": [
+      {
+       "id": "16b0076a",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Our work",
+        "header_size": "div",
+        "title_color": "#9FA09C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 17.64
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.36
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "16ede56c",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 22
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "172bc36e",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Recent projects",
+        "header_size": "h2",
+        "title_color": "#0F1012",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 48
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 47.04
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": -1.92
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "px",
+         "size": 521
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "1769a170",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 46
+        }
+       },
+       "elements": []
+      },
       {
        "id": "0d7450a2",
        "elType": "container",
@@ -1919,7 +1919,7 @@
      "elType": "widget",
      "widgetType": "html",
      "settings": {
-      "html": "<style>\n/* Horizontal scroll — Recent Projects.\n   The section is made tall by JS; the inner block pins while the row of cards\n   is scrubbed sideways in proportion to how far through the section you are. */\n.pp-hscroll{position:relative}\n.pp-hscroll .pp-hscroll__pin{position:sticky;top:0;height:100vh;\n  display:flex;align-items:center;overflow:hidden}\n.pp-hscroll .pp-hscroll__row{display:flex;flex-wrap:nowrap!important;\n  will-change:transform;transition:none}\n.pp-hscroll .pp-hscroll__row>.e-con{flex:0 0 auto}\n\n/* Phones and small tablets: no pinning. Scroll-jacking a phone to move content\n   sideways fights the reader's own gesture, so it degrades to a normal\n   touch-scroll strip instead. */\n@media (max-width:1024px){\n  .pp-hscroll{height:auto!important}\n  .pp-hscroll .pp-hscroll__pin{position:static;height:auto;\n    overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch}\n  .pp-hscroll .pp-hscroll__row{transform:none!important}\n}\n/* Anyone who has asked their OS for less motion gets the plain strip too. */\n@media (prefers-reduced-motion:reduce){\n  .pp-hscroll{height:auto!important}\n  .pp-hscroll .pp-hscroll__pin{position:static;height:auto;overflow-x:auto}\n  .pp-hscroll .pp-hscroll__row{transform:none!important}\n}\n</style>\n\n<script>\n(function(){\n  var MIN = 1025;                       // matches the media query above\n  function setup(sec){\n    var pin = sec.querySelector('.pp-hscroll__pin');\n    var row = sec.querySelector('.pp-hscroll__row');\n    if(!pin || !row) return;\n    var dist = 0, ticking = false;\n\n    function measure(){\n      if(window.innerWidth < MIN){\n        sec.style.height = '';\n        row.style.transform = '';\n        dist = 0;\n        return;\n      }\n      // How far the row overflows its container is exactly how far it must\n      // travel — and that distance is added to the section's height so the\n      // travel finishes precisely as the pin releases.\n      dist = Math.max(0, row.scrollWidth - pin.clientWidth);\n      sec.style.height = (pin.clientHeight + dist) + 'px';\n      draw();\n    }\n\n    function draw(){\n      ticking = false;\n      if(dist <= 0) return;\n      var travel = sec.offsetHeight - pin.clientHeight;\n      if(travel <= 0) return;\n      var p = (-sec.getBoundingClientRect().top) / travel;\n      p = p < 0 ? 0 : (p > 1 ? 1 : p);\n      row.style.transform = 'translate3d(' + (-p * dist).toFixed(1) + 'px,0,0)';\n    }\n\n    function onScroll(){\n      if(!ticking){ ticking = true; requestAnimationFrame(draw); }\n    }\n\n    addEventListener('scroll', onScroll, {passive:true});\n    addEventListener('resize', measure, {passive:true});\n    // Images change scrollWidth as they load, so re-measure once everything is in.\n    addEventListener('load', measure);\n    measure();\n  }\n\n  function init(){\n    document.querySelectorAll('.pp-hscroll').forEach(setup);\n  }\n  if(document.readyState === 'loading'){\n    document.addEventListener('DOMContentLoaded', init);\n  } else { init(); }\n})();\n</script>\n",
+      "html": "<style>\n/* Horizontal scroll — Recent Projects.\n   The section is made tall by JS; the inner block pins while the row of cards\n   is scrubbed sideways in proportion to how far through the section you are. */\n.pp-hscroll{position:relative}\n/* Height is AUTO, not 100vh. At 100vh the cards sat centred in a full viewport\n   with a large empty band beneath them — the pin only needs to be as tall as its\n   own content. Padding matches the site's 104px section rhythm. */\n.pp-hscroll .pp-hscroll__pin{position:sticky;top:0;overflow:hidden;\n  padding-block:104px}\n.pp-hscroll .pp-hscroll__row{display:flex;flex-wrap:nowrap!important;\n  will-change:transform;transition:none}\n.pp-hscroll .pp-hscroll__row>.e-con{flex:0 0 auto}\n\n/* Phones and small tablets: no pinning. Scroll-jacking a phone to move content\n   sideways fights the reader's own gesture, so it degrades to a normal\n   touch-scroll strip instead. */\n@media (max-width:1024px){\n  .pp-hscroll{height:auto!important}\n  .pp-hscroll .pp-hscroll__pin{position:static;height:auto;\n    overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch}\n  .pp-hscroll .pp-hscroll__row{transform:none!important}\n}\n/* Anyone who has asked their OS for less motion gets the plain strip too. */\n@media (prefers-reduced-motion:reduce){\n  .pp-hscroll{height:auto!important}\n  .pp-hscroll .pp-hscroll__pin{position:static;height:auto;overflow-x:auto}\n  .pp-hscroll .pp-hscroll__row{transform:none!important}\n}\n</style>\n\n<script>\n(function(){\n  var MIN = 1025;                       // matches the media query above\n  function setup(sec){\n    var pin = sec.querySelector('.pp-hscroll__pin');\n    var row = sec.querySelector('.pp-hscroll__row');\n    if(!pin || !row) return;\n    var dist = 0, ticking = false;\n\n    function measure(){\n      if(window.innerWidth < MIN){\n        sec.style.height = '';\n        row.style.transform = '';\n        dist = 0;\n        return;\n      }\n      // How far the row overflows its container is exactly how far it must\n      // travel — and that distance is added to the section's height so the\n      // travel finishes precisely as the pin releases.\n      dist = Math.max(0, row.scrollWidth - pin.clientWidth);\n      sec.style.height = (pin.clientHeight + dist) + 'px';\n      draw();\n    }\n\n    function draw(){\n      ticking = false;\n      if(dist <= 0) return;\n      var travel = sec.offsetHeight - pin.clientHeight;\n      if(travel <= 0) return;\n      var p = (-sec.getBoundingClientRect().top) / travel;\n      p = p < 0 ? 0 : (p > 1 ? 1 : p);\n      row.style.transform = 'translate3d(' + (-p * dist).toFixed(1) + 'px,0,0)';\n    }\n\n    function onScroll(){\n      if(!ticking){ ticking = true; requestAnimationFrame(draw); }\n    }\n\n    addEventListener('scroll', onScroll, {passive:true});\n    addEventListener('resize', measure, {passive:true});\n    // Images change scrollWidth as they load, so re-measure once everything is in.\n    addEventListener('load', measure);\n    measure();\n  }\n\n  function init(){\n    document.querySelectorAll('.pp-hscroll').forEach(setup);\n  }\n  if(document.readyState === 'loading'){\n    document.addEventListener('DOMContentLoaded', init);\n  } else { init(); }\n})();\n</script>\n",
       "css_classes": "pp-hscroll-code"
      },
      "elements": []
