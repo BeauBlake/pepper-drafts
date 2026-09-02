@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "0d2acc24",
+   "id": "0a5ccd04",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -29,7 +29,7 @@
    },
    "elements": [
     {
-     "id": "0cecee22",
+     "id": "0a1eef02",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -55,7 +55,7 @@
    ]
   },
   {
-   "id": "13ef145c",
+   "id": "1121153c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -83,7 +83,7 @@
    },
    "elements": [
     {
-     "id": "0d68aa26",
+     "id": "0a9aab06",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -110,7 +110,7 @@
      "elements": []
     },
     {
-     "id": "0da68828",
+     "id": "0ad88908",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -122,7 +122,7 @@
      "elements": []
     },
     {
-     "id": "0de4662a",
+     "id": "0b16670a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -162,7 +162,7 @@
      "elements": []
     },
     {
-     "id": "0e22442c",
+     "id": "0b54450c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -174,7 +174,7 @@
      "elements": []
     },
     {
-     "id": "0e60222e",
+     "id": "0b92230e",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -194,7 +194,7 @@
      "elements": []
     },
     {
-     "id": "0e9e0030",
+     "id": "0bd00110",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -206,7 +206,7 @@
      "elements": []
     },
     {
-     "id": "0f579a36",
+     "id": "0c899b16",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -230,7 +230,7 @@
      },
      "elements": [
       {
-       "id": "0edbde32",
+       "id": "0c0ddf12",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -274,7 +274,7 @@
        "elements": []
       },
       {
-       "id": "0f19bc34",
+       "id": "0c4bbd14",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -330,7 +330,7 @@
      ]
     },
     {
-     "id": "0f957838",
+     "id": "0cc77918",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -342,7 +342,7 @@
      "elements": []
     },
     {
-     "id": "13b1365a",
+     "id": "10e3373a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -375,7 +375,7 @@
      },
      "elements": [
       {
-       "id": "108cf040",
+       "id": "0dbef120",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -402,7 +402,7 @@
        },
        "elements": [
         {
-         "id": "0fd3563a",
+         "id": "0d05571a",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -429,7 +429,7 @@
          "elements": []
         },
         {
-         "id": "1011343c",
+         "id": "0d43351c",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -441,7 +441,7 @@
          "elements": []
         },
         {
-         "id": "104f123e",
+         "id": "0d81131e",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -465,7 +465,7 @@
        ]
       },
       {
-       "id": "11846848",
+       "id": "0eb66928",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -492,7 +492,7 @@
        },
        "elements": [
         {
-         "id": "10cace42",
+         "id": "0dfccf22",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -519,7 +519,7 @@
          "elements": []
         },
         {
-         "id": "1108ac44",
+         "id": "0e3aad24",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -531,7 +531,7 @@
          "elements": []
         },
         {
-         "id": "11468a46",
+         "id": "0e788b26",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -555,7 +555,7 @@
        ]
       },
       {
-       "id": "127be050",
+       "id": "0fade130",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -582,7 +582,7 @@
        },
        "elements": [
         {
-         "id": "11c2464a",
+         "id": "0ef4472a",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -609,7 +609,7 @@
          "elements": []
         },
         {
-         "id": "1200244c",
+         "id": "0f32252c",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -621,7 +621,7 @@
          "elements": []
         },
         {
-         "id": "123e024e",
+         "id": "0f70032e",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -645,7 +645,7 @@
        ]
       },
       {
-       "id": "13735858",
+       "id": "10a55938",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -672,7 +672,7 @@
        },
        "elements": [
         {
-         "id": "12b9be52",
+         "id": "0febbf32",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -699,7 +699,7 @@
          "elements": []
         },
         {
-         "id": "12f79c54",
+         "id": "10299d34",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -711,7 +711,7 @@
          "elements": []
         },
         {
-         "id": "13357a56",
+         "id": "10677b36",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -739,7 +739,7 @@
    ]
   },
   {
-   "id": "17513878",
+   "id": "14833958",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -769,7 +769,7 @@
    },
    "elements": [
     {
-     "id": "16d57c74",
+     "id": "14077d54",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -796,7 +796,7 @@
      },
      "elements": [
       {
-       "id": "142cf25e",
+       "id": "115ef33e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -823,7 +823,7 @@
        "elements": []
       },
       {
-       "id": "146ad060",
+       "id": "119cd140",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -835,7 +835,7 @@
        "elements": []
       },
       {
-       "id": "14a8ae62",
+       "id": "11daaf42",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -875,7 +875,7 @@
        "elements": []
       },
       {
-       "id": "14e68c64",
+       "id": "12188d44",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -887,7 +887,7 @@
        "elements": []
       },
       {
-       "id": "15246a66",
+       "id": "12566b46",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -907,7 +907,7 @@
        "elements": []
       },
       {
-       "id": "15624868",
+       "id": "12944948",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -919,7 +919,7 @@
        "elements": []
       },
       {
-       "id": "15de046c",
+       "id": "1310054c",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -943,7 +943,7 @@
        },
        "elements": [
         {
-         "id": "15a0266a",
+         "id": "12d2274a",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -991,7 +991,7 @@
      ]
     },
     {
-     "id": "17135a76",
+     "id": "14455b56",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1018,7 +1018,7 @@
      },
      "elements": [
       {
-       "id": "161be26e",
+       "id": "134de34e",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1042,7 +1042,7 @@
        "elements": []
       },
       {
-       "id": "1659c070",
+       "id": "138bc150",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1054,7 +1054,7 @@
        "elements": []
       },
       {
-       "id": "16979e72",
+       "id": "13c99f52",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1085,7 +1085,7 @@
    ]
   },
   {
-   "id": "19402888",
+   "id": "16722968",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1109,11 +1109,12 @@
      "size": 1196
     },
     "background_background": "classic",
-    "background_color": "#FFFFFF"
+    "background_color": "#FFFFFF",
+    "custom_css": "selector .swiper-slide{display:flex;align-items:center;justify-content:center;min-height:78px}selector .swiper-slide figure{margin:0;display:flex;align-items:center;justify-content:center;width:100%}selector .swiper-slide img{height:36px;width:auto;max-width:150px;object-fit:contain;filter:grayscale(1) contrast(.85);opacity:.75;transition:filter .4s,opacity .4s}selector .swiper-slide img:hover{filter:grayscale(0);opacity:1}"
    },
    "elements": [
     {
-     "id": "178f167a",
+     "id": "14c1175a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1153,7 +1154,7 @@
      "elements": []
     },
     {
-     "id": "17ccf47c",
+     "id": "14fef55c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1165,7 +1166,7 @@
      "elements": []
     },
     {
-     "id": "180ad27e",
+     "id": "153cd35e",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1185,7 +1186,7 @@
      "elements": []
     },
     {
-     "id": "1848b080",
+     "id": "157ab160",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1197,7 +1198,7 @@
      "elements": []
     },
     {
-     "id": "18868e82",
+     "id": "15b88f62",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1224,7 +1225,7 @@
      "elements": []
     },
     {
-     "id": "18c46c84",
+     "id": "15f66d64",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1236,15 +1237,25 @@
      "elements": []
     },
     {
-     "id": "19024a86",
+     "id": "16344b66",
      "elType": "widget",
-     "widgetType": "uael-image-gallery",
+     "widgetType": "image-carousel",
      "settings": {
-      "wp_gallery": [],
-      "gallery_style": "masonry",
-      "gallery_columns": "3",
-      "image_size": "large",
-      "click_action": "lightbox",
+      "carousel": [],
+      "slides_to_show": "6",
+      "slides_to_show_tablet": "4",
+      "slides_to_show_mobile": "2",
+      "slides_to_scroll": "1",
+      "navigation": "none",
+      "autoplay": "yes",
+      "autoplay_speed": 2600,
+      "speed": 900,
+      "infinite": "yes",
+      "pause_on_hover": "yes",
+      "image_size": "medium",
+      "thumbnail_size": "medium",
+      "gallery_vertical_align": "center",
+      "link_to": "none",
       "css_classes": "slot--logos"
      },
      "elements": []
@@ -1252,7 +1263,7 @@
    ]
   },
   {
-   "id": "10802dc4",
+   "id": "0e6bc8aa",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1280,7 +1291,7 @@
    },
    "elements": [
     {
-     "id": "197e068a",
+     "id": "16b0076a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1307,7 +1318,7 @@
      "elements": []
     },
     {
-     "id": "19bbe48c",
+     "id": "16ede56c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1319,7 +1330,7 @@
      "elements": []
     },
     {
-     "id": "19f9c28e",
+     "id": "172bc36e",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1351,7 +1362,7 @@
      "elements": []
     },
     {
-     "id": "0a37a190",
+     "id": "1769a170",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1363,30 +1374,27 @@
      "elements": []
     },
     {
-     "id": "10424fc2",
-     "elType": "container",
-     "isInner": true,
+     "id": "0d7450a2",
+     "elType": "widget",
+     "widgetType": "nested-carousel",
      "settings": {
-      "content_width": "full",
-      "padding": {
+      "slides_to_show": "3",
+      "slides_to_show_tablet": "2",
+      "slides_to_show_mobile": "1",
+      "slides_to_scroll": "1",
+      "equal_height": "yes",
+      "arrows": "yes",
+      "autoplay": "",
+      "speed": 600,
+      "gap": {
        "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
+       "size": 46
       },
-      "flex_gap": {
-       "unit": "px",
-       "column": "46",
-       "row": "0",
-       "isLinked": false
-      },
-      "flex_direction": "row"
+      "css_classes": "projects-carousel"
      },
      "elements": [
       {
-       "id": "0c2691a0",
+       "id": "0db22ea4",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1404,152 +1412,176 @@
          "column": "0",
          "row": "0",
          "isLinked": false
-        },
-        "width": {
-         "unit": "px",
-         "size": 368
-        },
-        "flex_shrink": "0"
+        }
        },
        "elements": [
         {
-         "id": "0a757f92",
-         "elType": "widget",
-         "widgetType": "image",
+         "id": "19589180",
+         "elType": "container",
+         "isInner": true,
          "settings": {
-          "image": {
-           "url": "",
-           "id": "",
-           "alt": "Pepper crew filming inside an HQPlantations pine forest"
+          "content_width": "full",
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
           },
-          "image_size": "large",
+          "flex_gap": {
+           "unit": "px",
+           "column": "0",
+           "row": "0",
+           "isLinked": false
+          },
           "width": {
-           "unit": "%",
-           "size": 100
-          },
-          "css_classes": "slot--bb1-0953-copy",
-          "height": {
            "unit": "px",
-           "size": 250
+           "size": 368
           },
-          "object-fit": "cover"
+          "flex_shrink": "0"
          },
-         "elements": []
-        },
-        {
-         "id": "0ab35d94",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 18
+         "elements": [
+          {
+           "id": "17a77f72",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "",
+             "id": "",
+             "alt": "Pepper crew filming inside an HQPlantations pine forest"
+            },
+            "image_size": "large",
+            "width": {
+             "unit": "%",
+             "size": 100
+            },
+            "css_classes": "slot--bb1-0953-copy",
+            "height": {
+             "unit": "px",
+             "size": 250
+            },
+            "object-fit": "cover"
+           },
+           "elements": []
+          },
+          {
+           "id": "17e55d74",
+           "elType": "widget",
+           "widgetType": "spacer",
+           "settings": {
+            "space": {
+             "unit": "px",
+             "size": 18
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "18233b76",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "01  HQPlantations",
+            "header_size": "h3",
+            "title_color": "#0F1012",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 16
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 21.6
+            },
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.64
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "18611978",
+           "elType": "widget",
+           "widgetType": "spacer",
+           "settings": {
+            "space": {
+             "unit": "px",
+             "size": 8
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "189ef77a",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Forestry · Safety campaign",
+            "header_size": "div",
+            "title_color": "#9FA09C",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_weight": "600",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 10
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 16
+            },
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 2.4
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "18dcd57c",
+           "elType": "widget",
+           "widgetType": "spacer",
+           "settings": {
+            "space": {
+             "unit": "px",
+             "size": 12
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "191ab37e",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p style=\"margin:0;\">Safety films shot inside a working pine plantation — real sites, real crews, without a single machine stopping.</p>",
+            "text_color": "#55575C",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 23.925
+            }
+           },
+           "elements": []
           }
-         },
-         "elements": []
-        },
-        {
-         "id": "0af13b96",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "01  HQPlantations",
-          "header_size": "h3",
-          "title_color": "#0F1012",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "700",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 16
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 21.6
-          },
-          "typography_text_transform": "uppercase",
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": 0.64
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "0b2f1998",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 8
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "0b6cf79a",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Forestry · Safety campaign",
-          "header_size": "div",
-          "title_color": "#9FA09C",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "600",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 10
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 16
-          },
-          "typography_text_transform": "uppercase",
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": 2.4
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "0baad59c",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 12
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "0be8b39e",
-         "elType": "widget",
-         "widgetType": "text-editor",
-         "settings": {
-          "editor": "<p style=\"margin:0;\">Safety films shot inside a working pine plantation — real sites, real crews, without a single machine stopping.</p>",
-          "text_color": "#55575C",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 15
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 23.925
-          }
-         },
-         "elements": []
+         ]
         }
        ]
       },
       {
-       "id": "0e1581b0",
+       "id": "0df00ca6",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1567,152 +1599,176 @@
          "column": "0",
          "row": "0",
          "isLinked": false
-        },
-        "width": {
-         "unit": "px",
-         "size": 368
-        },
-        "flex_shrink": "0"
+        }
        },
        "elements": [
         {
-         "id": "0c646fa2",
-         "elType": "widget",
-         "widgetType": "image",
+         "id": "0b478290",
+         "elType": "container",
+         "isInner": true,
          "settings": {
-          "image": {
-           "url": "",
-           "id": "",
-           "alt": "Cure Marine catamaran filmed on the water"
+          "content_width": "full",
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
           },
-          "image_size": "large",
+          "flex_gap": {
+           "unit": "px",
+           "column": "0",
+           "row": "0",
+           "isLinked": false
+          },
           "width": {
-           "unit": "%",
-           "size": 100
-          },
-          "css_classes": "slot--cure-10",
-          "height": {
            "unit": "px",
-           "size": 250
+           "size": 368
           },
-          "object-fit": "cover"
+          "flex_shrink": "0"
          },
-         "elements": []
-        },
-        {
-         "id": "0ca24da4",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 18
+         "elements": [
+          {
+           "id": "19966f82",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "",
+             "id": "",
+             "alt": "Cure Marine catamaran filmed on the water"
+            },
+            "image_size": "large",
+            "width": {
+             "unit": "%",
+             "size": 100
+            },
+            "css_classes": "slot--cure-10",
+            "height": {
+             "unit": "px",
+             "size": 250
+            },
+            "object-fit": "cover"
+           },
+           "elements": []
+          },
+          {
+           "id": "19d44d84",
+           "elType": "widget",
+           "widgetType": "spacer",
+           "settings": {
+            "space": {
+             "unit": "px",
+             "size": 18
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "0a122c86",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "02  Cure Marine",
+            "header_size": "h3",
+            "title_color": "#0F1012",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 16
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 21.6
+            },
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.64
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "0a500a88",
+           "elType": "widget",
+           "widgetType": "spacer",
+           "settings": {
+            "space": {
+             "unit": "px",
+             "size": 8
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "0a8de88a",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Marine · Brand film",
+            "header_size": "div",
+            "title_color": "#9FA09C",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_weight": "600",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 10
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 16
+            },
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 2.4
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "0acbc68c",
+           "elType": "widget",
+           "widgetType": "spacer",
+           "settings": {
+            "space": {
+             "unit": "px",
+             "size": 12
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "0b09a48e",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p style=\"margin:0;\">A brand film shot on the water for a Sunshine Coast catamaran builder — cinematic sailing footage built to sell a flagship.</p>",
+            "text_color": "#55575C",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 23.925
+            }
+           },
+           "elements": []
           }
-         },
-         "elements": []
-        },
-        {
-         "id": "0ce02ba6",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "02  Cure Marine",
-          "header_size": "h3",
-          "title_color": "#0F1012",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "700",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 16
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 21.6
-          },
-          "typography_text_transform": "uppercase",
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": 0.64
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "0d1e09a8",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 8
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "0d5be7aa",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Marine · Brand film",
-          "header_size": "div",
-          "title_color": "#9FA09C",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "600",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 10
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 16
-          },
-          "typography_text_transform": "uppercase",
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": 2.4
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "0d99c5ac",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 12
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "0dd7a3ae",
-         "elType": "widget",
-         "widgetType": "text-editor",
-         "settings": {
-          "editor": "<p style=\"margin:0;\">A brand film shot on the water for a Sunshine Coast catamaran builder — cinematic sailing footage built to sell a flagship.</p>",
-          "text_color": "#55575C",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 15
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 23.925
-          }
-         },
-         "elements": []
+         ]
         }
        ]
       },
       {
-       "id": "100471c0",
+       "id": "0e2deaa8",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1730,147 +1786,171 @@
          "column": "0",
          "row": "0",
          "isLinked": false
-        },
-        "width": {
-         "unit": "px",
-         "size": 368
-        },
-        "flex_shrink": "0"
+        }
        },
        "elements": [
         {
-         "id": "0e535fb2",
-         "elType": "widget",
-         "widgetType": "image",
+         "id": "0d3672a0",
+         "elType": "container",
+         "isInner": true,
          "settings": {
-          "image": {
-           "url": "",
-           "id": "",
-           "alt": "Surf Life Saving Queensland lifeguards on patrol"
+          "content_width": "full",
+          "padding": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": false
           },
-          "image_size": "large",
+          "flex_gap": {
+           "unit": "px",
+           "column": "0",
+           "row": "0",
+           "isLinked": false
+          },
           "width": {
-           "unit": "%",
-           "size": 100
-          },
-          "css_classes": "slot--slsqlg-6508-copy",
-          "height": {
            "unit": "px",
-           "size": 250
+           "size": 368
           },
-          "object-fit": "cover"
+          "flex_shrink": "0"
          },
-         "elements": []
-        },
-        {
-         "id": "0e913db4",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 18
+         "elements": [
+          {
+           "id": "0b856092",
+           "elType": "widget",
+           "widgetType": "image",
+           "settings": {
+            "image": {
+             "url": "",
+             "id": "",
+             "alt": "Surf Life Saving Queensland lifeguards on patrol"
+            },
+            "image_size": "large",
+            "width": {
+             "unit": "%",
+             "size": 100
+            },
+            "css_classes": "slot--slsqlg-6508-copy",
+            "height": {
+             "unit": "px",
+             "size": 250
+            },
+            "object-fit": "cover"
+           },
+           "elements": []
+          },
+          {
+           "id": "0bc33e94",
+           "elType": "widget",
+           "widgetType": "spacer",
+           "settings": {
+            "space": {
+             "unit": "px",
+             "size": 18
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "0c011c96",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "03  Surf Life Saving Queensland",
+            "header_size": "h3",
+            "title_color": "#0F1012",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_weight": "700",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 16
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 21.6
+            },
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 0.64
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "0c3efa98",
+           "elType": "widget",
+           "widgetType": "spacer",
+           "settings": {
+            "space": {
+             "unit": "px",
+             "size": 8
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "0c7cd89a",
+           "elType": "widget",
+           "widgetType": "heading",
+           "settings": {
+            "title": "Community · Campaign",
+            "header_size": "div",
+            "title_color": "#9FA09C",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_weight": "600",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 10
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 16
+            },
+            "typography_text_transform": "uppercase",
+            "typography_letter_spacing": {
+             "unit": "px",
+             "size": 2.4
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "0cbab69c",
+           "elType": "widget",
+           "widgetType": "spacer",
+           "settings": {
+            "space": {
+             "unit": "px",
+             "size": 12
+            }
+           },
+           "elements": []
+          },
+          {
+           "id": "0cf8949e",
+           "elType": "widget",
+           "widgetType": "text-editor",
+           "settings": {
+            "editor": "<p style=\"margin:0;\">Campaign content with the crews who patrol Queensland's beaches — shot on the sand, in the surf and from the air.</p>",
+            "text_color": "#55575C",
+            "typography_typography": "custom",
+            "typography_font_family": "Montserrat",
+            "typography_font_size": {
+             "unit": "px",
+             "size": 15
+            },
+            "typography_line_height": {
+             "unit": "px",
+             "size": 23.925
+            }
+           },
+           "elements": []
           }
-         },
-         "elements": []
-        },
-        {
-         "id": "0ecf1bb6",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "03  Surf Life Saving Queensland",
-          "header_size": "h3",
-          "title_color": "#0F1012",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "700",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 16
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 21.6
-          },
-          "typography_text_transform": "uppercase",
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": 0.64
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "0f0cf9b8",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 8
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "0f4ad7ba",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Community · Campaign",
-          "header_size": "div",
-          "title_color": "#9FA09C",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "600",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 10
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 16
-          },
-          "typography_text_transform": "uppercase",
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": 2.4
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "0f88b5bc",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 12
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "0fc693be",
-         "elType": "widget",
-         "widgetType": "text-editor",
-         "settings": {
-          "editor": "<p style=\"margin:0;\">Campaign content with the crews who patrol Queensland's beaches — shot on the sand, in the surf and from the air.</p>",
-          "text_color": "#55575C",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 15
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 23.925
-          }
-         },
-         "elements": []
+         ]
         }
        ]
       }
@@ -1879,7 +1959,7 @@
    ]
   },
   {
-   "id": "0a2ade14",
+   "id": "19c78a08",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1894,7 +1974,7 @@
     },
     "flex_gap": {
      "unit": "px",
-     "column": "72",
+     "column": "80",
      "row": "0",
      "isLinked": false
     },
@@ -1904,11 +1984,12 @@
     },
     "flex_direction": "row",
     "background_background": "classic",
-    "background_color": "#F3F3F0"
+    "background_color": "#F3F3F0",
+    "flex_align_items": "flex-start"
    },
    "elements": [
     {
-     "id": "19af2110",
+     "id": "194bce04",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1929,13 +2010,21 @@
       },
       "width": {
        "unit": "px",
-       "size": 460
+       "size": 475
       },
-      "flex_shrink": "0"
+      "flex_shrink": "0",
+      "sticky": "top",
+      "sticky_on": [
+       "desktop",
+       "laptop"
+      ],
+      "sticky_parent": "yes",
+      "sticky_offset": 110,
+      "sticky_offset_laptop": 110
      },
      "elements": [
       {
-       "id": "10be0bc6",
+       "id": "0ea9a6ac",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1962,7 +2051,7 @@
        "elements": []
       },
       {
-       "id": "10fbe9c8",
+       "id": "0ee784ae",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1974,7 +2063,7 @@
        "elements": []
       },
       {
-       "id": "1139c7ca",
+       "id": "0f2562b0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2014,7 +2103,7 @@
        "elements": []
       },
       {
-       "id": "1177a5cc",
+       "id": "0f6340b2",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2026,7 +2115,7 @@
        "elements": []
       },
       {
-       "id": "11b583ce",
+       "id": "0fa11eb4",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2046,7 +2135,7 @@
        "elements": []
       },
       {
-       "id": "11f361d0",
+       "id": "0fdefcb6",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2058,7 +2147,7 @@
        "elements": []
       },
       {
-       "id": "126f1dd4",
+       "id": "105ab8ba",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2082,7 +2171,7 @@
        },
        "elements": [
         {
-         "id": "12313fd2",
+         "id": "101cdab8",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -2130,7 +2219,7 @@
      ]
     },
     {
-     "id": "19ecff12",
+     "id": "1989ac06",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2151,22 +2240,22 @@
       },
       "width": {
        "unit": "px",
-       "size": 664
+       "size": 641
       },
       "flex_shrink": "0"
      },
      "elements": [
       {
-       "id": "136695dc",
+       "id": "11cdecc6",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
         "padding": {
          "unit": "px",
-         "top": "0",
+         "top": "30",
          "right": "0",
-         "bottom": "0",
+         "bottom": "40",
          "left": "0",
          "isLinked": false
         },
@@ -2175,38 +2264,48 @@
          "column": "0",
          "row": "0",
          "isLinked": false
-        }
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "2",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_color": "#0F1012"
        },
        "elements": [
         {
-         "id": "12acfbd6",
+         "id": "109896bc",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "01   Corporate & business content",
-          "header_size": "h3",
-          "title_color": "#0F1012",
+          "title": "01",
+          "header_size": "div",
+          "title_color": "#9FA09C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
           "typography_font_weight": "700",
           "typography_font_size": {
            "unit": "px",
-           "size": 16
+           "size": 13
           },
           "typography_line_height": {
            "unit": "px",
-           "size": 21.6
+           "size": 18
           },
           "typography_text_transform": "uppercase",
           "typography_letter_spacing": {
            "unit": "px",
-           "size": 0.64
+           "size": 3.1
           }
          },
          "elements": []
         },
         {
-         "id": "12ead9d8",
+         "id": "10d674be",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2218,7 +2317,45 @@
          "elements": []
         },
         {
-         "id": "1328b7da",
+         "id": "111452c0",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Corporate & business content",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 20
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 25
+          },
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": -0.3
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "115230c2",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "11900ec4",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2240,28 +2377,16 @@
        ]
       },
       {
-       "id": "13a473de",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 34
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "149bebe6",
+       "id": "134120d2",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
         "padding": {
          "unit": "px",
-         "top": "0",
+         "top": "30",
          "right": "0",
-         "bottom": "0",
+         "bottom": "40",
          "left": "0",
          "isLinked": false
         },
@@ -2270,38 +2395,48 @@
          "column": "0",
          "row": "0",
          "isLinked": false
-        }
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_color": "#D3D4CF"
        },
        "elements": [
         {
-         "id": "13e251e0",
+         "id": "120bcac8",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "02   Product photography",
-          "header_size": "h3",
-          "title_color": "#0F1012",
+          "title": "02",
+          "header_size": "div",
+          "title_color": "#9FA09C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
           "typography_font_weight": "700",
           "typography_font_size": {
            "unit": "px",
-           "size": 16
+           "size": 13
           },
           "typography_line_height": {
            "unit": "px",
-           "size": 21.6
+           "size": 18
           },
           "typography_text_transform": "uppercase",
           "typography_letter_spacing": {
            "unit": "px",
-           "size": 0.64
+           "size": 3.1
           }
          },
          "elements": []
         },
         {
-         "id": "14202fe2",
+         "id": "1249a8ca",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2313,7 +2448,45 @@
          "elements": []
         },
         {
-         "id": "145e0de4",
+         "id": "128786cc",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Product photography",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 20
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 25
+          },
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": -0.3
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "12c564ce",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "130342d0",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2335,28 +2508,16 @@
        ]
       },
       {
-       "id": "14d9c9e8",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 34
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "15d141f0",
+       "id": "14b454de",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
         "padding": {
          "unit": "px",
-         "top": "0",
+         "top": "30",
          "right": "0",
-         "bottom": "0",
+         "bottom": "40",
          "left": "0",
          "isLinked": false
         },
@@ -2365,38 +2526,48 @@
          "column": "0",
          "row": "0",
          "isLinked": false
-        }
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_color": "#D3D4CF"
        },
        "elements": [
         {
-         "id": "1517a7ea",
+         "id": "137efed4",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "03   Active lifestyle",
-          "header_size": "h3",
-          "title_color": "#0F1012",
+          "title": "03",
+          "header_size": "div",
+          "title_color": "#9FA09C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
           "typography_font_weight": "700",
           "typography_font_size": {
            "unit": "px",
-           "size": 16
+           "size": 13
           },
           "typography_line_height": {
            "unit": "px",
-           "size": 21.6
+           "size": 18
           },
           "typography_text_transform": "uppercase",
           "typography_letter_spacing": {
            "unit": "px",
-           "size": 0.64
+           "size": 3.1
           }
          },
          "elements": []
         },
         {
-         "id": "155585ec",
+         "id": "13bcdcd6",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2408,7 +2579,45 @@
          "elements": []
         },
         {
-         "id": "159363ee",
+         "id": "13fabad8",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Active lifestyle",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 20
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 25
+          },
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": -0.3
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "143898da",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "147676dc",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2430,28 +2639,16 @@
        ]
       },
       {
-       "id": "160f1ff2",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 34
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "170697fa",
+       "id": "162788ea",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
         "padding": {
          "unit": "px",
-         "top": "0",
+         "top": "30",
          "right": "0",
-         "bottom": "0",
+         "bottom": "40",
          "left": "0",
          "isLinked": false
         },
@@ -2460,38 +2657,48 @@
          "column": "0",
          "row": "0",
          "isLinked": false
-        }
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_color": "#D3D4CF"
        },
        "elements": [
         {
-         "id": "164cfdf4",
+         "id": "14f232e0",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "04   Professional headshots",
-          "header_size": "h3",
-          "title_color": "#0F1012",
+          "title": "04",
+          "header_size": "div",
+          "title_color": "#9FA09C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
           "typography_font_weight": "700",
           "typography_font_size": {
            "unit": "px",
-           "size": 16
+           "size": 13
           },
           "typography_line_height": {
            "unit": "px",
-           "size": 21.6
+           "size": 18
           },
           "typography_text_transform": "uppercase",
           "typography_letter_spacing": {
            "unit": "px",
-           "size": 0.64
+           "size": 3.1
           }
          },
          "elements": []
         },
         {
-         "id": "168adbf6",
+         "id": "153010e2",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2503,7 +2710,45 @@
          "elements": []
         },
         {
-         "id": "16c8b9f8",
+         "id": "156deee4",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Professional headshots",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 20
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 25
+          },
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": -0.3
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "15abcce6",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "15e9aae8",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2525,28 +2770,16 @@
        ]
       },
       {
-       "id": "174475fc",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 34
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "183bed04",
+       "id": "179abcf6",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
         "padding": {
          "unit": "px",
-         "top": "0",
+         "top": "30",
          "right": "0",
-         "bottom": "0",
+         "bottom": "40",
          "left": "0",
          "isLinked": false
         },
@@ -2555,38 +2788,48 @@
          "column": "0",
          "row": "0",
          "isLinked": false
-        }
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_color": "#D3D4CF"
        },
        "elements": [
         {
-         "id": "178253fe",
+         "id": "166566ec",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "05   Event coverage",
-          "header_size": "h3",
-          "title_color": "#0F1012",
+          "title": "05",
+          "header_size": "div",
+          "title_color": "#9FA09C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
           "typography_font_weight": "700",
           "typography_font_size": {
            "unit": "px",
-           "size": 16
+           "size": 13
           },
           "typography_line_height": {
            "unit": "px",
-           "size": 21.6
+           "size": 18
           },
           "typography_text_transform": "uppercase",
           "typography_letter_spacing": {
            "unit": "px",
-           "size": 0.64
+           "size": 3.1
           }
          },
          "elements": []
         },
         {
-         "id": "17c03100",
+         "id": "16a344ee",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2598,7 +2841,45 @@
          "elements": []
         },
         {
-         "id": "17fe0f02",
+         "id": "16e122f0",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Event coverage",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 20
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 25
+          },
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": -0.3
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "171f00f2",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "175cdef4",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2620,28 +2901,16 @@
        ]
       },
       {
-       "id": "1879cb06",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 34
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "1971430e",
+       "id": "190df002",
        "elType": "container",
        "isInner": true,
        "settings": {
         "content_width": "full",
         "padding": {
          "unit": "px",
-         "top": "0",
+         "top": "30",
          "right": "0",
-         "bottom": "0",
+         "bottom": "40",
          "left": "0",
          "isLinked": false
         },
@@ -2650,38 +2919,48 @@
          "column": "0",
          "row": "0",
          "isLinked": false
-        }
+        },
+        "border_border": "solid",
+        "border_width": {
+         "unit": "px",
+         "top": "1",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "border_color": "#D3D4CF"
        },
        "elements": [
         {
-         "id": "18b7a908",
+         "id": "17d89af8",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "06   Education content",
-          "header_size": "h3",
-          "title_color": "#0F1012",
+          "title": "06",
+          "header_size": "div",
+          "title_color": "#9FA09C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
           "typography_font_weight": "700",
           "typography_font_size": {
            "unit": "px",
-           "size": 16
+           "size": 13
           },
           "typography_line_height": {
            "unit": "px",
-           "size": 21.6
+           "size": 18
           },
           "typography_text_transform": "uppercase",
           "typography_letter_spacing": {
            "unit": "px",
-           "size": 0.64
+           "size": 3.1
           }
          },
          "elements": []
         },
         {
-         "id": "18f5870a",
+         "id": "181678fa",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -2693,7 +2972,45 @@
          "elements": []
         },
         {
-         "id": "1933650c",
+         "id": "185456fc",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Education content",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 20
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 25
+          },
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": -0.3
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "189234fe",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 10
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "18d01200",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -2719,7 +3036,7 @@
    ]
   },
   {
-   "id": "0d4f242e",
+   "id": "0cebd122",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2749,7 +3066,7 @@
    },
    "elements": [
     {
-     "id": "0cd3682a",
+     "id": "0c70151e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2776,7 +3093,7 @@
      },
      "elements": [
       {
-       "id": "0a68bc16",
+       "id": "0a05690a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -2802,7 +3119,7 @@
      ]
     },
     {
-     "id": "0d11462c",
+     "id": "0cadf320",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2829,7 +3146,7 @@
      },
      "elements": [
       {
-       "id": "0aa69a18",
+       "id": "0a43470c",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2856,7 +3173,7 @@
        "elements": []
       },
       {
-       "id": "0ae4781a",
+       "id": "0a81250e",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2868,7 +3185,7 @@
        "elements": []
       },
       {
-       "id": "0b22561c",
+       "id": "0abf0310",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2900,7 +3217,7 @@
        "elements": []
       },
       {
-       "id": "0b60341e",
+       "id": "0afce112",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2912,7 +3229,7 @@
        "elements": []
       },
       {
-       "id": "0b9e1220",
+       "id": "0b3abf14",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2932,7 +3249,7 @@
        "elements": []
       },
       {
-       "id": "0bdbf022",
+       "id": "0b789d16",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2944,7 +3261,7 @@
        "elements": []
       },
       {
-       "id": "0c958a28",
+       "id": "0c32371c",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2968,7 +3285,7 @@
        },
        "elements": [
         {
-         "id": "0c19ce24",
+         "id": "0bb67b18",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -3012,7 +3329,7 @@
          "elements": []
         },
         {
-         "id": "0c57ac26",
+         "id": "0bf4591a",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -3072,7 +3389,7 @@
    ]
   },
   {
-   "id": "1548c270",
+   "id": "14e56f64",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3100,7 +3417,7 @@
    },
    "elements": [
     {
-     "id": "0d8d0230",
+     "id": "0d29af24",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -3127,7 +3444,7 @@
      "elements": []
     },
     {
-     "id": "0dcae032",
+     "id": "0d678d26",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3139,7 +3456,7 @@
      "elements": []
     },
     {
-     "id": "0e08be34",
+     "id": "0da56b28",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -3171,7 +3488,7 @@
      "elements": []
     },
     {
-     "id": "0e469c36",
+     "id": "0de3492a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3183,7 +3500,7 @@
      "elements": []
     },
     {
-     "id": "0ff7ae44",
+     "id": "0f945b38",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3216,7 +3533,7 @@
      },
      "elements": [
       {
-       "id": "0ec2583a",
+       "id": "0e5f052e",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3243,7 +3560,7 @@
        },
        "elements": [
         {
-         "id": "0e847a38",
+         "id": "0e21272c",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3267,7 +3584,7 @@
        ]
       },
       {
-       "id": "0fb9d042",
+       "id": "0f567d36",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3294,7 +3611,7 @@
        },
        "elements": [
         {
-         "id": "0f00363c",
+         "id": "0e9ce330",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3321,7 +3638,7 @@
          "elements": []
         },
         {
-         "id": "0f3e143e",
+         "id": "0edac132",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -3333,7 +3650,7 @@
          "elements": []
         },
         {
-         "id": "0f7bf240",
+         "id": "0f189f34",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3357,7 +3674,7 @@
      ]
     },
     {
-     "id": "11a8c052",
+     "id": "11456d46",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3390,7 +3707,7 @@
      },
      "elements": [
       {
-       "id": "10736a48",
+       "id": "1010173c",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3417,7 +3734,7 @@
        },
        "elements": [
         {
-         "id": "10358c46",
+         "id": "0fd2393a",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3441,7 +3758,7 @@
        ]
       },
       {
-       "id": "116ae250",
+       "id": "11078f44",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3468,7 +3785,7 @@
        },
        "elements": [
         {
-         "id": "10b1484a",
+         "id": "104df53e",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3495,7 +3812,7 @@
          "elements": []
         },
         {
-         "id": "10ef264c",
+         "id": "108bd340",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -3507,7 +3824,7 @@
          "elements": []
         },
         {
-         "id": "112d044e",
+         "id": "10c9b142",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3531,7 +3848,7 @@
      ]
     },
     {
-     "id": "1359d260",
+     "id": "12f67f54",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3564,7 +3881,7 @@
      },
      "elements": [
       {
-       "id": "12247c56",
+       "id": "11c1294a",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3591,7 +3908,7 @@
        },
        "elements": [
         {
-         "id": "11e69e54",
+         "id": "11834b48",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3615,7 +3932,7 @@
        ]
       },
       {
-       "id": "131bf45e",
+       "id": "12b8a152",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3642,7 +3959,7 @@
        },
        "elements": [
         {
-         "id": "12625a58",
+         "id": "11ff074c",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3669,7 +3986,7 @@
          "elements": []
         },
         {
-         "id": "12a0385a",
+         "id": "123ce54e",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -3681,7 +3998,7 @@
          "elements": []
         },
         {
-         "id": "12de165c",
+         "id": "127ac350",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3705,7 +4022,7 @@
      ]
     },
     {
-     "id": "150ae46e",
+     "id": "14a79162",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3738,7 +4055,7 @@
      },
      "elements": [
       {
-       "id": "13d58e64",
+       "id": "13723b58",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3765,7 +4082,7 @@
        },
        "elements": [
         {
-         "id": "1397b062",
+         "id": "13345d56",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3789,7 +4106,7 @@
        ]
       },
       {
-       "id": "14cd066c",
+       "id": "1469b360",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3816,7 +4133,7 @@
        },
        "elements": [
         {
-         "id": "14136c66",
+         "id": "13b0195a",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3843,7 +4160,7 @@
          "elements": []
         },
         {
-         "id": "14514a68",
+         "id": "13edf75c",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -3855,7 +4172,7 @@
          "elements": []
         },
         {
-         "id": "148f286a",
+         "id": "142bd55e",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3881,7 +4198,7 @@
    ]
   },
   {
-   "id": "186d088a",
+   "id": "1809b57e",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3911,7 +4228,7 @@
    },
    "elements": [
     {
-     "id": "17b36e84",
+     "id": "17501b78",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3938,7 +4255,7 @@
      },
      "elements": [
       {
-       "id": "1586a072",
+       "id": "15234d66",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -3965,7 +4282,7 @@
        "elements": []
       },
       {
-       "id": "15c47e74",
+       "id": "15612b68",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -3977,7 +4294,7 @@
        "elements": []
       },
       {
-       "id": "16025c76",
+       "id": "159f096a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4009,7 +4326,7 @@
        "elements": []
       },
       {
-       "id": "16403a78",
+       "id": "15dce76c",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -4021,7 +4338,7 @@
        "elements": []
       },
       {
-       "id": "167e187a",
+       "id": "161ac56e",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4041,7 +4358,7 @@
        "elements": []
       },
       {
-       "id": "16bbf67c",
+       "id": "1658a370",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -4053,7 +4370,7 @@
        "elements": []
       },
       {
-       "id": "17759082",
+       "id": "17123d76",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4077,7 +4394,7 @@
        },
        "elements": [
         {
-         "id": "16f9d47e",
+         "id": "16968172",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -4121,7 +4438,7 @@
          "elements": []
         },
         {
-         "id": "1737b280",
+         "id": "16d45f74",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -4179,7 +4496,7 @@
      ]
     },
     {
-     "id": "182f2a88",
+     "id": "17cbd77c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4206,7 +4523,7 @@
      },
      "elements": [
       {
-       "id": "17f14c86",
+       "id": "178df97a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -4234,7 +4551,7 @@
    ]
   },
   {
-   "id": "1028c9ca",
+   "id": "0fc576be",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -4262,7 +4579,7 @@
    },
    "elements": [
     {
-     "id": "18aae68c",
+     "id": "18479380",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -4289,7 +4606,7 @@
      "elements": []
     },
     {
-     "id": "18e8c48e",
+     "id": "18857182",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4301,7 +4618,7 @@
      "elements": []
     },
     {
-     "id": "19e03c96",
+     "id": "197ce98a",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4323,7 +4640,7 @@
      },
      "elements": [
       {
-       "id": "1926a290",
+       "id": "18c34f84",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4344,7 +4661,7 @@
        "elements": []
       },
       {
-       "id": "19648092",
+       "id": "19012d86",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -4356,7 +4673,7 @@
        "elements": []
       },
       {
-       "id": "19a25e94",
+       "id": "193f0b88",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4385,7 +4702,7 @@
      ]
     },
     {
-     "id": "0a1e1b98",
+     "id": "19bac78c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4397,7 +4714,7 @@
      "elements": []
     },
     {
-     "id": "0b1593a0",
+     "id": "0ab24094",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4419,7 +4736,7 @@
      },
      "elements": [
       {
-       "id": "0a5bf99a",
+       "id": "19f8a58e",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4440,7 +4757,7 @@
        "elements": []
       },
       {
-       "id": "0a99d79c",
+       "id": "0a368490",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -4452,7 +4769,7 @@
        "elements": []
       },
       {
-       "id": "0ad7b59e",
+       "id": "0a746292",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4481,7 +4798,7 @@
      ]
     },
     {
-     "id": "0b5371a2",
+     "id": "0af01e96",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4493,7 +4810,7 @@
      "elements": []
     },
     {
-     "id": "0c4ae9aa",
+     "id": "0be7969e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4515,7 +4832,7 @@
      },
      "elements": [
       {
-       "id": "0b914fa4",
+       "id": "0b2dfc98",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4536,7 +4853,7 @@
        "elements": []
       },
       {
-       "id": "0bcf2da6",
+       "id": "0b6bda9a",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -4548,7 +4865,7 @@
        "elements": []
       },
       {
-       "id": "0c0d0ba8",
+       "id": "0ba9b89c",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4577,7 +4894,7 @@
      ]
     },
     {
-     "id": "0c88c7ac",
+     "id": "0c2574a0",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4589,7 +4906,7 @@
      "elements": []
     },
     {
-     "id": "0d803fb4",
+     "id": "0d1ceca8",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4611,7 +4928,7 @@
      },
      "elements": [
       {
-       "id": "0cc6a5ae",
+       "id": "0c6352a2",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4632,7 +4949,7 @@
        "elements": []
       },
       {
-       "id": "0d0483b0",
+       "id": "0ca130a4",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -4644,7 +4961,7 @@
        "elements": []
       },
       {
-       "id": "0d4261b2",
+       "id": "0cdf0ea6",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4673,7 +4990,7 @@
      ]
     },
     {
-     "id": "0dbe1db6",
+     "id": "0d5acaaa",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4685,7 +5002,7 @@
      "elements": []
     },
     {
-     "id": "0eb595be",
+     "id": "0e5242b2",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4707,7 +5024,7 @@
      },
      "elements": [
       {
-       "id": "0dfbfbb8",
+       "id": "0d98a8ac",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4728,7 +5045,7 @@
        "elements": []
       },
       {
-       "id": "0e39d9ba",
+       "id": "0dd686ae",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -4740,7 +5057,7 @@
        "elements": []
       },
       {
-       "id": "0e77b7bc",
+       "id": "0e1464b0",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4769,7 +5086,7 @@
      ]
     },
     {
-     "id": "0ef373c0",
+     "id": "0e9020b4",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4781,7 +5098,7 @@
      "elements": []
     },
     {
-     "id": "0feaebc8",
+     "id": "0f8798bc",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4803,7 +5120,7 @@
      },
      "elements": [
       {
-       "id": "0f3151c2",
+       "id": "0ecdfeb6",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -4824,7 +5141,7 @@
        "elements": []
       },
       {
-       "id": "0f6f2fc4",
+       "id": "0f0bdcb8",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -4836,7 +5153,7 @@
        "elements": []
       },
       {
-       "id": "0fad0dc6",
+       "id": "0f49baba",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -4867,7 +5184,7 @@
    ]
   },
   {
-   "id": "129375de",
+   "id": "123022d2",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -4895,7 +5212,7 @@
    },
    "elements": [
     {
-     "id": "1066a7cc",
+     "id": "100354c0",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -4922,7 +5239,7 @@
      "elements": []
     },
     {
-     "id": "10a485ce",
+     "id": "104132c2",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4934,7 +5251,7 @@
      "elements": []
     },
     {
-     "id": "10e263d0",
+     "id": "107f10c4",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -4974,7 +5291,7 @@
      "elements": []
     },
     {
-     "id": "112041d2",
+     "id": "10bceec6",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4986,7 +5303,7 @@
      "elements": []
     },
     {
-     "id": "115e1fd4",
+     "id": "10faccc8",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -5006,7 +5323,7 @@
      "elements": []
     },
     {
-     "id": "119bfdd6",
+     "id": "1138aaca",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -5018,7 +5335,7 @@
      "elements": []
     },
     {
-     "id": "125597dc",
+     "id": "11f244d0",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -5042,7 +5359,7 @@
      },
      "elements": [
       {
-       "id": "11d9dbd8",
+       "id": "117688cc",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -5086,7 +5403,7 @@
        "elements": []
       },
       {
-       "id": "1217b9da",
+       "id": "11b466ce",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
