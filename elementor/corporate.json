@@ -3163,7 +3163,7 @@
    ]
   },
   {
-   "id": "104df53e",
+   "id": "0cebd122",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3230,381 +3230,122 @@
      "elements": []
     },
     {
-     "id": "0c70151e",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "0bb67b18",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "<p style=\"margin:0;max-width:900px;\">\"We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.\"</p>",
-        "text_color": "#FFFFFF",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 25
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 38
-        },
-        "typography_font_weight": "600"
-       },
-       "elements": []
-      },
-      {
-       "id": "0bf4591a",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 22
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "0c32371c",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "— Kane Bygrave   ·   Google review",
-        "header_size": "div",
-        "title_color": "#9FA09C",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_weight": "600",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 17.64
-        },
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 3.15
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "0cadf320",
+     "id": "0bb67b18",
      "elType": "widget",
-     "widgetType": "spacer",
+     "widgetType": "testimonial-carousel",
      "settings": {
-      "space": {
+      "slides": [
+       {
+        "_id": "0bf4591",
+        "content": "We've had a fantastic first experience using Pepper Productions for some corporate photo and video work. Beau and Ashley were true professionals and kept the day flowing along with plenty of laughs.",
+        "name": "Kane Bygrave",
+        "title": "Google review",
+        "image": {
+         "url": "",
+         "id": ""
+        }
+       },
+       {
+        "_id": "0c32371",
+        "content": "Super friendly, professional and enthusiastic team that helped encourage our staff to embrace profile headshot day!",
+        "name": "Marketing HeartHQ",
+        "title": "Google review",
+        "image": {
+         "url": "",
+         "id": ""
+        }
+       },
+       {
+        "_id": "0c70151",
+        "content": "Very professional team! Worked an event with us at the Sunshine Coast Convention Centre and the outcome was superb.",
+        "name": "Keith Dsouza",
+        "title": "Google review",
+        "image": {
+         "url": "",
+         "id": ""
+        }
+       },
+       {
+        "_id": "0cadf32",
+        "content": "Thanks so much to the team at Pepper Productions for doing such a fantastic job of videoing our conference.",
+        "name": "Kathy Ferris",
+        "title": "Google review",
+        "image": {
+         "url": "",
+         "id": ""
+        }
+       }
+      ],
+      "slides_per_view": "1",
+      "slides_per_view_tablet": "1",
+      "slides_per_view_mobile": "1",
+      "slides_to_scroll": "1",
+      "alignment": "left",
+      "show_arrows": "yes",
+      "arrows_color": "#C3C4C0",
+      "arrows_size": {
        "unit": "px",
-       "size": 46
+       "size": 26
+      },
+      "autoplay": "yes",
+      "autoplay_speed": 7000,
+      "speed": 700,
+      "loop": "yes",
+      "space_between": {
+       "unit": "px",
+       "size": 40
+      },
+      "slide_background_color": "rgba(0,0,0,0)",
+      "slide_border_color": "rgba(0,0,0,0)",
+      "content_color": "#FFFFFF",
+      "content_typography_typography": "custom",
+      "content_typography_font_family": "Montserrat",
+      "content_typography_font_size": {
+       "unit": "px",
+       "size": 25
+      },
+      "content_typography_font_weight": "600",
+      "content_typography_line_height": {
+       "unit": "px",
+       "size": 38
+      },
+      "content_gap": {
+       "unit": "px",
+       "size": 22
+      },
+      "name_color": "#FFFFFF",
+      "name_typography_typography": "custom",
+      "name_typography_font_family": "Montserrat",
+      "name_typography_font_size": {
+       "unit": "px",
+       "size": 12
+      },
+      "name_typography_font_weight": "700",
+      "name_typography_text_transform": "uppercase",
+      "name_typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.6
+      },
+      "title_color": "#9FA09C",
+      "title_typography_typography": "custom",
+      "title_typography_font_family": "Montserrat",
+      "title_typography_font_size": {
+       "unit": "px",
+       "size": 10
+      },
+      "title_typography_font_weight": "600",
+      "title_typography_text_transform": "uppercase",
+      "title_typography_letter_spacing": {
+       "unit": "px",
+       "size": 2.4
       }
      },
      "elements": []
-    },
-    {
-     "id": "0da56b28",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "0cebd122",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "<p style=\"margin:0;max-width:900px;\">\"Super friendly, professional and enthusiastic team that helped encourage our staff to embrace profile headshot day!\"</p>",
-        "text_color": "#FFFFFF",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 25
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 38
-        },
-        "typography_font_weight": "600"
-       },
-       "elements": []
-      },
-      {
-       "id": "0d29af24",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 22
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "0d678d26",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "— Marketing HeartHQ   ·   Google review",
-        "header_size": "div",
-        "title_color": "#9FA09C",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_weight": "600",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 17.64
-        },
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 3.15
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "0de3492a",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 46
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0edac132",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "0e21272c",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "<p style=\"margin:0;max-width:900px;\">\"Very professional team! Worked an event with us at the Sunshine Coast Convention Centre and the outcome was superb.\"</p>",
-        "text_color": "#FFFFFF",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 25
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 38
-        },
-        "typography_font_weight": "600"
-       },
-       "elements": []
-      },
-      {
-       "id": "0e5f052e",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 22
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "0e9ce330",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "— Keith Dsouza   ·   Google review",
-        "header_size": "div",
-        "title_color": "#9FA09C",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_weight": "600",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 17.64
-        },
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 3.15
-        }
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "0f189f34",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 46
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "1010173c",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      }
-     },
-     "elements": [
-      {
-       "id": "0f567d36",
-       "elType": "widget",
-       "widgetType": "text-editor",
-       "settings": {
-        "editor": "<p style=\"margin:0;max-width:900px;\">\"Thanks so much to the team at Pepper Productions for doing such a fantastic job of videoing our conference.\"</p>",
-        "text_color": "#FFFFFF",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 25
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 38
-        },
-        "typography_font_weight": "600"
-       },
-       "elements": []
-      },
-      {
-       "id": "0f945b38",
-       "elType": "widget",
-       "widgetType": "spacer",
-       "settings": {
-        "space": {
-         "unit": "px",
-         "size": 22
-        }
-       },
-       "elements": []
-      },
-      {
-       "id": "0fd2393a",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "— Kathy Ferris   ·   Google review",
-        "header_size": "div",
-        "title_color": "#9FA09C",
-        "typography_typography": "custom",
-        "typography_font_family": "Montserrat",
-        "typography_font_weight": "600",
-        "typography_font_size": {
-         "unit": "px",
-         "size": 11
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 17.64
-        },
-        "typography_text_transform": "uppercase",
-        "typography_letter_spacing": {
-         "unit": "px",
-         "size": 3.15
-        }
-       },
-       "elements": []
-      }
-     ]
     }
    ]
   },
   {
-   "id": "19f8a58e",
+   "id": "16968172",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -3632,7 +3373,7 @@
    },
    "elements": [
     {
-     "id": "108bd340",
+     "id": "0d29af24",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -3659,7 +3400,7 @@
      "elements": []
     },
     {
-     "id": "10c9b142",
+     "id": "0d678d26",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3671,7 +3412,7 @@
      "elements": []
     },
     {
-     "id": "11078f44",
+     "id": "0da56b28",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -3711,7 +3452,7 @@
      "elements": []
     },
     {
-     "id": "11456d46",
+     "id": "0de3492a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3723,7 +3464,7 @@
      "elements": []
     },
     {
-     "id": "11834b48",
+     "id": "0e21272c",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -3743,7 +3484,7 @@
      "elements": []
     },
     {
-     "id": "178df97a",
+     "id": "142bd55e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3755,7 +3496,7 @@
      "elements": []
     },
     {
-     "id": "17cbd77c",
+     "id": "1469b360",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3778,7 +3519,7 @@
      },
      "elements": [
       {
-       "id": "127ac350",
+       "id": "0f189f34",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3805,7 +3546,7 @@
        },
        "elements": [
         {
-         "id": "11c1294a",
+         "id": "0e5f052e",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3836,7 +3577,7 @@
          "elements": []
         },
         {
-         "id": "11ff074c",
+         "id": "0e9ce330",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -3848,7 +3589,7 @@
          "elements": []
         },
         {
-         "id": "123ce54e",
+         "id": "0edac132",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3870,7 +3611,7 @@
        ]
       },
       {
-       "id": "13723b58",
+       "id": "1010173c",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -3897,7 +3638,7 @@
        },
        "elements": [
         {
-         "id": "12b8a152",
+         "id": "0f567d36",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -3928,7 +3669,7 @@
          "elements": []
         },
         {
-         "id": "12f67f54",
+         "id": "0f945b38",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -3940,7 +3681,7 @@
          "elements": []
         },
         {
-         "id": "13345d56",
+         "id": "0fd2393a",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -3964,7 +3705,7 @@
      ]
     },
     {
-     "id": "1809b57e",
+     "id": "14a79162",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -3976,7 +3717,7 @@
      "elements": []
     },
     {
-     "id": "18479380",
+     "id": "14e56f64",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -3999,7 +3740,7 @@
      },
      "elements": [
       {
-       "id": "1469b360",
+       "id": "11078f44",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4026,7 +3767,7 @@
        },
        "elements": [
         {
-         "id": "13b0195a",
+         "id": "104df53e",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4057,7 +3798,7 @@
          "elements": []
         },
         {
-         "id": "13edf75c",
+         "id": "108bd340",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -4069,7 +3810,7 @@
          "elements": []
         },
         {
-         "id": "142bd55e",
+         "id": "10c9b142",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4091,7 +3832,7 @@
        ]
       },
       {
-       "id": "15612b68",
+       "id": "11ff074c",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4118,7 +3859,7 @@
        },
        "elements": [
         {
-         "id": "14a79162",
+         "id": "11456d46",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4149,7 +3890,7 @@
          "elements": []
         },
         {
-         "id": "14e56f64",
+         "id": "11834b48",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -4161,7 +3902,7 @@
          "elements": []
         },
         {
-         "id": "15234d66",
+         "id": "11c1294a",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4185,7 +3926,7 @@
      ]
     },
     {
-     "id": "18857182",
+     "id": "15234d66",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4197,7 +3938,7 @@
      "elements": []
     },
     {
-     "id": "18c34f84",
+     "id": "15612b68",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4220,7 +3961,7 @@
      },
      "elements": [
       {
-       "id": "1658a370",
+       "id": "12f67f54",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4247,7 +3988,7 @@
        },
        "elements": [
         {
-         "id": "159f096a",
+         "id": "123ce54e",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4278,7 +4019,7 @@
          "elements": []
         },
         {
-         "id": "15dce76c",
+         "id": "127ac350",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -4290,7 +4031,7 @@
          "elements": []
         },
         {
-         "id": "161ac56e",
+         "id": "12b8a152",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4312,7 +4053,7 @@
        ]
       },
       {
-       "id": "17501b78",
+       "id": "13edf75c",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -4339,7 +4080,7 @@
        },
        "elements": [
         {
-         "id": "16968172",
+         "id": "13345d56",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -4370,7 +4111,7 @@
          "elements": []
         },
         {
-         "id": "16d45f74",
+         "id": "13723b58",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -4382,7 +4123,7 @@
          "elements": []
         },
         {
-         "id": "17123d76",
+         "id": "13b0195a",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -4406,7 +4147,7 @@
      ]
     },
     {
-     "id": "197ce98a",
+     "id": "161ac56e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4418,7 +4159,7 @@
      "elements": []
     },
     {
-     "id": "19bac78c",
+     "id": "1658a370",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4442,7 +4183,7 @@
      },
      "elements": [
       {
-       "id": "19012d86",
+       "id": "159f096a",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -4486,7 +4227,7 @@
        "elements": []
       },
       {
-       "id": "193f0b88",
+       "id": "15dce76c",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -4544,7 +4285,7 @@
    ]
   },
   {
-   "id": "0c6352a2",
+   "id": "19012d86",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -4572,7 +4313,7 @@
    },
    "elements": [
     {
-     "id": "0a368490",
+     "id": "16d45f74",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -4599,7 +4340,7 @@
      "elements": []
     },
     {
-     "id": "0a746292",
+     "id": "17123d76",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4611,7 +4352,7 @@
      "elements": []
     },
     {
-     "id": "0ab24094",
+     "id": "17501b78",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -4651,7 +4392,7 @@
      "elements": []
     },
     {
-     "id": "0af01e96",
+     "id": "178df97a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4663,7 +4404,7 @@
      "elements": []
     },
     {
-     "id": "0b2dfc98",
+     "id": "17cbd77c",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -4683,7 +4424,7 @@
      "elements": []
     },
     {
-     "id": "0b6bda9a",
+     "id": "1809b57e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4695,7 +4436,7 @@
      "elements": []
     },
     {
-     "id": "0c2574a0",
+     "id": "18c34f84",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4719,7 +4460,7 @@
      },
      "elements": [
       {
-       "id": "0ba9b89c",
+       "id": "18479380",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -4763,7 +4504,7 @@
        "elements": []
       },
       {
-       "id": "0be7969e",
+       "id": "18857182",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
