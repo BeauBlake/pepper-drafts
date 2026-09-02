@@ -44,6 +44,7 @@
        "size": 100
       },
       "css_classes": "slot--event-desktop",
+      "_css_classes": "slot--event-desktop",
       "height": {
        "unit": "px",
        "size": 720
@@ -951,6 +952,7 @@
          "size": 100
         },
         "css_classes": "slot--nhpe-338-copy-scaled",
+        "_css_classes": "slot--nhpe-338-copy-scaled",
         "height": {
          "unit": "px",
          "size": 375
@@ -2670,6 +2672,7 @@
          "size": 100
         },
         "css_classes": "slot--beaub-519-scaled",
+        "_css_classes": "slot--beaub-519-scaled",
         "height": {
          "unit": "px",
          "size": 375
@@ -2933,7 +2936,8 @@
       "pause_on_hover": "yes",
       "pause_on_interaction": "yes",
       "speed": 700,
-      "css_classes": "quotes-carousel"
+      "css_classes": "quotes-carousel",
+      "_css_classes": "quotes-carousel"
      },
      "elements": [
       {

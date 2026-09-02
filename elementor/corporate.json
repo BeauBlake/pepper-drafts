@@ -44,6 +44,7 @@
        "size": 100
       },
       "css_classes": "slot--corporate-desktop",
+      "_css_classes": "slot--corporate-desktop",
       "height": {
        "unit": "px",
        "size": 720
@@ -951,6 +952,7 @@
          "size": 100
         },
         "css_classes": "slot--frame-91142-cop-2y-scaled",
+        "_css_classes": "slot--frame-91142-cop-2y-scaled",
         "height": {
          "unit": "px",
          "size": 375
@@ -1738,6 +1740,7 @@
            "size": 100
           },
           "css_classes": "slot--aurora-bwlifted-129-scaled",
+          "_css_classes": "slot--aurora-bwlifted-129-scaled",
           "height": {
            "unit": "px",
            "size": 300
@@ -1830,6 +1833,7 @@
            "size": 100
           },
           "css_classes": "slot--beaub-9941-copy-e1664148116740",
+          "_css_classes": "slot--beaub-9941-copy-e1664148116740",
           "height": {
            "unit": "px",
            "size": 300
@@ -1922,6 +1926,7 @@
            "size": 100
           },
           "css_classes": "slot--ncve-167-copy-e1664147917473",
+          "_css_classes": "slot--ncve-167-copy-e1664147917473",
           "height": {
            "unit": "px",
            "size": 300
@@ -2983,6 +2988,7 @@
          "size": 100
         },
         "css_classes": "slot--spire-desktop",
+        "_css_classes": "slot--spire-desktop",
         "height": {
          "unit": "px",
          "size": 375
@@ -3246,7 +3252,8 @@
       "pause_on_hover": "yes",
       "pause_on_interaction": "yes",
       "speed": 700,
-      "css_classes": "quotes-carousel"
+      "css_classes": "quotes-carousel",
+      "_css_classes": "quotes-carousel"
      },
      "elements": [
       {

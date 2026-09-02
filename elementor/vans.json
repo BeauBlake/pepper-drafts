@@ -44,6 +44,7 @@
        "size": 100
       },
       "css_classes": "slot--van-transit-crew",
+      "_css_classes": "slot--van-transit-crew",
       "height": {
        "unit": "px",
        "size": 720
@@ -951,6 +952,7 @@
          "size": 100
         },
         "css_classes": "slot--van-132-resized",
+        "_css_classes": "slot--van-132-resized",
         "height": {
          "unit": "px",
          "size": 375
@@ -1128,7 +1130,8 @@
          "value": "fab fa-youtube",
          "library": "fa-brands"
         },
-        "css_classes": "slot--reel-overlay"
+        "css_classes": "slot--reel-overlay",
+        "_css_classes": "slot--reel-overlay"
        },
        "elements": []
       }
@@ -1417,6 +1420,7 @@
          "size": 100
         },
         "css_classes": "slot--van-transit-front",
+        "_css_classes": "slot--van-transit-front",
         "height": {
          "unit": "px",
          "size": 375
@@ -2617,6 +2621,7 @@
          "size": 100
         },
         "css_classes": "slot--2s8a7890",
+        "_css_classes": "slot--2s8a7890",
         "height": {
          "unit": "px",
          "size": 375

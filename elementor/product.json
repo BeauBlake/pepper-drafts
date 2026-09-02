@@ -44,6 +44,7 @@
        "size": 100
       },
       "css_classes": "slot--product-laptop",
+      "_css_classes": "slot--product-laptop",
       "height": {
        "unit": "px",
        "size": 720
@@ -951,6 +952,7 @@
          "size": 100
         },
         "css_classes": "slot--2s8a9856",
+        "_css_classes": "slot--2s8a9856",
         "height": {
          "unit": "px",
          "size": 375
@@ -2670,6 +2672,7 @@
          "size": 100
         },
         "css_classes": "slot--gsd-bts202-copy-scaled",
+        "_css_classes": "slot--gsd-bts202-copy-scaled",
         "height": {
          "unit": "px",
          "size": 375
@@ -2933,7 +2936,8 @@
       "pause_on_hover": "yes",
       "pause_on_interaction": "yes",
       "speed": 700,
-      "css_classes": "quotes-carousel"
+      "css_classes": "quotes-carousel",
+      "_css_classes": "quotes-carousel"
      },
      "elements": [
       {

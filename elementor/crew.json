@@ -44,6 +44,7 @@
        "size": 100
       },
       "css_classes": "slot--pepper-meta-0134-copy",
+      "_css_classes": "slot--pepper-meta-0134-copy",
       "height": {
        "unit": "px",
        "size": 720
@@ -260,6 +261,7 @@
            "size": 100
           },
           "css_classes": "slot--bb193375-1",
+          "_css_classes": "slot--bb193375-1",
           "height": {
            "unit": "px",
            "size": 320
@@ -423,6 +425,7 @@
            "size": 100
           },
           "css_classes": "slot--pepper-productions-jesse",
+          "_css_classes": "slot--pepper-productions-jesse",
           "height": {
            "unit": "px",
            "size": 320
@@ -586,6 +589,7 @@
            "size": 100
           },
           "css_classes": "slot--trevor-smith-cinematographer",
+          "_css_classes": "slot--trevor-smith-cinematographer",
           "height": {
            "unit": "px",
            "size": 320
@@ -895,6 +899,7 @@
            "size": 100
           },
           "css_classes": "slot--dani-portrait-e1765782562441",
+          "_css_classes": "slot--dani-portrait-e1765782562441",
           "height": {
            "unit": "px",
            "size": 260
@@ -1026,6 +1031,7 @@
            "size": 100
           },
           "css_classes": "slot--chilli-211",
+          "_css_classes": "slot--chilli-211",
           "height": {
            "unit": "px",
            "size": 260
@@ -1157,6 +1163,7 @@
            "size": 100
           },
           "css_classes": "slot--chilli-234",
+          "_css_classes": "slot--chilli-234",
           "height": {
            "unit": "px",
            "size": 260
@@ -1288,6 +1295,7 @@
            "size": 100
           },
           "css_classes": "slot--stella-cropped",
+          "_css_classes": "slot--stella-cropped",
           "height": {
            "unit": "px",
            "size": 260
@@ -1381,16 +1389,16 @@
    ]
   },
   {
-   "id": "0e243596",
+   "id": "0de65794",
    "elType": "container",
    "isInner": false,
    "settings": {
     "content_width": "boxed",
     "padding": {
      "unit": "px",
-     "top": "72",
+     "top": "96",
      "right": "52",
-     "bottom": "72",
+     "bottom": "0",
      "left": "52",
      "isLinked": false
     },
@@ -1405,51 +1413,117 @@
      "size": 1196
     },
     "background_background": "classic",
-    "background_color": "#FFFFFF",
+    "background_color": "#F3F3F0",
+    "border_border": "solid",
+    "border_width": {
+     "unit": "px",
+     "top": "1",
+     "right": "0",
+     "bottom": "0",
+     "left": "0",
+     "isLinked": false
+    },
+    "border_color": "#D3D4CF"
+   },
+   "elements": [
+    {
+     "id": "0da87992",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "26",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "margin": {
+       "unit": "px",
+       "top": "72",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "border_border": "solid",
+      "border_width": {
+       "unit": "px",
+       "top": "1",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "border_color": "#D3D4CF"
+     },
+     "elements": [
+      {
+       "id": "0d6a9b90",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Brands we've told tales for",
+        "header_size": "div",
+        "title_color": "#9FA09C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 11
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 17.64
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 3.36
+        }
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "0e621398",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "full",
+    "padding": {
+     "unit": "px",
+     "top": "24",
+     "right": "0",
+     "bottom": "44",
+     "left": "0",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "background_background": "classic",
+    "background_color": "#F3F3F0",
     "custom_css": "selector .swiper-slide{display:flex;align-items:center;justify-content:center;min-height:78px}selector .swiper-slide figure{margin:0;display:flex;align-items:center;justify-content:center;width:100%}selector .swiper-slide img{height:36px;width:auto;max-width:150px;object-fit:contain;filter:grayscale(1) contrast(.85);opacity:.75;transition:filter .4s,opacity .4s}selector .swiper-slide img:hover{filter:grayscale(0);opacity:1}"
    },
    "elements": [
     {
-     "id": "0d6a9b90",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Brands we've told tales for",
-      "header_size": "div",
-      "title_color": "#9FA09C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0da87992",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 28
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0de65794",
+     "id": "0e243596",
      "elType": "widget",
      "widgetType": "image-carousel",
      "settings": {
@@ -1468,14 +1542,15 @@
       "thumbnail_size": "medium",
       "gallery_vertical_align": "center",
       "link_to": "none",
-      "css_classes": "slot--logos"
+      "css_classes": "slot--logos",
+      "_css_classes": "slot--logos"
      },
      "elements": []
     }
    ]
   },
   {
-   "id": "105103a8",
+   "id": "108ee1aa",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1505,7 +1580,7 @@
    },
    "elements": [
     {
-     "id": "0f9769a2",
+     "id": "0fd547a4",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1532,7 +1607,7 @@
      },
      "elements": [
       {
-       "id": "0e621398",
+       "id": "0e9ff19a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1559,7 +1634,7 @@
        "elements": []
       },
       {
-       "id": "0e9ff19a",
+       "id": "0eddcf9c",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1571,7 +1646,7 @@
        "elements": []
       },
       {
-       "id": "0eddcf9c",
+       "id": "0f1bad9e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1611,7 +1686,7 @@
        "elements": []
       },
       {
-       "id": "0f1bad9e",
+       "id": "0f598ba0",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1623,7 +1698,7 @@
        "elements": []
       },
       {
-       "id": "0f598ba0",
+       "id": "0f9769a2",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1645,7 +1720,7 @@
      ]
     },
     {
-     "id": "101325a6",
+     "id": "105103a8",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1672,7 +1747,7 @@
      },
      "elements": [
       {
-       "id": "0fd547a4",
+       "id": "101325a6",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1687,6 +1762,7 @@
          "size": 100
         },
         "css_classes": "slot--crew-edit-suite",
+        "_css_classes": "slot--crew-edit-suite",
         "height": {
          "unit": "px",
          "size": 375
@@ -1700,7 +1776,7 @@
    ]
   },
   {
-   "id": "12bbafbc",
+   "id": "12f98dbe",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1728,7 +1804,7 @@
    },
    "elements": [
     {
-     "id": "108ee1aa",
+     "id": "10ccbfac",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1755,7 +1831,7 @@
      "elements": []
     },
     {
-     "id": "10ccbfac",
+     "id": "110a9dae",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1767,7 +1843,7 @@
      "elements": []
     },
     {
-     "id": "110a9dae",
+     "id": "11487bb0",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1807,7 +1883,7 @@
      "elements": []
     },
     {
-     "id": "11487bb0",
+     "id": "118659b2",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1819,7 +1895,7 @@
      "elements": []
     },
     {
-     "id": "118659b2",
+     "id": "11c437b4",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1839,7 +1915,7 @@
      "elements": []
     },
     {
-     "id": "11c437b4",
+     "id": "120215b6",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1851,7 +1927,7 @@
      "elements": []
     },
     {
-     "id": "127dd1ba",
+     "id": "12bbafbc",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1875,7 +1951,7 @@
      },
      "elements": [
       {
-       "id": "120215b6",
+       "id": "123ff3b8",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1919,7 +1995,7 @@
        "elements": []
       },
       {
-       "id": "123ff3b8",
+       "id": "127dd1ba",
        "elType": "widget",
        "widgetType": "button",
        "settings": {

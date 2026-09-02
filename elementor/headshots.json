@@ -44,6 +44,7 @@
        "size": 100
       },
       "css_classes": "slot--headshots-team",
+      "_css_classes": "slot--headshots-team",
       "height": {
        "unit": "px",
        "size": 720
@@ -951,6 +952,7 @@
          "size": 100
         },
         "css_classes": "slot--2511-pepper-website-images-3",
+        "_css_classes": "slot--2511-pepper-website-images-3",
         "height": {
          "unit": "px",
          "size": 375
@@ -2670,6 +2672,7 @@
          "size": 100
         },
         "css_classes": "slot--internal-2022-e1641515597742",
+        "_css_classes": "slot--internal-2022-e1641515597742",
         "height": {
          "unit": "px",
          "size": 375
@@ -2933,7 +2936,8 @@
       "pause_on_hover": "yes",
       "pause_on_interaction": "yes",
       "speed": 700,
-      "css_classes": "quotes-carousel"
+      "css_classes": "quotes-carousel",
+      "_css_classes": "quotes-carousel"
      },
      "elements": [
       {

@@ -44,6 +44,7 @@
        "size": 100
       },
       "css_classes": "slot--dji-20230418143845-0069-d-enhanced-nr",
+      "_css_classes": "slot--dji-20230418143845-0069-d-enhanced-nr",
       "height": {
        "unit": "px",
        "size": 720
@@ -951,6 +952,7 @@
          "size": 100
         },
         "css_classes": "slot--pepper-cure-sailing",
+        "_css_classes": "slot--pepper-cure-sailing",
         "height": {
          "unit": "px",
          "size": 375
@@ -1128,7 +1130,8 @@
          "value": "fab fa-youtube",
          "library": "fa-brands"
         },
-        "css_classes": "slot--reel-overlay"
+        "css_classes": "slot--reel-overlay",
+        "_css_classes": "slot--reel-overlay"
        },
        "elements": []
       }
@@ -2911,6 +2914,7 @@
          "size": 100
         },
         "css_classes": "slot--meet-beau",
+        "_css_classes": "slot--meet-beau",
         "height": {
          "unit": "px",
          "size": 375
@@ -3174,7 +3178,8 @@
       "pause_on_hover": "yes",
       "pause_on_interaction": "yes",
       "speed": 700,
-      "css_classes": "quotes-carousel"
+      "css_classes": "quotes-carousel",
+      "_css_classes": "quotes-carousel"
      },
      "elements": [
       {
