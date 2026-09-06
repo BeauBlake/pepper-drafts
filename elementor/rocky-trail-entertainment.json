@@ -1648,6 +1648,8 @@
       "wp_gallery": [],
       "gallery_style": "masonry",
       "gallery_columns": "3",
+      "gallery_columns_tablet": "2",
+      "gallery_columns_mobile": "1",
       "image_size": "large",
       "click_action": "lightbox",
       "css_classes": "slot--gallery",
