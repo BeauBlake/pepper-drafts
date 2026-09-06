@@ -2244,6 +2244,8 @@
            "row": "18",
            "isLinked": false
           },
+          "flex_direction": "column",
+          "flex_direction_tablet": "column",
           "flex_direction_mobile": "row",
           "flex_align_items_mobile": "center",
           "flex_wrap_mobile": "nowrap"
@@ -2431,6 +2433,8 @@
            "row": "18",
            "isLinked": false
           },
+          "flex_direction": "column",
+          "flex_direction_tablet": "column",
           "flex_direction_mobile": "row",
           "flex_align_items_mobile": "center",
           "flex_wrap_mobile": "nowrap"
@@ -2618,6 +2622,8 @@
            "row": "18",
            "isLinked": false
           },
+          "flex_direction": "column",
+          "flex_direction_tablet": "column",
           "flex_direction_mobile": "row",
           "flex_align_items_mobile": "center",
           "flex_wrap_mobile": "nowrap"
@@ -2805,6 +2811,8 @@
            "row": "18",
            "isLinked": false
           },
+          "flex_direction": "column",
+          "flex_direction_tablet": "column",
           "flex_direction_mobile": "row",
           "flex_align_items_mobile": "center",
           "flex_wrap_mobile": "nowrap"
@@ -3306,6 +3314,7 @@
     },
     "background_background": "classic",
     "background_color": "#F3F3F0",
+    "custom_css": "@media(max-width:767px){selector .uael-img-gallery-item,selector .uael-grid-gallery-img{width:50%!important;max-width:50%!important;box-sizing:border-box}selector .uael-grid-gallery-img img{width:100%!important;height:auto!important}}",
     "padding_tablet": {
      "unit": "px",
      "top": "72",

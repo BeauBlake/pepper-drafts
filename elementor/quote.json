@@ -549,6 +549,8 @@
            "row": "18",
            "isLinked": false
           },
+          "flex_direction": "column",
+          "flex_direction_tablet": "column",
           "flex_direction_mobile": "row",
           "flex_align_items_mobile": "center",
           "flex_wrap_mobile": "nowrap"
@@ -736,6 +738,8 @@
            "row": "18",
            "isLinked": false
           },
+          "flex_direction": "column",
+          "flex_direction_tablet": "column",
           "flex_direction_mobile": "row",
           "flex_align_items_mobile": "center",
           "flex_wrap_mobile": "nowrap"
@@ -923,6 +927,8 @@
            "row": "18",
            "isLinked": false
           },
+          "flex_direction": "column",
+          "flex_direction_tablet": "column",
           "flex_direction_mobile": "row",
           "flex_align_items_mobile": "center",
           "flex_wrap_mobile": "nowrap"
@@ -1110,6 +1116,8 @@
            "row": "18",
            "isLinked": false
           },
+          "flex_direction": "column",
+          "flex_direction_tablet": "column",
           "flex_direction_mobile": "row",
           "flex_align_items_mobile": "center",
           "flex_wrap_mobile": "nowrap"
