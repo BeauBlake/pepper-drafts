@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "10fbe9c8",
+   "id": "0d1e09a8",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -34,12 +34,28 @@
     "background_color": "#16171A",
     "background_overlay_background": "classic",
     "background_overlay_color": "rgba(10,10,12,.62)",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "97",
+     "right": "32",
+     "bottom": "97",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "76",
+     "right": "20",
+     "bottom": "76",
+     "left": "20",
+     "isLinked": false
+    },
     "css_classes": "slot--slsq",
     "_css_classes": "slot--slsq"
    },
    "elements": [
     {
-     "id": "0f0cf9b8",
+     "id": "0b2f1998",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -66,7 +82,7 @@
      "elements": []
     },
     {
-     "id": "0f4ad7ba",
+     "id": "0b6cf79a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -78,7 +94,7 @@
      "elements": []
     },
     {
-     "id": "0f88b5bc",
+     "id": "0baad59c",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -92,25 +108,57 @@
        "unit": "px",
        "size": 44
       },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 34
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 26
+      },
       "typography_line_height": {
        "unit": "px",
        "size": 46
+      },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.55
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.18
       },
       "typography_text_transform": "uppercase",
       "typography_letter_spacing": {
        "unit": "px",
        "size": -1.6
       },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.24
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -0.95
+      },
       "_element_width": "initial",
       "_element_custom_width": {
        "unit": "px",
        "size": 900
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
       }
      },
      "elements": []
     },
     {
-     "id": "0fc693be",
+     "id": "0be8b39e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -122,7 +170,7 @@
      "elements": []
     },
     {
-     "id": "100471c0",
+     "id": "0c2691a0",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -142,7 +190,7 @@
      "elements": []
     },
     {
-     "id": "10424fc2",
+     "id": "0c646fa2",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -154,7 +202,7 @@
      "elements": []
     },
     {
-     "id": "10be0bc6",
+     "id": "0ce02ba6",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -174,11 +222,19 @@
        "isLinked": false
       },
       "flex_direction": "row",
-      "flex_wrap": "wrap"
+      "flex_wrap": "wrap",
+      "flex_direction_tablet": "row",
+      "flex_direction_mobile": "column",
+      "flex_gap_mobile": {
+       "unit": "px",
+       "column": "0",
+       "row": "14",
+       "isLinked": false
+      }
      },
      "elements": [
       {
-       "id": "10802dc4",
+       "id": "0ca24da4",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -236,7 +292,7 @@
    ]
   },
   {
-   "id": "0aa69a18",
+   "id": "16c8b9f8",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -260,11 +316,27 @@
      "size": 1196
     },
     "background_background": "classic",
-    "background_color": "#FFFFFF"
+    "background_color": "#FFFFFF",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
    },
    "elements": [
     {
-     "id": "1139c7ca",
+     "id": "0d5be7aa",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -291,7 +363,7 @@
      "elements": []
     },
     {
-     "id": "1177a5cc",
+     "id": "0d99c5ac",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -303,7 +375,7 @@
      "elements": []
     },
     {
-     "id": "11b583ce",
+     "id": "0dd7a3ae",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -329,21 +401,45 @@
        "unit": "px",
        "size": 47.04
       },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.28
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.44
+      },
       "typography_text_transform": "uppercase",
       "typography_letter_spacing": {
        "unit": "px",
        "size": -1.92
       },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.44
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -1.12
+      },
       "_element_width": "initial",
       "_element_custom_width": {
        "unit": "px",
        "size": 586
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
       }
      },
      "elements": []
     },
     {
-     "id": "11f361d0",
+     "id": "0e1581b0",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -355,7 +451,7 @@
      "elements": []
     },
     {
-     "id": "12313fd2",
+     "id": "0e535fb2",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -375,7 +471,7 @@
      "elements": []
     },
     {
-     "id": "1933650c",
+     "id": "155585ec",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -387,7 +483,7 @@
      "elements": []
     },
     {
-     "id": "1971430e",
+     "id": "159363ee",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -406,9 +502,484 @@
        "row": "0",
        "isLinked": false
       },
-      "flex_direction": "row"
+      "flex_direction": "row",
+      "flex_direction_tablet": "row",
+      "flex_direction_mobile": "column",
+      "flex_wrap_tablet": "wrap",
+      "flex_gap_tablet": {
+       "unit": "px",
+       "column": "25",
+       "row": "34",
+       "isLinked": false
+      },
+      "flex_gap_mobile": {
+       "unit": "px",
+       "column": "0",
+       "row": "34",
+       "isLinked": false
+      }
      },
      "elements": [
+      {
+       "id": "0f4ad7ba",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 368
+        },
+        "flex_shrink": "0",
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "flex_shrink_tablet": "1",
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_shrink_mobile": "1"
+       },
+       "elements": [
+        {
+         "id": "0e913db4",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "",
+           "id": "",
+           "alt": ""
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100
+          },
+          "css_classes": "slot--artifical-content",
+          "_css_classes": "slot--artifical-content",
+          "height": {
+           "unit": "px",
+           "size": 230
+          },
+          "object-fit": "cover"
+         },
+         "elements": []
+        },
+        {
+         "id": "0ecf1bb6",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 14
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0f0cf9b8",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "In a world full of artificial content, seek authenticity.",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 17
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 22.4
+          },
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": -0.17
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "10424fc2",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 368
+        },
+        "flex_shrink": "0",
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "flex_shrink_tablet": "1",
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_shrink_mobile": "1"
+       },
+       "elements": [
+        {
+         "id": "0f88b5bc",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "",
+           "id": "",
+           "alt": ""
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100
+          },
+          "css_classes": "slot--unnamed-13",
+          "_css_classes": "slot--unnamed-13",
+          "height": {
+           "unit": "px",
+           "size": 230
+          },
+          "object-fit": "cover"
+         },
+         "elements": []
+        },
+        {
+         "id": "0fc693be",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 14
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "100471c0",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Why you should be using videos on your socials in 2025",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 17
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 22.4
+          },
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": -0.17
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
+      {
+       "id": "1139c7ca",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 368
+        },
+        "flex_shrink": "0",
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "flex_shrink_tablet": "1",
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_shrink_mobile": "1"
+       },
+       "elements": [
+        {
+         "id": "10802dc4",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "",
+           "id": "",
+           "alt": ""
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100
+          },
+          "css_classes": "slot--unnamed-12",
+          "_css_classes": "slot--unnamed-12",
+          "height": {
+           "unit": "px",
+           "size": 230
+          },
+          "object-fit": "cover"
+         },
+         "elements": []
+        },
+        {
+         "id": "10be0bc6",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 14
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "10fbe9c8",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Creating impactful content — video production Sunshine Coast",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 17
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 22.4
+          },
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": -0.17
+          }
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "15d141f0",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 44
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "160f1ff2",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "46",
+       "row": "0",
+       "isLinked": false
+      },
+      "flex_direction": "row",
+      "flex_direction_tablet": "row",
+      "flex_direction_mobile": "column",
+      "flex_wrap_tablet": "wrap",
+      "flex_gap_tablet": {
+       "unit": "px",
+       "column": "25",
+       "row": "34",
+       "isLinked": false
+      },
+      "flex_gap_mobile": {
+       "unit": "px",
+       "column": "0",
+       "row": "34",
+       "isLinked": false
+      }
+     },
+     "elements": [
+      {
+       "id": "12313fd2",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": false
+        },
+        "flex_gap": {
+         "unit": "px",
+         "column": "0",
+         "row": "0",
+         "isLinked": false
+        },
+        "width": {
+         "unit": "px",
+         "size": 368
+        },
+        "flex_shrink": "0",
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "flex_shrink_tablet": "1",
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_shrink_mobile": "1"
+       },
+       "elements": [
+        {
+         "id": "1177a5cc",
+         "elType": "widget",
+         "widgetType": "image",
+         "settings": {
+          "image": {
+           "url": "",
+           "id": "",
+           "alt": ""
+          },
+          "image_size": "large",
+          "width": {
+           "unit": "%",
+           "size": 100
+          },
+          "css_classes": "slot--mikayo-qld-hydro-unisc-3",
+          "_css_classes": "slot--mikayo-qld-hydro-unisc-3",
+          "height": {
+           "unit": "px",
+           "size": 230
+          },
+          "object-fit": "cover"
+         },
+         "elements": []
+        },
+        {
+         "id": "11b583ce",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 14
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "11f361d0",
+         "elType": "widget",
+         "widgetType": "heading",
+         "settings": {
+          "title": "Harnessing professional videography for short-form videos",
+          "header_size": "h3",
+          "title_color": "#0F1012",
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 17
+          },
+          "typography_line_height": {
+           "unit": "px",
+           "size": 22.4
+          },
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": -0.17
+          }
+         },
+         "elements": []
+        }
+       ]
+      },
       {
        "id": "1328b7da",
        "elType": "container",
@@ -433,7 +1004,17 @@
          "unit": "px",
          "size": 368
         },
-        "flex_shrink": "0"
+        "flex_shrink": "0",
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "flex_shrink_tablet": "1",
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_shrink_mobile": "1"
        },
        "elements": [
         {
@@ -451,8 +1032,8 @@
            "unit": "%",
            "size": 100
           },
-          "css_classes": "slot--artifical-content",
-          "_css_classes": "slot--artifical-content",
+          "css_classes": "slot--formula-sports-32",
+          "_css_classes": "slot--formula-sports-32",
           "height": {
            "unit": "px",
            "size": 230
@@ -478,7 +1059,7 @@
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "In a world full of artificial content, seek authenticity.",
+          "title": "How product photography can transform your e-commerce",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -525,416 +1106,21 @@
          "unit": "px",
          "size": 368
         },
-        "flex_shrink": "0"
+        "flex_shrink": "0",
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "flex_shrink_tablet": "1",
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_shrink_mobile": "1"
        },
        "elements": [
         {
          "id": "136695dc",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "",
-           "id": "",
-           "alt": ""
-          },
-          "image_size": "large",
-          "width": {
-           "unit": "%",
-           "size": 100
-          },
-          "css_classes": "slot--unnamed-13",
-          "_css_classes": "slot--unnamed-13",
-          "height": {
-           "unit": "px",
-           "size": 230
-          },
-          "object-fit": "cover"
-         },
-         "elements": []
-        },
-        {
-         "id": "13a473de",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 14
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "13e251e0",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Why you should be using videos on your socials in 2025",
-          "header_size": "h3",
-          "title_color": "#0F1012",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "700",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 17
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 22.4
-          },
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": -0.17
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "1517a7ea",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "flex_gap": {
-         "unit": "px",
-         "column": "0",
-         "row": "0",
-         "isLinked": false
-        },
-        "width": {
-         "unit": "px",
-         "size": 368
-        },
-        "flex_shrink": "0"
-       },
-       "elements": [
-        {
-         "id": "145e0de4",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "",
-           "id": "",
-           "alt": ""
-          },
-          "image_size": "large",
-          "width": {
-           "unit": "%",
-           "size": 100
-          },
-          "css_classes": "slot--unnamed-12",
-          "_css_classes": "slot--unnamed-12",
-          "height": {
-           "unit": "px",
-           "size": 230
-          },
-          "object-fit": "cover"
-         },
-         "elements": []
-        },
-        {
-         "id": "149bebe6",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 14
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "14d9c9e8",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Creating impactful content — video production Sunshine Coast",
-          "header_size": "h3",
-          "title_color": "#0F1012",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "700",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 17
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 22.4
-          },
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": -0.17
-          }
-         },
-         "elements": []
-        }
-       ]
-      }
-     ]
-    },
-    {
-     "id": "19af2110",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 44
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "19ecff12",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "46",
-       "row": "0",
-       "isLinked": false
-      },
-      "flex_direction": "row"
-     },
-     "elements": [
-      {
-       "id": "160f1ff2",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "flex_gap": {
-         "unit": "px",
-         "column": "0",
-         "row": "0",
-         "isLinked": false
-        },
-        "width": {
-         "unit": "px",
-         "size": 368
-        },
-        "flex_shrink": "0"
-       },
-       "elements": [
-        {
-         "id": "155585ec",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "",
-           "id": "",
-           "alt": ""
-          },
-          "image_size": "large",
-          "width": {
-           "unit": "%",
-           "size": 100
-          },
-          "css_classes": "slot--mikayo-qld-hydro-unisc-3",
-          "_css_classes": "slot--mikayo-qld-hydro-unisc-3",
-          "height": {
-           "unit": "px",
-           "size": 230
-          },
-          "object-fit": "cover"
-         },
-         "elements": []
-        },
-        {
-         "id": "159363ee",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 14
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "15d141f0",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Harnessing professional videography for short-form videos",
-          "header_size": "h3",
-          "title_color": "#0F1012",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "700",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 17
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 22.4
-          },
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": -0.17
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "170697fa",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "flex_gap": {
-         "unit": "px",
-         "column": "0",
-         "row": "0",
-         "isLinked": false
-        },
-        "width": {
-         "unit": "px",
-         "size": 368
-        },
-        "flex_shrink": "0"
-       },
-       "elements": [
-        {
-         "id": "164cfdf4",
-         "elType": "widget",
-         "widgetType": "image",
-         "settings": {
-          "image": {
-           "url": "",
-           "id": "",
-           "alt": ""
-          },
-          "image_size": "large",
-          "width": {
-           "unit": "%",
-           "size": 100
-          },
-          "css_classes": "slot--formula-sports-32",
-          "_css_classes": "slot--formula-sports-32",
-          "height": {
-           "unit": "px",
-           "size": 230
-          },
-          "object-fit": "cover"
-         },
-         "elements": []
-        },
-        {
-         "id": "168adbf6",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 14
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "16c8b9f8",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "How product photography can transform your e-commerce",
-          "header_size": "h3",
-          "title_color": "#0F1012",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "700",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 17
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 22.4
-          },
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": -0.17
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "17fe0f02",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "flex_gap": {
-         "unit": "px",
-         "column": "0",
-         "row": "0",
-         "isLinked": false
-        },
-        "width": {
-         "unit": "px",
-         "size": 368
-        },
-        "flex_shrink": "0"
-       },
-       "elements": [
-        {
-         "id": "174475fc",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -959,7 +1145,7 @@
          "elements": []
         },
         {
-         "id": "178253fe",
+         "id": "13a473de",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -971,7 +1157,7 @@
          "elements": []
         },
         {
-         "id": "17c03100",
+         "id": "13e251e0",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1001,7 +1187,7 @@
      ]
     },
     {
-     "id": "0a2ade14",
+     "id": "164cfdf4",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1013,7 +1199,7 @@
      "elements": []
     },
     {
-     "id": "0a68bc16",
+     "id": "168adbf6",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1032,11 +1218,26 @@
        "row": "0",
        "isLinked": false
       },
-      "flex_direction": "row"
+      "flex_direction": "row",
+      "flex_direction_tablet": "row",
+      "flex_direction_mobile": "column",
+      "flex_wrap_tablet": "wrap",
+      "flex_gap_tablet": {
+       "unit": "px",
+       "column": "25",
+       "row": "34",
+       "isLinked": false
+      },
+      "flex_gap_mobile": {
+       "unit": "px",
+       "column": "0",
+       "row": "34",
+       "isLinked": false
+      }
      },
      "elements": [
       {
-       "id": "18f5870a",
+       "id": "1517a7ea",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1059,11 +1260,21 @@
          "unit": "px",
          "size": 368
         },
-        "flex_shrink": "0"
+        "flex_shrink": "0",
+        "width_tablet": {
+         "unit": "%",
+         "size": 48
+        },
+        "flex_shrink_tablet": "1",
+        "width_mobile": {
+         "unit": "%",
+         "size": 100
+        },
+        "flex_shrink_mobile": "1"
        },
        "elements": [
         {
-         "id": "183bed04",
+         "id": "145e0de4",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -1088,7 +1299,7 @@
          "elements": []
         },
         {
-         "id": "1879cb06",
+         "id": "149bebe6",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -1100,7 +1311,7 @@
          "elements": []
         },
         {
-         "id": "18b7a908",
+         "id": "14d9c9e8",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1132,7 +1343,7 @@
    ]
   },
   {
-   "id": "0d4f242e",
+   "id": "1971430e",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1158,11 +1369,41 @@
     "flex_direction": "row",
     "flex_align_items": "center",
     "background_background": "classic",
-    "background_color": "#16171A"
+    "background_color": "#16171A",
+    "flex_direction_tablet": "column",
+    "flex_direction_mobile": "column",
+    "flex_gap_tablet": {
+     "unit": "px",
+     "column": "0",
+     "row": "34",
+     "isLinked": false
+    },
+    "flex_gap_mobile": {
+     "unit": "px",
+     "column": "0",
+     "row": "34",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
    },
    "elements": [
     {
-     "id": "0c958a28",
+     "id": "18b7a908",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1185,11 +1426,21 @@
        "unit": "px",
        "size": 624
       },
-      "flex_shrink": "0"
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
      },
      "elements": [
       {
-       "id": "0ae4781a",
+       "id": "170697fa",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1216,7 +1467,7 @@
        "elements": []
       },
       {
-       "id": "0b22561c",
+       "id": "174475fc",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1228,7 +1479,7 @@
        "elements": []
       },
       {
-       "id": "0b60341e",
+       "id": "178253fe",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1254,21 +1505,45 @@
          "unit": "px",
          "size": 47.04
         },
+        "typography_line_height_tablet": {
+         "unit": "px",
+         "size": 35.28
+        },
+        "typography_line_height_mobile": {
+         "unit": "px",
+         "size": 27.44
+        },
         "typography_text_transform": "uppercase",
         "typography_letter_spacing": {
          "unit": "px",
          "size": -1.92
         },
+        "typography_letter_spacing_tablet": {
+         "unit": "px",
+         "size": -1.44
+        },
+        "typography_letter_spacing_mobile": {
+         "unit": "px",
+         "size": -1.12
+        },
         "_element_width": "initial",
         "_element_custom_width": {
          "unit": "px",
          "size": 586
+        },
+        "_element_custom_width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "_element_custom_width_mobile": {
+         "unit": "%",
+         "size": 100
         }
        },
        "elements": []
       },
       {
-       "id": "0b9e1220",
+       "id": "17c03100",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1280,7 +1555,7 @@
        "elements": []
       },
       {
-       "id": "0bdbf022",
+       "id": "17fe0f02",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1300,7 +1575,7 @@
        "elements": []
       },
       {
-       "id": "0c19ce24",
+       "id": "183bed04",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1312,7 +1587,7 @@
        "elements": []
       },
       {
-       "id": "0c57ac26",
+       "id": "1879cb06",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1334,7 +1609,7 @@
      ]
     },
     {
-     "id": "0d11462c",
+     "id": "1933650c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1357,11 +1632,21 @@
        "unit": "px",
        "size": 500
       },
-      "flex_shrink": "0"
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
      },
      "elements": [
       {
-       "id": "0cd3682a",
+       "id": "18f5870a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1381,7 +1666,15 @@
          "unit": "px",
          "size": 470
         },
-        "object-fit": "cover"
+        "object-fit": "cover",
+        "height_tablet": {
+         "unit": "px",
+         "size": 385
+        },
+        "height_mobile": {
+         "unit": "px",
+         "size": 260
+        }
        },
        "elements": []
       }
@@ -1390,7 +1683,7 @@
    ]
   },
   {
-   "id": "10736a48",
+   "id": "0c958a28",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1416,11 +1709,41 @@
     "flex_direction": "row",
     "flex_align_items": "center",
     "background_background": "classic",
-    "background_color": "#E4E5E1"
+    "background_color": "#E4E5E1",
+    "flex_direction_tablet": "column",
+    "flex_direction_mobile": "column",
+    "flex_gap_tablet": {
+     "unit": "px",
+     "column": "0",
+     "row": "34",
+     "isLinked": false
+    },
+    "flex_gap_mobile": {
+     "unit": "px",
+     "column": "0",
+     "row": "34",
+     "isLinked": false
+    },
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
    },
    "elements": [
     {
-     "id": "0fb9d042",
+     "id": "0bdbf022",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1443,11 +1766,21 @@
        "unit": "px",
        "size": 624
       },
-      "flex_shrink": "0"
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
      },
      "elements": [
       {
-       "id": "0d8d0230",
+       "id": "19af2110",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1474,7 +1807,7 @@
        "elements": []
       },
       {
-       "id": "0dcae032",
+       "id": "19ecff12",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1486,7 +1819,7 @@
        "elements": []
       },
       {
-       "id": "0e08be34",
+       "id": "0a2ade14",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -1512,21 +1845,45 @@
          "unit": "px",
          "size": 53.312
         },
+        "typography_line_height_tablet": {
+         "unit": "px",
+         "size": 37.52
+        },
+        "typography_line_height_mobile": {
+         "unit": "px",
+         "size": 28.63
+        },
         "typography_text_transform": "uppercase",
         "typography_letter_spacing": {
          "unit": "px",
          "size": -2.176
         },
+        "typography_letter_spacing_tablet": {
+         "unit": "px",
+         "size": -1.53
+        },
+        "typography_letter_spacing_mobile": {
+         "unit": "px",
+         "size": -1.17
+        },
         "_element_width": "initial",
         "_element_custom_width": {
          "unit": "px",
          "size": 620
+        },
+        "_element_custom_width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "_element_custom_width_mobile": {
+         "unit": "%",
+         "size": 100
         }
        },
        "elements": []
       },
       {
-       "id": "0e469c36",
+       "id": "0a68bc16",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1538,7 +1895,7 @@
        "elements": []
       },
       {
-       "id": "0e847a38",
+       "id": "0aa69a18",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -1558,7 +1915,7 @@
        "elements": []
       },
       {
-       "id": "0ec2583a",
+       "id": "0ae4781a",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -1570,7 +1927,7 @@
        "elements": []
       },
       {
-       "id": "0f7bf240",
+       "id": "0b9e1220",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1590,11 +1947,19 @@
          "isLinked": false
         },
         "flex_direction": "row",
-        "flex_wrap": "wrap"
+        "flex_wrap": "wrap",
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile": "column",
+        "flex_gap_mobile": {
+         "unit": "px",
+         "column": "0",
+         "row": "14",
+         "isLinked": false
+        }
        },
        "elements": [
         {
-         "id": "0f00363c",
+         "id": "0b22561c",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -1638,7 +2003,7 @@
          "elements": []
         },
         {
-         "id": "0f3e143e",
+         "id": "0b60341e",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -1696,7 +2061,7 @@
      ]
     },
     {
-     "id": "10358c46",
+     "id": "0c57ac26",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1719,11 +2084,21 @@
        "unit": "px",
        "size": 500
       },
-      "flex_shrink": "0"
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
      },
      "elements": [
       {
-       "id": "0ff7ae44",
+       "id": "0c19ce24",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -1743,7 +2118,15 @@
          "unit": "px",
          "size": 420
         },
-        "object-fit": "cover"
+        "object-fit": "cover",
+        "height_tablet": {
+         "unit": "px",
+         "size": 344
+        },
+        "height_mobile": {
+         "unit": "px",
+         "size": 260
+        }
        },
        "elements": []
       }
