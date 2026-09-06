@@ -4842,6 +4842,8 @@
        "isLinked": false
       },
       "flex_direction": "row",
+      "flex_wrap_tablet": "nowrap",
+      "flex_wrap_mobile": "nowrap",
       "border_border": "solid",
       "border_width": {
        "unit": "px",
@@ -5036,6 +5038,8 @@
        "isLinked": false
       },
       "flex_direction": "row",
+      "flex_wrap_tablet": "nowrap",
+      "flex_wrap_mobile": "nowrap",
       "border_border": "solid",
       "border_width": {
        "unit": "px",
@@ -5230,6 +5234,8 @@
        "isLinked": false
       },
       "flex_direction": "row",
+      "flex_wrap_tablet": "nowrap",
+      "flex_wrap_mobile": "nowrap",
       "border_border": "solid",
       "border_width": {
        "unit": "px",
@@ -5424,6 +5430,8 @@
        "isLinked": false
       },
       "flex_direction": "row",
+      "flex_wrap_tablet": "nowrap",
+      "flex_wrap_mobile": "nowrap",
       "border_border": "solid",
       "border_width": {
        "unit": "px",
