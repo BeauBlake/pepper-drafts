@@ -3688,7 +3688,6 @@
     },
     "background_background": "classic",
     "background_color": "#F3F3F0",
-    "custom_css": "@media(max-width:767px){selector .uael-img-gallery-item,selector .uael-grid-gallery-img{width:50%!important;max-width:50%!important;box-sizing:border-box}selector .uael-grid-gallery-img img{width:100%!important;height:auto!important}}",
     "padding_tablet": {
      "unit": "px",
      "top": "72",
@@ -5780,7 +5779,7 @@
    ]
   },
   {
-   "id": "0dd686ae",
+   "id": "0e9020b4",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -5795,7 +5794,7 @@
     },
     "flex_gap": {
      "unit": "px",
-     "column": "0",
+     "column": "72",
      "row": "0",
      "isLinked": false
     },
@@ -5803,8 +5802,24 @@
      "unit": "px",
      "size": 1196
     },
+    "flex_direction": "row",
+    "flex_align_items": "center",
     "background_background": "classic",
     "background_color": "#E4E5E1",
+    "flex_direction_tablet": "column",
+    "flex_direction_mobile": "column",
+    "flex_gap_tablet": {
+     "unit": "px",
+     "column": "0",
+     "row": "34",
+     "isLinked": false
+    },
+    "flex_gap_mobile": {
+     "unit": "px",
+     "column": "0",
+     "row": "34",
+     "isLinked": false
+    },
     "padding_tablet": {
      "unit": "px",
      "top": "72",
@@ -5824,154 +5839,7 @@
    },
    "elements": [
     {
-     "id": "0ba9b89c",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Next",
-      "header_size": "div",
-      "title_color": "#9FA09C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0be7969e",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 22
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0c2574a0",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Ready to look <span style=\"color:#7E807A\">the part?</span>",
-      "header_size": "h2",
-      "title_color": "#0F1012",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 54
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 38
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 29
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 53.312
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 37.52
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 28.63
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -2.176
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.53
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.17
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 620
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0c6352a2",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 24
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0ca130a4",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p style=\"margin:0;max-width:551px;\">Get in touch with our corporate photography team on the Sunshine Coast today for a tailored quote. Let's make your brand stand out with professional visual content that connects and converts.</p>",
-      "text_color": "#55575C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 16
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 26.88
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0cdf0ea6",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 34
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0d98a8ac",
+     "id": "0dd686ae",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -5986,117 +5854,353 @@
       },
       "flex_gap": {
        "unit": "px",
-       "column": "10",
-       "row": "10",
+       "column": "0",
+       "row": "0",
        "isLinked": false
       },
-      "flex_direction": "row",
-      "flex_wrap": "wrap",
-      "flex_direction_tablet": "row",
-      "flex_direction_mobile": "column",
-      "flex_gap_mobile": {
+      "width": {
        "unit": "px",
-       "column": "0",
-       "row": "14",
-       "isLinked": false
-      }
+       "size": 624
+      },
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
      },
      "elements": [
       {
-       "id": "0d1ceca8",
+       "id": "0ba9b89c",
        "elType": "widget",
-       "widgetType": "button",
+       "widgetType": "heading",
        "settings": {
-        "text": "Request a quote",
-        "link": {
-         "url": "/request-a-quote/",
-         "is_external": "",
-         "nofollow": ""
-        },
+        "title": "Next",
+        "header_size": "div",
+        "title_color": "#9FA09C",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
-        "typography_font_weight": "700",
+        "typography_font_weight": "600",
         "typography_font_size": {
          "unit": "px",
-         "size": 12
+         "size": 11
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 17.64
         },
         "typography_text_transform": "uppercase",
         "typography_letter_spacing": {
          "unit": "px",
-         "size": 2.76
-        },
-        "text_padding": {
-         "unit": "px",
-         "top": "20",
-         "right": "36",
-         "bottom": "20",
-         "left": "36",
-         "isLinked": false
-        },
-        "border_radius": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": true
-        },
-        "background_color": "#0F1012",
-        "button_text_color": "#FFFFFF"
+         "size": 3.36
+        }
        },
        "elements": []
       },
       {
-       "id": "0d5acaaa",
+       "id": "0be7969e",
        "elType": "widget",
-       "widgetType": "button",
+       "widgetType": "spacer",
        "settings": {
-        "text": "Contact us",
-        "link": {
-         "url": "/contact/",
-         "is_external": "",
-         "nofollow": ""
-        },
+        "space": {
+         "unit": "px",
+         "size": 22
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0c2574a0",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Ready to look <span style=\"color:#7E807A\">the part?</span>",
+        "header_size": "h2",
+        "title_color": "#0F1012",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
         "typography_font_weight": "700",
         "typography_font_size": {
          "unit": "px",
-         "size": 12
+         "size": 54
+        },
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": 38
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 29
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 53.312
+        },
+        "typography_line_height_tablet": {
+         "unit": "px",
+         "size": 37.52
+        },
+        "typography_line_height_mobile": {
+         "unit": "px",
+         "size": 28.63
         },
         "typography_text_transform": "uppercase",
         "typography_letter_spacing": {
          "unit": "px",
-         "size": 2.76
+         "size": -2.176
         },
-        "text_padding": {
+        "typography_letter_spacing_tablet": {
          "unit": "px",
-         "top": "20",
-         "right": "36",
-         "bottom": "20",
-         "left": "36",
-         "isLinked": false
+         "size": -1.53
         },
-        "border_radius": {
+        "typography_letter_spacing_mobile": {
+         "unit": "px",
+         "size": -1.17
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "px",
+         "size": 620
+        },
+        "_element_custom_width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "_element_custom_width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0c6352a2",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 24
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0ca130a4",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"margin:0;max-width:551px;\">Get in touch with our corporate photography team on the Sunshine Coast today for a tailored quote. Let's make your brand stand out with professional visual content that connects and converts.</p>",
+        "text_color": "#55575C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 16
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 26.88
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0cdf0ea6",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 34
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0d98a8ac",
+       "elType": "container",
+       "isInner": true,
+       "settings": {
+        "content_width": "full",
+        "padding": {
          "unit": "px",
          "top": "0",
          "right": "0",
          "bottom": "0",
          "left": "0",
-         "isLinked": true
+         "isLinked": false
         },
-        "background_color": "rgba(0,0,0,0)",
-        "button_text_color": "#0F1012",
-        "border_border": "solid",
-        "border_width": {
+        "flex_gap": {
          "unit": "px",
-         "top": "1",
-         "right": "1",
-         "bottom": "1",
-         "left": "1",
-         "isLinked": true
+         "column": "10",
+         "row": "10",
+         "isLinked": false
         },
-        "border_color": "#D3D4CF"
+        "flex_direction": "row",
+        "flex_wrap": "wrap",
+        "flex_direction_tablet": "row",
+        "flex_direction_mobile": "column",
+        "flex_gap_mobile": {
+         "unit": "px",
+         "column": "0",
+         "row": "14",
+         "isLinked": false
+        }
+       },
+       "elements": [
+        {
+         "id": "0d1ceca8",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Request a quote",
+          "link": {
+           "url": "/request-a-quote/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.76
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "36",
+           "bottom": "20",
+           "left": "36",
+           "isLinked": false
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "background_color": "#0F1012",
+          "button_text_color": "#FFFFFF"
+         },
+         "elements": []
+        },
+        {
+         "id": "0d5acaaa",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Contact us",
+          "link": {
+           "url": "/contact/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.76
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "36",
+           "bottom": "20",
+           "left": "36",
+           "isLinked": false
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "background_color": "rgba(0,0,0,0)",
+          "button_text_color": "#0F1012",
+          "border_border": "solid",
+          "border_width": {
+           "unit": "px",
+           "top": "1",
+           "right": "1",
+           "bottom": "1",
+           "left": "1",
+           "isLinked": true
+          },
+          "border_color": "#D3D4CF"
+         },
+         "elements": []
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "0e5242b2",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 500
+      },
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
+     },
+     "elements": [
+      {
+       "id": "0e1464b0",
+       "elType": "widget",
+       "widgetType": "shortcode",
+       "settings": {
+        "shortcode": "[gravityform id=\"2\" title=\"false\" description=\"false\" ajax=\"true\"]",
+        "css_classes": "slot--form-enquiry",
+        "_css_classes": "slot--form-enquiry"
        },
        "elements": []
       }
