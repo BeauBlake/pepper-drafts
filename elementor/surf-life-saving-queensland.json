@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "12430122",
+   "id": "0ee0dd06",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -45,7 +45,7 @@
    },
    "elements": [
     {
-     "id": "12052320",
+     "id": "0ea2ff04",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -80,7 +80,7 @@
    ]
   },
   {
-   "id": "14eb8b38",
+   "id": "1189671c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -124,7 +124,7 @@
    },
    "elements": [
     {
-     "id": "1280df24",
+     "id": "0f1ebb08",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -151,7 +151,7 @@
      "elements": []
     },
     {
-     "id": "12bebd26",
+     "id": "0f5c990a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -163,7 +163,7 @@
      "elements": []
     },
     {
-     "id": "12fc9b28",
+     "id": "0f9a770c",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -227,7 +227,7 @@
      "elements": []
     },
     {
-     "id": "133a792a",
+     "id": "0fd8550e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -239,7 +239,7 @@
      "elements": []
     },
     {
-     "id": "1378572c",
+     "id": "10163310",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -259,7 +259,7 @@
      "elements": []
     },
     {
-     "id": "13b6352e",
+     "id": "10541112",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -271,7 +271,7 @@
      "elements": []
     },
     {
-     "id": "146fcf34",
+     "id": "110dab18",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -303,7 +303,7 @@
      },
      "elements": [
       {
-       "id": "13f41330",
+       "id": "1091ef14",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -347,7 +347,7 @@
        "elements": []
       },
       {
-       "id": "1431f132",
+       "id": "10cfcd16",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -405,7 +405,7 @@
    ]
   },
   {
-   "id": "169c9d46",
+   "id": "133a792a",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -465,7 +465,7 @@
    },
    "elements": [
     {
-     "id": "1620e142",
+     "id": "12bebd26",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -502,7 +502,7 @@
      },
      "elements": [
       {
-       "id": "1529693a",
+       "id": "11c7451e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -566,7 +566,7 @@
        "elements": []
       },
       {
-       "id": "1567473c",
+       "id": "12052320",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -578,7 +578,7 @@
        "elements": []
       },
       {
-       "id": "15a5253e",
+       "id": "12430122",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -600,7 +600,7 @@
      ]
     },
     {
-     "id": "165ebf44",
+     "id": "12fc9b28",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -637,7 +637,7 @@
      },
      "elements": [
       {
-       "id": "15e30340",
+       "id": "1280df24",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -674,7 +674,7 @@
    ]
   },
   {
-   "id": "1794154e",
+   "id": "1431f132",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -718,7 +718,7 @@
    },
    "elements": [
     {
-     "id": "16da7b48",
+     "id": "1378572c",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -782,7 +782,7 @@
      "elements": []
     },
     {
-     "id": "1718594a",
+     "id": "13b6352e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -794,7 +794,7 @@
      "elements": []
     },
     {
-     "id": "1756374c",
+     "id": "13f41330",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -816,7 +816,7 @@
    ]
   },
   {
-   "id": "1983055e",
+   "id": "1620e142",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -860,7 +860,7 @@
    },
    "elements": [
     {
-     "id": "188b8d56",
+     "id": "1529693a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -887,7 +887,7 @@
      "elements": []
     },
     {
-     "id": "180fd152",
+     "id": "14adad36",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -899,7 +899,7 @@
      "elements": []
     },
     {
-     "id": "184daf54",
+     "id": "14eb8b38",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -963,7 +963,7 @@
      "elements": []
     },
     {
-     "id": "18c96b58",
+     "id": "1567473c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -975,7 +975,7 @@
      "elements": []
     },
     {
-     "id": "1945275c",
+     "id": "15e30340",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1012,7 +1012,7 @@
      },
      "elements": [
       {
-       "id": "1907495a",
+       "id": "15a5253e",
        "elType": "widget",
        "widgetType": "video",
        "settings": {
@@ -1040,7 +1040,7 @@
    ]
   },
   {
-   "id": "19fec162",
+   "id": "169c9d46",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1084,7 +1084,7 @@
    },
    "elements": [
     {
-     "id": "19c0e360",
+     "id": "165ebf44",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -1106,7 +1106,7 @@
    ]
   },
   {
-   "id": "0ab85c68",
+   "id": "1756374c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1150,7 +1150,7 @@
    },
    "elements": [
     {
-     "id": "0a3ca064",
+     "id": "16da7b48",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1162,7 +1162,7 @@
      "elements": []
     },
     {
-     "id": "0a7a7e66",
+     "id": "1718594a",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1184,7 +1184,7 @@
    ]
   },
   {
-   "id": "0bafd470",
+   "id": "184daf54",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1228,7 +1228,7 @@
    },
    "elements": [
     {
-     "id": "0af63a6a",
+     "id": "1794154e",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1292,7 +1292,7 @@
      "elements": []
     },
     {
-     "id": "0b34186c",
+     "id": "17d1f350",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1304,7 +1304,7 @@
      "elements": []
     },
     {
-     "id": "0b71f66e",
+     "id": "180fd152",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1326,7 +1326,7 @@
    ]
   },
   {
-   "id": "0d60e67e",
+   "id": "19fec162",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1370,7 +1370,7 @@
    },
    "elements": [
     {
-     "id": "0c696e76",
+     "id": "1907495a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1397,7 +1397,7 @@
      "elements": []
     },
     {
-     "id": "0c2b9074",
+     "id": "18c96b58",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1409,7 +1409,7 @@
      "elements": []
     },
     {
-     "id": "0ca74c78",
+     "id": "1945275c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1421,7 +1421,7 @@
      "elements": []
     },
     {
-     "id": "0d23087c",
+     "id": "19c0e360",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1458,12 +1458,380 @@
      },
      "elements": [
       {
-       "id": "0ce52a7a",
+       "id": "1983055e",
        "elType": "widget",
        "widgetType": "video",
        "settings": {
         "video_type": "youtube",
         "youtube_url": "https://www.youtube.com/watch?v=GFjqKwTZOUQ",
+        "show_image_overlay": "yes",
+        "image_overlay": {
+         "url": "",
+         "id": ""
+        },
+        "image_overlay_size": "large",
+        "show_play_icon": "yes",
+        "aspect_ratio": "169",
+        "play_icon": {
+         "value": "fab fa-youtube",
+         "library": "fa-brands"
+        },
+        "css_classes": "slot--reel-overlay",
+        "_css_classes": "slot--reel-overlay"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "0a7a7e66",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "0a3ca064",
+     "elType": "widget",
+     "widgetType": "image",
+     "settings": {
+      "image": {
+       "url": "",
+       "id": "",
+       "alt": "Screenshot 2026-01-13 at 2.26.43 pm copy"
+      },
+      "image_size": "large",
+      "width": {
+       "unit": "%",
+       "size": 100
+      },
+      "css_classes": "slot--screenshot-2026-01-13-at-2-26-43-pm-copy-scaled",
+      "_css_classes": "slot--screenshot-2026-01-13-at-2-26-43-pm-copy-scaled"
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "0b71f66e",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#E4E5E1",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "0ab85c68",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Drone, Water and <span style=\"color:#7E807A\">land.</span>",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.28
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.44
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.44
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -1.12
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0af63a6a",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0b34186c",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0;max-width:615px;\">In 2025, SLSQ invited Pepper to document the Advanced Life Saving Development Program (ALDP) for the second time — a testament to the trust built through our ongoing collaboration.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">The crew packed the Pepper van and headed across to North Stradbroke Island, capturing an action-packed weekend of elite training, teamwork, and surf conditions. Working in a remote coastal location required a production team that could move fast, adapt quickly, and maintain broadcast-level quality throughout.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">The final content highlights the intensity, professionalism, and camaraderie of the ALDP, supporting SLSQ’s mission to develop the next generation of surf lifesaving leaders through high-quality training program videography.</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "0d23087c",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "96",
+     "right": "52",
+     "bottom": "96",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#16171A",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "66",
+     "right": "32",
+     "bottom": "66",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "52",
+     "right": "20",
+     "bottom": "52",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "0c2b9074",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Watch",
+      "header_size": "div",
+      "title_color": "#C3C4C0",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0bedb272",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 27
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0c696e76",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 40
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0ce52a7a",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 780
+      },
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
+     },
+     "elements": [
+      {
+       "id": "0ca74c78",
+       "elType": "widget",
+       "widgetType": "video",
+       "settings": {
+        "video_type": "youtube",
+        "youtube_url": "https://www.youtube.com/watch?v=0FTyWJ7oNGo",
         "show_image_overlay": "yes",
         "image_overlay": {
          "url": "",
@@ -1530,29 +1898,38 @@
    },
    "elements": [
     {
+     "id": "0d60e67e",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34
+      }
+     },
+     "elements": []
+    },
+    {
      "id": "0d9ec480",
      "elType": "widget",
-     "widgetType": "image",
+     "widgetType": "uael-image-gallery",
      "settings": {
-      "image": {
-       "url": "",
-       "id": "",
-       "alt": "Screenshot 2026-01-13 at 2.26.43 pm copy"
-      },
+      "wp_gallery": [],
+      "gallery_style": "masonry",
+      "gallery_columns": "3",
+      "gallery_columns_tablet": "2",
+      "gallery_columns_mobile": "1",
       "image_size": "large",
-      "width": {
-       "unit": "%",
-       "size": 100
-      },
-      "css_classes": "slot--screenshot-2026-01-13-at-2-26-43-pm-copy-scaled",
-      "_css_classes": "slot--screenshot-2026-01-13-at-2-26-43-pm-copy-scaled"
+      "click_action": "lightbox",
+      "css_classes": "slot--gallery",
+      "_css_classes": "slot--gallery"
      },
      "elements": []
     }
    ]
   },
   {
-   "id": "0ed41a8a",
+   "id": "10474e96",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1600,383 +1977,6 @@
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Drone, Water and <span style=\"color:#7E807A\">land.</span>",
-      "header_size": "h2",
-      "title_color": "#0F1012",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0e585e86",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 26
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0e963c88",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p style=\"margin:0;max-width:615px;\">In 2025, SLSQ invited Pepper to document the Advanced Life Saving Development Program (ALDP) for the second time — a testament to the trust built through our ongoing collaboration.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">The crew packed the Pepper van and headed across to North Stradbroke Island, capturing an action-packed weekend of elite training, teamwork, and surf conditions. Working in a remote coastal location required a production team that could move fast, adapt quickly, and maintain broadcast-level quality throughout.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">The final content highlights the intensity, professionalism, and camaraderie of the ALDP, supporting SLSQ’s mission to develop the next generation of surf lifesaving leaders through high-quality training program videography.</p>",
-      "text_color": "#55575C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 16
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 26.88
-      }
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "10852c98",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "96",
-     "right": "52",
-     "bottom": "96",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#16171A",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "66",
-     "right": "32",
-     "bottom": "66",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "52",
-     "right": "20",
-     "bottom": "52",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "0f8db490",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Watch",
-      "header_size": "div",
-      "title_color": "#C3C4C0",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0f4fd68e",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 27
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0fcb9292",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 40
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "10474e96",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      },
-      "width": {
-       "unit": "px",
-       "size": 780
-      },
-      "flex_shrink": "0",
-      "width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_tablet": "1",
-      "width_mobile": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_mobile": "1"
-     },
-     "elements": [
-      {
-       "id": "10097094",
-       "elType": "widget",
-       "widgetType": "video",
-       "settings": {
-        "video_type": "youtube",
-        "youtube_url": "https://www.youtube.com/watch?v=0FTyWJ7oNGo",
-        "show_image_overlay": "yes",
-        "image_overlay": {
-         "url": "",
-         "id": ""
-        },
-        "image_overlay_size": "large",
-        "show_play_icon": "yes",
-        "aspect_ratio": "169",
-        "play_icon": {
-         "value": "fab fa-youtube",
-         "library": "fa-brands"
-        },
-        "css_classes": "slot--reel-overlay",
-        "_css_classes": "slot--reel-overlay"
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "113ec69e",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "104",
-     "right": "52",
-     "bottom": "104",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#FFFFFF",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "72",
-     "right": "32",
-     "bottom": "72",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "56",
-     "right": "20",
-     "bottom": "56",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "10c30a9a",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 34
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "1100e89c",
-     "elType": "widget",
-     "widgetType": "uael-image-gallery",
-     "settings": {
-      "wp_gallery": [],
-      "gallery_style": "masonry",
-      "gallery_columns": "3",
-      "gallery_columns_tablet": "2",
-      "gallery_columns_mobile": "1",
-      "image_size": "large",
-      "click_action": "lightbox",
-      "css_classes": "slot--gallery",
-      "_css_classes": "slot--gallery"
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "13a972b2",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "104",
-     "right": "52",
-     "bottom": "104",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#E4E5E1",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "72",
-     "right": "32",
-     "bottom": "72",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "56",
-     "right": "20",
-     "bottom": "56",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "117ca4a0",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
       "title": "Next",
       "header_size": "div",
       "title_color": "#9FA09C",
@@ -2000,7 +2000,7 @@
      "elements": []
     },
     {
-     "id": "11ba82a2",
+     "id": "0e585e86",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2012,7 +2012,7 @@
      "elements": []
     },
     {
-     "id": "11f860a4",
+     "id": "0e963c88",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -2076,7 +2076,7 @@
      "elements": []
     },
     {
-     "id": "12363ea6",
+     "id": "0ed41a8a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2088,7 +2088,7 @@
      "elements": []
     },
     {
-     "id": "12741ca8",
+     "id": "0f11f88c",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -2108,7 +2108,7 @@
      "elements": []
     },
     {
-     "id": "12b1faaa",
+     "id": "0f4fd68e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -2120,7 +2120,7 @@
      "elements": []
     },
     {
-     "id": "136b94b0",
+     "id": "10097094",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2152,7 +2152,7 @@
      },
      "elements": [
       {
-       "id": "12efd8ac",
+       "id": "0f8db490",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -2196,7 +2196,7 @@
        "elements": []
       },
       {
-       "id": "132db6ae",
+       "id": "0fcb9292",
        "elType": "widget",
        "widgetType": "button",
        "settings": {

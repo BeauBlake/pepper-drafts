@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "0a28edaa",
+   "id": "16c6c88e",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -45,7 +45,7 @@
    },
    "elements": [
     {
-     "id": "19eb0ea8",
+     "id": "1688ea8c",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -80,7 +80,7 @@
    ]
   },
   {
-   "id": "0cd177c0",
+   "id": "196f52a4",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -124,7 +124,7 @@
    },
    "elements": [
     {
-     "id": "0a66cbac",
+     "id": "1704a690",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -151,7 +151,7 @@
      "elements": []
     },
     {
-     "id": "0aa4a9ae",
+     "id": "17428492",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -163,7 +163,7 @@
      "elements": []
     },
     {
-     "id": "0ae287b0",
+     "id": "17806294",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -227,7 +227,7 @@
      "elements": []
     },
     {
-     "id": "0b2065b2",
+     "id": "17be4096",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -239,7 +239,7 @@
      "elements": []
     },
     {
-     "id": "0b5e43b4",
+     "id": "17fc1e98",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -259,7 +259,7 @@
      "elements": []
     },
     {
-     "id": "0b9c21b6",
+     "id": "1839fc9a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -271,7 +271,7 @@
      "elements": []
     },
     {
-     "id": "0c55bbbc",
+     "id": "18f396a0",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -303,7 +303,7 @@
      },
      "elements": [
       {
-       "id": "0bd9ffb8",
+       "id": "1877da9c",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -347,7 +347,7 @@
        "elements": []
       },
       {
-       "id": "0c17ddba",
+       "id": "18b5b89e",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -405,7 +405,7 @@
    ]
   },
   {
-   "id": "0e8289ce",
+   "id": "0b2065b2",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -465,7 +465,7 @@
    },
    "elements": [
     {
-     "id": "0e06cdca",
+     "id": "0aa4a9ae",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -502,7 +502,7 @@
      },
      "elements": [
       {
-       "id": "0d0f55c2",
+       "id": "19ad30a6",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -566,7 +566,7 @@
        "elements": []
       },
       {
-       "id": "0d4d33c4",
+       "id": "19eb0ea8",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -578,7 +578,7 @@
        "elements": []
       },
       {
-       "id": "0d8b11c6",
+       "id": "0a28edaa",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -600,7 +600,7 @@
      ]
     },
     {
-     "id": "0e44abcc",
+     "id": "0ae287b0",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -637,7 +637,7 @@
      },
      "elements": [
       {
-       "id": "0dc8efc8",
+       "id": "0a66cbac",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -670,6 +670,438 @@
        "elements": []
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "0c17ddba",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "0b5e43b4",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Twin 55&#x27;s",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.28
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.44
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.44
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -1.12
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0b9c21b6",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0bd9ffb8",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0;max-width:615px;\">This project required a balance of creative storytelling and technical precision. Our Sunshine Coast videographers captured cinematic drone footage that showcased the scale and performance of the Cure 55 under sail, paired with lifestyle visuals that reflected the experience of being on board.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">Filming along the Sunshine Coast coastline from Mooloolaba to Coolum allowed us to produce high end marine video content that feels both aspirational and authentic. With ideal sailing conditions across multiple shoot days, we were able to deliver smooth, dynamic visuals designed to support Cure Marine’s marketing and sales channels.</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "0e06cdca",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "96",
+     "right": "52",
+     "bottom": "96",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#16171A",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "66",
+     "right": "32",
+     "bottom": "66",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "52",
+     "right": "20",
+     "bottom": "52",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "0d0f55c2",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Watch",
+      "header_size": "div",
+      "title_color": "#C3C4C0",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0c9399be",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 27
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0cd177c0",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "From the <span style=\"color:#C3C4C0\">shoot.</span>",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.28
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.44
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.44
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -1.12
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0d4d33c4",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 40
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0dc8efc8",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 780
+      },
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
+     },
+     "elements": [
+      {
+       "id": "0d8b11c6",
+       "elType": "widget",
+       "widgetType": "video",
+       "settings": {
+        "video_type": "youtube",
+        "youtube_url": "https://www.youtube.com/watch?v=vW9qBPbB1og",
+        "show_image_overlay": "yes",
+        "image_overlay": {
+         "url": "",
+         "id": ""
+        },
+        "image_overlay_size": "large",
+        "show_play_icon": "yes",
+        "aspect_ratio": "169",
+        "play_icon": {
+         "value": "fab fa-youtube",
+         "library": "fa-brands"
+        },
+        "css_classes": "slot--reel-overlay",
+        "_css_classes": "slot--reel-overlay"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "0e8289ce",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#E4E5E1",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "0e44abcc",
+     "elType": "widget",
+     "widgetType": "image",
+     "settings": {
+      "image": {
+       "url": "",
+       "id": "",
+       "alt": "Cure-55-2-59.webp"
+      },
+      "image_size": "large",
+      "width": {
+       "unit": "%",
+       "size": 100
+      },
+      "css_classes": "slot--cure-55-2-59-1",
+      "_css_classes": "slot--cure-55-2-59-1"
+     },
+     "elements": []
     }
    ]
   },
@@ -722,7 +1154,7 @@
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Twin 55&#x27;s",
+      "title": "All The Little <span style=\"color:#7E807A\">Details.</span>",
       "header_size": "h2",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -798,438 +1230,6 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"margin:0;max-width:615px;\">This project required a balance of creative storytelling and technical precision. Our Sunshine Coast videographers captured cinematic drone footage that showcased the scale and performance of the Cure 55 under sail, paired with lifestyle visuals that reflected the experience of being on board.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">Filming along the Sunshine Coast coastline from Mooloolaba to Coolum allowed us to produce high end marine video content that feels both aspirational and authentic. With ideal sailing conditions across multiple shoot days, we were able to deliver smooth, dynamic visuals designed to support Cure Marine’s marketing and sales channels.</p>",
-      "text_color": "#55575C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 16
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 26.88
-      }
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "1168f1e6",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "96",
-     "right": "52",
-     "bottom": "96",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#16171A",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "66",
-     "right": "32",
-     "bottom": "66",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "52",
-     "right": "20",
-     "bottom": "52",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "107179de",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Watch",
-      "header_size": "div",
-      "title_color": "#C3C4C0",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0ff5bdda",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 27
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "10339bdc",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "From the <span style=\"color:#C3C4C0\">shoot.</span>",
-      "header_size": "h2",
-      "title_color": "#FFFFFF",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "10af57e0",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 40
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "112b13e4",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      },
-      "width": {
-       "unit": "px",
-       "size": 780
-      },
-      "flex_shrink": "0",
-      "width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_tablet": "1",
-      "width_mobile": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_mobile": "1"
-     },
-     "elements": [
-      {
-       "id": "10ed35e2",
-       "elType": "widget",
-       "widgetType": "video",
-       "settings": {
-        "video_type": "youtube",
-        "youtube_url": "https://www.youtube.com/watch?v=vW9qBPbB1og",
-        "show_image_overlay": "yes",
-        "image_overlay": {
-         "url": "",
-         "id": ""
-        },
-        "image_overlay_size": "large",
-        "show_play_icon": "yes",
-        "aspect_ratio": "169",
-        "play_icon": {
-         "value": "fab fa-youtube",
-         "library": "fa-brands"
-        },
-        "css_classes": "slot--reel-overlay",
-        "_css_classes": "slot--reel-overlay"
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "11e4adea",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "104",
-     "right": "52",
-     "bottom": "104",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#E4E5E1",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "72",
-     "right": "32",
-     "bottom": "72",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "56",
-     "right": "20",
-     "bottom": "56",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "11a6cfe8",
-     "elType": "widget",
-     "widgetType": "image",
-     "settings": {
-      "image": {
-       "url": "",
-       "id": "",
-       "alt": "Cure-55-2-59.webp"
-      },
-      "image_size": "large",
-      "width": {
-       "unit": "%",
-       "size": 100
-      },
-      "css_classes": "slot--cure-55-2-59-1",
-      "_css_classes": "slot--cure-55-2-59-1"
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "12dc25f2",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "104",
-     "right": "52",
-     "bottom": "104",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#FFFFFF",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "72",
-     "right": "32",
-     "bottom": "72",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "56",
-     "right": "20",
-     "bottom": "56",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "12228bec",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "All The Little <span style=\"color:#7E807A\">Details.</span>",
-      "header_size": "h2",
-      "title_color": "#0F1012",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "126069ee",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 26
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "129e47f0",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
       "editor": "<p style=\"margin:0;max-width:615px;\">Beyond the lifestyle visuals, we also produced a full walkthrough video with Dave, one of the owners of Cure Marine. This video was designed to give prospective buyers a complete understanding of the Cure 55 carbon catamaran, from design and layout through to the finer details that set it apart.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">This style of content is a powerful tool for luxury and marine brands, allowing customers to experience the product before stepping on board.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
@@ -1248,7 +1248,7 @@
    ]
   },
   {
-   "id": "1395bff8",
+   "id": "10339bdc",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1292,7 +1292,7 @@
    },
    "elements": [
     {
-     "id": "131a03f4",
+     "id": "0fb7dfd8",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1304,7 +1304,7 @@
      "elements": []
     },
     {
-     "id": "1357e1f6",
+     "id": "0ff5bdda",
      "elType": "widget",
      "widgetType": "uael-image-gallery",
      "settings": {
@@ -1323,7 +1323,7 @@
    ]
   },
   {
-   "id": "16006b0c",
+   "id": "129e47f0",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1367,7 +1367,7 @@
    },
    "elements": [
     {
-     "id": "13d39dfa",
+     "id": "107179de",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1394,7 +1394,7 @@
      "elements": []
     },
     {
-     "id": "14117bfc",
+     "id": "10af57e0",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1406,7 +1406,7 @@
      "elements": []
     },
     {
-     "id": "144f59fe",
+     "id": "10ed35e2",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1470,7 +1470,7 @@
      "elements": []
     },
     {
-     "id": "148d3700",
+     "id": "112b13e4",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1482,7 +1482,7 @@
      "elements": []
     },
     {
-     "id": "14cb1502",
+     "id": "1168f1e6",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1502,7 +1502,7 @@
      "elements": []
     },
     {
-     "id": "1508f304",
+     "id": "11a6cfe8",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1514,7 +1514,7 @@
      "elements": []
     },
     {
-     "id": "15c28d0a",
+     "id": "126069ee",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1546,7 +1546,7 @@
      },
      "elements": [
       {
-       "id": "1546d106",
+       "id": "11e4adea",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1590,7 +1590,7 @@
        "elements": []
       },
       {
-       "id": "1584af08",
+       "id": "12228bec",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
