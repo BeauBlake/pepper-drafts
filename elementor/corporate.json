@@ -2096,15 +2096,15 @@
           "image": {
            "url": "",
            "id": "",
-           "alt": "Corporate portrait for Aurora"
+           "alt": "Swimart franchisee photographed at work, a corporate portrait on location"
           },
           "image_size": "large",
           "width": {
            "unit": "%",
            "size": 100
           },
-          "css_classes": "slot--aurora-bwlifted-129-scaled",
-          "_css_classes": "slot--aurora-bwlifted-129-scaled",
+          "css_classes": "slot--swimart147-copy",
+          "_css_classes": "slot--swimart147-copy",
           "height": {
            "unit": "px",
            "size": 300
@@ -2199,20 +2199,21 @@
           "image": {
            "url": "",
            "id": "",
-           "alt": "Professional headshot"
+           "alt": "Black and white studio headshot of an Aurora executive"
           },
           "image_size": "large",
           "width": {
            "unit": "%",
            "size": 100
           },
-          "css_classes": "slot--beaub-9941-copy-e1664148116740",
-          "_css_classes": "slot--beaub-9941-copy-e1664148116740",
+          "css_classes": "slot--aurora-bwlifted-129-scaled",
+          "_css_classes": "slot--aurora-bwlifted-129-scaled",
           "height": {
            "unit": "px",
            "size": 300
           },
-          "object-fit": "cover"
+          "object-fit": "cover",
+          "object-position": "50% 0%"
          },
          "elements": []
         },
@@ -2302,15 +2303,15 @@
           "image": {
            "url": "",
            "id": "",
-           "alt": "North Coast Veterinary Specialists team"
+           "alt": "A workshop team photographed together outside their premises"
           },
           "image_size": "large",
           "width": {
            "unit": "%",
            "size": 100
           },
-          "css_classes": "slot--ncve-167-copy-e1664147917473",
-          "_css_classes": "slot--ncve-167-copy-e1664147917473",
+          "css_classes": "slot--beaub-9941-copy-e1664148116740",
+          "_css_classes": "slot--beaub-9941-copy-e1664148116740",
           "height": {
            "unit": "px",
            "size": 300
