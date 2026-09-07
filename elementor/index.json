@@ -1134,11 +1134,12 @@
          "elType": "widget",
          "widgetType": "button",
          "settings": {
-          "text": "&nbsp;&nbsp;Watch with sound",
+          "text": "Watch with sound",
           "link": {
-           "url": "https://www.youtube.com/watch?v=5yY8V4UWRhw",
+           "url": "https://www.youtube.com/watch?v=azICrGNtRbE",
            "is_external": "",
-           "nofollow": ""
+           "nofollow": "",
+           "custom_attributes": "data-elementor-open-lightbox|yes,data-elementor-lightbox-video|https://www.youtube.com/watch?v=azICrGNtRbE"
           },
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -1217,33 +1218,25 @@
       {
        "id": "14cd066c",
        "elType": "widget",
-       "widgetType": "image",
+       "widgetType": "video",
        "settings": {
-        "image": {
+        "video_type": "youtube",
+        "youtube_url": "https://www.youtube.com/watch?v=azICrGNtRbE",
+        "show_image_overlay": "yes",
+        "image_overlay": {
          "url": "",
-         "id": "",
-         "alt": "Pepper Productions crew filming an interview on location"
+         "id": ""
         },
-        "image_size": "large",
-        "width": {
-         "unit": "%",
-         "size": 100
+        "image_overlay_size": "large",
+        "show_play_icon": "yes",
+        "aspect_ratio": "169",
+        "play_icon": {
+         "value": "fab fa-youtube",
+         "library": "fa-brands"
         },
         "css_classes": "slot--showreel-cover",
         "_css_classes": "slot--showreel-cover",
-        "height": {
-         "unit": "px",
-         "size": 400
-        },
-        "object-fit": "cover",
-        "height_tablet": {
-         "unit": "px",
-         "size": 328
-        },
-        "height_mobile": {
-         "unit": "px",
-         "size": 260
-        }
+        "lightbox": "yes"
        },
        "elements": []
       },
@@ -1264,7 +1257,7 @@
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
-        "title": "PEPPER — We Live to Tell Your Tale",
+        "title": "PEPPER — Corporate Showreel",
         "header_size": "div",
         "title_color": "#9FA09C",
         "typography_typography": "custom",

@@ -266,7 +266,6 @@
  "index": {
   "images": {
    "banner-fallback": "https://pepperproductions.com.au/wp-content/uploads/outdoor-majestic.webp",
-   "showreel-cover": "showreel-cover.jpg",
    "bb1-0953-copy": "https://pepperproductions.com.au/wp-content/uploads/BB1_0953-copy.webp",
    "cure-10": "https://pepperproductions.com.au/wp-content/uploads/Cure-10.jpg",
    "slsqlg-6508-copy": "https://pepperproductions.com.au/wp-content/uploads/SLSQLG-6508-copy.webp",
@@ -285,7 +284,7 @@
    "https://pepperproductions.com.au/wp-content/uploads/comlink-1.svg",
    "https://pepperproductions.com.au/wp-content/uploads/aa-ANTA-Logo-CMYK-300x300.jpg"
   ],
-  "overlay": null
+  "overlay": "showreel-cover.jpg"
  },
  "aurora-global-logistics": {
   "images": {
