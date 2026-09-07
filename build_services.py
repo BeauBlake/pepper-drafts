@@ -210,9 +210,11 @@ PROCESS = [
   "ensuring we capture everything you need.", False),
  ("Shoot day",
   "Our professional team will guide you through a seamless and stress-free shoot.", False),
+ # Approved by Beau, 8 Sept - the marker is off. It was the one "new copy"
+ # sentence, written to replace the banned "Professional quality".
  ("Post-production",
   "We edit, grade and deliver polished content, built for the platforms where it needs to "
-  "perform.", True),
+  "perform.", False),
 ]
 
 
