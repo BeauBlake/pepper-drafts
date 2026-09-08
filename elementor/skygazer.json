@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "0e0fae72",
+   "id": "18cb5cc2",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -45,7 +45,7 @@
    },
    "elements": [
     {
-     "id": "0dd1d070",
+     "id": "188d7ec0",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -80,7 +80,7 @@
    ]
   },
   {
-   "id": "10b83888",
+   "id": "0b73e7d8",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -124,7 +124,7 @@
    },
    "elements": [
     {
-     "id": "0e4d8c74",
+     "id": "19093ac4",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -151,7 +151,7 @@
      "elements": []
     },
     {
-     "id": "0e8b6a76",
+     "id": "194718c6",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -163,7 +163,7 @@
      "elements": []
     },
     {
-     "id": "0ec94878",
+     "id": "1984f6c8",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -227,7 +227,7 @@
      "elements": []
     },
     {
-     "id": "0f07267a",
+     "id": "19c2d4ca",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -239,7 +239,7 @@
      "elements": []
     },
     {
-     "id": "0f45047c",
+     "id": "0a00b3cc",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -259,7 +259,7 @@
      "elements": []
     },
     {
-     "id": "0f82e27e",
+     "id": "0a3e91ce",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -271,7 +271,7 @@
      "elements": []
     },
     {
-     "id": "103c7c84",
+     "id": "0af82bd4",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -303,7 +303,7 @@
      },
      "elements": [
       {
-       "id": "0fc0c080",
+       "id": "0a7c6fd0",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -347,7 +347,7 @@
        "elements": []
       },
       {
-       "id": "0ffe9e82",
+       "id": "0aba4dd2",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -405,7 +405,7 @@
    ]
   },
   {
-   "id": "11afb090",
+   "id": "0c6b5fe0",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -449,7 +449,7 @@
    },
    "elements": [
     {
-     "id": "10f6168a",
+     "id": "0bb1c5da",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -513,7 +513,7 @@
      "elements": []
     },
     {
-     "id": "1133f48c",
+     "id": "0befa3dc",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -525,7 +525,7 @@
      "elements": []
     },
     {
-     "id": "1171d28e",
+     "id": "0c2d81de",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -547,7 +547,7 @@
    ]
   },
   {
-   "id": "12a72898",
+   "id": "0e1c71ee",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -562,7 +562,7 @@
     },
     "flex_gap": {
      "unit": "px",
-     "column": "0",
+     "column": "72",
      "row": "0",
      "isLinked": false
     },
@@ -570,8 +570,24 @@
      "unit": "px",
      "size": 1196
     },
+    "flex_direction": "row",
+    "flex_align_items": "center",
     "background_background": "classic",
     "background_color": "#FFFFFF",
+    "flex_direction_tablet": "column",
+    "flex_direction_mobile": "column",
+    "flex_gap_tablet": {
+     "unit": "px",
+     "column": "0",
+     "row": "34",
+     "isLinked": false
+    },
+    "flex_gap_mobile": {
+     "unit": "px",
+     "column": "0",
+     "row": "34",
+     "isLinked": false
+    },
     "padding_tablet": {
      "unit": "px",
      "top": "72",
@@ -591,264 +607,7 @@
    },
    "elements": [
     {
-     "id": "11ed8e92",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "How We <span style=\"color:#7E807A\">Helped.</span>",
-      "header_size": "h2",
-      "title_color": "#0F1012",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "122b6c94",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 26
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "12694a96",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p style=\"margin:0;max-width:615px;\">We planned everything to a tee but also left room for those candid moments and shots every photographer strives for. When D-Day came, we had everything ready to go – we even had the help of a furry friend. Things went so smoothly, and Sky Gazer had so much confidence they were happy to let us run the show whilst they continued to work. We captured enough content to last them for months. We’re talking collateral that could be used across their website, socials, ads and all sorts of marketing material. We pulled this off with:</p>",
-      "text_color": "#55575C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 16
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 26.88
-      }
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "149618a8",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "96",
-     "right": "52",
-     "bottom": "96",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#16171A",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "66",
-     "right": "32",
-     "bottom": "66",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "52",
-     "right": "20",
-     "bottom": "52",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "139ea0a0",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Watch",
-      "header_size": "div",
-      "title_color": "#C3C4C0",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "1322e49c",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 27
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "1360c29e",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "From the <span style=\"color:#C3C4C0\">shoot.</span>",
-      "header_size": "h2",
-      "title_color": "#FFFFFF",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "13dc7ea2",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 40
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "14583aa6",
+     "id": "0da0b5ea",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -869,7 +628,7 @@
       },
       "width": {
        "unit": "px",
-       "size": 780
+       "size": 524
       },
       "flex_shrink": "0",
       "width_tablet": {
@@ -885,26 +644,151 @@
      },
      "elements": [
       {
-       "id": "141a5ca4",
+       "id": "0ca93de2",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "How We <span style=\"color:#7E807A\">Helped.</span>",
+        "header_size": "h2",
+        "title_color": "#0F1012",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 48
+        },
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": 36
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 28
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 47.04
+        },
+        "typography_line_height_tablet": {
+         "unit": "px",
+         "size": 35.28
+        },
+        "typography_line_height_mobile": {
+         "unit": "px",
+         "size": 27.44
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": -1.92
+        },
+        "typography_letter_spacing_tablet": {
+         "unit": "px",
+         "size": -1.44
+        },
+        "typography_letter_spacing_mobile": {
+         "unit": "px",
+         "size": -1.12
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "px",
+         "size": 560
+        },
+        "_element_custom_width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "_element_custom_width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0ce71be4",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 26
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0d24f9e6",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"margin:0;max-width:560px;\">We planned everything to a tee but also left room for those candid moments and shots every photographer strives for. When D-Day came, we had everything ready to go – we even had the help of a furry friend. Things went so smoothly, and Sky Gazer had so much confidence they were happy to let us run the show whilst they continued to work. We captured enough content to last them for months. We’re talking collateral that could be used across their website, socials, ads and all sorts of marketing material. We pulled this off with:</p>",
+        "text_color": "#55575C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 16
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 26.88
+        }
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
+     "id": "0dde93ec",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 636
+      },
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
+     },
+     "elements": [
+      {
+       "id": "0d62d7e8",
        "elType": "widget",
        "widgetType": "video",
        "settings": {
         "video_type": "youtube",
         "youtube_url": "https://www.youtube.com/watch?v=Jt7PmUWx-IE",
-        "show_image_overlay": "yes",
-        "image_overlay": {
-         "url": "",
-         "id": ""
-        },
-        "image_overlay_size": "large",
-        "show_play_icon": "yes",
         "aspect_ratio": "169",
-        "play_icon": {
-         "value": "fab fa-youtube",
-         "library": "fa-brands"
-        },
-        "css_classes": "slot--reel-overlay",
-        "_css_classes": "slot--reel-overlay"
+        "lazy_load": "yes",
+        "css_classes": "story-film",
+        "_css_classes": "story-film"
        },
        "elements": []
       }
@@ -913,7 +797,7 @@
    ]
   },
   {
-   "id": "158d90b0",
+   "id": "0fcd83fc",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -928,7 +812,7 @@
     },
     "flex_gap": {
      "unit": "px",
-     "column": "0",
+     "column": "72",
      "row": "0",
      "isLinked": false
     },
@@ -936,8 +820,24 @@
      "unit": "px",
      "size": 1196
     },
+    "flex_direction": "row",
+    "flex_align_items": "center",
     "background_background": "classic",
     "background_color": "#E4E5E1",
+    "flex_direction_tablet": "column",
+    "flex_direction_mobile": "column",
+    "flex_gap_tablet": {
+     "unit": "px",
+     "column": "0",
+     "row": "34",
+     "isLinked": false
+    },
+    "flex_gap_mobile": {
+     "unit": "px",
+     "column": "0",
+     "row": "34",
+     "isLinked": false
+    },
     "padding_tablet": {
      "unit": "px",
      "top": "72",
@@ -957,200 +857,7 @@
    },
    "elements": [
     {
-     "id": "14d3f6aa",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "The Outcome",
-      "header_size": "h2",
-      "title_color": "#0F1012",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "1511d4ac",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 26
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "154fb2ae",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p style=\"margin:0;max-width:615px;\">Our mates over at Chilli Group marketing gave us a hand planning out what assets needed to be created for Sky Gazer’s website product imagery update and ad campaign. Since working with our team, SkyGazer has quickly become synonymous with beach towels. Their presence on the Sunshine Coast has grown dramatically, and their social following continues to rise. Ultimately, the product images in their ads and on their website continue to generate leads and increase conversions. We’re so stoked for them and love watching them grow!</p>",
-      "text_color": "#55575C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 16
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 26.88
-      }
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "173ea2be",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "96",
-     "right": "52",
-     "bottom": "96",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#16171A",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "66",
-     "right": "32",
-     "bottom": "66",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "52",
-     "right": "20",
-     "bottom": "52",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "16472ab6",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Watch",
-      "header_size": "div",
-      "title_color": "#C3C4C0",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "16094cb4",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 27
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "168508b8",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 40
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "1700c4bc",
+     "id": "0f8fa5fa",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1171,7 +878,7 @@
       },
       "width": {
        "unit": "px",
-       "size": 780
+       "size": 636
       },
       "flex_shrink": "0",
       "width_tablet": {
@@ -1187,26 +894,151 @@
      },
      "elements": [
       {
-       "id": "16c2e6ba",
+       "id": "0f13e9f6",
        "elType": "widget",
        "widgetType": "video",
        "settings": {
         "video_type": "youtube",
         "youtube_url": "https://www.youtube.com/watch?v=WkX5oopkgXs",
-        "show_image_overlay": "yes",
-        "image_overlay": {
-         "url": "",
-         "id": ""
-        },
-        "image_overlay_size": "large",
-        "show_play_icon": "yes",
         "aspect_ratio": "169",
-        "play_icon": {
-         "value": "fab fa-youtube",
-         "library": "fa-brands"
+        "lazy_load": "yes",
+        "css_classes": "story-film",
+        "_css_classes": "story-film"
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
+     "id": "0f51c7f8",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 524
+      },
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
+     },
+     "elements": [
+      {
+       "id": "0e5a4ff0",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "The Outcome",
+        "header_size": "h2",
+        "title_color": "#0F1012",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "700",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 48
         },
-        "css_classes": "slot--reel-overlay",
-        "_css_classes": "slot--reel-overlay"
+        "typography_font_size_tablet": {
+         "unit": "px",
+         "size": 36
+        },
+        "typography_font_size_mobile": {
+         "unit": "px",
+         "size": 28
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 47.04
+        },
+        "typography_line_height_tablet": {
+         "unit": "px",
+         "size": 35.28
+        },
+        "typography_line_height_mobile": {
+         "unit": "px",
+         "size": 27.44
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": -1.92
+        },
+        "typography_letter_spacing_tablet": {
+         "unit": "px",
+         "size": -1.44
+        },
+        "typography_letter_spacing_mobile": {
+         "unit": "px",
+         "size": -1.12
+        },
+        "_element_width": "initial",
+        "_element_custom_width": {
+         "unit": "px",
+         "size": 560
+        },
+        "_element_custom_width_tablet": {
+         "unit": "%",
+         "size": 100
+        },
+        "_element_custom_width_mobile": {
+         "unit": "%",
+         "size": 100
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0e982df2",
+       "elType": "widget",
+       "widgetType": "spacer",
+       "settings": {
+        "space": {
+         "unit": "px",
+         "size": 26
+        }
+       },
+       "elements": []
+      },
+      {
+       "id": "0ed60bf4",
+       "elType": "widget",
+       "widgetType": "text-editor",
+       "settings": {
+        "editor": "<p style=\"margin:0;max-width:560px;\">Our mates over at Chilli Group marketing gave us a hand planning out what assets needed to be created for Sky Gazer’s website product imagery update and ad campaign. Since working with our team, SkyGazer has quickly become synonymous with beach towels. Their presence on the Sunshine Coast has grown dramatically, and their social following continues to rise. Ultimately, the product images in their ads and on their website continue to generate leads and increase conversions. We’re so stoked for them and love watching them grow!</p>",
+        "text_color": "#55575C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 16
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 26.88
+        }
        },
        "elements": []
       }
@@ -1215,7 +1047,7 @@
    ]
   },
   {
-   "id": "18361ac6",
+   "id": "10c4fb04",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1259,7 +1091,7 @@
    },
    "elements": [
     {
-     "id": "177c80c0",
+     "id": "100b61fe",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1323,7 +1155,7 @@
      "elements": []
     },
     {
-     "id": "17ba5ec2",
+     "id": "10493f00",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1335,7 +1167,7 @@
      "elements": []
     },
     {
-     "id": "17f83cc4",
+     "id": "10871d02",
      "elType": "widget",
      "widgetType": "uael-image-gallery",
      "settings": {
@@ -1354,7 +1186,7 @@
    ]
   },
   {
-   "id": "0aa0c7da",
+   "id": "132fa718",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1398,7 +1230,7 @@
    },
    "elements": [
     {
-     "id": "1873f8c8",
+     "id": "1102d906",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1425,7 +1257,7 @@
      "elements": []
     },
     {
-     "id": "18b1d6ca",
+     "id": "1140b708",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1437,7 +1269,7 @@
      "elements": []
     },
     {
-     "id": "18efb4cc",
+     "id": "117e950a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1501,7 +1333,7 @@
      "elements": []
     },
     {
-     "id": "192d92ce",
+     "id": "11bc730c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1513,7 +1345,7 @@
      "elements": []
     },
     {
-     "id": "196b70d0",
+     "id": "11fa510e",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1533,7 +1365,7 @@
      "elements": []
     },
     {
-     "id": "19a94ed2",
+     "id": "12382f10",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1545,7 +1377,7 @@
      "elements": []
     },
     {
-     "id": "0a62e9d8",
+     "id": "12f1c916",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1577,7 +1409,7 @@
      },
      "elements": [
       {
-       "id": "19e72cd4",
+       "id": "12760d12",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1621,7 +1453,7 @@
        "elements": []
       },
       {
-       "id": "0a250bd6",
+       "id": "12b3eb14",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
