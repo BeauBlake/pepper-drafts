@@ -4280,7 +4280,7 @@
    ]
   },
   {
-   "id": "0cc1a6da",
+   "id": "0bca2ed2",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -4459,7 +4459,7 @@
      "elements": []
     },
     {
-     "id": "0a56fac6",
+     "id": "195f81be",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4471,7 +4471,7 @@
      "elements": []
     },
     {
-     "id": "0a94d8c8",
+     "id": "199d5fc0",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -4710,7 +4710,7 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"margin:0;max-width:493px;\">[ accuracy read ] It depends on the size of the venue and how many things happen at once. A single-room conference is usually one; a multi-stream event needs two.</p>",
+          "editor": "<p style=\"margin:0;max-width:493px;\">It depends on the size of the venue and how many things happen at once. A single-room conference is usually one; a multi-stream event needs two.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
           "typography_font_family": "Montserrat",
@@ -4730,7 +4730,7 @@
      ]
     },
     {
-     "id": "0ad2b6ca",
+     "id": "19db3dc2",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -4742,7 +4742,7 @@
      "elements": []
     },
     {
-     "id": "0b1094cc",
+     "id": "0a191cc4",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -5001,7 +5001,7 @@
      ]
     },
     {
-     "id": "0b4e72ce",
+     "id": "0a56fac6",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -5013,7 +5013,7 @@
      "elements": []
     },
     {
-     "id": "0b8c50d0",
+     "id": "0a94d8c8",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -5091,7 +5091,7 @@
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
-          "title": "How soon do we get everything back?",
+          "title": "Will you get in the way?",
           "header_size": "h3",
           "title_color": "#0F1012",
           "typography_typography": "custom",
@@ -5142,116 +5142,6 @@
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
-          "editor": "<p style=\"margin:0;max-width:493px;\">[ accuracy read ] Selects within a few days, the full gallery and any highlights film inside two to three weeks.</p>",
-          "text_color": "#55575C",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 16
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 24.8
-          }
-         },
-         "elements": []
-        }
-       ]
-      },
-      {
-       "id": "0a191cc4",
-       "elType": "container",
-       "isInner": true,
-       "settings": {
-        "content_width": "full",
-        "padding": {
-         "unit": "px",
-         "top": "0",
-         "right": "0",
-         "bottom": "0",
-         "left": "0",
-         "isLinked": false
-        },
-        "flex_gap": {
-         "unit": "px",
-         "column": "0",
-         "row": "0",
-         "isLinked": false
-        },
-        "width": {
-         "unit": "px",
-         "size": 574
-        },
-        "flex_shrink": "0",
-        "width_tablet": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_shrink_tablet": "1",
-        "width_mobile": {
-         "unit": "%",
-         "size": 100
-        },
-        "flex_shrink_mobile": "1"
-       },
-       "elements": [
-        {
-         "id": "195f81be",
-         "elType": "widget",
-         "widgetType": "heading",
-         "settings": {
-          "title": "Will you get in the way?",
-          "header_size": "h3",
-          "title_color": "#0F1012",
-          "typography_typography": "custom",
-          "typography_font_family": "Montserrat",
-          "typography_font_weight": "700",
-          "typography_font_size": {
-           "unit": "px",
-           "size": 17
-          },
-          "typography_line_height": {
-           "unit": "px",
-           "size": 22.44
-          },
-          "typography_letter_spacing": {
-           "unit": "px",
-           "size": -0.17
-          },
-          "_element_width": "initial",
-          "_element_custom_width": {
-           "unit": "px",
-           "size": 392
-          },
-          "_element_custom_width_tablet": {
-           "unit": "%",
-           "size": 100
-          },
-          "_element_custom_width_mobile": {
-           "unit": "%",
-           "size": 100
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "199d5fc0",
-         "elType": "widget",
-         "widgetType": "spacer",
-         "settings": {
-          "space": {
-           "unit": "px",
-           "size": 9
-          }
-         },
-         "elements": []
-        },
-        {
-         "id": "19db3dc2",
-         "elType": "widget",
-         "widgetType": "text-editor",
-         "settings": {
           "editor": "<p style=\"margin:0;max-width:493px;\">No. Event work is done quietly with long lenses and available light wherever possible — most guests won't notice the crew at all.</p>",
           "text_color": "#55575C",
           "typography_typography": "custom",
@@ -5272,7 +5162,7 @@
      ]
     },
     {
-     "id": "0c45ead6",
+     "id": "0b4e72ce",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -5284,7 +5174,7 @@
      "elements": []
     },
     {
-     "id": "0c83c8d8",
+     "id": "0b8c50d0",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -5316,7 +5206,7 @@
      },
      "elements": [
       {
-       "id": "0bca2ed2",
+       "id": "0ad2b6ca",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -5360,7 +5250,7 @@
        "elements": []
       },
       {
-       "id": "0c080cd4",
+       "id": "0b1094cc",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -5418,7 +5308,7 @@
    ]
   },
   {
-   "id": "0f2c52ee",
+   "id": "0e34dae6",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -5462,7 +5352,7 @@
    },
    "elements": [
     {
-     "id": "0cff84dc",
+     "id": "0c080cd4",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -5489,7 +5379,7 @@
      "elements": []
     },
     {
-     "id": "0d3d62de",
+     "id": "0c45ead6",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -5501,7 +5391,7 @@
      "elements": []
     },
     {
-     "id": "0d7b40e0",
+     "id": "0c83c8d8",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -5565,7 +5455,7 @@
      "elements": []
     },
     {
-     "id": "0db91ee2",
+     "id": "0cc1a6da",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -5577,7 +5467,7 @@
      "elements": []
     },
     {
-     "id": "0df6fce4",
+     "id": "0cff84dc",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -5597,7 +5487,7 @@
      "elements": []
     },
     {
-     "id": "0e34dae6",
+     "id": "0d3d62de",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -5609,7 +5499,7 @@
      "elements": []
     },
     {
-     "id": "0eee74ec",
+     "id": "0df6fce4",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -5641,7 +5531,7 @@
      },
      "elements": [
       {
-       "id": "0e72b8e8",
+       "id": "0d7b40e0",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -5685,7 +5575,7 @@
        "elements": []
       },
       {
-       "id": "0eb096ea",
+       "id": "0db91ee2",
        "elType": "widget",
        "widgetType": "button",
        "settings": {

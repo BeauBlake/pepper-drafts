@@ -469,7 +469,7 @@ PAGES = [
           "Yes. Same-day selects are one of the most useful things we do at events — you can "
           "post while people are still in the room."),
          ("How many photographers will be there?",
-          tbc("It depends on the size of the venue and how many things happen at once. A "
+          ("It depends on the size of the venue and how many things happen at once. A "
               "single-room conference is usually one; a multi-stream event needs two.")),
          ("Do you cover multi-day events?",
           "Yes, and there's a real advantage in it — by day two the crew knows the room, the "
@@ -566,71 +566,6 @@ PAGES = [
          ("Can new starters be added later?",
           "Yes. We keep the lighting setup on file so a top-up session matches the original "
           "set rather than standing out on the team page."),
-         ("How many images do we get to choose from?",
-          tbc("Several usable frames per person, retouched once you've picked. Confirm the "
-              "exact number and retouching inclusions before this publishes.", "verify"))],
- "closeH2": ("Ready to look", "the part?"),
- "close": "Get in touch with our headshot photography team on the Sunshine Coast for a "
-          "tailored quote.",
- "workLink": "See recent headshot work",
-},
-{
- "file": "education.html", "title": "Education Content",
- "label": "Services · Education",
- # Darren: "Very out of date images." The live hero
- # (Pepper-Photos-and-Videography-Education-and-Schools.jpg) is deliberately not
- # reused; this is the most recent school shoot on the page.
- "hero": UP + "CCPS-Junior-Enrolments-22-1-scaled.jpg",
- "heroAlt": "Education content by Pepper Productions",
- "heroNote": "PROPOSED REPLACEMENT — Darren called the live education imagery very out of "
-             "date. This is the most recent school shoot already in the library.",
- "h1": ("Education content", "Sunshine Coast."),
- "stand": "Content that brings lessons, campuses and enrolment stories to life — made with "
-          "schools, for the families choosing them.",
- "rail": [("Deliverables", "Enrolment film · Campus · Stills"),
-          ("Where it runs", "Website · Open day · Social"),
-          # Blue Cards surfaced in the rail as well as the FAQ — Darren asked for
-          # "copy about blue cards", and a school checks this before anything else.
-          ("Crew", "In-house · Blue Card holders"),
-          ("Backed by", "Chilli — since 1993")],
- "whyH2": ("Why invest in professional", "education content?"),
- "why": ["Families research schools online long before they book a tour, and video is how most "
-         "of them form a first impression. A campus feels very different on film than it does "
-         "in a prospectus.",
-         "We've worked with schools and educators end to end — showcasing new facilities, "
-         "programs and the day-to-day of a place, in a way that helps the right families "
-         "picture their child there."],
- "whyImg": UP + "PLC-Year-5-32-scaled.jpeg",
- "whyImgAlt": "Classroom content produced by Pepper Productions",
- "diffImg": UP + "BeauB8065-copy-scaled.jpg",
- "diffImgAlt": "Pepper Productions filming on a school campus",
- "helpH2": ("How we help bring lessons", "to life."),
- "cards": [("Enrolment &amp; brand films", "The film that does the work of an open day for "
-            "families who haven't visited yet."),
-           ("Campus &amp; facilities", "New buildings and spaces shown properly, rather than "
-            "in a phone photo."),
-           ("Program &amp; subject content", "Short pieces on what a subject or program "
-            "actually involves day to day."),
-           ("Student &amp; family stories", "The most persuasive content a school has, told by "
-            "the people living it."),
-           ("Event coverage", "Open days, presentations and graduations covered end to end."),
-           ("Social content", "Cut-downs sized for the channels families actually use.")],
- # Darren: "No testimonials on this page?" — the template adds them. But note:
- # none of the six real reviews is from an education client. Worth chasing one.
- "quotes": ["kathy", "clint", "kane", "hearthq"],
- "diffNoun": "education content",
- "faqH2": ("Education content,", "answered."),
- "faq": [# CONFIRMED by Beau 1 Sept — "we do have operators with blue cards". Worded to
-         # match exactly what he said: the operators who work on school shoots hold
-         # them. Do NOT widen this to "all staff" without checking, and do not
-         # state a card number or expiry here.
-         ("Do your crew have Blue Cards?",
-          "Yes. The operators who work on school shoots hold current Queensland Blue Cards "
-          "(working with children checks), and we'll provide the details for your records "
-          "before the shoot."),
-         ("How do you handle permission for student images?",
-          ("We work to the school's own consent lists and shoot around students without "
-              "permission. Confirm the exact process with a school before publishing.")),
          ("Will filming disrupt classes?",
           "It shouldn't. Most classroom work is done quietly with available light, and we plan "
           "around timetables rather than asking a school to work around us."),

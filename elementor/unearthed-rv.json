@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "1945275c",
+   "id": "1756374c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -45,7 +45,7 @@
    },
    "elements": [
     {
-     "id": "1907495a",
+     "id": "1718594a",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -80,7 +80,7 @@
    ]
   },
   {
-   "id": "0bedb272",
+   "id": "19fec162",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -124,7 +124,7 @@
    },
    "elements": [
     {
-     "id": "1983055e",
+     "id": "1794154e",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -151,7 +151,7 @@
      "elements": []
     },
     {
-     "id": "19c0e360",
+     "id": "17d1f350",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -163,7 +163,7 @@
      "elements": []
     },
     {
-     "id": "19fec162",
+     "id": "180fd152",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -227,7 +227,7 @@
      "elements": []
     },
     {
-     "id": "0a3ca064",
+     "id": "184daf54",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -239,7 +239,7 @@
      "elements": []
     },
     {
-     "id": "0a7a7e66",
+     "id": "188b8d56",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -259,7 +259,7 @@
      "elements": []
     },
     {
-     "id": "0ab85c68",
+     "id": "18c96b58",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -271,7 +271,7 @@
      "elements": []
     },
     {
-     "id": "0b71f66e",
+     "id": "1983055e",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -303,7 +303,7 @@
      },
      "elements": [
       {
-       "id": "0af63a6a",
+       "id": "1907495a",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -347,7 +347,7 @@
        "elements": []
       },
       {
-       "id": "0b34186c",
+       "id": "1945275c",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -405,7 +405,7 @@
    ]
   },
   {
-   "id": "0ddca282",
+   "id": "0bedb272",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -449,7 +449,7 @@
    },
    "elements": [
     {
-     "id": "0ce52a7a",
+     "id": "0af63a6a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -476,7 +476,7 @@
      "elements": []
     },
     {
-     "id": "0c696e76",
+     "id": "0a7a7e66",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -488,11 +488,274 @@
      "elements": []
     },
     {
-     "id": "0ca74c78",
+     "id": "0ab85c68",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
       "title": "From the <span style=\"color:#7E807A\">shoot.</span>",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.28
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.44
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.44
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -1.12
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0b34186c",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 40
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0bafd470",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 780
+      },
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
+     },
+     "elements": [
+      {
+       "id": "0b71f66e",
+       "elType": "widget",
+       "widgetType": "video",
+       "settings": {
+        "video_type": "youtube",
+        "youtube_url": "https://www.youtube.com/watch?v=44kLeLn7BBs",
+        "show_image_overlay": "yes",
+        "image_overlay": {
+         "url": "",
+         "id": ""
+        },
+        "image_overlay_size": "large",
+        "show_play_icon": "yes",
+        "aspect_ratio": "169",
+        "play_icon": {
+         "value": "fab fa-youtube",
+         "library": "fa-brands"
+        },
+        "css_classes": "slot--reel-overlay",
+        "_css_classes": "slot--reel-overlay"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "0ca74c78",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "0c2b9074",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0c696e76",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0;max-width:615px;\">&quot;Beauty lies in the eyes of the beholder&quot;</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "0d9ec480",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#F3F3F0",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "0ce52a7a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Or, in this case, beauty lies behind <span style=\"color:#7E807A\">the lens….</span>",
       "header_size": "h2",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -558,73 +821,30 @@
      "settings": {
       "space": {
        "unit": "px",
-       "size": 40
+       "size": 26
       }
      },
      "elements": []
     },
     {
-     "id": "0d9ec480",
-     "elType": "container",
-     "isInner": true,
+     "id": "0d60e67e",
+     "elType": "widget",
+     "widgetType": "text-editor",
      "settings": {
-      "content_width": "full",
-      "padding": {
+      "editor": "<p style=\"margin:0;max-width:615px;\">When Unearthed RV approached Pepper Productions for content creation and Sunshine Coast Videography, Pepper didn’t hesitate. Unearthed RV wanted to showcase their stunning, custom-built RVs to attract potential customers and make a splash in the market. Pepper Productions rose to the occasion and created something extraordinary by utilising their expertise in Sunshine Coast Videography.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">Unearthed RV specialises in crafting high-quality, custom-built RVs that are truly unique. They wanted to demonstrate their skill and focus on detail so customers could view their RVs close-up and in action.</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
        "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
+       "size": 16
       },
-      "flex_gap": {
+      "typography_line_height": {
        "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      },
-      "width": {
-       "unit": "px",
-       "size": 780
-      },
-      "flex_shrink": "0",
-      "width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_tablet": "1",
-      "width_mobile": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_mobile": "1"
-     },
-     "elements": [
-      {
-       "id": "0d60e67e",
-       "elType": "widget",
-       "widgetType": "video",
-       "settings": {
-        "video_type": "youtube",
-        "youtube_url": "https://www.youtube.com/watch?v=44kLeLn7BBs",
-        "show_image_overlay": "yes",
-        "image_overlay": {
-         "url": "",
-         "id": ""
-        },
-        "image_overlay_size": "large",
-        "show_play_icon": "yes",
-        "aspect_ratio": "169",
-        "play_icon": {
-         "value": "fab fa-youtube",
-         "library": "fa-brands"
-        },
-        "css_classes": "slot--reel-overlay",
-        "_css_classes": "slot--reel-overlay"
-       },
-       "elements": []
+       "size": 26.88
       }
-     ]
+     },
+     "elements": []
     }
    ]
   },
@@ -673,6 +893,70 @@
    },
    "elements": [
     {
+     "id": "0ddca282",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "The objective for Pepper Productions <span style=\"color:#7E807A\">was clear:.</span>",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.28
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.44
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.44
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -1.12
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": []
+    },
+    {
      "id": "0e1a8084",
      "elType": "widget",
      "widgetType": "spacer",
@@ -689,7 +973,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"margin:0;max-width:615px;\">&quot;Beauty lies in the eyes of the beholder&quot;</p>",
+      "editor": "<p style=\"margin:0;max-width:615px;\">To capture the essence of the Unearthed RV brand and showcase the features of their luxury bespoke campervans in engaging, informative, and visually stunning video and imagery with the help of our Sunshine Coast Videography.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -755,7 +1039,7 @@
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Or, in this case, beauty lies behind <span style=\"color:#7E807A\">the lens….</span>",
+      "title": "How We <span style=\"color:#7E807A\">Helped.</span>",
       "header_size": "h2",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -831,290 +1115,6 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"margin:0;max-width:615px;\">When Unearthed RV approached Pepper Productions for content creation and Sunshine Coast Videography, Pepper didn’t hesitate. Unearthed RV wanted to showcase their stunning, custom-built RVs to attract potential customers and make a splash in the market. Pepper Productions rose to the occasion and created something extraordinary by utilising their expertise in Sunshine Coast Videography.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">Unearthed RV specialises in crafting high-quality, custom-built RVs that are truly unique. They wanted to demonstrate their skill and focus on detail so customers could view their RVs close-up and in action.</p>",
-      "text_color": "#55575C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 16
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 26.88
-      }
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "10852c98",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "104",
-     "right": "52",
-     "bottom": "104",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#FFFFFF",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "72",
-     "right": "32",
-     "bottom": "72",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "56",
-     "right": "20",
-     "bottom": "56",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "0fcb9292",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "The objective for Pepper Productions <span style=\"color:#7E807A\">was clear:.</span>",
-      "header_size": "h2",
-      "title_color": "#0F1012",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "10097094",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 26
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "10474e96",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p style=\"margin:0;max-width:615px;\">To capture the essence of the Unearthed RV brand and showcase the features of their luxury bespoke campervans in engaging, informative, and visually stunning video and imagery with the help of our Sunshine Coast Videography.</p>",
-      "text_color": "#55575C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 16
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 26.88
-      }
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "117ca4a0",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "104",
-     "right": "52",
-     "bottom": "104",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#F3F3F0",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "72",
-     "right": "32",
-     "bottom": "72",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "56",
-     "right": "20",
-     "bottom": "56",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "10c30a9a",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "How We <span style=\"color:#7E807A\">Helped.</span>",
-      "header_size": "h2",
-      "title_color": "#0F1012",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "1100e89c",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 26
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "113ec69e",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
       "editor": "<p style=\"margin:0;max-width:615px;\">Pepper Productions created a video highlighting the unique features of the Unearthed RV luxury campervan. They combined drone footage and close-up shots of the RVs. This was set in the stunning Sunshine Coast landscape.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">They also captured many images and used these images along with bespoke videography to populate the new Unearthed RV website designed by Chilli, the leading digital marketing agency based on the Sunshine Coast.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">Overall, the Pepper team created content highlighting the benefits of owning a custom-built RV. The Unearthed RV team is delighted with the results. They look forward to collaborating with Pepper to generate more content showcasing their brand’s distinct qualities.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">If you’re searching for a production agency that specialises in Sunshine Coast Videography, look no further than Pepper Productions. Our team of experts can help you capture the essence of your brand and showcase your products in the best possible light with engaging and visually stunning video and imagery.</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
@@ -1133,7 +1133,7 @@
    ]
   },
   {
-   "id": "13e750b4",
+   "id": "11f860a4",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1177,7 +1177,7 @@
    },
    "elements": [
     {
-     "id": "11ba82a2",
+     "id": "0fcb9292",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1204,7 +1204,7 @@
      "elements": []
     },
     {
-     "id": "11f860a4",
+     "id": "10097094",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1216,7 +1216,7 @@
      "elements": []
     },
     {
-     "id": "12363ea6",
+     "id": "10474e96",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1280,7 +1280,7 @@
      "elements": []
     },
     {
-     "id": "12741ca8",
+     "id": "10852c98",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1292,7 +1292,7 @@
      "elements": []
     },
     {
-     "id": "12b1faaa",
+     "id": "10c30a9a",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1312,7 +1312,7 @@
      "elements": []
     },
     {
-     "id": "12efd8ac",
+     "id": "1100e89c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1324,7 +1324,7 @@
      "elements": []
     },
     {
-     "id": "13a972b2",
+     "id": "11ba82a2",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1356,7 +1356,7 @@
      },
      "elements": [
       {
-       "id": "132db6ae",
+       "id": "113ec69e",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1400,7 +1400,7 @@
        "elements": []
       },
       {
-       "id": "136b94b0",
+       "id": "117ca4a0",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
