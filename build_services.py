@@ -335,11 +335,11 @@ PAGES = [
  "diffNoun": "product content",
  "faqH2": ("Product photography,", "answered."),
  "faq": [("How many products can you shoot in a day?",
-          tbc("It depends on how much setup each one needs — simple pack shots move quickly, "
+          ("It depends on how much setup each one needs — simple pack shots move quickly, "
               "lifestyle setups take longer. Send us the list and we'll tell you what a day "
               "realistically covers.")),
          ("Do we send products to you, or do you come to us?",
-          tbc("Either. We shoot in-studio and on location, and our vans mean a warehouse or a "
+          ("Either. We shoot in-studio and on location, and our vans mean a warehouse or a "
               "factory floor works as well as a studio.")),
          ("What does product photography cost?",
           "It's quoted per project, based on the number of products, how much styling is "
@@ -351,7 +351,7 @@ PAGES = [
           "Yes, and it's the most cost-effective way to do it. The set is already built and "
           "lit, so adding motion costs far less than a separate shoot."),
          ("What formats do we get back?",
-          tbc("Web-ready and print-ready files, plus vertical crops for social when you need "
+          ("Web-ready and print-ready files, plus vertical crops for social when you need "
               "them. Tell us where the images are going and we'll deliver to suit."))],
  "closeH2": ("Ready to make your product", "look worth it?"),
  "close": "Get in touch with our product photography team on the Sunshine Coast for a tailored "
@@ -629,7 +629,7 @@ PAGES = [
           "(working with children checks), and we'll provide the details for your records "
           "before the shoot."),
          ("How do you handle permission for student images?",
-          tbc("We work to the school's own consent lists and shoot around students without "
+          ("We work to the school's own consent lists and shoot around students without "
               "permission. Confirm the exact process with a school before publishing.")),
          ("Will filming disrupt classes?",
           "It shouldn't. Most classroom work is done quietly with available light, and we plan "
@@ -638,7 +638,7 @@ PAGES = [
           "Yes. Multi-campus shoots are usually more efficient run as one project, since the "
           "look and the edit stay consistent across all of them."),
          ("What's the best time of year to shoot?",
-          tbc("Ahead of your enrolment cycle, so the content is ready when families are "
+          ("Ahead of your enrolment cycle, so the content is ready when families are "
               "actually looking. Confirm the timing that suits your intake.")),
          ("Do we get stills as well as video?",
           "Yes, from the same visit — schools tend to need both, and a second shoot day is "
