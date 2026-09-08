@@ -269,9 +269,10 @@ PAGES = [
  "diffNoun": "business video",
  "faqH2": ("Business video,", "answered."),
  "faq": [("How long does a business shoot take?",
-          tbc("Most projects run three to four weeks end to end — a week to plan, a shoot day, "
-              "then two weeks in post. Tighter deadlines are often possible; tell us the date "
-              "and we'll tell you honestly whether it's on.")),
+          # Approved by Beau, 8 Sept - turnaround confirmed, marker off.
+          ("Most projects run three to four weeks end to end — a week to plan, a shoot day, "
+           "then two weeks in post. Tighter deadlines are often possible; tell us the date "
+           "and we'll tell you honestly whether it's on.")),
          ("What does it cost?",
           "It depends on shoot days, crew and how much post the work needs, so we quote per "
           "project rather than off a rate card. Every quote itemises what you're paying for."),

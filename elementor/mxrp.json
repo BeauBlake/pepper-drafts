@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "140f8a92",
+   "id": "10ad6676",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -45,7 +45,7 @@
    },
    "elements": [
     {
-     "id": "13d1ac90",
+     "id": "106f8874",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -80,7 +80,7 @@
    ]
   },
   {
-   "id": "16b814a8",
+   "id": "1355f08c",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -124,7 +124,7 @@
    },
    "elements": [
     {
-     "id": "144d6894",
+     "id": "10eb4478",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -151,7 +151,7 @@
      "elements": []
     },
     {
-     "id": "148b4696",
+     "id": "1129227a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -163,7 +163,7 @@
      "elements": []
     },
     {
-     "id": "14c92498",
+     "id": "1167007c",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -227,7 +227,7 @@
      "elements": []
     },
     {
-     "id": "1507029a",
+     "id": "11a4de7e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -239,7 +239,7 @@
      "elements": []
     },
     {
-     "id": "1544e09c",
+     "id": "11e2bc80",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -259,7 +259,7 @@
      "elements": []
     },
     {
-     "id": "1582be9e",
+     "id": "12209a82",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -271,7 +271,7 @@
      "elements": []
     },
     {
-     "id": "163c58a4",
+     "id": "12da3488",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -303,7 +303,7 @@
      },
      "elements": [
       {
-       "id": "15c09ca0",
+       "id": "125e7884",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -347,7 +347,7 @@
        "elements": []
       },
       {
-       "id": "15fe7aa2",
+       "id": "129c5686",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -405,7 +405,7 @@
    ]
   },
   {
-   "id": "186926b6",
+   "id": "1507029a",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -465,7 +465,7 @@
    },
    "elements": [
     {
-     "id": "17ed6ab2",
+     "id": "148b4696",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -502,7 +502,7 @@
      },
      "elements": [
       {
-       "id": "16f5f2aa",
+       "id": "1393ce8e",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -566,7 +566,7 @@
        "elements": []
       },
       {
-       "id": "1733d0ac",
+       "id": "13d1ac90",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -578,7 +578,7 @@
        "elements": []
       },
       {
-       "id": "1771aeae",
+       "id": "140f8a92",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -600,7 +600,7 @@
      ]
     },
     {
-     "id": "182b48b4",
+     "id": "14c92498",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -637,7 +637,7 @@
      },
      "elements": [
       {
-       "id": "17af8cb0",
+       "id": "144d6894",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
@@ -670,6 +670,435 @@
        "elements": []
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "16f5f2aa",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "96",
+     "right": "52",
+     "bottom": "96",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#16171A",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "66",
+     "right": "32",
+     "bottom": "66",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "52",
+     "right": "20",
+     "bottom": "52",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "15fe7aa2",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Watch",
+      "header_size": "div",
+      "title_color": "#C3C4C0",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1582be9e",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 27
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "15c09ca0",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "MX Race <span style=\"color:#C3C4C0\">Performance.</span>",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.28
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.44
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.44
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -1.12
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "163c58a4",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 40
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "16b814a8",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 780
+      },
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
+     },
+     "elements": [
+      {
+       "id": "167a36a6",
+       "elType": "widget",
+       "widgetType": "video",
+       "settings": {
+        "video_type": "youtube",
+        "youtube_url": "https://www.youtube.com/watch?v=51LZFNbDpRQ",
+        "show_image_overlay": "yes",
+        "image_overlay": {
+         "url": "",
+         "id": ""
+        },
+        "image_overlay_size": "large",
+        "show_play_icon": "yes",
+        "aspect_ratio": "169",
+        "play_icon": {
+         "value": "fab fa-youtube",
+         "library": "fa-brands"
+        },
+        "css_classes": "slot--reel-overlay",
+        "_css_classes": "slot--reel-overlay"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "1771aeae",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "1733d0ac",
+     "elType": "widget",
+     "widgetType": "image",
+     "settings": {
+      "image": {
+       "url": "",
+       "id": "",
+       "alt": "videography and photography sunshine coast"
+      },
+      "image_size": "large",
+      "width": {
+       "unit": "%",
+       "size": 100
+      },
+      "css_classes": "slot--untitled-1-scaled-e1643597078299",
+      "_css_classes": "slot--untitled-1-scaled-e1643597078299"
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "186926b6",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#E4E5E1",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "17af8cb0",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "MXRP Media",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.28
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.44
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.44
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -1.12
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "17ed6ab2",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 34
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "182b48b4",
+     "elType": "widget",
+     "widgetType": "uael-image-gallery",
+     "settings": {
+      "wp_gallery": [],
+      "gallery_style": "masonry",
+      "gallery_columns": "3",
+      "gallery_columns_tablet": "2",
+      "gallery_columns_mobile": "2",
+      "image_size": "large",
+      "click_action": "lightbox",
+      "css_classes": "slot--gallery",
+      "_css_classes": "slot--gallery"
+     },
+     "elements": []
     }
    ]
   },
@@ -761,7 +1190,7 @@
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "MX Race <span style=\"color:#C3C4C0\">Performance.</span>",
+      "title": "From the <span style=\"color:#C3C4C0\">shoot.</span>",
       "header_size": "h2",
       "title_color": "#FFFFFF",
       "typography_typography": "custom",
@@ -875,435 +1304,6 @@
        "widgetType": "video",
        "settings": {
         "video_type": "youtube",
-        "youtube_url": "https://www.youtube.com/watch?v=51LZFNbDpRQ",
-        "show_image_overlay": "yes",
-        "image_overlay": {
-         "url": "",
-         "id": ""
-        },
-        "image_overlay_size": "large",
-        "show_play_icon": "yes",
-        "aspect_ratio": "169",
-        "play_icon": {
-         "value": "fab fa-youtube",
-         "library": "fa-brands"
-        },
-        "css_classes": "slot--reel-overlay",
-        "_css_classes": "slot--reel-overlay"
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "0ad3d3ca",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "104",
-     "right": "52",
-     "bottom": "104",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#FFFFFF",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "72",
-     "right": "32",
-     "bottom": "72",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "56",
-     "right": "20",
-     "bottom": "56",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "0a95f5c8",
-     "elType": "widget",
-     "widgetType": "image",
-     "settings": {
-      "image": {
-       "url": "",
-       "id": "",
-       "alt": "videography and photography sunshine coast"
-      },
-      "image_size": "large",
-      "width": {
-       "unit": "%",
-       "size": 100
-      },
-      "css_classes": "slot--untitled-1-scaled-e1643597078299",
-      "_css_classes": "slot--untitled-1-scaled-e1643597078299"
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "0bcb4bd2",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "104",
-     "right": "52",
-     "bottom": "104",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#E4E5E1",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "72",
-     "right": "32",
-     "bottom": "72",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "56",
-     "right": "20",
-     "bottom": "56",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "0b11b1cc",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "MXRP Media",
-      "header_size": "h2",
-      "title_color": "#0F1012",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0b4f8fce",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 34
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0b8d6dd0",
-     "elType": "widget",
-     "widgetType": "uael-image-gallery",
-     "settings": {
-      "wp_gallery": [],
-      "gallery_style": "masonry",
-      "gallery_columns": "3",
-      "gallery_columns_tablet": "2",
-      "gallery_columns_mobile": "2",
-      "image_size": "large",
-      "click_action": "lightbox",
-      "css_classes": "slot--gallery",
-      "_css_classes": "slot--gallery"
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "0dba3be2",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "96",
-     "right": "52",
-     "bottom": "96",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#16171A",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "66",
-     "right": "32",
-     "bottom": "66",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "52",
-     "right": "20",
-     "bottom": "52",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "0cc2c3da",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Watch",
-      "header_size": "div",
-      "title_color": "#C3C4C0",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0c4707d6",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 27
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0c84e5d8",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "From the <span style=\"color:#C3C4C0\">shoot.</span>",
-      "header_size": "h2",
-      "title_color": "#FFFFFF",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0d00a1dc",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 40
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0d7c5de0",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      },
-      "width": {
-       "unit": "px",
-       "size": 780
-      },
-      "flex_shrink": "0",
-      "width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_tablet": "1",
-      "width_mobile": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_mobile": "1"
-     },
-     "elements": [
-      {
-       "id": "0d3e7fde",
-       "elType": "widget",
-       "widgetType": "video",
-       "settings": {
-        "video_type": "youtube",
         "youtube_url": "https://www.youtube.com/watch?v=fTbYfJFhVDA",
         "show_image_overlay": "yes",
         "image_overlay": {
@@ -1327,7 +1327,7 @@
    ]
   },
   {
-   "id": "1024e7f6",
+   "id": "0cc2c3da",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1371,7 +1371,7 @@
    },
    "elements": [
     {
-     "id": "0df819e4",
+     "id": "0a95f5c8",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1398,7 +1398,7 @@
      "elements": []
     },
     {
-     "id": "0e35f7e6",
+     "id": "0ad3d3ca",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1410,7 +1410,7 @@
      "elements": []
     },
     {
-     "id": "0e73d5e8",
+     "id": "0b11b1cc",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1474,7 +1474,7 @@
      "elements": []
     },
     {
-     "id": "0eb1b3ea",
+     "id": "0b4f8fce",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1486,7 +1486,7 @@
      "elements": []
     },
     {
-     "id": "0eef91ec",
+     "id": "0b8d6dd0",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1506,7 +1506,7 @@
      "elements": []
     },
     {
-     "id": "0f2d6fee",
+     "id": "0bcb4bd2",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1518,7 +1518,7 @@
      "elements": []
     },
     {
-     "id": "0fe709f4",
+     "id": "0c84e5d8",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1550,7 +1550,7 @@
      },
      "elements": [
       {
-       "id": "0f6b4df0",
+       "id": "0c0929d4",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1594,7 +1594,7 @@
        "elements": []
       },
       {
-       "id": "0fa92bf2",
+       "id": "0c4707d6",
        "elType": "widget",
        "widgetType": "button",
        "settings": {

@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "0b6b0630",
+   "id": "1808e114",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -45,7 +45,7 @@
    },
    "elements": [
     {
-     "id": "0b2d282e",
+     "id": "17cb0312",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -80,7 +80,7 @@
    ]
   },
   {
-   "id": "0e139046",
+   "id": "0ab16c2a",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -124,7 +124,7 @@
    },
    "elements": [
     {
-     "id": "0ba8e432",
+     "id": "1846bf16",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -151,7 +151,7 @@
      "elements": []
     },
     {
-     "id": "0be6c234",
+     "id": "18849d18",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -163,7 +163,7 @@
      "elements": []
     },
     {
-     "id": "0c24a036",
+     "id": "18c27b1a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -227,7 +227,7 @@
      "elements": []
     },
     {
-     "id": "0c627e38",
+     "id": "1900591c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -239,7 +239,7 @@
      "elements": []
     },
     {
-     "id": "0ca05c3a",
+     "id": "193e371e",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -259,7 +259,7 @@
      "elements": []
     },
     {
-     "id": "0cde3a3c",
+     "id": "197c1520",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -271,7 +271,7 @@
      "elements": []
     },
     {
-     "id": "0d97d442",
+     "id": "0a35b026",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -303,7 +303,7 @@
      },
      "elements": [
       {
-       "id": "0d1c183e",
+       "id": "19b9f322",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -347,7 +347,7 @@
        "elements": []
       },
       {
-       "id": "0d59f640",
+       "id": "19f7d124",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -405,7 +405,7 @@
    ]
   },
   {
-   "id": "0ecd2a4c",
+   "id": "0b6b0630",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -449,7 +449,7 @@
    },
    "elements": [
     {
-     "id": "0e516e48",
+     "id": "0aef4a2c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -461,7 +461,7 @@
      "elements": []
     },
     {
-     "id": "0e8f4c4a",
+     "id": "0b2d282e",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -477,6 +477,438 @@
        "unit": "px",
        "size": 26.88
       }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "0c627e38",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "0ba8e432",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Aurora Global Logistics Brand <span style=\"color:#7E807A\">Video.</span>",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.28
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.44
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.44
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -1.12
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0be6c234",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0c24a036",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0;max-width:615px;\">The people behind the business and the amazing service they provide is a key point of difference for Aurora. Our brief was to create a brand video that captured the team’s essence while accurately representing the company’s offerings and expertise.</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "0e516e48",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "96",
+     "right": "52",
+     "bottom": "96",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#16171A",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "66",
+     "right": "32",
+     "bottom": "66",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "52",
+     "right": "20",
+     "bottom": "52",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "0d59f640",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Watch",
+      "header_size": "div",
+      "title_color": "#C3C4C0",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0cde3a3c",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 27
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0d1c183e",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "From the <span style=\"color:#C3C4C0\">shoot.</span>",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.28
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.44
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.44
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -1.12
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0d97d442",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 40
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0e139046",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 780
+      },
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
+     },
+     "elements": [
+      {
+       "id": "0dd5b244",
+       "elType": "widget",
+       "widgetType": "video",
+       "settings": {
+        "video_type": "youtube",
+        "youtube_url": "https://www.youtube.com/watch?v=V_0a7TMxhk4",
+        "show_image_overlay": "yes",
+        "image_overlay": {
+         "url": "",
+         "id": ""
+        },
+        "image_overlay_size": "large",
+        "show_play_icon": "yes",
+        "aspect_ratio": "169",
+        "play_icon": {
+         "value": "fab fa-youtube",
+         "library": "fa-brands"
+        },
+        "css_classes": "slot--reel-overlay",
+        "_css_classes": "slot--reel-overlay"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "0ecd2a4c",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#E4E5E1",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "0e8f4c4a",
+     "elType": "widget",
+     "widgetType": "image",
+     "settings": {
+      "image": {
+       "url": "",
+       "id": "",
+       "alt": "aurora global logistics video"
+      },
+      "image_size": "large",
+      "width": {
+       "unit": "%",
+       "size": 100
+      },
+      "css_classes": "slot--aurora-160-scaled",
+      "_css_classes": "slot--aurora-160-scaled"
      },
      "elements": []
     }
@@ -531,7 +963,7 @@
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "Aurora Global Logistics Brand <span style=\"color:#7E807A\">Video.</span>",
+      "title": "Client Testimonial",
       "header_size": "h2",
       "title_color": "#0F1012",
       "typography_typography": "custom",
@@ -607,7 +1039,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"margin:0;max-width:615px;\">The people behind the business and the amazing service they provide is a key point of difference for Aurora. Our brief was to create a brand video that captured the team’s essence while accurately representing the company’s offerings and expertise.</p>",
+      "editor": "<p style=\"margin:0;max-width:615px;\">A good customer testimonial helps establish the credibility of a business and show your target audience how you go above and beyond for your clients. During our full-day shoot with Aurora Global Logistics, we also had the opportunity to interview Sam and John from StyroMAX about their long-term relationship. This testimonial is a great asset for Aurora!</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -625,7 +1057,7 @@
    ]
   },
   {
-   "id": "11b39264",
+   "id": "1175b462",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -669,7 +1101,7 @@
    },
    "elements": [
     {
-     "id": "10bc1a5c",
+     "id": "107e3c5a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -708,71 +1140,7 @@
      "elements": []
     },
     {
-     "id": "107e3c5a",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "From the <span style=\"color:#C3C4C0\">shoot.</span>",
-      "header_size": "h2",
-      "title_color": "#FFFFFF",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "10f9f85e",
+     "id": "10bc1a5c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -784,7 +1152,7 @@
      "elements": []
     },
     {
-     "id": "1175b462",
+     "id": "1137d660",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -821,375 +1189,7 @@
      },
      "elements": [
       {
-       "id": "1137d660",
-       "elType": "widget",
-       "widgetType": "video",
-       "settings": {
-        "video_type": "youtube",
-        "youtube_url": "https://www.youtube.com/watch?v=V_0a7TMxhk4",
-        "show_image_overlay": "yes",
-        "image_overlay": {
-         "url": "",
-         "id": ""
-        },
-        "image_overlay_size": "large",
-        "show_play_icon": "yes",
-        "aspect_ratio": "169",
-        "play_icon": {
-         "value": "fab fa-youtube",
-         "library": "fa-brands"
-        },
-        "css_classes": "slot--reel-overlay",
-        "_css_classes": "slot--reel-overlay"
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "122f4e68",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "104",
-     "right": "52",
-     "bottom": "104",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#E4E5E1",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "72",
-     "right": "32",
-     "bottom": "72",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "56",
-     "right": "20",
-     "bottom": "56",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "11f17066",
-     "elType": "widget",
-     "widgetType": "image",
-     "settings": {
-      "image": {
-       "url": "",
-       "id": "",
-       "alt": "aurora global logistics video"
-      },
-      "image_size": "large",
-      "width": {
-       "unit": "%",
-       "size": 100
-      },
-      "css_classes": "slot--aurora-160-scaled",
-      "_css_classes": "slot--aurora-160-scaled"
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "1326c670",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "104",
-     "right": "52",
-     "bottom": "104",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#FFFFFF",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "72",
-     "right": "32",
-     "bottom": "72",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "56",
-     "right": "20",
-     "bottom": "56",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "126d2c6a",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Client Testimonial",
-      "header_size": "h2",
-      "title_color": "#0F1012",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "12ab0a6c",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 26
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "12e8e86e",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p style=\"margin:0;max-width:615px;\">A good customer testimonial helps establish the credibility of a business and show your target audience how you go above and beyond for your clients. During our full-day shoot with Aurora Global Logistics, we also had the opportunity to interview Sam and John from StyroMAX about their long-term relationship. This testimonial is a great asset for Aurora!</p>",
-      "text_color": "#55575C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 16
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 26.88
-      }
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "14d7d87e",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "96",
-     "right": "52",
-     "bottom": "96",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#16171A",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "66",
-     "right": "32",
-     "bottom": "66",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "52",
-     "right": "20",
-     "bottom": "52",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "13e06076",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Watch",
-      "header_size": "div",
-      "title_color": "#C3C4C0",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "13a28274",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 27
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "141e3e78",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 40
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "1499fa7c",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      },
-      "width": {
-       "unit": "px",
-       "size": 780
-      },
-      "flex_shrink": "0",
-      "width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_tablet": "1",
-      "width_mobile": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_mobile": "1"
-     },
-     "elements": [
-      {
-       "id": "145c1c7a",
+       "id": "10f9f85e",
        "elType": "widget",
        "widgetType": "video",
        "settings": {
@@ -1217,7 +1217,7 @@
    ]
   },
   {
-   "id": "15539482",
+   "id": "11f17066",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1261,7 +1261,7 @@
    },
    "elements": [
     {
-     "id": "1515b680",
+     "id": "11b39264",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -1283,7 +1283,7 @@
    ]
   },
   {
-   "id": "164b0c8a",
+   "id": "12e8e86e",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1327,7 +1327,7 @@
    },
    "elements": [
     {
-     "id": "15917284",
+     "id": "122f4e68",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1391,7 +1391,7 @@
      "elements": []
     },
     {
-     "id": "15cf5086",
+     "id": "126d2c6a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1403,7 +1403,7 @@
      "elements": []
     },
     {
-     "id": "160d2e88",
+     "id": "12ab0a6c",
      "elType": "widget",
      "widgetType": "uael-image-gallery",
      "settings": {
@@ -1422,7 +1422,7 @@
    ]
   },
   {
-   "id": "18b5b89e",
+   "id": "15539482",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1466,7 +1466,7 @@
    },
    "elements": [
     {
-     "id": "1688ea8c",
+     "id": "1326c670",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1493,7 +1493,7 @@
      "elements": []
     },
     {
-     "id": "16c6c88e",
+     "id": "1364a472",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1505,7 +1505,7 @@
      "elements": []
     },
     {
-     "id": "1704a690",
+     "id": "13a28274",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1569,7 +1569,7 @@
      "elements": []
     },
     {
-     "id": "17428492",
+     "id": "13e06076",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1581,7 +1581,7 @@
      "elements": []
     },
     {
-     "id": "17806294",
+     "id": "141e3e78",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1601,7 +1601,7 @@
      "elements": []
     },
     {
-     "id": "17be4096",
+     "id": "145c1c7a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1613,7 +1613,7 @@
      "elements": []
     },
     {
-     "id": "1877da9c",
+     "id": "1515b680",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1645,7 +1645,7 @@
      },
      "elements": [
       {
-       "id": "17fc1e98",
+       "id": "1499fa7c",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1689,7 +1689,7 @@
        "elements": []
       },
       {
-       "id": "1839fc9a",
+       "id": "14d7d87e",
        "elType": "widget",
        "widgetType": "button",
        "settings": {

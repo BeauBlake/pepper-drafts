@@ -7,7 +7,7 @@
  },
  "content": [
   {
-   "id": "16491b20",
+   "id": "12e6f704",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -45,7 +45,7 @@
    },
    "elements": [
     {
-     "id": "160b3d1e",
+     "id": "12a91902",
      "elType": "widget",
      "widgetType": "image",
      "settings": {
@@ -80,7 +80,7 @@
    ]
   },
   {
-   "id": "18f1a536",
+   "id": "158f811a",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -124,7 +124,7 @@
    },
    "elements": [
     {
-     "id": "1686f922",
+     "id": "1324d506",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -151,7 +151,7 @@
      "elements": []
     },
     {
-     "id": "16c4d724",
+     "id": "1362b308",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -163,7 +163,7 @@
      "elements": []
     },
     {
-     "id": "1702b526",
+     "id": "13a0910a",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -227,7 +227,7 @@
      "elements": []
     },
     {
-     "id": "17409328",
+     "id": "13de6f0c",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -239,7 +239,7 @@
      "elements": []
     },
     {
-     "id": "177e712a",
+     "id": "141c4d0e",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -259,7 +259,7 @@
      "elements": []
     },
     {
-     "id": "17bc4f2c",
+     "id": "145a2b10",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -271,7 +271,7 @@
      "elements": []
     },
     {
-     "id": "1875e932",
+     "id": "1513c516",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -303,7 +303,7 @@
      },
      "elements": [
       {
-       "id": "17fa2d2e",
+       "id": "14980912",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -347,7 +347,7 @@
        "elements": []
       },
       {
-       "id": "18380b30",
+       "id": "14d5e714",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -405,7 +405,7 @@
    ]
   },
   {
-   "id": "19e91d3e",
+   "id": "1686f922",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -449,7 +449,7 @@
    },
    "elements": [
     {
-     "id": "192f8338",
+     "id": "15cd5f1c",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -513,7 +513,7 @@
      "elements": []
     },
     {
-     "id": "196d613a",
+     "id": "160b3d1e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -525,11 +525,455 @@
      "elements": []
     },
     {
-     "id": "19ab3f3c",
+     "id": "16491b20",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
       "editor": "<p style=\"margin:0;max-width:615px;\">Mullet Mods supply easily installable cup holders for the likes of your vintage Toyota Landcruiser Series and Nissan Patrols.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">Proudly Australian, Mullet Mods reached out to our team at Pepper to create memorable content that’ll make you laugh. With the intent of generating brand awareness and launching their new range of cupholders, our team sat down with Mullet Mods and began brainstorming ideas. The goal was to have enough content that would be distributed across Facebook, Instagram and TikTok. Once we knew what we were doing, we got to work putting together a storyboard, a shot list and establishing a filming location.</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "1875e932",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "96",
+     "right": "52",
+     "bottom": "96",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#16171A",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "66",
+     "right": "32",
+     "bottom": "66",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "52",
+     "right": "20",
+     "bottom": "52",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "177e712a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "Watch",
+      "header_size": "div",
+      "title_color": "#C3C4C0",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "600",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 11
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 17.64
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": 3.36
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "1702b526",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 27
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "17409328",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "From the <span style=\"color:#C3C4C0\">shoot.</span>",
+      "header_size": "h2",
+      "title_color": "#FFFFFF",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.28
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.44
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.44
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -1.12
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "17bc4f2c",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 40
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "18380b30",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 780
+      },
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
+     },
+     "elements": [
+      {
+       "id": "17fa2d2e",
+       "elType": "widget",
+       "widgetType": "video",
+       "settings": {
+        "video_type": "youtube",
+        "youtube_url": "https://www.youtube.com/watch?v=tYRnWoxC0s8",
+        "show_image_overlay": "yes",
+        "image_overlay": {
+         "url": "",
+         "id": ""
+        },
+        "image_overlay_size": "large",
+        "show_play_icon": "yes",
+        "aspect_ratio": "169",
+        "play_icon": {
+         "value": "fab fa-youtube",
+         "library": "fa-brands"
+        },
+        "css_classes": "slot--reel-overlay",
+        "_css_classes": "slot--reel-overlay"
+       },
+       "elements": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "192f8338",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#FFFFFF",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "18b3c734",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "18f1a536",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0;max-width:615px;\">Obviously some classic Aussie mullets were a must, as well as one of each vehicle…</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">79 series cruiser, 80 series cruiser, GU Patrol, GQ Patrol &amp; a D22 Navara.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">On the day of the shoot, our crew met Mullet Mods team on their family property on the Sunshine Coast. With all the rain we’ve had on the east coast, the grassy grounds by the river we had previously chosen as our location would quickly become a bottomless mud pit. This meant we only had one take to get the placement of the cars dialled as we could not drive back over our wheel tracks twice!</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">After a full day of shooting, our camera operators began dicing and splicing the loads of content we filmed. Through some digging, we turned up some fantastic imagery and videography that Mullet Mods was absolutely stoked with.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">We made their vision a reality by creating high-quality product imagery to fill their website and socials.</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    }
+   ]
+  },
+  {
+   "id": "0a26fc40",
+   "elType": "container",
+   "isInner": false,
+   "settings": {
+    "content_width": "boxed",
+    "padding": {
+     "unit": "px",
+     "top": "104",
+     "right": "52",
+     "bottom": "104",
+     "left": "52",
+     "isLinked": false
+    },
+    "flex_gap": {
+     "unit": "px",
+     "column": "0",
+     "row": "0",
+     "isLinked": false
+    },
+    "boxed_width": {
+     "unit": "px",
+     "size": 1196
+    },
+    "background_background": "classic",
+    "background_color": "#E4E5E1",
+    "padding_tablet": {
+     "unit": "px",
+     "top": "72",
+     "right": "32",
+     "bottom": "72",
+     "left": "32",
+     "isLinked": false
+    },
+    "padding_mobile": {
+     "unit": "px",
+     "top": "56",
+     "right": "20",
+     "bottom": "56",
+     "left": "20",
+     "isLinked": false
+    }
+   },
+   "elements": [
+    {
+     "id": "196d613a",
+     "elType": "widget",
+     "widgetType": "heading",
+     "settings": {
+      "title": "How We <span style=\"color:#7E807A\">Helped.</span>",
+      "header_size": "h2",
+      "title_color": "#0F1012",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_weight": "700",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 48
+      },
+      "typography_font_size_tablet": {
+       "unit": "px",
+       "size": 36
+      },
+      "typography_font_size_mobile": {
+       "unit": "px",
+       "size": 28
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 47.04
+      },
+      "typography_line_height_tablet": {
+       "unit": "px",
+       "size": 35.28
+      },
+      "typography_line_height_mobile": {
+       "unit": "px",
+       "size": 27.44
+      },
+      "typography_text_transform": "uppercase",
+      "typography_letter_spacing": {
+       "unit": "px",
+       "size": -1.92
+      },
+      "typography_letter_spacing_tablet": {
+       "unit": "px",
+       "size": -1.44
+      },
+      "typography_letter_spacing_mobile": {
+       "unit": "px",
+       "size": -1.12
+      },
+      "_element_width": "initial",
+      "_element_custom_width": {
+       "unit": "px",
+       "size": 586
+      },
+      "_element_custom_width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "_element_custom_width_mobile": {
+       "unit": "%",
+       "size": 100
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "19ab3f3c",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "19e91d3e",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0;max-width:615px;\">We shot and edited highly engaging videos and content for their launch campaign, which resulted in:</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">Our team helped Mullet Mods achieve their business goals through:</p>",
       "text_color": "#55575C",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -618,77 +1062,13 @@
      "elements": []
     },
     {
-     "id": "0a64da42",
+     "id": "0aa2b844",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
       "space": {
        "unit": "px",
        "size": 27
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0aa2b844",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "From the <span style=\"color:#C3C4C0\">shoot.</span>",
-      "header_size": "h2",
-      "title_color": "#FFFFFF",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
       }
      },
      "elements": []
@@ -748,7 +1128,7 @@
        "widgetType": "video",
        "settings": {
         "video_type": "youtube",
-        "youtube_url": "https://www.youtube.com/watch?v=tYRnWoxC0s8",
+        "youtube_url": "https://www.youtube.com/watch?v=t0kqHpXy_Tg",
         "show_image_overlay": "yes",
         "image_overlay": {
          "url": "",
@@ -771,7 +1151,7 @@
    ]
   },
   {
-   "id": "0c91a854",
+   "id": "0ccf8656",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -816,386 +1196,6 @@
    "elements": [
     {
      "id": "0c15ec50",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 26
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0c53ca52",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p style=\"margin:0;max-width:615px;\">Obviously some classic Aussie mullets were a must, as well as one of each vehicle…</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">79 series cruiser, 80 series cruiser, GU Patrol, GQ Patrol &amp; a D22 Navara.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">On the day of the shoot, our crew met Mullet Mods team on their family property on the Sunshine Coast. With all the rain we’ve had on the east coast, the grassy grounds by the river we had previously chosen as our location would quickly become a bottomless mud pit. This meant we only had one take to get the placement of the cars dialled as we could not drive back over our wheel tracks twice!</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">After a full day of shooting, our camera operators began dicing and splicing the loads of content we filmed. Through some digging, we turned up some fantastic imagery and videography that Mullet Mods was absolutely stoked with.</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">We made their vision a reality by creating high-quality product imagery to fill their website and socials.</p>",
-      "text_color": "#55575C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 16
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 26.88
-      }
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "0d89205c",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "104",
-     "right": "52",
-     "bottom": "104",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#E4E5E1",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "72",
-     "right": "32",
-     "bottom": "72",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "56",
-     "right": "20",
-     "bottom": "56",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "0ccf8656",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "How We <span style=\"color:#7E807A\">Helped.</span>",
-      "header_size": "h2",
-      "title_color": "#0F1012",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
-       "unit": "px",
-       "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0d0d6458",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 26
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0d4b425a",
-     "elType": "widget",
-     "widgetType": "text-editor",
-     "settings": {
-      "editor": "<p style=\"margin:0;max-width:615px;\">We shot and edited highly engaging videos and content for their launch campaign, which resulted in:</p><p style=\"margin:0;margin-top:20px;max-width:615px;\">Our team helped Mullet Mods achieve their business goals through:</p>",
-      "text_color": "#55575C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 16
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 26.88
-      }
-     },
-     "elements": []
-    }
-   ]
-  },
-  {
-   "id": "0f3a326a",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "96",
-     "right": "52",
-     "bottom": "96",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#16171A",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "66",
-     "right": "32",
-     "bottom": "66",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "52",
-     "right": "20",
-     "bottom": "52",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "0e42ba62",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Watch",
-      "header_size": "div",
-      "title_color": "#C3C4C0",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0e04dc60",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 27
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0e809864",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 40
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0efc5468",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      },
-      "width": {
-       "unit": "px",
-       "size": 780
-      },
-      "flex_shrink": "0",
-      "width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_tablet": "1",
-      "width_mobile": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_mobile": "1"
-     },
-     "elements": [
-      {
-       "id": "0ebe7666",
-       "elType": "widget",
-       "widgetType": "video",
-       "settings": {
-        "video_type": "youtube",
-        "youtube_url": "https://www.youtube.com/watch?v=t0kqHpXy_Tg",
-        "show_image_overlay": "yes",
-        "image_overlay": {
-         "url": "",
-         "id": ""
-        },
-        "image_overlay_size": "large",
-        "show_play_icon": "yes",
-        "aspect_ratio": "169",
-        "play_icon": {
-         "value": "fab fa-youtube",
-         "library": "fa-brands"
-        },
-        "css_classes": "slot--reel-overlay",
-        "_css_classes": "slot--reel-overlay"
-       },
-       "elements": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "1031aa72",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "104",
-     "right": "52",
-     "bottom": "104",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#FFFFFF",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "72",
-     "right": "32",
-     "bottom": "72",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "56",
-     "right": "20",
-     "bottom": "56",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "0f78106c",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1259,7 +1259,7 @@
      "elements": []
     },
     {
-     "id": "0fb5ee6e",
+     "id": "0c53ca52",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1271,7 +1271,7 @@
      "elements": []
     },
     {
-     "id": "0ff3cc70",
+     "id": "0c91a854",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1293,7 +1293,7 @@
    ]
   },
   {
-   "id": "1129227a",
+   "id": "0dc6fe5e",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1337,7 +1337,7 @@
    },
    "elements": [
     {
-     "id": "106f8874",
+     "id": "0d0d6458",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1401,7 +1401,7 @@
      "elements": []
     },
     {
-     "id": "10ad6676",
+     "id": "0d4b425a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1413,7 +1413,7 @@
      "elements": []
     },
     {
-     "id": "10eb4478",
+     "id": "0d89205c",
      "elType": "widget",
      "widgetType": "uael-image-gallery",
      "settings": {
@@ -1432,7 +1432,7 @@
    ]
   },
   {
-   "id": "1393ce8e",
+   "id": "1031aa72",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1476,7 +1476,7 @@
    },
    "elements": [
     {
-     "id": "1167007c",
+     "id": "0e04dc60",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1503,7 +1503,7 @@
      "elements": []
     },
     {
-     "id": "11a4de7e",
+     "id": "0e42ba62",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1515,7 +1515,7 @@
      "elements": []
     },
     {
-     "id": "11e2bc80",
+     "id": "0e809864",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -1579,7 +1579,7 @@
      "elements": []
     },
     {
-     "id": "12209a82",
+     "id": "0ebe7666",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1591,7 +1591,7 @@
      "elements": []
     },
     {
-     "id": "125e7884",
+     "id": "0efc5468",
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
@@ -1611,7 +1611,7 @@
      "elements": []
     },
     {
-     "id": "129c5686",
+     "id": "0f3a326a",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1623,7 +1623,7 @@
      "elements": []
     },
     {
-     "id": "1355f08c",
+     "id": "0ff3cc70",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1655,7 +1655,7 @@
      },
      "elements": [
       {
-       "id": "12da3488",
+       "id": "0f78106c",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
@@ -1699,7 +1699,7 @@
        "elements": []
       },
       {
-       "id": "1318128a",
+       "id": "0fb5ee6e",
        "elType": "widget",
        "widgetType": "button",
        "settings": {
