@@ -552,7 +552,7 @@ PAGES = [
  "diffNoun": "headshot work",
  "faqH2": ("Headshots,", "answered."),
  "faq": [("How long does each person take?",
-          tbc("Around five to ten minutes each once the set is lit, so a team of twenty fits "
+          ("Around five to ten minutes each once the set is lit, so a team of twenty fits "
               "comfortably into a morning.")),
          ("Do you come to us?",
           "Yes — most team shoots happen on site. We bring the lighting and backdrop and set "
