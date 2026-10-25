@@ -762,3 +762,11 @@ a[href="#"]{cursor:default}
 .mosaic .cap .more{color:var(--ink);margin-top:12px;display:inline-block;
   border-bottom:1px solid var(--hair);padding-bottom:4px}
 .mosaic a:hover .cap .more,.mosaic a:focus-visible .cap .more{color:var(--ink);text-decoration:none;border-color:var(--ink)}
+/* Parity with the WordPress grid (loop item 15263), measured 26 Oct at 1608px:
+   46px gaps, 300px photo crop, 13px name 12px under the photo. The caption is a
+   span, so it needs display:block or its top padding overlaps the photo. */
+.mosaic{gap:46px}
+.mosaic img{height:300px;aspect-ratio:auto;object-fit:cover}
+.mosaic .cap{display:block;padding-top:12px;font-size:13px;letter-spacing:1.6px}
+@media (max-width:1024px){.mosaic img{height:250px}}
+@media (max-width:767px){.mosaic{gap:36px}.mosaic img{height:220px}}
