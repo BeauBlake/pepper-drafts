@@ -770,3 +770,5 @@ a[href="#"]{cursor:default}
 .mosaic .cap{display:block;padding-top:12px;font-size:13px;letter-spacing:1.6px}
 @media (max-width:1024px){.mosaic img{height:250px}}
 @media (max-width:767px){.mosaic{gap:36px}.mosaic img{height:220px}}
+/* Our Work: the featured projects follow the hero with no heading of their own */
+.sec.feat-first{padding-top:0}
