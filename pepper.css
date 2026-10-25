@@ -729,3 +729,36 @@ a[href="#"]{cursor:default}
 @media(max-width:900px){.story-compact .sec{padding-block:48px}}
 
 
+
+/* Our Work = hub for the case studies (26 Oct). Every card has to read as a
+   door: a short intro under each heading, a solid button on the featured
+   projects, a label on the featured photo on hover, and a permanent
+   "Read the story" line on each mosaic tile (no hover on phones, so it can't
+   be hover-only). */
+.secintro{margin-top:18px;font-size:15px;line-height:1.6;color:var(--body);max-width:60ch}
+.feature .btn{margin-top:26px}
+.feature .ph{position:relative}
+.feature .ph::after{content:attr(data-cta) " \2192";position:absolute;left:0;bottom:0;padding:14px 20px;
+  background:var(--ink);color:#fff;font-size:11px;font-weight:700;letter-spacing:.24em;
+  text-transform:uppercase;opacity:0;transform:translateY(6px);transition:opacity .3s,transform .3s}
+.feature .ph:hover::after,.feature .ph:focus-visible::after{opacity:1;transform:none}
+.mosaic .cap .more{display:block;margin-top:6px;font-size:10px;font-weight:600;letter-spacing:.24em;
+  color:var(--van)}
+.mosaic a:hover .cap .more,.mosaic a:focus-visible .cap .more{color:#fff;text-decoration:underline;text-underline-offset:4px}
+/* long client names wrapped three lines over the photo at phone width */
+@media (max-width:560px){.mosaic{grid-template-columns:1fr}}
+.mosaic .cap .kind{display:block;margin-top:5px;font-size:10px;font-weight:600;letter-spacing:.2em;
+  color:rgba(255,255,255,.78)}
+
+/* 26 Oct — Beau: try the grid without text over the photos. Caption moves
+   under the image as plain text; the photo keeps the 4:3 crop. */
+.mosaic{row-gap:36px}
+.mosaic a{aspect-ratio:auto;background:none;overflow:visible}
+.mosaic img{display:block;height:auto;aspect-ratio:4/3;background:var(--van-lt)}
+.mosaic img{transition:opacity .3s}
+.mosaic a:hover img{transform:none;opacity:.86}
+.mosaic .cap{position:static;padding:16px 0 0;background:none;color:var(--ink);border-top:0}
+.mosaic .cap .kind{color:var(--decal)}
+.mosaic .cap .more{color:var(--ink);margin-top:12px;display:inline-block;
+  border-bottom:1px solid var(--hair);padding-bottom:4px}
+.mosaic a:hover .cap .more,.mosaic a:focus-visible .cap .more{color:var(--ink);text-decoration:none;border-color:var(--ink)}
