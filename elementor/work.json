@@ -80,7 +80,7 @@
    ]
   },
   {
-   "id": "186ef9f4",
+   "id": "192893fa",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -243,7 +243,7 @@
      "elType": "widget",
      "widgetType": "text-editor",
      "settings": {
-      "editor": "<p style=\"margin:0;max-width:742px;\">At Pepper, we're your Sunshine Coast video marketing agency with a difference. We've worked on countless professional video and photography projects that have helped businesses like yours cut through the noise and connect with their audience.</p>",
+      "editor": "<p style=\"margin:0;max-width:742px;\">Twenty clients, one story each — from safety films in working pine forests to a surf resort in Fiji. Every project below opens into its own page: what the client needed and how we shot it. Pick one.</p>",
       "text_color": "#33353A",
       "typography_typography": "custom",
       "typography_font_family": "Montserrat",
@@ -257,170 +257,21 @@
       }
      },
      "elements": []
-    }
-   ]
-  },
-  {
-   "id": "0b17840a",
-   "elType": "container",
-   "isInner": false,
-   "settings": {
-    "content_width": "boxed",
-    "padding": {
-     "unit": "px",
-     "top": "96",
-     "right": "52",
-     "bottom": "96",
-     "left": "52",
-     "isLinked": false
-    },
-    "flex_gap": {
-     "unit": "px",
-     "column": "0",
-     "row": "0",
-     "isLinked": false
-    },
-    "boxed_width": {
-     "unit": "px",
-     "size": 1196
-    },
-    "background_background": "classic",
-    "background_color": "#F3F3F0",
-    "padding_tablet": {
-     "unit": "px",
-     "top": "66",
-     "right": "32",
-     "bottom": "66",
-     "left": "32",
-     "isLinked": false
-    },
-    "padding_mobile": {
-     "unit": "px",
-     "top": "52",
-     "right": "20",
-     "bottom": "52",
-     "left": "20",
-     "isLinked": false
-    }
-   },
-   "elements": [
-    {
-     "id": "196671fc",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "The showreel",
-      "header_size": "div",
-      "title_color": "#9FA09C",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "600",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 11
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 17.64
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": 3.36
-      }
-     },
-     "elements": []
     },
     {
-     "id": "18eab5f8",
+     "id": "18311bf2",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
       "space": {
-       "unit": "px",
-       "size": 27
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "192893fa",
-     "elType": "widget",
-     "widgetType": "heading",
-     "settings": {
-      "title": "Two minutes of <span style=\"color:#7E807A\">what we do.</span>",
-      "header_size": "h2",
-      "title_color": "#0F1012",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_weight": "700",
-      "typography_font_size": {
-       "unit": "px",
-       "size": 48
-      },
-      "typography_font_size_tablet": {
        "unit": "px",
        "size": 36
-      },
-      "typography_font_size_mobile": {
-       "unit": "px",
-       "size": 28
-      },
-      "typography_line_height": {
-       "unit": "px",
-       "size": 47.04
-      },
-      "typography_line_height_tablet": {
-       "unit": "px",
-       "size": 35.28
-      },
-      "typography_line_height_mobile": {
-       "unit": "px",
-       "size": 27.44
-      },
-      "typography_text_transform": "uppercase",
-      "typography_letter_spacing": {
-       "unit": "px",
-       "size": -1.92
-      },
-      "typography_letter_spacing_tablet": {
-       "unit": "px",
-       "size": -1.44
-      },
-      "typography_letter_spacing_mobile": {
-       "unit": "px",
-       "size": -1.12
-      },
-      "_element_width": "initial",
-      "_element_custom_width": {
-       "unit": "px",
-       "size": 586
-      },
-      "_element_custom_width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "_element_custom_width_mobile": {
-       "unit": "%",
-       "size": 100
       }
      },
      "elements": []
     },
     {
-     "id": "19a44ffe",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 40
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0a200c02",
+     "id": "18acd7f6",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -435,126 +286,63 @@
       },
       "flex_gap": {
        "unit": "px",
-       "column": "0",
-       "row": "0",
+       "column": "10",
+       "row": "10",
        "isLinked": false
       },
-      "width": {
+      "flex_direction": "row",
+      "flex_wrap": "wrap",
+      "flex_direction_tablet": "row",
+      "flex_direction_mobile": "column",
+      "flex_gap_mobile": {
        "unit": "px",
-       "size": 780
-      },
-      "flex_shrink": "0",
-      "width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_tablet": "1",
-      "width_mobile": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_mobile": "1"
+       "column": "0",
+       "row": "14",
+       "isLinked": false
+      }
      },
      "elements": [
       {
-       "id": "19e22d00",
+       "id": "186ef9f4",
        "elType": "widget",
-       "widgetType": "video",
+       "widgetType": "button",
        "settings": {
-        "video_type": "youtube",
-        "youtube_url": "https://www.youtube.com/watch?v=wTuWKk0w4ZA",
-        "show_image_overlay": "yes",
-        "image_overlay": {
-         "url": "",
-         "id": ""
+        "text": "Browse the stories",
+        "link": {
+         "url": "#stories",
+         "is_external": "",
+         "nofollow": ""
         },
-        "image_overlay_size": "large",
-        "show_play_icon": "yes",
-        "aspect_ratio": "169",
-        "play_icon": {
-         "value": "fab fa-youtube",
-         "library": "fa-brands"
-        },
-        "css_classes": "slot--reel-overlay",
-        "_css_classes": "slot--reel-overlay"
-       },
-       "elements": []
-      }
-     ]
-    },
-    {
-     "id": "0a5dea04",
-     "elType": "widget",
-     "widgetType": "spacer",
-     "settings": {
-      "space": {
-       "unit": "px",
-       "size": 16
-      }
-     },
-     "elements": []
-    },
-    {
-     "id": "0ad9a608",
-     "elType": "container",
-     "isInner": true,
-     "settings": {
-      "content_width": "full",
-      "padding": {
-       "unit": "px",
-       "top": "0",
-       "right": "0",
-       "bottom": "0",
-       "left": "0",
-       "isLinked": false
-      },
-      "flex_gap": {
-       "unit": "px",
-       "column": "0",
-       "row": "0",
-       "isLinked": false
-      },
-      "width": {
-       "unit": "px",
-       "size": 780
-      },
-      "flex_shrink": "0",
-      "width_tablet": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_tablet": "1",
-      "width_mobile": {
-       "unit": "%",
-       "size": 100
-      },
-      "flex_shrink_mobile": "1"
-     },
-     "elements": [
-      {
-       "id": "0a9bc806",
-       "elType": "widget",
-       "widgetType": "heading",
-       "settings": {
-        "title": "Pepper Productions — Showreel",
-        "header_size": "div",
-        "title_color": "#9FA09C",
         "typography_typography": "custom",
         "typography_font_family": "Montserrat",
-        "typography_font_weight": "600",
+        "typography_font_weight": "700",
         "typography_font_size": {
          "unit": "px",
-         "size": 10
-        },
-        "typography_line_height": {
-         "unit": "px",
-         "size": 16
+         "size": 12
         },
         "typography_text_transform": "uppercase",
         "typography_letter_spacing": {
          "unit": "px",
-         "size": 2.4
-        }
+         "size": 2.76
+        },
+        "text_padding": {
+         "unit": "px",
+         "top": "20",
+         "right": "36",
+         "bottom": "20",
+         "left": "36",
+         "isLinked": false
+        },
+        "border_radius": {
+         "unit": "px",
+         "top": "0",
+         "right": "0",
+         "bottom": "0",
+         "left": "0",
+         "isLinked": true
+        },
+        "background_color": "#0F1012",
+        "button_text_color": "#FFFFFF"
        },
        "elements": []
       }
@@ -588,6 +376,7 @@
     },
     "background_background": "classic",
     "background_color": "#FFFFFF",
+    "_element_id": "stories",
     "padding_tablet": {
      "unit": "px",
      "top": "72",
@@ -607,7 +396,7 @@
    },
    "elements": [
     {
-     "id": "0b55620c",
+     "id": "196671fc",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -634,7 +423,7 @@
      "elements": []
     },
     {
-     "id": "0b93400e",
+     "id": "19a44ffe",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -646,7 +435,7 @@
      "elements": []
     },
     {
-     "id": "0bd11e10",
+     "id": "19e22d00",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
@@ -710,7 +499,39 @@
      "elements": []
     },
     {
-     "id": "0c0efc12",
+     "id": "0a200c02",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0a5dea04",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0;max-width:615px;\">Three projects, start to finish. Open any one for the full case study.</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0a9bc806",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -722,7 +543,7 @@
      "elements": []
     },
     {
-     "id": "0eb78628",
+     "id": "0dc00e20",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -760,7 +581,7 @@
      },
      "elements": [
       {
-       "id": "0e3bca24",
+       "id": "0d44521c",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -797,7 +618,7 @@
        },
        "elements": [
         {
-         "id": "0dfdec22",
+         "id": "0d06741a",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -813,6 +634,12 @@
           },
           "css_classes": "slot--bb1-0953-copy",
           "_css_classes": "slot--bb1-0953-copy",
+          "link_to": "custom",
+          "link": {
+           "url": "/portfolio/hqplantations-11838/",
+           "is_external": "",
+           "nofollow": ""
+          },
           "height": {
            "unit": "px",
            "size": 420
@@ -832,7 +659,7 @@
        ]
       },
       {
-       "id": "0e79a826",
+       "id": "0d82301e",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -869,7 +696,7 @@
        },
        "elements": [
         {
-         "id": "0c4cda14",
+         "id": "0ad9a608",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -896,7 +723,7 @@
          "elements": []
         },
         {
-         "id": "0c8ab816",
+         "id": "0b17840a",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -908,7 +735,7 @@
          "elements": []
         },
         {
-         "id": "0cc89618",
+         "id": "0b55620c",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -959,7 +786,7 @@
          "elements": []
         },
         {
-         "id": "0d06741a",
+         "id": "0b93400e",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -971,7 +798,7 @@
          "elements": []
         },
         {
-         "id": "0d44521c",
+         "id": "0bd11e10",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -998,7 +825,7 @@
          "elements": []
         },
         {
-         "id": "0d82301e",
+         "id": "0c0efc12",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -1010,7 +837,7 @@
          "elements": []
         },
         {
-         "id": "0dc00e20",
+         "id": "0c4cda14",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -1028,13 +855,69 @@
           }
          },
          "elements": []
+        },
+        {
+         "id": "0cc89618",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 26
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0c8ab816",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Read the HQPlantations story →",
+          "link": {
+           "url": "/portfolio/hqplantations-11838/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.76
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "36",
+           "bottom": "20",
+           "left": "36",
+           "isLinked": false
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "background_color": "#0F1012",
+          "button_text_color": "#FFFFFF"
+         },
+         "elements": []
         }
        ]
       }
      ]
     },
     {
-     "id": "10e4543a",
+     "id": "10689836",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1046,7 +929,7 @@
      "elements": []
     },
     {
-     "id": "119dee40",
+     "id": "1122323c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -1084,7 +967,7 @@
      },
      "elements": [
       {
-       "id": "1122323c",
+       "id": "10a67638",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1121,7 +1004,7 @@
        },
        "elements": [
         {
-         "id": "0ef5642a",
+         "id": "0dfdec22",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1148,7 +1031,7 @@
          "elements": []
         },
         {
-         "id": "0f33422c",
+         "id": "0e3bca24",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -1160,7 +1043,7 @@
          "elements": []
         },
         {
-         "id": "0f71202e",
+         "id": "0e79a826",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1211,7 +1094,7 @@
          "elements": []
         },
         {
-         "id": "0faefe30",
+         "id": "0eb78628",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -1223,7 +1106,7 @@
          "elements": []
         },
         {
-         "id": "0fecdc32",
+         "id": "0ef5642a",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1250,7 +1133,7 @@
          "elements": []
         },
         {
-         "id": "102aba34",
+         "id": "0f33422c",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -1262,7 +1145,7 @@
          "elements": []
         },
         {
-         "id": "10689836",
+         "id": "0f71202e",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -1280,11 +1163,67 @@
           }
          },
          "elements": []
+        },
+        {
+         "id": "0fecdc32",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 26
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "0faefe30",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Read the Cure Marine story →",
+          "link": {
+           "url": "/portfolio/cure-marine/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.76
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "36",
+           "bottom": "20",
+           "left": "36",
+           "isLinked": false
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "background_color": "#0F1012",
+          "button_text_color": "#FFFFFF"
+         },
+         "elements": []
         }
        ]
       },
       {
-       "id": "1160103e",
+       "id": "10e4543a",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -1321,7 +1260,7 @@
        },
        "elements": [
         {
-         "id": "10a67638",
+         "id": "102aba34",
          "elType": "widget",
          "widgetType": "image",
          "settings": {
@@ -1337,6 +1276,12 @@
           },
           "css_classes": "slot--cure-10",
           "_css_classes": "slot--cure-10",
+          "link_to": "custom",
+          "link": {
+           "url": "/portfolio/cure-marine/",
+           "is_external": "",
+           "nofollow": ""
+          },
           "height": {
            "unit": "px",
            "size": 420
@@ -1461,6 +1406,12 @@
           },
           "css_classes": "slot--slsqlg-6508-copy",
           "_css_classes": "slot--slsqlg-6508-copy",
+          "link_to": "custom",
+          "link": {
+           "url": "/portfolio/surf-life-saving-queensland/",
+           "is_external": "",
+           "nofollow": ""
+          },
           "height": {
            "unit": "px",
            "size": 420
@@ -1517,7 +1468,7 @@
        },
        "elements": [
         {
-         "id": "11dbcc42",
+         "id": "1160103e",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1544,7 +1495,7 @@
          "elements": []
         },
         {
-         "id": "1219aa44",
+         "id": "119dee40",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -1556,7 +1507,7 @@
          "elements": []
         },
         {
-         "id": "12578846",
+         "id": "11dbcc42",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1607,7 +1558,7 @@
          "elements": []
         },
         {
-         "id": "12956648",
+         "id": "1219aa44",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -1619,7 +1570,7 @@
          "elements": []
         },
         {
-         "id": "12d3444a",
+         "id": "12578846",
          "elType": "widget",
          "widgetType": "heading",
          "settings": {
@@ -1646,7 +1597,7 @@
          "elements": []
         },
         {
-         "id": "1311224c",
+         "id": "12956648",
          "elType": "widget",
          "widgetType": "spacer",
          "settings": {
@@ -1658,7 +1609,7 @@
          "elements": []
         },
         {
-         "id": "134f004e",
+         "id": "12d3444a",
          "elType": "widget",
          "widgetType": "text-editor",
          "settings": {
@@ -1676,6 +1627,62 @@
           }
          },
          "elements": []
+        },
+        {
+         "id": "134f004e",
+         "elType": "widget",
+         "widgetType": "spacer",
+         "settings": {
+          "space": {
+           "unit": "px",
+           "size": 26
+          }
+         },
+         "elements": []
+        },
+        {
+         "id": "1311224c",
+         "elType": "widget",
+         "widgetType": "button",
+         "settings": {
+          "text": "Read the Surf Life Saving Queensland story →",
+          "link": {
+           "url": "/portfolio/surf-life-saving-queensland/",
+           "is_external": "",
+           "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Montserrat",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+           "unit": "px",
+           "size": 12
+          },
+          "typography_text_transform": "uppercase",
+          "typography_letter_spacing": {
+           "unit": "px",
+           "size": 2.76
+          },
+          "text_padding": {
+           "unit": "px",
+           "top": "20",
+           "right": "36",
+           "bottom": "20",
+           "left": "36",
+           "isLinked": false
+          },
+          "border_radius": {
+           "unit": "px",
+           "top": "0",
+           "right": "0",
+           "bottom": "0",
+           "left": "0",
+           "isLinked": true
+          },
+          "background_color": "#0F1012",
+          "button_text_color": "#FFFFFF"
+         },
+         "elements": []
         }
        ]
       }
@@ -1684,7 +1691,7 @@
    ]
   },
   {
-   "id": "198ac906",
+   "id": "189351fe",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -1831,7 +1838,39 @@
      "elements": []
     },
     {
-     "id": "190f0d02",
+     "id": "15b9ac62",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 26
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "15f78a64",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0;max-width:615px;\">More clients, each with its own story. Pick one to read it.</p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "179bd9f6",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1843,13 +1882,20 @@
      "elements": []
     },
     {
-     "id": "194ceb04",
+     "id": "17d9b7f8",
      "elType": "widget",
      "widgetType": "loop-grid",
      "settings": {
-      "template_id": "14919",
+      "template_id": "15263",
       "post_query_post_type": "portfolio",
       "posts_per_page": 20,
+      "post_query_exclude": [
+       "manual_selection"
+      ],
+      "post_query_exclude_ids": [
+       "11876",
+       "11838"
+      ],
       "columns": "3",
       "columns_tablet": "2",
       "columns_mobile": "1",
@@ -1866,20 +1912,52 @@
       "_css_classes": "portfolio-grid"
      },
      "elements": []
+    },
+    {
+     "id": "181795fa",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 40
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "185573fc",
+     "elType": "widget",
+     "widgetType": "text-editor",
+     "settings": {
+      "editor": "<p style=\"margin:0;max-width:615px;\">Looking for a particular kind of job? <a href=\"/corporate-photography-and-videography/\">See how we help</a></p>",
+      "text_color": "#55575C",
+      "typography_typography": "custom",
+      "typography_font_family": "Montserrat",
+      "typography_font_size": {
+       "unit": "px",
+       "size": 16
+      },
+      "typography_line_height": {
+       "unit": "px",
+       "size": 26.88
+      }
+     },
+     "elements": []
     }
    ]
   },
   {
-   "id": "0afdfe12",
+   "id": "0b3bdc14",
    "elType": "container",
    "isInner": false,
    "settings": {
     "content_width": "boxed",
     "padding": {
      "unit": "px",
-     "top": "104",
+     "top": "96",
      "right": "52",
-     "bottom": "104",
+     "bottom": "96",
      "left": "52",
      "isLinked": false
     },
@@ -1897,28 +1975,28 @@
     "background_color": "#16171A",
     "padding_tablet": {
      "unit": "px",
-     "top": "72",
+     "top": "66",
      "right": "32",
-     "bottom": "72",
+     "bottom": "66",
      "left": "32",
      "isLinked": false
     },
     "padding_mobile": {
      "unit": "px",
-     "top": "56",
+     "top": "52",
      "right": "20",
-     "bottom": "56",
+     "bottom": "52",
      "left": "20",
      "isLinked": false
     }
    },
    "elements": [
     {
-     "id": "19c8a708",
+     "id": "198ac906",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "The gear",
+      "title": "The showreel",
       "header_size": "div",
       "title_color": "#C3C4C0",
       "typography_typography": "custom",
@@ -1941,7 +2019,7 @@
      "elements": []
     },
     {
-     "id": "0a06860a",
+     "id": "190f0d02",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
@@ -1953,11 +2031,11 @@
      "elements": []
     },
     {
-     "id": "0a44640c",
+     "id": "194ceb04",
      "elType": "widget",
      "widgetType": "heading",
      "settings": {
-      "title": "We don't like to brag, but <span style=\"color:#C3C4C0\">we've got a lot of stuff.</span>",
+      "title": "Two minutes of <span style=\"color:#C3C4C0\">what we do.</span>",
       "header_size": "h2",
       "title_color": "#FFFFFF",
       "typography_typography": "custom",
@@ -2017,41 +2095,162 @@
      "elements": []
     },
     {
+     "id": "19c8a708",
+     "elType": "widget",
+     "widgetType": "spacer",
+     "settings": {
+      "space": {
+       "unit": "px",
+       "size": 40
+      }
+     },
+     "elements": []
+    },
+    {
+     "id": "0a44640c",
+     "elType": "container",
+     "isInner": true,
+     "settings": {
+      "content_width": "full",
+      "padding": {
+       "unit": "px",
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
+      },
+      "flex_gap": {
+       "unit": "px",
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 780
+      },
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
+     },
+     "elements": [
+      {
+       "id": "0a06860a",
+       "elType": "widget",
+       "widgetType": "video",
+       "settings": {
+        "video_type": "youtube",
+        "youtube_url": "https://www.youtube.com/watch?v=wTuWKk0w4ZA",
+        "show_image_overlay": "yes",
+        "image_overlay": {
+         "url": "",
+         "id": ""
+        },
+        "image_overlay_size": "large",
+        "show_play_icon": "yes",
+        "aspect_ratio": "169",
+        "play_icon": {
+         "value": "fab fa-youtube",
+         "library": "fa-brands"
+        },
+        "css_classes": "slot--reel-overlay",
+        "_css_classes": "slot--reel-overlay"
+       },
+       "elements": []
+      }
+     ]
+    },
+    {
      "id": "0a82420e",
      "elType": "widget",
      "widgetType": "spacer",
      "settings": {
       "space": {
        "unit": "px",
-       "size": 26
+       "size": 16
       }
      },
      "elements": []
     },
     {
-     "id": "0ac02010",
-     "elType": "widget",
-     "widgetType": "text-editor",
+     "id": "0afdfe12",
+     "elType": "container",
+     "isInner": true,
      "settings": {
-      "editor": "<p style=\"margin:0;max-width:615px;\">We're passionate about staying ahead of the game with top-of-the-range professional video\n      and photography equipment that will help your business shine — and we're constantly\n      improving our skills so we can provide stand-out content that gets your business noticed.</p>",
-      "text_color": "#A9ABAE",
-      "typography_typography": "custom",
-      "typography_font_family": "Montserrat",
-      "typography_font_size": {
+      "content_width": "full",
+      "padding": {
        "unit": "px",
-       "size": 16
+       "top": "0",
+       "right": "0",
+       "bottom": "0",
+       "left": "0",
+       "isLinked": false
       },
-      "typography_line_height": {
+      "flex_gap": {
        "unit": "px",
-       "size": 26.88
-      }
+       "column": "0",
+       "row": "0",
+       "isLinked": false
+      },
+      "width": {
+       "unit": "px",
+       "size": 780
+      },
+      "flex_shrink": "0",
+      "width_tablet": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_tablet": "1",
+      "width_mobile": {
+       "unit": "%",
+       "size": 100
+      },
+      "flex_shrink_mobile": "1"
      },
-     "elements": []
+     "elements": [
+      {
+       "id": "0ac02010",
+       "elType": "widget",
+       "widgetType": "heading",
+       "settings": {
+        "title": "Pepper Productions — Showreel",
+        "header_size": "div",
+        "title_color": "#9FA09C",
+        "typography_typography": "custom",
+        "typography_font_family": "Montserrat",
+        "typography_font_weight": "600",
+        "typography_font_size": {
+         "unit": "px",
+         "size": 10
+        },
+        "typography_line_height": {
+         "unit": "px",
+         "size": 16
+        },
+        "typography_text_transform": "uppercase",
+        "typography_letter_spacing": {
+         "unit": "px",
+         "size": 2.4
+        }
+       },
+       "elements": []
+      }
+     ]
     }
    ]
   },
   {
-   "id": "0e22442c",
+   "id": "0e60222e",
    "elType": "container",
    "isInner": false,
    "settings": {
@@ -2111,7 +2310,7 @@
    },
    "elements": [
     {
-     "id": "0d68aa26",
+     "id": "0da68828",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2148,7 +2347,7 @@
      },
      "elements": [
       {
-       "id": "0b3bdc14",
+       "id": "0b79ba16",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2175,7 +2374,7 @@
        "elements": []
       },
       {
-       "id": "0b79ba16",
+       "id": "0bb79818",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2187,7 +2386,7 @@
        "elements": []
       },
       {
-       "id": "0bb79818",
+       "id": "0bf5761a",
        "elType": "widget",
        "widgetType": "heading",
        "settings": {
@@ -2251,7 +2450,7 @@
        "elements": []
       },
       {
-       "id": "0bf5761a",
+       "id": "0c33541c",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2263,7 +2462,7 @@
        "elements": []
       },
       {
-       "id": "0c33541c",
+       "id": "0c71321e",
        "elType": "widget",
        "widgetType": "text-editor",
        "settings": {
@@ -2283,7 +2482,7 @@
        "elements": []
       },
       {
-       "id": "0c71321e",
+       "id": "0caf1020",
        "elType": "widget",
        "widgetType": "spacer",
        "settings": {
@@ -2295,7 +2494,7 @@
        "elements": []
       },
       {
-       "id": "0d2acc24",
+       "id": "0d68aa26",
        "elType": "container",
        "isInner": true,
        "settings": {
@@ -2327,7 +2526,7 @@
        },
        "elements": [
         {
-         "id": "0caf1020",
+         "id": "0cecee22",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -2371,7 +2570,7 @@
          "elements": []
         },
         {
-         "id": "0cecee22",
+         "id": "0d2acc24",
          "elType": "widget",
          "widgetType": "button",
          "settings": {
@@ -2429,7 +2628,7 @@
      ]
     },
     {
-     "id": "0de4662a",
+     "id": "0e22442c",
      "elType": "container",
      "isInner": true,
      "settings": {
@@ -2466,7 +2665,7 @@
      },
      "elements": [
       {
-       "id": "0da68828",
+       "id": "0de4662a",
        "elType": "widget",
        "widgetType": "image",
        "settings": {
