@@ -772,3 +772,5 @@ a[href="#"]{cursor:default}
 @media (max-width:767px){.mosaic{gap:36px}.mosaic img{height:220px}}
 /* Our Work: the featured projects follow the hero with no heading of their own */
 .sec.feat-first{padding-top:0}
+/* stacked on tablet/phone, a mirrored feature still shows its photo first */
+@media (max-width:1000px){.feature.rev > .ph{order:-1}}
