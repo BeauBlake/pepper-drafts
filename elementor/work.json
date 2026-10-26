@@ -712,8 +712,8 @@
       },
       "flex_direction": "row",
       "flex_align_items": "center",
-      "flex_direction_tablet": "column",
-      "flex_direction_mobile": "column",
+      "flex_direction_tablet": "column-reverse",
+      "flex_direction_mobile": "column-reverse",
       "flex_gap_tablet": {
        "unit": "px",
        "column": "0",
